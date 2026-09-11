@@ -94,5 +94,77 @@
     "date_id": "wba_date_01HREAL012",
     "source_claim": "wba_clm_01HREAL014",
     "notes": "GERD inaugurated 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL013",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL015",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Groundbreaking New Parliament"
+  },
+  {
+    "id": "wba_evt_01HREAL014",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL017",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Handover 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL015",
+    "project_id": "wba_prj_01HREAL011",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL019",
+    "source_claim": "wba_clm_01HREAL017",
+    "notes": "Opened 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL016",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL021",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Award Lamu 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL017",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL022",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Berth 1 commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL018",
+    "project_id": "wba_prj_01HREAL014",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL024",
+    "source_claim": "wba_clm_01HREAL020",
+    "notes": "Inaugurated Hawassa 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL019",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL025",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Award Kazungula Aug 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL020",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL026",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Construction start 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL021",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL028",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Completed 2021"
   }
 ]

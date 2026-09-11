@@ -58,5 +58,29 @@
     "country_iso3": "ITA",
     "relation": "headquarters",
     "source_claim": "wba_clm_01HREAL013"
+  },
+  {
+    "org_id": "wba_org_01HREAL022",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL015"
+  },
+  {
+    "org_id": "wba_org_01HREAL023",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL015"
+  },
+  {
+    "org_id": "wba_org_01HREAL025",
+    "country_iso3": "KOR",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL020"
+  },
+  {
+    "org_id": "wba_org_01HREAL027",
+    "country_iso3": "KOR",
+    "relation": "financing",
+    "source_claim": "wba_clm_01HREAL017"
   }
 ]

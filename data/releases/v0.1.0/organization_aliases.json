@@ -26,5 +26,19 @@
     "alias": "Salini Impregilo",
     "lang": "en",
     "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL005",
+    "org_id": "wba_org_01HREAL022",
+    "alias": "SCG",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL006",
+    "org_id": "wba_org_01HREAL025",
+    "alias": "Daewoo E&C",
+    "lang": "en",
+    "is_transliteration": "false"
   }
 ]

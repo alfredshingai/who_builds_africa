@@ -68,5 +68,45 @@
     "currency": "USD",
     "share_percent": "",
     "notes": "~$4bn segments"
+  },
+  {
+    "id": "wba_fin_01HREAL008",
+    "project_id": "wba_prj_01HREAL010",
+    "institution": "wba_org_01HREAL024",
+    "instrument": "grant",
+    "amount": "675860000",
+    "currency": "CNY",
+    "share_percent": "",
+    "notes": "RMB 675.8m grant"
+  },
+  {
+    "id": "wba_fin_01HREAL009",
+    "project_id": "wba_prj_01HREAL011",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "150000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$150m Exim"
+  },
+  {
+    "id": "wba_fin_01HREAL010",
+    "project_id": "wba_prj_01HREAL012",
+    "institution": "wba_org_01HREAL027",
+    "instrument": "loan",
+    "amount": "94700000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$94.7m EDCF"
+  },
+  {
+    "id": "wba_fin_01HREAL011",
+    "project_id": "wba_prj_01HREAL014",
+    "institution": "wba_org_01HREAL019",
+    "instrument": "equity",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$246m CCECC via IPDC budget"
   }
 ]

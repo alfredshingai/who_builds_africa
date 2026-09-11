@@ -6,3 +6,7 @@ wba_fin_01HREAL004,wba_prj_01HREAL004,wba_org_01HREAL003,loan,494000000,USD,,Exi
 wba_fin_01HREAL005,wba_prj_01HREAL005,wba_org_01HREAL003,loan,3230000000,USD,,90% two loans $1.63bn each
 wba_fin_01HREAL006,wba_prj_01HREAL007,wba_org_01HREAL003,loan,403750000,USD,,85% of $475m
 wba_fin_01HREAL007,wba_prj_01HREAL008,wba_org_01HREAL003,loan,4000000000,USD,,~$4bn segments
+wba_fin_01HREAL008,wba_prj_01HREAL010,wba_org_01HREAL024,grant,675860000,CNY,,RMB 675.8m grant
+wba_fin_01HREAL009,wba_prj_01HREAL011,wba_org_01HREAL003,loan,150000000,USD,,$150m Exim
+wba_fin_01HREAL010,wba_prj_01HREAL012,wba_org_01HREAL027,loan,94700000,USD,,$94.7m EDCF
+wba_fin_01HREAL011,wba_prj_01HREAL014,wba_org_01HREAL019,equity,,USD,,$246m CCECC via IPDC budget

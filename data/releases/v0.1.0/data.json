@@ -143,6 +143,102 @@
       "notes": "",
       "created_at": "2026-09-11",
       "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL010",
+      "canonical_name": "New Parliament Building, Mount Hampden",
+      "aliases": "New Parliament Zimbabwe",
+      "country_iso3": "ZWE",
+      "sectors": "government_buildings",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "-17.689",
+      "lon": "30.943",
+      "geom_wkt": "POINT(30.943 -17.689)",
+      "summary": "New Parliament 33,000 sqm 650 seats by Shanghai Construction Group, China Aid grant RMB 675.8m, handed over 2023",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL011",
+      "canonical_name": "Victoria Falls International Airport Expansion",
+      "aliases": "Victoria Falls Airport",
+      "country_iso3": "ZWE",
+      "sectors": "airports",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "-18.096",
+      "lon": "25.839",
+      "geom_wkt": "POINT(25.839 -18.096)",
+      "summary": "Victoria Falls Airport capacity 500k to 1.5m, runway 4km, China Jiangsu, $150m Exim loan, 2016",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL012",
+      "canonical_name": "Kenya Advanced Institute of Science and Technology at Konza",
+      "aliases": "Kenya-KAIST",
+      "country_iso3": "KEN",
+      "sectors": "schools|universities|telecommunications",
+      "status": "proposed",
+      "location_precision": "approximate",
+      "lat": "-1.057",
+      "lon": "37.095",
+      "geom_wkt": "",
+      "summary": "Kenya-KAIST at Konza Technopolis, Korea Eximbank EDCF $94.7m loan, KAIST consortium design, 2019",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL013",
+      "canonical_name": "Lamu Port First Three Berths",
+      "aliases": "Lamu Port Berths 1-3",
+      "country_iso3": "KEN",
+      "sectors": "ports",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "-2.416",
+      "lon": "40.910",
+      "geom_wkt": "POINT(40.910 -2.416)",
+      "summary": "Lamu Port first 3 berths by CCCC/CRBC $484m, Phase 1 of LAPSSET, Berth 1 commissioned 2021",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL014",
+      "canonical_name": "Hawassa Industrial Park",
+      "aliases": "Hawassa Park",
+      "country_iso3": "ETH",
+      "sectors": "industrial_parks|manufacturing",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "7.060",
+      "lon": "38.476",
+      "geom_wkt": "POINT(38.476 7.060)",
+      "summary": "Hawassa Industrial Park 1.38m sqm by CCECC $246m, 9 months build, inaugurated 2016",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01HREAL015",
+      "canonical_name": "Kazungula Bridge",
+      "aliases": "Kazungula Bridge",
+      "country_iso3": "BWA",
+      "sectors": "bridges",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "-17.775",
+      "lon": "25.262",
+      "geom_wkt": "POINT(25.262 -17.775)",
+      "summary": "Kazungula 923m extradosed road/rail bridge by Daewoo E&C $161m, Botswana/Zambia cross-border, 2021",
+      "notes": "",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
     }
   ],
   "organizations": [
@@ -271,6 +367,66 @@
       "canonical_name": "Ethiopian Electric Power",
       "org_type": "state_agency",
       "notes": "EEP, owner of GERD"
+    },
+    {
+      "id": "wba_org_01HREAL022",
+      "canonical_name": "Shanghai Construction Group",
+      "org_type": "soe",
+      "notes": "China, EPC contractor New Parliament"
+    },
+    {
+      "id": "wba_org_01HREAL023",
+      "canonical_name": "China SIPPR Engineering Group",
+      "org_type": "soe",
+      "notes": "China, architect/design New Parliament"
+    },
+    {
+      "id": "wba_org_01HREAL024",
+      "canonical_name": "Ministry of Commerce of China",
+      "org_type": "state_agency",
+      "notes": "MOFCOM, grant financier via CIDCA"
+    },
+    {
+      "id": "wba_org_01HREAL025",
+      "canonical_name": "Daewoo Engineering & Construction",
+      "org_type": "private",
+      "notes": "South Korea, contractor Kazungula Bridge"
+    },
+    {
+      "id": "wba_org_01HREAL026",
+      "canonical_name": "Kenya Advanced Institute of Science and Technology",
+      "org_type": "state_agency",
+      "notes": "Kenya-KAIST, project entity at Konza"
+    },
+    {
+      "id": "wba_org_01HREAL027",
+      "canonical_name": "Export-Import Bank of Korea",
+      "org_type": "export_credit",
+      "notes": "Korea Eximbank, EDCF lender"
+    },
+    {
+      "id": "wba_org_01HREAL028",
+      "canonical_name": "Konza Technopolis Development Authority",
+      "org_type": "state_agency",
+      "notes": "KoTDA, Kenya"
+    },
+    {
+      "id": "wba_org_01HREAL029",
+      "canonical_name": "Kenya Ports Authority",
+      "org_type": "state_agency",
+      "notes": "Owner Lamu Port"
+    },
+    {
+      "id": "wba_org_01HREAL030",
+      "canonical_name": "Industrial Parks Development Corporation",
+      "org_type": "state_agency",
+      "notes": "IPDC, Ethiopia, owner Hawassa Park"
+    },
+    {
+      "id": "wba_org_01HREAL031",
+      "canonical_name": "Beijing Shougang International Engineering Technology",
+      "org_type": "private",
+      "notes": "China, lead design Hawassa"
     }
   ],
   "organization_aliases": [
@@ -299,6 +455,20 @@
       "id": "wba_als_01HREAL004",
       "org_id": "wba_org_01HREAL020",
       "alias": "Salini Impregilo",
+      "lang": "en",
+      "is_transliteration": "false"
+    },
+    {
+      "id": "wba_als_01HREAL005",
+      "org_id": "wba_org_01HREAL022",
+      "alias": "SCG",
+      "lang": "en",
+      "is_transliteration": "false"
+    },
+    {
+      "id": "wba_als_01HREAL006",
+      "org_id": "wba_org_01HREAL025",
+      "alias": "Daewoo E&C",
       "lang": "en",
       "is_transliteration": "false"
     }
@@ -363,6 +533,30 @@
       "country_iso3": "ITA",
       "relation": "headquarters",
       "source_claim": "wba_clm_01HREAL013"
+    },
+    {
+      "org_id": "wba_org_01HREAL022",
+      "country_iso3": "CHN",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01HREAL015"
+    },
+    {
+      "org_id": "wba_org_01HREAL023",
+      "country_iso3": "CHN",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01HREAL015"
+    },
+    {
+      "org_id": "wba_org_01HREAL025",
+      "country_iso3": "KOR",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01HREAL020"
+    },
+    {
+      "org_id": "wba_org_01HREAL027",
+      "country_iso3": "KOR",
+      "relation": "financing",
+      "source_claim": "wba_clm_01HREAL017"
     }
   ],
   "contracts": [
@@ -554,6 +748,132 @@
       "financing_source": "wba_org_01HREAL003",
       "amendment_count": "0",
       "notes": "$475m, 85% Exim Bank, 41 trams CRRC Changchun"
+    },
+    {
+      "id": "wba_ctr_01HREAL010",
+      "project_id": "wba_prj_01HREAL010",
+      "title": "New Parliament EPC Grant Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL024",
+      "contractor": "wba_org_01HREAL022",
+      "contract_type": "construction",
+      "procurement_method": "direct_award",
+      "status": "completed",
+      "award_date": "wba_date_01HREAL015",
+      "sign_date": "wba_date_01HREAL015",
+      "start_date": "",
+      "end_date": "",
+      "currency": "CNY",
+      "value_original": "675860000",
+      "value_precision": "exact",
+      "financing_source": "wba_org_01HREAL024",
+      "amendment_count": "0",
+      "notes": "RMB 675.8m grant, Shanghai Construction Group, SIPPR design"
+    },
+    {
+      "id": "wba_ctr_01HREAL011",
+      "project_id": "wba_prj_01HREAL011",
+      "title": "Victoria Falls Airport EPC Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL006",
+      "contractor": "wba_org_01HREAL005",
+      "contract_type": "construction",
+      "procurement_method": "open_tender",
+      "status": "completed",
+      "award_date": "wba_date_01HREAL018",
+      "sign_date": "wba_date_01HREAL018",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "150000000",
+      "value_precision": "exact",
+      "financing_source": "wba_org_01HREAL003",
+      "amendment_count": "0",
+      "notes": "$150m Exim Bank loan, 4km runway"
+    },
+    {
+      "id": "wba_ctr_01HREAL012",
+      "project_id": "wba_prj_01HREAL013",
+      "title": "Lamu Port Berths 1-3 Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL029",
+      "contractor": "wba_org_01HREAL007",
+      "contract_type": "construction",
+      "procurement_method": "open_tender",
+      "status": "completed",
+      "award_date": "wba_date_01HREAL021",
+      "sign_date": "wba_date_01HREAL021",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "484000000",
+      "value_precision": "exact",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "$484m first 3 berths, CCCC/CRBC consortium, total Phase 1 $591m"
+    },
+    {
+      "id": "wba_ctr_01HREAL013",
+      "project_id": "wba_prj_01HREAL014",
+      "title": "Hawassa Park Design-Build Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL030",
+      "contractor": "wba_org_01HREAL019",
+      "contract_type": "construction",
+      "procurement_method": "direct_award",
+      "status": "completed",
+      "award_date": "wba_date_01HREAL023",
+      "sign_date": "wba_date_01HREAL023",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "246000000",
+      "value_precision": "exact",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "$246m, 1.38m sqm, 9 months, Beijing Shougang design"
+    },
+    {
+      "id": "wba_ctr_01HREAL014",
+      "project_id": "wba_prj_01HREAL015",
+      "title": "Kazungula Bridge Design-Build Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL029",
+      "contractor": "wba_org_01HREAL025",
+      "contract_type": "construction",
+      "procurement_method": "open_tender",
+      "status": "completed",
+      "award_date": "wba_date_01HREAL025",
+      "sign_date": "wba_date_01HREAL026",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "161000000",
+      "value_precision": "exact",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "923m extradosed, road+rail, Botswana/Zambia"
+    },
+    {
+      "id": "wba_ctr_01HREAL015",
+      "project_id": "wba_prj_01HREAL012",
+      "title": "Kenya-KAIST EDCF Loan Agreement",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01HREAL028",
+      "contractor": "wba_org_01HREAL027",
+      "contract_type": "consulting",
+      "procurement_method": "direct_award",
+      "status": "proposed",
+      "award_date": "wba_date_01HREAL020",
+      "sign_date": "",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "94700000",
+      "value_precision": "exact",
+      "financing_source": "wba_org_01HREAL027",
+      "amendment_count": "0",
+      "notes": "$94.7m EDCF Loan KEN-4, KAIST consortium consultancy"
     }
   ],
   "participation_records": [
@@ -776,6 +1096,138 @@
       "end_date": "wba_date_01HREAL012",
       "share_percent": "",
       "notes": "Webuild designer & civil works, Italy"
+    },
+    {
+      "id": "wba_par_01HREAL021",
+      "project_id": "wba_prj_01HREAL010",
+      "contract_id": "wba_ctr_01HREAL010",
+      "org_id": "wba_org_01HREAL022",
+      "role": "contractor",
+      "start_date": "wba_date_01HREAL015",
+      "end_date": "wba_date_01HREAL017",
+      "share_percent": "",
+      "notes": "Shanghai Construction EPC"
+    },
+    {
+      "id": "wba_par_01HREAL022",
+      "project_id": "wba_prj_01HREAL010",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL023",
+      "role": "designer",
+      "start_date": "wba_date_01HREAL015",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SIPPR architect"
+    },
+    {
+      "id": "wba_par_01HREAL023",
+      "project_id": "wba_prj_01HREAL010",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL024",
+      "role": "financier",
+      "start_date": "wba_date_01HREAL015",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "MOFCOM grant RMB675.8m"
+    },
+    {
+      "id": "wba_par_01HREAL024",
+      "project_id": "wba_prj_01HREAL011",
+      "contract_id": "wba_ctr_01HREAL011",
+      "org_id": "wba_org_01HREAL005",
+      "role": "contractor",
+      "start_date": "wba_date_01HREAL018",
+      "end_date": "wba_date_01HREAL019",
+      "share_percent": "",
+      "notes": "China Jiangsu"
+    },
+    {
+      "id": "wba_par_01HREAL025",
+      "project_id": "wba_prj_01HREAL011",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL003",
+      "role": "financier",
+      "start_date": "wba_date_01HREAL018",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "Exim $150m"
+    },
+    {
+      "id": "wba_par_01HREAL026",
+      "project_id": "wba_prj_01HREAL012",
+      "contract_id": "wba_ctr_01HREAL015",
+      "org_id": "wba_org_01HREAL027",
+      "role": "financier",
+      "start_date": "wba_date_01HREAL020",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "Korea Eximbank $94.7m"
+    },
+    {
+      "id": "wba_par_01HREAL027",
+      "project_id": "wba_prj_01HREAL012",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL026",
+      "role": "developer",
+      "start_date": "wba_date_01HREAL020",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "Kenya-KAIST entity"
+    },
+    {
+      "id": "wba_par_01HREAL028",
+      "project_id": "wba_prj_01HREAL013",
+      "contract_id": "wba_ctr_01HREAL012",
+      "org_id": "wba_org_01HREAL007",
+      "role": "contractor",
+      "start_date": "wba_date_01HREAL021",
+      "end_date": "wba_date_01HREAL022",
+      "share_percent": "",
+      "notes": "CRBC/CCCC $484m"
+    },
+    {
+      "id": "wba_par_01HREAL029",
+      "project_id": "wba_prj_01HREAL013",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL029",
+      "role": "sponsor",
+      "start_date": "wba_date_01HREAL021",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "KPA owner"
+    },
+    {
+      "id": "wba_par_01HREAL030",
+      "project_id": "wba_prj_01HREAL014",
+      "contract_id": "wba_ctr_01HREAL013",
+      "org_id": "wba_org_01HREAL019",
+      "role": "contractor",
+      "start_date": "wba_date_01HREAL023",
+      "end_date": "wba_date_01HREAL024",
+      "share_percent": "",
+      "notes": "CCECC $246m"
+    },
+    {
+      "id": "wba_par_01HREAL031",
+      "project_id": "wba_prj_01HREAL014",
+      "contract_id": "",
+      "org_id": "wba_org_01HREAL031",
+      "role": "designer",
+      "start_date": "wba_date_01HREAL023",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "Beijing Shougang"
+    },
+    {
+      "id": "wba_par_01HREAL032",
+      "project_id": "wba_prj_01HREAL015",
+      "contract_id": "wba_ctr_01HREAL014",
+      "org_id": "wba_org_01HREAL025",
+      "role": "contractor",
+      "start_date": "wba_date_01HREAL025",
+      "end_date": "wba_date_01HREAL028",
+      "share_percent": "",
+      "notes": "Daewoo $161m cross-border"
     }
   ],
   "financing_records": [
@@ -848,6 +1300,46 @@
       "currency": "USD",
       "share_percent": "",
       "notes": "~$4bn segments"
+    },
+    {
+      "id": "wba_fin_01HREAL008",
+      "project_id": "wba_prj_01HREAL010",
+      "institution": "wba_org_01HREAL024",
+      "instrument": "grant",
+      "amount": "675860000",
+      "currency": "CNY",
+      "share_percent": "",
+      "notes": "RMB 675.8m grant"
+    },
+    {
+      "id": "wba_fin_01HREAL009",
+      "project_id": "wba_prj_01HREAL011",
+      "institution": "wba_org_01HREAL003",
+      "instrument": "loan",
+      "amount": "150000000",
+      "currency": "USD",
+      "share_percent": "",
+      "notes": "$150m Exim"
+    },
+    {
+      "id": "wba_fin_01HREAL010",
+      "project_id": "wba_prj_01HREAL012",
+      "institution": "wba_org_01HREAL027",
+      "instrument": "loan",
+      "amount": "94700000",
+      "currency": "USD",
+      "share_percent": "",
+      "notes": "$94.7m EDCF"
+    },
+    {
+      "id": "wba_fin_01HREAL011",
+      "project_id": "wba_prj_01HREAL014",
+      "institution": "wba_org_01HREAL019",
+      "instrument": "equity",
+      "amount": "",
+      "currency": "USD",
+      "share_percent": "",
+      "notes": "$246m CCECC via IPDC budget"
     }
   ],
   "sources": [
@@ -1105,6 +1597,142 @@
       "accessibility": "open",
       "paywall": "false",
       "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL016",
+      "title": "New Parliament Building handover - People's Daily",
+      "publisher": "People's Daily / Xinhua",
+      "authors": "",
+      "source_type": "journalism",
+      "pub_date": "wba_date_01HREAL017",
+      "access_date": "wba_date_01HREAL013",
+      "url": "http://en.people.cn/n3/2023/1027/c90000-20090130.html",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL017",
+      "title": "AidData - New Parliament Building RMB 675.8m grant",
+      "publisher": "AidData (William & Mary)",
+      "authors": "",
+      "source_type": "research_report",
+      "pub_date": "wba_date_01HREAL015",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://china.aiddata.org/projects/62934/",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "secondary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL018",
+      "title": "Mugabe opens $150m China-funded Victoria Falls International Airport",
+      "publisher": "AfricaNews",
+      "authors": "",
+      "source_type": "journalism",
+      "pub_date": "wba_date_01HREAL019",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.africanews.com/2016/11/19/zimbabwe-mugabe-opens-150m-china-funded-victoria-international-airport/",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "secondary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL019",
+      "title": "Kenya signs financing agreement with Korea for Konza Digital Media City",
+      "publisher": "Konza Technopolis Development Authority",
+      "authors": "",
+      "source_type": "public_agency",
+      "pub_date": "wba_date_01HREAL020",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://konza.go.ke/kenya-signs-a-financing-agreement-with-republic-of-korea-for-the-development-of-a-digital-media-city-at-konza-technopolis/",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL020",
+      "title": "Kenya says Chinese firm wins first tender for Lamu port project",
+      "publisher": "Reuters",
+      "authors": "",
+      "source_type": "journalism",
+      "pub_date": "wba_date_01HREAL021",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.reuters.com/article/markets/kenya-says-chinese-firm-wins-first-tender-for-lamu-port-project-idUSL5N0CX38D/",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL021",
+      "title": "Hawassa Industrial Park - Best Manufacturing ENR",
+      "publisher": "Engineering News-Record",
+      "authors": "",
+      "source_type": "trade",
+      "pub_date": "wba_date_01HREAL024",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.enr.com/articles/43032-best-manufacturing---hawassa-industrial-park",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "secondary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL022",
+      "title": "Chinese firm to build new industrial park in Ethiopia - Xinhua",
+      "publisher": "Xinhua News Agency",
+      "authors": "",
+      "source_type": "journalism",
+      "pub_date": "wba_date_01HREAL023",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.xinhuanet.com/english/2017-06/25/c_136393719.htm",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL023",
+      "title": "Daewoo wins controversial contract to build Kazungula Bridge",
+      "publisher": "Global Construction Review",
+      "authors": "",
+      "source_type": "trade",
+      "pub_date": "wba_date_01HREAL025",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.globalconstructionreview.com/daewoo-wins-controversial-contract-build2788633322/",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "secondary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
     }
   ],
   "claims": [
@@ -1275,6 +1903,102 @@
       "claim_type": "status",
       "evidence_strength": "credibly_reported",
       "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL015",
+      "source_id": "wba_src_01HREAL016",
+      "project_id": "wba_prj_01HREAL010",
+      "organization_id": "wba_org_01HREAL022",
+      "contract_id": "wba_ctr_01HREAL010",
+      "verbatim_quote": "The New Parliament Building constructed by Shanghai Construction Group was handed over on October 26, 2023.",
+      "claim_text": "Shanghai Construction Group constructed New Parliament Building, handed over 26 October 2023.",
+      "claim_type": "award",
+      "evidence_strength": "officially_reported",
+      "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL016",
+      "source_id": "wba_src_01HREAL017",
+      "project_id": "wba_prj_01HREAL010",
+      "organization_id": "wba_org_01HREAL024",
+      "contract_id": "",
+      "verbatim_quote": "China provided RMB 675.8 million grant for New Parliament Building via MOFCOM.",
+      "claim_text": "China Ministry of Commerce provided RMB 675.8m grant for New Parliament.",
+      "claim_type": "value",
+      "evidence_strength": "credibly_reported",
+      "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL017",
+      "source_id": "wba_src_01HREAL018",
+      "project_id": "wba_prj_01HREAL011",
+      "organization_id": "wba_org_01HREAL005",
+      "contract_id": "wba_ctr_01HREAL011",
+      "verbatim_quote": "Mugabe opened the $150 million China-funded Victoria Falls International Airport on November 19, 2016.",
+      "claim_text": "China Jiangsu built Victoria Falls Airport, $150m Exim Bank loan, opened 19 November 2016.",
+      "claim_type": "award",
+      "evidence_strength": "credibly_reported",
+      "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL018",
+      "source_id": "wba_src_01HREAL019",
+      "project_id": "wba_prj_01HREAL012",
+      "organization_id": "wba_org_01HREAL027",
+      "contract_id": "",
+      "verbatim_quote": "Kenya signed financing agreement with Export-Import Bank of Korea for $94.7m for Kenya-KAIST at Konza.",
+      "claim_text": "Korea Eximbank provided $94.7m EDCF loan for Kenya-KAIST.",
+      "claim_type": "value",
+      "evidence_strength": "officially_reported",
+      "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL019",
+      "source_id": "wba_src_01HREAL020",
+      "project_id": "wba_prj_01HREAL013",
+      "organization_id": "wba_org_01HREAL007",
+      "contract_id": "wba_ctr_01HREAL012",
+      "verbatim_quote": "A consortium led by China Communications Construction Company won the $484m contract for first three berths at Lamu port on April 11, 2013.",
+      "claim_text": "CCCC/CRBC won $484m contract for Lamu Port first 3 berths, 11 April 2013.",
+      "claim_type": "award",
+      "evidence_strength": "confirmed",
+      "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL020",
+      "source_id": "wba_src_01HREAL021",
+      "project_id": "wba_prj_01HREAL014",
+      "organization_id": "wba_org_01HREAL019",
+      "contract_id": "wba_ctr_01HREAL013",
+      "verbatim_quote": "Hawassa Industrial Park was constructed by CCECC and inaugurated on July 20, 2016.",
+      "claim_text": "CCECC constructed Hawassa Industrial Park, inaugurated 20 July 2016.",
+      "claim_type": "award",
+      "evidence_strength": "credibly_reported",
+      "corroboration_status": "corroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL021",
+      "source_id": "wba_src_01HREAL022",
+      "project_id": "wba_prj_01HREAL014",
+      "organization_id": "wba_org_01HREAL019",
+      "contract_id": "",
+      "verbatim_quote": "China Civil Engineering Corporation concluded a $246m deal for Hawassa Industrial Park on July 16, 2015.",
+      "claim_text": "CCECC $246m deal for Hawassa Industrial Park, 16 July 2015.",
+      "claim_type": "value",
+      "evidence_strength": "officially_reported",
+      "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL022",
+      "source_id": "wba_src_01HREAL023",
+      "project_id": "wba_prj_01HREAL015",
+      "organization_id": "wba_org_01HREAL025",
+      "contract_id": "wba_ctr_01HREAL014",
+      "verbatim_quote": "Daewoo Engineering & Construction won the $161m contract for Kazungula Bridge in August 2014.",
+      "claim_text": "Daewoo E&C won $161m Kazungula Bridge contract, August 2014.",
+      "claim_type": "award",
+      "evidence_strength": "credibly_reported",
+      "corroboration_status": "corroborated"
     }
   ],
   "events": [
@@ -1373,6 +2097,78 @@
       "date_id": "wba_date_01HREAL012",
       "source_claim": "wba_clm_01HREAL014",
       "notes": "GERD inaugurated 2025"
+    },
+    {
+      "id": "wba_evt_01HREAL013",
+      "project_id": "wba_prj_01HREAL010",
+      "event_type": "construction_start",
+      "date_id": "wba_date_01HREAL015",
+      "source_claim": "wba_clm_01HREAL015",
+      "notes": "Groundbreaking New Parliament"
+    },
+    {
+      "id": "wba_evt_01HREAL014",
+      "project_id": "wba_prj_01HREAL010",
+      "event_type": "commissioned",
+      "date_id": "wba_date_01HREAL017",
+      "source_claim": "wba_clm_01HREAL015",
+      "notes": "Handover 2023"
+    },
+    {
+      "id": "wba_evt_01HREAL015",
+      "project_id": "wba_prj_01HREAL011",
+      "event_type": "commissioned",
+      "date_id": "wba_date_01HREAL019",
+      "source_claim": "wba_clm_01HREAL017",
+      "notes": "Opened 2016"
+    },
+    {
+      "id": "wba_evt_01HREAL016",
+      "project_id": "wba_prj_01HREAL013",
+      "event_type": "awarded",
+      "date_id": "wba_date_01HREAL021",
+      "source_claim": "wba_clm_01HREAL019",
+      "notes": "Award Lamu 2013"
+    },
+    {
+      "id": "wba_evt_01HREAL017",
+      "project_id": "wba_prj_01HREAL013",
+      "event_type": "commissioned",
+      "date_id": "wba_date_01HREAL022",
+      "source_claim": "wba_clm_01HREAL019",
+      "notes": "Berth 1 commissioned 2021"
+    },
+    {
+      "id": "wba_evt_01HREAL018",
+      "project_id": "wba_prj_01HREAL014",
+      "event_type": "completed",
+      "date_id": "wba_date_01HREAL024",
+      "source_claim": "wba_clm_01HREAL020",
+      "notes": "Inaugurated Hawassa 2016"
+    },
+    {
+      "id": "wba_evt_01HREAL019",
+      "project_id": "wba_prj_01HREAL015",
+      "event_type": "awarded",
+      "date_id": "wba_date_01HREAL025",
+      "source_claim": "wba_clm_01HREAL022",
+      "notes": "Award Kazungula Aug 2014"
+    },
+    {
+      "id": "wba_evt_01HREAL020",
+      "project_id": "wba_prj_01HREAL015",
+      "event_type": "construction_start",
+      "date_id": "wba_date_01HREAL026",
+      "source_claim": "wba_clm_01HREAL022",
+      "notes": "Construction start 2014"
+    },
+    {
+      "id": "wba_evt_01HREAL021",
+      "project_id": "wba_prj_01HREAL015",
+      "event_type": "commissioned",
+      "date_id": "wba_date_01HREAL028",
+      "source_claim": "wba_clm_01HREAL022",
+      "notes": "Completed 2021"
     }
   ],
   "dates": [
@@ -1487,6 +2283,118 @@
       "earliest": "2014-01-01",
       "latest": "2014-12-31",
       "display_string": "2014"
+    },
+    {
+      "id": "wba_date_01HREAL015",
+      "edtf_string": "2018-09-28",
+      "precision": "day",
+      "earliest": "2018-09-28",
+      "latest": "2018-09-28",
+      "display_string": "28 September 2018"
+    },
+    {
+      "id": "wba_date_01HREAL016",
+      "edtf_string": "2022-05-27",
+      "precision": "day",
+      "earliest": "2022-05-27",
+      "latest": "2022-05-27",
+      "display_string": "27 May 2022"
+    },
+    {
+      "id": "wba_date_01HREAL017",
+      "edtf_string": "2023-10-26",
+      "precision": "day",
+      "earliest": "2023-10-26",
+      "latest": "2023-10-26",
+      "display_string": "26 October 2023"
+    },
+    {
+      "id": "wba_date_01HREAL018",
+      "edtf_string": "2013",
+      "precision": "year",
+      "earliest": "2013-01-01",
+      "latest": "2013-12-31",
+      "display_string": "2013"
+    },
+    {
+      "id": "wba_date_01HREAL019",
+      "edtf_string": "2016-11-19",
+      "precision": "day",
+      "earliest": "2016-11-19",
+      "latest": "2016-11-19",
+      "display_string": "19 November 2016"
+    },
+    {
+      "id": "wba_date_01HREAL020",
+      "edtf_string": "2019",
+      "precision": "year",
+      "earliest": "2019-01-01",
+      "latest": "2019-12-31",
+      "display_string": "2019"
+    },
+    {
+      "id": "wba_date_01HREAL021",
+      "edtf_string": "2013-04-11",
+      "precision": "day",
+      "earliest": "2013-04-11",
+      "latest": "2013-04-11",
+      "display_string": "11 April 2013"
+    },
+    {
+      "id": "wba_date_01HREAL022",
+      "edtf_string": "2021-05-20",
+      "precision": "day",
+      "earliest": "2021-05-20",
+      "latest": "2021-05-20",
+      "display_string": "20 May 2021"
+    },
+    {
+      "id": "wba_date_01HREAL023",
+      "edtf_string": "2015-07-16",
+      "precision": "day",
+      "earliest": "2015-07-16",
+      "latest": "2015-07-16",
+      "display_string": "16 July 2015"
+    },
+    {
+      "id": "wba_date_01HREAL024",
+      "edtf_string": "2016-07-20",
+      "precision": "day",
+      "earliest": "2016-07-20",
+      "latest": "2016-07-20",
+      "display_string": "20 July 2016"
+    },
+    {
+      "id": "wba_date_01HREAL025",
+      "edtf_string": "2014-08",
+      "precision": "month",
+      "earliest": "2014-08-01",
+      "latest": "2014-08-31",
+      "display_string": "August 2014"
+    },
+    {
+      "id": "wba_date_01HREAL026",
+      "edtf_string": "2014-10-12",
+      "precision": "day",
+      "earliest": "2014-10-12",
+      "latest": "2014-10-12",
+      "display_string": "12 October 2014"
+    },
+    {
+      "id": "wba_date_01HREAL027",
+      "edtf_string": "2020-09",
+      "precision": "month",
+      "earliest": "2020-09-01",
+      "latest": "2020-09-30",
+      "display_string": "September 2020"
+    },
+    {
+      "id": "wba_date_01HREAL028",
+      "edtf_string": "2021-05-10",
+      "precision": "day",
+      "earliest": "2021-05-10",
+      "latest": "2021-05-10",
+      "display_string": "10 May 2021"
     }
   ],
   "project_locations": [
@@ -1579,6 +2487,66 @@
       "precision": "exact",
       "lat": "11.22",
       "lon": "35.09"
+    },
+    {
+      "project_id": "wba_prj_01HREAL010",
+      "admin1": "Harare",
+      "admin2": "Harare",
+      "city": "Mount Hampden",
+      "locality": "New Parliament site",
+      "precision": "exact",
+      "lat": "-17.689",
+      "lon": "30.943"
+    },
+    {
+      "project_id": "wba_prj_01HREAL011",
+      "admin1": "Matabeleland North",
+      "admin2": "Hwange",
+      "city": "Victoria Falls",
+      "locality": "Victoria Falls Airport",
+      "precision": "exact",
+      "lat": "-18.096",
+      "lon": "25.839"
+    },
+    {
+      "project_id": "wba_prj_01HREAL012",
+      "admin1": "Machakos",
+      "admin2": "Athi River",
+      "city": "Konza",
+      "locality": "Konza Technopolis",
+      "precision": "approximate",
+      "lat": "-1.057",
+      "lon": "37.095"
+    },
+    {
+      "project_id": "wba_prj_01HREAL013",
+      "admin1": "Lamu",
+      "admin2": "Lamu",
+      "city": "Lamu",
+      "locality": "Lamu Port",
+      "precision": "exact",
+      "lat": "-2.416",
+      "lon": "40.910"
+    },
+    {
+      "project_id": "wba_prj_01HREAL014",
+      "admin1": "Sidama",
+      "admin2": "Hawassa",
+      "city": "Hawassa",
+      "locality": "Hawassa Park",
+      "precision": "exact",
+      "lat": "7.060",
+      "lon": "38.476"
+    },
+    {
+      "project_id": "wba_prj_01HREAL015",
+      "admin1": "Southern",
+      "admin2": "Chobe",
+      "city": "Kazungula",
+      "locality": "Kazungula Bridge site",
+      "precision": "exact",
+      "lat": "-17.775",
+      "lon": "25.262"
     }
   ]
 }

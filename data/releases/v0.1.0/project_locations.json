@@ -88,5 +88,65 @@
     "precision": "exact",
     "lat": "11.22",
     "lon": "35.09"
+  },
+  {
+    "project_id": "wba_prj_01HREAL010",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Mount Hampden",
+    "locality": "New Parliament site",
+    "precision": "exact",
+    "lat": "-17.689",
+    "lon": "30.943"
+  },
+  {
+    "project_id": "wba_prj_01HREAL011",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Victoria Falls",
+    "locality": "Victoria Falls Airport",
+    "precision": "exact",
+    "lat": "-18.096",
+    "lon": "25.839"
+  },
+  {
+    "project_id": "wba_prj_01HREAL012",
+    "admin1": "Machakos",
+    "admin2": "Athi River",
+    "city": "Konza",
+    "locality": "Konza Technopolis",
+    "precision": "approximate",
+    "lat": "-1.057",
+    "lon": "37.095"
+  },
+  {
+    "project_id": "wba_prj_01HREAL013",
+    "admin1": "Lamu",
+    "admin2": "Lamu",
+    "city": "Lamu",
+    "locality": "Lamu Port",
+    "precision": "exact",
+    "lat": "-2.416",
+    "lon": "40.910"
+  },
+  {
+    "project_id": "wba_prj_01HREAL014",
+    "admin1": "Sidama",
+    "admin2": "Hawassa",
+    "city": "Hawassa",
+    "locality": "Hawassa Park",
+    "precision": "exact",
+    "lat": "7.060",
+    "lon": "38.476"
+  },
+  {
+    "project_id": "wba_prj_01HREAL015",
+    "admin1": "Southern",
+    "admin2": "Chobe",
+    "city": "Kazungula",
+    "locality": "Kazungula Bridge site",
+    "precision": "exact",
+    "lat": "-17.775",
+    "lon": "25.262"
   }
 ]

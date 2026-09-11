@@ -218,5 +218,137 @@
     "end_date": "wba_date_01HREAL012",
     "share_percent": "",
     "notes": "Webuild designer & civil works, Italy"
+  },
+  {
+    "id": "wba_par_01HREAL021",
+    "project_id": "wba_prj_01HREAL010",
+    "contract_id": "wba_ctr_01HREAL010",
+    "org_id": "wba_org_01HREAL022",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL015",
+    "end_date": "wba_date_01HREAL017",
+    "share_percent": "",
+    "notes": "Shanghai Construction EPC"
+  },
+  {
+    "id": "wba_par_01HREAL022",
+    "project_id": "wba_prj_01HREAL010",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL023",
+    "role": "designer",
+    "start_date": "wba_date_01HREAL015",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SIPPR architect"
+  },
+  {
+    "id": "wba_par_01HREAL023",
+    "project_id": "wba_prj_01HREAL010",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL024",
+    "role": "financier",
+    "start_date": "wba_date_01HREAL015",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "MOFCOM grant RMB675.8m"
+  },
+  {
+    "id": "wba_par_01HREAL024",
+    "project_id": "wba_prj_01HREAL011",
+    "contract_id": "wba_ctr_01HREAL011",
+    "org_id": "wba_org_01HREAL005",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL018",
+    "end_date": "wba_date_01HREAL019",
+    "share_percent": "",
+    "notes": "China Jiangsu"
+  },
+  {
+    "id": "wba_par_01HREAL025",
+    "project_id": "wba_prj_01HREAL011",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "wba_date_01HREAL018",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim $150m"
+  },
+  {
+    "id": "wba_par_01HREAL026",
+    "project_id": "wba_prj_01HREAL012",
+    "contract_id": "wba_ctr_01HREAL015",
+    "org_id": "wba_org_01HREAL027",
+    "role": "financier",
+    "start_date": "wba_date_01HREAL020",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Korea Eximbank $94.7m"
+  },
+  {
+    "id": "wba_par_01HREAL027",
+    "project_id": "wba_prj_01HREAL012",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL026",
+    "role": "developer",
+    "start_date": "wba_date_01HREAL020",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Kenya-KAIST entity"
+  },
+  {
+    "id": "wba_par_01HREAL028",
+    "project_id": "wba_prj_01HREAL013",
+    "contract_id": "wba_ctr_01HREAL012",
+    "org_id": "wba_org_01HREAL007",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL021",
+    "end_date": "wba_date_01HREAL022",
+    "share_percent": "",
+    "notes": "CRBC/CCCC $484m"
+  },
+  {
+    "id": "wba_par_01HREAL029",
+    "project_id": "wba_prj_01HREAL013",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL029",
+    "role": "sponsor",
+    "start_date": "wba_date_01HREAL021",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "KPA owner"
+  },
+  {
+    "id": "wba_par_01HREAL030",
+    "project_id": "wba_prj_01HREAL014",
+    "contract_id": "wba_ctr_01HREAL013",
+    "org_id": "wba_org_01HREAL019",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL023",
+    "end_date": "wba_date_01HREAL024",
+    "share_percent": "",
+    "notes": "CCECC $246m"
+  },
+  {
+    "id": "wba_par_01HREAL031",
+    "project_id": "wba_prj_01HREAL014",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL031",
+    "role": "designer",
+    "start_date": "wba_date_01HREAL023",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Beijing Shougang"
+  },
+  {
+    "id": "wba_par_01HREAL032",
+    "project_id": "wba_prj_01HREAL015",
+    "contract_id": "wba_ctr_01HREAL014",
+    "org_id": "wba_org_01HREAL025",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL025",
+    "end_date": "wba_date_01HREAL028",
+    "share_percent": "",
+    "notes": "Daewoo $161m cross-border"
   }
 ]

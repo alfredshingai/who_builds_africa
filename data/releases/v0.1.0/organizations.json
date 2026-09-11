@@ -124,5 +124,65 @@
     "canonical_name": "Ethiopian Electric Power",
     "org_type": "state_agency",
     "notes": "EEP, owner of GERD"
+  },
+  {
+    "id": "wba_org_01HREAL022",
+    "canonical_name": "Shanghai Construction Group",
+    "org_type": "soe",
+    "notes": "China, EPC contractor New Parliament"
+  },
+  {
+    "id": "wba_org_01HREAL023",
+    "canonical_name": "China SIPPR Engineering Group",
+    "org_type": "soe",
+    "notes": "China, architect/design New Parliament"
+  },
+  {
+    "id": "wba_org_01HREAL024",
+    "canonical_name": "Ministry of Commerce of China",
+    "org_type": "state_agency",
+    "notes": "MOFCOM, grant financier via CIDCA"
+  },
+  {
+    "id": "wba_org_01HREAL025",
+    "canonical_name": "Daewoo Engineering & Construction",
+    "org_type": "private",
+    "notes": "South Korea, contractor Kazungula Bridge"
+  },
+  {
+    "id": "wba_org_01HREAL026",
+    "canonical_name": "Kenya Advanced Institute of Science and Technology",
+    "org_type": "state_agency",
+    "notes": "Kenya-KAIST, project entity at Konza"
+  },
+  {
+    "id": "wba_org_01HREAL027",
+    "canonical_name": "Export-Import Bank of Korea",
+    "org_type": "export_credit",
+    "notes": "Korea Eximbank, EDCF lender"
+  },
+  {
+    "id": "wba_org_01HREAL028",
+    "canonical_name": "Konza Technopolis Development Authority",
+    "org_type": "state_agency",
+    "notes": "KoTDA, Kenya"
+  },
+  {
+    "id": "wba_org_01HREAL029",
+    "canonical_name": "Kenya Ports Authority",
+    "org_type": "state_agency",
+    "notes": "Owner Lamu Port"
+  },
+  {
+    "id": "wba_org_01HREAL030",
+    "canonical_name": "Industrial Parks Development Corporation",
+    "org_type": "state_agency",
+    "notes": "IPDC, Ethiopia, owner Hawassa Park"
+  },
+  {
+    "id": "wba_org_01HREAL031",
+    "canonical_name": "Beijing Shougang International Engineering Technology",
+    "org_type": "private",
+    "notes": "China, lead design Hawassa"
   }
 ]

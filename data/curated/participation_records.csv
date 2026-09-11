@@ -19,3 +19,15 @@ wba_par_01HREAL017,wba_prj_01HREAL008,wba_ctr_01HREAL007,wba_org_01HREAL014,cont
 wba_par_01HREAL018,wba_prj_01HREAL008,,wba_org_01HREAL019,contractor,,wba_date_01HREAL011,,CCECC Mieso-Djibouti
 wba_par_01HREAL019,wba_prj_01HREAL008,,wba_org_01HREAL003,financier,,,,Exim Bank ~$4bn
 wba_par_01HREAL020,wba_prj_01HREAL009,wba_ctr_01HREAL008,wba_org_01HREAL020,contractor,,wba_date_01HREAL012,,"Webuild designer & civil works, Italy"
+wba_par_01HREAL021,wba_prj_01HREAL010,wba_ctr_01HREAL010,wba_org_01HREAL022,contractor,wba_date_01HREAL015,wba_date_01HREAL017,,Shanghai Construction EPC
+wba_par_01HREAL022,wba_prj_01HREAL010,,wba_org_01HREAL023,designer,wba_date_01HREAL015,,,SIPPR architect
+wba_par_01HREAL023,wba_prj_01HREAL010,,wba_org_01HREAL024,financier,wba_date_01HREAL015,,,MOFCOM grant RMB675.8m
+wba_par_01HREAL024,wba_prj_01HREAL011,wba_ctr_01HREAL011,wba_org_01HREAL005,contractor,wba_date_01HREAL018,wba_date_01HREAL019,,China Jiangsu
+wba_par_01HREAL025,wba_prj_01HREAL011,,wba_org_01HREAL003,financier,wba_date_01HREAL018,,,Exim $150m
+wba_par_01HREAL026,wba_prj_01HREAL012,wba_ctr_01HREAL015,wba_org_01HREAL027,financier,wba_date_01HREAL020,,,Korea Eximbank $94.7m
+wba_par_01HREAL027,wba_prj_01HREAL012,,wba_org_01HREAL026,developer,wba_date_01HREAL020,,,Kenya-KAIST entity
+wba_par_01HREAL028,wba_prj_01HREAL013,wba_ctr_01HREAL012,wba_org_01HREAL007,contractor,wba_date_01HREAL021,wba_date_01HREAL022,,CRBC/CCCC $484m
+wba_par_01HREAL029,wba_prj_01HREAL013,,wba_org_01HREAL029,sponsor,wba_date_01HREAL021,,,KPA owner
+wba_par_01HREAL030,wba_prj_01HREAL014,wba_ctr_01HREAL013,wba_org_01HREAL019,contractor,wba_date_01HREAL023,wba_date_01HREAL024,,CCECC $246m
+wba_par_01HREAL031,wba_prj_01HREAL014,,wba_org_01HREAL031,designer,wba_date_01HREAL023,,,Beijing Shougang
+wba_par_01HREAL032,wba_prj_01HREAL015,wba_ctr_01HREAL014,wba_org_01HREAL025,contractor,wba_date_01HREAL025,wba_date_01HREAL028,,Daewoo $161m cross-border

@@ -1,11 +1,5 @@
-# Cite Africa Contract Footprints v0.1.0
+# Release v0.1.0
 
-**Africa Contract Footprints / WHO BUILDS AFRICA? v0.1.0, 2026-09-11, ODbL-1.0**
-
-> Shingai, Alfred and contributors. Africa Contract Footprints database (v0.1.0). WHO BUILDS AFRICA? https://github.com/alfredshingai/who_builds_africa - https://who-builds-africa.vercel.app - ODbL-1.0. Accessed 2026-09-11.
-
-**9 projects** (Zimbabwe, Kenya, Ethiopia), 21 organizations, 9 contracts, 20 participations, 15 sources, 14 claims. Stable IDs `wba_prj_*` etc. Download: `data.json`, `projects.geojson`, `footprints.sqlite`, CSV mirrors in `data/releases/v0.1.0/`.
-
-Data: ODbL-1.0 (attribution + share-alike). Code: MIT. Map: © OpenStreetMap contributors, ODbL.
-
-See `CITATION.cff` at repo root and `https://github.com/alfredshingai/who_builds_africa/releases/tag/v0.1.0`.
+Cite: Africa Contract Footprints / WHO BUILDS AFRICA? (v0.1.0), ODbL-1.0
+Source: https://github.com/alfredshingai/who_builds_africa
+Counts: 15 project features

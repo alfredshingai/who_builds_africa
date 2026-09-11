@@ -142,6 +142,114 @@
         "status": "commissioned",
         "location_precision": "exact"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.943,
+          -17.689
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL010",
+        "name": "New Parliament Building, Mount Hampden",
+        "country": "ZWE",
+        "sectors": "government_buildings",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.839,
+          -18.096
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL011",
+        "name": "Victoria Falls International Airport Expansion",
+        "country": "ZWE",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.095,
+          -1.057
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL012",
+        "name": "Kenya Advanced Institute of Science and Technology at Konza",
+        "country": "KEN",
+        "sectors": "schools|universities|telecommunications",
+        "status": "proposed",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.91,
+          -2.416
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL013",
+        "name": "Lamu Port First Three Berths",
+        "country": "KEN",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.476,
+          7.06
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL014",
+        "name": "Hawassa Industrial Park",
+        "country": "ETH",
+        "sectors": "industrial_parks|manufacturing",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.262,
+          -17.775
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL015",
+        "name": "Kazungula Bridge",
+        "country": "BWA",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
     }
   ],
   "_note": "SYNTHETIC if from samples; real data requires source-backed coords"
