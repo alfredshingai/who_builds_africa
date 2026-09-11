@@ -1,4 +1,4 @@
-WHO BUILDS AFRICA? — Database License
+WHO BUILDS AFRICA? - Database License
 
 The Africa Contract Footprints database (the structured data in /data/curated,
 /data/releases, and derived exports CSV/JSON/GeoJSON/GeoPackage/SQLite/DuckDB)
@@ -29,9 +29,9 @@ Notes:
     compilation and sui generis rights.
   - Source excerpts (verbatim_quote in claims) remain under their original
     publishers' copyright and are included only as short quotations for
-    evidence under fair dealing/fair use — they are NOT covered by ODbL.
-  - Map tiles/boundaries have separate licenses — see NOTICE.md.
+    evidence under fair dealing/fair use - they are NOT covered by ODbL.
+  - Map tiles/boundaries have separate licenses - see NOTICE.md.
 
 If ODbL share-alike is too restrictive for your use case, a permissive
-CC BY 4.0 dual-license may be offered for specific releases — see releases
+CC BY 4.0 dual-license may be offered for specific releases - see releases
 notes. Default is ODbL.

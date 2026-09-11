@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes — follow Keep a Changelog + SemVer for schema, CalVer for data releases.
+All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for data releases.
 
 ## [Unreleased]
 

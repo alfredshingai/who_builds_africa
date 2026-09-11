@@ -7,7 +7,7 @@ Do not open public issues for sensitive data or vulnerability reports. Contact @
 ## Scope
 
 - No personal data stored (orgs/projects only)
-- No secrets in repo — use env vars for deploys
+- No secrets in repo - use env vars for deploys
 - Dependencies pinned via `requirements.txt`; Dependabot enabled (planned)
 
 ## Supported versions

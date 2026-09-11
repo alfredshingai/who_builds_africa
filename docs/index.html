@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WHO BUILDS AFRICA? — Africa Contract Footprints</title>
-<meta name="description" content="Source-tracked map of foreign participation in African infrastructure — Zimbabwe, Kenya, Ethiopia (expands to all Africa).">
+<title>WHO BUILDS AFRICA? - Africa Contract Footprints</title>
+<meta name="description" content="Source-tracked map of foreign participation in African infrastructure - Zimbabwe, Kenya, Ethiopia (expands to all Africa).">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <style>
 :root{--c:#111;--muted:#666;--bg:#fff;--accent:#0b6b3a;--line:#e5e7eb;--card:#f9fafb}
-*{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;color:var(--c);background:var(--bg)}
-a{color:var(--accent)}header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+*{box-sizing:border-box}html,body{height:100%}body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;color:var(--c);background:var(--bg);display:flex;flex-direction:column;min-height:100dvh}
+a{color:var(--accent)}header{flex:0 0 auto;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 header h1{margin:0;font-size:18px;letter-spacing:.02em}header h1 span{color:var(--accent)}header p{margin:2px 0 0;color:var(--muted);font-size:12px}
 .pill{border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:12px;background:var(--card)}
-.layout{display:grid;grid-template-columns:320px 1fr;min-height:calc(100vh - 64px)}@media(max-width:900px){.layout{grid-template-columns:1fr} #map{height:55vh}}
-#sidebar{border-right:1px solid var(--line);padding:12px;overflow:auto}
-#map{height:calc(100vh - 64px);min-height:320px}
+.layout{flex:1 1 auto;display:grid;grid-template-columns:320px 1fr;min-height:0;overflow:hidden}@media(max-width:900px){.layout{grid-template-columns:1fr;overflow:auto} #map{height:55dvh;min-height:360px}}
+#sidebar{border-right:1px solid var(--line);padding:12px;overflow:auto;min-height:0}
+#map{height:100%;min-height:420px;min-height:clamp(360px, 60dvh, 100%);}
 label{font-size:12px;color:var(--muted);display:block;margin:8px 0 4px}
 select,input{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff}
 .row{display:flex;gap:8px}.row> *{flex:1}
@@ -22,17 +22,17 @@ select,input{width:100%;padding:8px;border:1px solid var(--line);border-radius:8
 .badge{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:2px 6px;background:#fff}
 .badge.corridor{border-style:dashed}.badge.country{background:#fff7ed}.badge.exact{background:#ecfdf5}.badge.approx{background:#eff6ff}
 small{color:var(--muted)}table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid var(--line);text-align:left;padding:6px 4px}
-#projectDetail{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:12px;max-height:46vh;overflow:auto;display:none}
+#projectDetail{flex:0 0 auto;background:var(--bg);border-top:1px solid var(--line);padding:12px;max-height:42dvh;overflow:auto;display:none}
 .evidence{font-size:12px;padding:6px;border-left:3px solid var(--accent);background:#f0fdf4;margin:6px 0}
-footer{padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
+footer{flex:0 0 auto;padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
 kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-radius:4px;background:var(--card);font-size:11px}
 </style>
 </head>
 <body>
 <header>
   <div style="flex:1">
-    <h1>WHO BUILDS AFRICA? <span>— Africa Contract Footprints</span></h1>
-    <p>Neutral, source-tracked. <em>“Builds” = financing · designing · constructing · supplying · consulting · operating · maintaining · JV.</em> Map is interface — database is product. Initial: <b>Zimbabwe, Kenya, Ethiopia</b>. <span id="counts"></span></p>
+    <h1>WHO BUILDS AFRICA? <span>- Africa Contract Footprints</span></h1>
+    <p>Neutral, source-tracked. <em>“Builds” = financing · designing · constructing · supplying · consulting · operating · maintaining · JV.</em> Map is interface - database is product. Initial: <b>Zimbabwe, Kenya, Ethiopia</b>. <span id="counts"></span></p>
   </div>
   <a class="pill" href="/data/releases/v0.1.0/data.json" download>Download JSON</a>
   <a class="pill" href="/data/releases/v0.1.0/projects.geojson" download>GeoJSON</a>
@@ -43,7 +43,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <div class="layout">
   <aside id="sidebar" aria-label="Filters">
     <div class="card" style="background:#fffbe6;border-color:#fde68a">
-      <b>9 REAL PROJECTS</b><br><small>Source-tracked records for <b>Zimbabwe, Kenya, Ethiopia</b> — every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
+      <b>9 REAL PROJECTS</b><br><small>Source-tracked records for <b>Zimbabwe, Kenya, Ethiopia</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
     </div>
     <label for="q">Search projects / orgs</label>
     <input id="q" placeholder="e.g. Harare, SinoHydro, rail" aria-label="Search">
@@ -64,7 +64,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <button id="tableToggle" class="pill" style="width:100%">Table view</button>
     </div>
     <div class="card">
-      <b>Legend — location precision</b><br>
+      <b>Legend - location precision</b><br>
       <span class="badge exact">exact</span> precise point
       <span class="badge approx">approx / city</span> area
       <span class="badge corridor">corridor / cross-border</span> line
@@ -78,16 +78,16 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <a href="/data/releases/v0.1.0/claims.csv">claims.csv</a> ·
       <a href="/data/releases/v0.1.0/sources.csv">sources.csv</a> ·
       <a href="/data/releases/v0.1.0/footprints.sqlite">SQLite</a><br>
-      <small>Licenses: Code MIT, Data ODbL-1.0, Docs CC BY 4.0 — see <a href="/NOTICE.md">NOTICE</a>.</small>
+      <small>Licenses: Code MIT, Data ODbL-1.0, Docs CC BY 4.0 - see <a href="/NOTICE.md">NOTICE</a>.</small>
     </div>
   </aside>
-  <div id="map" role="application" aria-label="Map of Africa — projects"></div>
+  <div id="map" role="application" aria-label="Map of Africa - projects"></div>
 </div>
 
 <div id="projectDetail" aria-live="polite"></div>
 
 <div id="tableView" style="display:none;padding:12px">
-  <h3 style="margin:8px 0">Table view — all filtered projects</h3>
+  <h3 style="margin:8px 0">Table view - all filtered projects</h3>
   <div style="overflow:auto"><table id="tbl"><thead><tr><th>Project</th><th>Country</th><th>Sectors</th><th>Status</th><th>Precision</th><th>Roles</th></tr></thead><tbody></tbody></table></div>
 </div>
 <div id="countriesView" style="display:none;padding:14px"></div>
@@ -95,7 +95,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <div id="qualityView" style="display:none;padding:14px"></div>
 
 <footer>
-  <span>© OpenStreetMap contributors, ODbL — <a href="https://www.openstreetmap.org/copyright">copyright</a></span>
+  <span>© OpenStreetMap contributors, ODbL - <a href="https://www.openstreetmap.org/copyright">copyright</a></span>
   <span>Built with MapLibre GL JS (BSD-3) · No proprietary tiles · Self-hostable</span>
   <span>Keyboard: <kbd>Tab</kbd> navigate, <kbd>Enter</kbd> open, <kbd>/</kbd> search</span>
   <span><a href="/DATA_METHODOLOGY.md">Methodology</a> · <a href="/DATA_DICTIONARY.md">Dictionary</a> · <a href="/SOURCING_GUIDE.md">Sourcing</a></span>
@@ -167,12 +167,12 @@ function render(){
     const roles=pars.map(x=>DATA._orgById[x.org_id]?.canonical_name+` (${x.role})`).join(', ')||'<small>no participation yet</small>'
     return `<div class="card" tabindex="0" role="button" aria-label="Open ${p.canonical_name}" onclick="openProject('${p.id}')" onkeydown="if(event.key==='Enter')openProject('${p.id}')">
       <b>${p.canonical_name}</b> <span class="badge">${p.country_iso3}</span> <span class="badge ${p.location_precision}">${p.location_precision}</span>
-      <div><small>${p.sectors||'—'} · ${p.status}</small></div>
+      <div><small>${p.sectors||'-'} · ${p.status}</small></div>
       <div style="margin:6px 0">${roles}</div>
       <small>${p.summary}</small>
       <div style="margin-top:6px"><a href="#" onclick="event.preventDefault();openProject('${p.id}')">Details →</a></div>
     </div>`
-  }).join('') || '<div class="card"><small>No matches — adjust filters. Try clearing search.</small></div>'
+  }).join('') || '<div class="card"><small>No matches - adjust filters. Try clearing search.</small></div>'
   // table
   els.tbl.innerHTML=filtered.map(p=>{
     const pars=DATA._parByProject[p.id]||[]
@@ -194,30 +194,30 @@ function openProject(id){
     <div style="display:flex;gap:12px;align-items:start;flex-wrap:wrap">
       <div style="flex:1;min-width:280px">
         <h3 style="margin:0">${p.canonical_name} <small>(${p.country_iso3} · <span class="badge ${p.location_precision}">${p.location_precision}</span>)</small></h3>
-        <p><small>${p.summary} — sectors: ${p.sectors||'—'} · status: ${p.status}</small></p>
+        <p><small>${p.summary} - sectors: ${p.sectors||'-'} · status: ${p.status}</small></p>
         <p><b>Organizations & roles</b></p>
         <ul>${pars.map(x=>{
           const org=DATA._orgById[x.org_id]; const oc=DATA.organization_countries.filter(o=>o.org_id===x.org_id)
-          return `<li><b>${org?org.canonical_name:x.org_id}</b> — <code>${x.role}</code> ${oc.length?`(${oc.map(o=>o.relation+':'+o.country_iso3).join(', ')})`:''} ${x.share_percent?`· ${x.share_percent}%`:''}</li>`
+          return `<li><b>${org?org.canonical_name:x.org_id}</b> - <code>${x.role}</code> ${oc.length?`(${oc.map(o=>o.relation+':'+o.country_iso3).join(', ')})`:''} ${x.share_percent?`· ${x.share_percent}%`:''}</li>`
         }).join('')||'<li><small>none</small></li>'}</ul>
         <p><b>Contracts</b></p>
-        <ul>${contracts.map(c=>`<li>${c.title} — ${c.contract_type} / ${c.status} · ${c.currency||'—'} ${c.value_original||'undisclosed'} <small>(${c.value_precision})</small> · via ${c.contracting_authority||'—'} → ${c.contractor||'—'}</li>`).join('')||'<li><small>no contract rows</small></li>'}</ul>
+        <ul>${contracts.map(c=>`<li>${c.title} - ${c.contract_type} / ${c.status} · ${c.currency||'-'} ${c.value_original||'undisclosed'} <small>(${c.value_precision})</small> · via ${c.contracting_authority||'-'} → ${c.contractor||'-'}</li>`).join('')||'<li><small>no contract rows</small></li>'}</ul>
         <p><b>Timeline (events)</b></p>
         <ol>${events.map(e=>{
           const d=DATA.dates.find(x=>x.id===e.date_id)
-          return `<li><code>${e.event_type}</code> — ${d?d.display_string:d?.edtf_string||e.date_id} ${e.notes?`· ${e.notes}`:''}</li>`
+          return `<li><code>${e.event_type}</code> - ${d?d.display_string:d?.edtf_string||e.date_id} ${e.notes?`· ${e.notes}`:''}</li>`
         }).join('')||'<li><small>no events</small></li>'}</ol>
       </div>
       <div style="flex:1;min-width:300px">
-        <p><b>Evidence — every claim links to source</b> <small>(strength: confirmed → unverified)</small></p>
+        <p><b>Evidence - every claim links to source</b> <small>(strength: confirmed → unverified)</small></p>
         ${claims.map(c=>{
           const src=DATA.sources.find(s=>s.id===c.source_id)
-          return `<div class="evidence"><b>${c.claim_type}</b> — <code>${c.evidence_strength}</code> <small>(${c.corroboration_status})</small><br>
+          return `<div class="evidence"><b>${c.claim_type}</b> - <code>${c.evidence_strength}</code> <small>(${c.corroboration_status})</small><br>
           <em>${c.claim_text}</em><br>
           <small>“${c.verbatim_quote.replace(/^SYNTHETIC QUOTE: /,'')}”</small><br>
-          <small>— ${src?src.publisher+', '+src.title: c.source_id} ${src?.url?`<a href="${src.url}" target="_blank" rel="noopener">source</a>`:''} ${src?.archive_url?`· <a href="${src.archive_url}" target="_blank">archive</a>`:''}</small></div>`
+          <small>- ${src?src.publisher+', '+src.title: c.source_id} ${src?.url?`<a href="${src.url}" target="_blank" rel="noopener">source</a>`:''} ${src?.archive_url?`· <a href="${src.archive_url}" target="_blank">archive</a>`:''}</small></div>`
         }).join('')||'<div class="evidence"><small>no claims</small></div>'}
-        <p><small>Location: ${p.lat&&p.lon?`${p.lat}, ${p.lon} (${p.location_precision})`: p.geom_wkt||p.location_precision+' — no precise coords'} · ID: ${p.id}</small></p>
+        <p><small>Location: ${p.lat&&p.lon?`${p.lat}, ${p.lon} (${p.location_precision})`: p.geom_wkt||p.location_precision+' - no precise coords'} · ID: ${p.id}</small></p>
         <button class="pill" onclick="document.getElementById('projectDetail').style.display='none'">Close</button>
       </div>
     </div>`
@@ -289,15 +289,15 @@ function renderCountries(){
     });
     const status={}; list.forEach(p=> status[p.status]=(status[p.status]||0)+1);
     return `<div class="card">
-      <h3 style="margin:4px 0">${iso} — ${list.length} projects</h3>
-      <small>Sectors: ${Object.entries(sectors).map(([k,v])=>k+` (${v})`).join(', ')||'—'}</small><br>
+      <h3 style="margin:4px 0">${iso} - ${list.length} projects</h3>
+      <small>Sectors: ${Object.entries(sectors).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
       <small>Status: ${Object.entries(status).map(([k,v])=>k+` (${v})`).join(', ')}</small><br>
-      <small>Foreign origins (participation count): ${Object.entries(origins).map(([k,v])=>k+` (${v})`).join(', ')||'—'}</small><br>
+      <small>Foreign origins (participation count): ${Object.entries(origins).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
       <div style="margin-top:6px">${list.map(p=>`<a href="#" onclick="event.preventDefault();showView('map');setTimeout(()=>openProject('${p.id}'),150)">${p.canonical_name}</a>`).join(' · ')}</div>
       <div style="margin-top:6px"><button class="pill" onclick="$('country').value='${iso}';showView('map');render()">Filter map to ${iso}</button></div>
     </div>`;
   }).join('');
-  document.getElementById('countriesView').innerHTML = `<h2>Country profiles</h2>${html}<div class="card"><small>Counts are descriptive — see <a href="/DATA_METHODOLOGY.md">Limitations</a>: reporting bias, language bias, survivors. Do not infer causality from map counts.</small></div>`;
+  document.getElementById('countriesView').innerHTML = `<h2>Country profiles</h2>${html}<div class="card"><small>Counts are descriptive - see <a href="/DATA_METHODOLOGY.md">Limitations</a>: reporting bias, language bias, survivors. Do not infer causality from map counts.</small></div>`;
 }
 function renderOrgs(){
   const byOrg={};
@@ -315,7 +315,7 @@ function renderOrgs(){
     const oc=DATA.organization_countries.filter(x=>x.org_id===v.org.id).map(x=>x.relation+':'+x.country_iso3).join(', ');
     return `<tr><td><b>${v.org.canonical_name}</b><br><small>${v.org.org_type} · ${oc||'origin not disclosed'}</small></td><td>${v.pars.length}</td><td>${[...v.countries].join(', ')}</td><td>${Object.entries(roles).map(([k,c])=>k+` (${c})`).join(', ')}</td><td>${v.pars.map(p=>`<a href="#" onclick="event.preventDefault();showView('map');setTimeout(()=>openProject('${p.project_id}'),150)">${p.project_id.replace('wba_prj_01HREAL','…')}</a>`).join(' ')}</td></tr>`;
   }).join('');
-  document.getElementById('orgsView').innerHTML = `<h2>Organizations — ${Object.keys(byOrg).length} active</h2><p><small>One org = multiple names/aliases, JVs, subsidiaries — see <code>organization_aliases.csv</code> and <code>organization_relations.csv</code>. Foreign = incorporation/headquarters/parent/ultimate_owner/financing distinguished.</small></p><div style="overflow:auto"><table><thead><tr><th>Organization</th><th>Participations</th><th>Countries</th><th>Roles</th><th>Projects</th></tr></thead><tbody>${rows}</tbody></table></div><p><small>Sorted by participations — CRBC/CCCC/Sinohydro appear in multiple countries.</small></p>`;
+  document.getElementById('orgsView').innerHTML = `<h2>Organizations - ${Object.keys(byOrg).length} active</h2><p><small>One org = multiple names/aliases, JVs, subsidiaries - see <code>organization_aliases.csv</code> and <code>organization_relations.csv</code>. Foreign = incorporation/headquarters/parent/ultimate_owner/financing distinguished.</small></p><div style="overflow:auto"><table><thead><tr><th>Organization</th><th>Participations</th><th>Countries</th><th>Roles</th><th>Projects</th></tr></thead><tbody>${rows}</tbody></table></div><p><small>Sorted by participations - CRBC/CCCC/Sinohydro appear in multiple countries.</small></p>`;
 }
 function renderQuality(){
   const total=DATA.projects.length;
@@ -328,14 +328,14 @@ function renderQuality(){
   const bySector={}; DATA.projects.forEach(p=> p.sectors.split('|').forEach(s=> { if(s) bySector[s]=(bySector[s]||0)+1 }));
   document.getElementById('qualityView').innerHTML = `<h2>Quality & limitations</h2>
     <div class="card"><b>Coverage</b>: ${total} projects, ${DATA.organizations.length} orgs, ${DATA.contracts.length} contracts, ${DATA.claims.length} claims, ${DATA.sources.length} sources</div>
-    <div class="card"><b>Geography</b>: exact ${exact}, corridor ${corridor}, approx/city ${approx} — <em>never fake coords</em>, hollow centroid for country-only</div>
-    <div class="card"><b>Values</b>: ${undisclosedVal}/${DATA.contracts.length} contracts undisclosed · ${withFin} financing records (Exim Bank, bonds) — do not conflate contract value vs loan vs estimate</div>
-    <div class="card"><b>Evidence</b>: ${Object.entries(claimsByStrength).map(([k,v])=>k+` (${v})`).join(', ')} — <em>see evidence cards per project</em></div>
+    <div class="card"><b>Geography</b>: exact ${exact}, corridor ${corridor}, approx/city ${approx} - <em>never fake coords</em>, hollow centroid for country-only</div>
+    <div class="card"><b>Values</b>: ${undisclosedVal}/${DATA.contracts.length} contracts undisclosed · ${withFin} financing records (Exim Bank, bonds) - do not conflate contract value vs loan vs estimate</div>
+    <div class="card"><b>Evidence</b>: ${Object.entries(claimsByStrength).map(([k,v])=>k+` (${v})`).join(', ')} - <em>see evidence cards per project</em></div>
     <div class="card"><b>Sectors</b>: ${Object.entries(bySector).map(([k,v])=>k+` (${v})`).join(', ')}</div>
-    <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only — no causal claims from map.</div>
-    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.1.0/data.json">data.json</a> · <a href="/data/releases/v0.1.0/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.1.0/projects.csv">CSV</a> · <a href="/data/releases/v0.1.0/footprints.sqlite">SQLite</a> — stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
+    <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only - no causal claims from map.</div>
+    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.1.0/data.json">data.json</a> · <a href="/data/releases/v0.1.0/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.1.0/projects.csv">CSV</a> · <a href="/data/releases/v0.1.0/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
 }
-load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} — ensure <code>python scripts/build.py --out data/releases/v0.1.0</code> was run.</div>`})
+load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.1.0</code> was run.</div>`})
 </script>
 </body>
 </html>

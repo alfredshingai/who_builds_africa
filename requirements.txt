@@ -1,4 +1,4 @@
-# WHO BUILDS AFRICA — Python dependencies (FOSS only)
+# WHO BUILDS AFRICA - Python dependencies (FOSS only)
 pydantic>=2.7
 frictionless>=5.17
 pyyaml>=6.0

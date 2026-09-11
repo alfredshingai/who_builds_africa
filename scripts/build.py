@@ -28,7 +28,7 @@ def build(src: pathlib.Path, out: pathlib.Path, use_samples=False):
                     try: geom={"type":"Point","coordinates":[float(lon), float(lat)]}
                     except: geom=None
                 elif r.get("geom_wkt","").strip().startswith("LINESTRING"):
-                    # placeholder — real parser would use shapely
+                    # placeholder - real parser would use shapely
                     geom=None
                     props["geom_wkt"]=r["geom_wkt"]
                 features.append({"type":"Feature","geometry":geom,"properties":props})

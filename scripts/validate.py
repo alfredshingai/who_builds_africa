@@ -136,7 +136,7 @@ def main():
         print(f"\n{len(errors)} error(s), {len(warns)} warning(s)")
         sys.exit(1)
     else:
-        print(f"OK — {len(warns)} warning(s), 0 errors ({', '.join(d[0] for d in dirs)})")
+        print(f"OK - {len(warns)} warning(s), 0 errors ({', '.join(d[0] for d in dirs)})")
         sys.exit(0)
 
 if __name__ == "__main__":

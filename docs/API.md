@@ -1,12 +1,12 @@
-# API & Data Access — Africa Contract Footprints
+# API & Data Access - Africa Contract Footprints
 
 All data is static, versioned, and FOSS. No auth, no paid gate. Fetch directly from `https://who-builds-africa.vercel.app` or GitHub raw.
 
 ## Releases
 
-- **Current:** `data/releases/v0.1.0/` — 9 projects, 21 orgs, 9 contracts, 14 claims, 15 sources
-- **Demo synthetic:** `data/releases/v0.1.0-synthetic/` — 5 synthetic projects (schema demo)
-- **Source of truth:** `data/curated/*.csv` — PR-reviewed, `validate.py` enforced
+- **Current:** `data/releases/v0.1.0/` - 9 projects, 21 orgs, 9 contracts, 14 claims, 15 sources
+- **Demo synthetic:** `data/releases/v0.1.0-synthetic/` - 5 synthetic projects (schema demo)
+- **Source of truth:** `data/curated/*.csv` - PR-reviewed, `validate.py` enforced
 
 ## Files per release
 
@@ -23,7 +23,7 @@ data/releases/v0.1.0/
 
 ## Stable IDs
 
-`wba_prj_*`, `wba_org_*`, `wba_ctr_*`, `wba_par_*`, `wba_src_*`, `wba_clm_*`, `wba_evt_*`, `wba_date_*` — never reused, ULID-based. Use for citations.
+`wba_prj_*`, `wba_org_*`, `wba_ctr_*`, `wba_par_*`, `wba_src_*`, `wba_clm_*`, `wba_evt_*`, `wba_date_*` - never reused, ULID-based. Use for citations.
 
 ## Examples
 
@@ -46,11 +46,11 @@ curl -O https://who-builds-africa.vercel.app/data/releases/v0.1.0/claims.csv
 
 ## Pagination, rate limit, caching
 
-No server — CDN cached (`Cache-Control: public, max-age=3600, stale-while-revalidate=86400` via `vercel.json`). Client paginates (all 9 rows load at once). For future >1k rows, add `?limit=&offset=` in API layer (planned `Datasette`/`PostgREST`).
+No server - CDN cached (`Cache-Control: public, max-age=3600, stale-while-revalidate=86400` via `vercel.json`). Client paginates (all 9 rows load at once). For future >1k rows, add `?limit=&offset=` in API layer (planned `Datasette`/`PostgREST`).
 
 ## Licenses
 
-- Data: ODbL-1.0 (`LICENSE-DATA`) — attribution + share-alike
+- Data: ODbL-1.0 (`LICENSE-DATA`) - attribution + share-alike
 - Code: MIT (`LICENSE`)
 - Docs: CC BY 4.0 (`LICENSE-DOCS`)
 

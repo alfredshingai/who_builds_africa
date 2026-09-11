@@ -5,7 +5,7 @@
 - **Maintainer:** @alfredshingai (Alfred Shingai)
 - **Role:** final review, releases, conflict resolution
 
-Open to co-maintainers — nominate via Discussion.
+Open to co-maintainers - nominate via Discussion.
 
 ## Roles
 
@@ -22,7 +22,7 @@ Open to co-maintainers — nominate via Discussion.
 
 ## Review & Correction
 
-See `REVIEW_POLICY.md` and `CORRECTIONS.md`. All public data is PR-reviewed before `main`. No direct push to `main` — branch protection enforces checks.
+See `REVIEW_POLICY.md` and `CORRECTIONS.md`. All public data is PR-reviewed before `main`. No direct push to `main` - branch protection enforces checks.
 
 ## Conflict Resolution
 

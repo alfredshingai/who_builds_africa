@@ -16,13 +16,13 @@ For each source, record: `title`, `publisher`, `authors`, `source_type`, `pub_da
 
 ## Extraction Rules
 
-- Quote exactly— never invent. Record `claim_text` = normalized sentence supported.
+- Quote exactly- never invent. Record `claim_text` = normalized sentence supported.
 - One source can support many claims; one claim can have many sources.
 - Mark `evidence_strength` per claim; `uncorroborated` until 2nd independent source.
 
 ## Shortcomings to flag
 
-Broken hyperinflation-era conversions, implausible values, duplicate reporting — null with note, don't silently fix.
+Broken hyperinflation-era conversions, implausible values, duplicate reporting - null with note, don't silently fix.
 
 ## Workflow
 

@@ -25,7 +25,7 @@ We never imply a company built an entire project if evidence only shows financin
 The map is the exploration interface; the real product is the structured, historically inclusive, source-tracked, versioned, auditable database behind it.
 
 - **Historically inclusive:** any accessible period, including pre-2000, archived/scanned/non-English sources
-- **Uncertainty preserved:** missing/unknown/approx dates, conflicting claims, and location precision are explicit — never invented
+- **Uncertainty preserved:** missing/unknown/approx dates, conflicting claims, and location precision are explicit - never invented
 - **Evidence > narrative:** every material claim links to source + verbatim passage + evidence strength
 
 ### Explore (MVP)
@@ -33,9 +33,9 @@ The map is the exploration interface; the real product is the structured, histor
 - Interactive map of Africa → country → project markers (sized/shaped by precision)
 - Filters: country, foreign origin, sector, role, status, year/range
 - Project pages: timeline, organizations & roles, contract values, sources with evidence labels
-- Downloads: CSV / JSON / GeoJSON / GeoPackage / SQLite — versioned releases
+- Downloads: CSV / JSON / GeoJSON / GeoPackage / SQLite - versioned releases
 
-Live site: *Vercel* — `https://who-builds-africa.vercel.app` (or your Vercel URL) serves `app/index.html` as `/` via `vercel.json:1` rewrites; `data/releases/` is static. See `app/` for local dev.
+Live site: *Vercel* - `https://who-builds-africa.vercel.app` (or your Vercel URL) serves `app/index.html` as `/` via `vercel.json:1` rewrites; `data/releases/` is static. See `app/` for local dev.
 
 ### Repository Structure
 
@@ -70,10 +70,10 @@ cd app && npm install && npm run dev
 ### Licenses
 
 - **Code** → MIT (`LICENSE`)
-- **Database** → ODbL-1.0 (`LICENSE-DATA`) — attribution + share-alike
+- **Database** → ODbL-1.0 (`LICENSE-DATA`) - attribution + share-alike
 - **Docs** → CC BY 4.0 (`LICENSE-DOCS`)
 - **Source quotes** → remain © publishers (short quotations for evidence)
-- **Map** → © OpenStreetMap contributors, ODbL — see `NOTICE.md`
+- **Map** → © OpenStreetMap contributors, ODbL - see `NOTICE.md`
 
 ### Attribution
 
@@ -87,7 +87,7 @@ Read `CONTRIBUTING.md`, `DATA_METHODOLOGY.md`, `SOURCING_GUIDE.md`, `REVIEW_POLI
 
 ### Governance
 
-See `GOVERNANCE.md` — maintainer: @alfredshingai, open to co-maintainers, transparent review, no paid gate.
+See `GOVERNANCE.md` - maintainer: @alfredshingai, open to co-maintainers, transparent review, no paid gate.
 
 ---
 

@@ -1,6 +1,6 @@
-# Data Dictionary — v0.1
+# Data Dictionary - v0.1
 
-All curated CSVs in `data/curated/` — headers are contract. See `schema/wba.schema.json` for machine schema.
+All curated CSVs in `data/curated/` - headers are contract. See `schema/wba.schema.json` for machine schema.
 
 ## countries.csv
 `iso3` (PK, ISO3166 alpha-3), `name_en`, `name_fr`, `name_pt`, `region` (AU region)
@@ -59,4 +59,4 @@ ULID-based, stable, never reused. Example: `wba_prj_01H9...`, `wba_org_01H9...`.
 
 ## Sample
 
-See `samples/synthetic/` — all rows marked `SYNTHETIC` in notes.
+See `samples/synthetic/` - all rows marked `SYNTHETIC` in notes.

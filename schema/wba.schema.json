@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/alfredshingai/who_builds_africa/schema/wba.schema.json",
-  "title": "Africa Contract Footprints — record",
+  "title": "Africa Contract Footprints - record",
   "type": "object",
   "required": ["id", "type"],
   "properties": {
