@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/", "destination": "/app/index.html" },
+    { "source": "/docs", "destination": "/docs/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/app/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+    }
+  ]
+}

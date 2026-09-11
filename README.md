@@ -35,7 +35,7 @@ The map is the exploration interface; the real product is the structured, histor
 - Project pages: timeline, organizations & roles, contract values, sources with evidence labels
 - Downloads: CSV / JSON / GeoJSON / GeoPackage / SQLite — versioned releases
 
-Live site: *coming via GitHub Pages (docs/)* — see `app/` for static build
+Live site: *Vercel* — `https://who-builds-africa.vercel.app` (or your Vercel URL) serves `app/index.html` as `/` via `vercel.json:1` rewrites; `data/releases/` is static. See `app/` for local dev.
 
 ### Repository Structure
 
