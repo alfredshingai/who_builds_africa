@@ -328,7 +328,7 @@ function renderQuality(){
   const withFin=DATA.financing_records.length;
   const claimsByStrength={}; DATA.claims.forEach(c=> claimsByStrength[c.evidence_strength]=(claimsByStrength[c.evidence_strength]||0)+1);
   const bySector={}; DATA.projects.forEach(p=> p.sectors.split('|').forEach(s=> { if(s) bySector[s]=(bySector[s]||0)+1 }));
-  document.getElementById('qualityView').innerHTML = `<h2>Quality & limitations</h2>
+  document.getElementById('qualityView').innerHTML = `<h2>Quality & limitations</h2><p><small>Last verified: ${DATA.dates.find(d=>d.id==='wba_date_01HREAL013')?.display_string||'2026-09-11'} - see <code>change_history.csv</code> for audit trail. <a href=https://github.com/alfredshingai/who_builds_africa/commits/main>Changelog</a></small></p>
     <div class="card"><b>Coverage</b>: ${total} projects, ${DATA.organizations.length} orgs, ${DATA.contracts.length} contracts, ${DATA.claims.length} claims, ${DATA.sources.length} sources</div>
     <div class="card"><b>Geography</b>: exact ${exact}, corridor ${corridor}, approx/city ${approx} - <em>never fake coords</em>, hollow centroid for country-only</div>
     <div class="card"><b>Values</b>: ${undisclosedVal}/${DATA.contracts.length} contracts undisclosed · ${withFin} financing records (Exim Bank, bonds) - do not conflate contract value vs loan vs estimate</div>
