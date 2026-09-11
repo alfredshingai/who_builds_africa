@@ -26,3 +26,5 @@ app/.astro/
 !data/releases/v0.2.0/**
 !data/releases/v0.3.0/
 !data/releases/v0.3.0/**
+!data/releases/v0.4.0/
+!data/releases/v0.4.0/**

@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.4.0] - 2026-09-11
+### Added
+- Data: expand to 50 real projects (+20) - added ZWE Tokwe-Mukosi (Webuild, 2016), NetOne Broadband ($71m Huawei, 2019), KEN Olkaria Geothermal (JICA, 2015), Outer Ring Road (China Wu Yi, AfDB, 2015), ETH Genale Dawa III 254MW (CGGC, $326m, 2020), ZMB KKIA $360m (CJIC, 2021), TZA SGR Lots 3-4 $1.9bn (Yapi Merkezi, 2021), MOZ Nacala Corridor 912km (Vale/Mitsui, 2017), GHA Tema Port T3 3M TEU (AECOM/CHEC/IFC, 2019), AGO Caculo Cabaca 2172MW (CGGC, $4.5bn, 2026), MAR Noor 580MW (ACWA/MASEN, 2016), NAM Walvis Bay 750k TEU (CHEC, $260m, 2019), CMR Kribi 615+715m (CHEC, 2018/2025), ZAF Gautrain 80km (Bouygues/Bombardier, 2012), COD Busanga 240MW (PowerChina, 2023), EGY New Capital CBD $3bn (CSCEC, 2022), SEN AIBD Dakar (Limak/Summa, 2017), RWA BK Arena $104m (Summa, 2019), UGA Karuma 600MW (Sinohydro, $1.7bn, 2024), BFA Zagtouli 33MW (Cegelec, 2017) - 20 countries, 91 orgs, 48 contracts, 69 sources
+- App: banner 50 REAL PROJECTS, dynamic country 20, Quality updated
+- Releases: v0.4.0 snapshot (50 features, 230KB) - v0.3.0 (30) + v0.2.0 (15) + v0.1.0 (9) preserved
+
 ## [v0.3.0] - 2026-09-11
 ### Added
 - Data: expand to 30 real projects - added ZWE Beitbridge Border ($300m Raubex, 2022), TelOne Broadband ($98.6m Huawei, 2017), KEN Thwake Dam (CGGC, AfDB $370m, 2017), Mombasa Port Berths 20-21 (Toyo/JICA, 2016/2022), ETH Adama Wind 204MW (CGCOC/HydroChina, $392m, 2015), Bole Airport (CCCC, 2015), ZMB Kafue Gorge Lower 750MW (Sinohydro, $2bn, 2021), TZA Nyerere 2115MW (Arab Contractors/Elsewedy, $2.9bn, 2024), MOZ Maputo Bridge 3,041m (CRBC, $785m, 2018), RWA Bugesera Airport ($818m Mota-Engil PPP), SEN Dakar TER 55km (Eiffage 370m euros, 2021), GHA Bui 400MW (Sinohydro, $790m, 2013), AGO Lauca 2070MW (Odebrecht, $4.3bn, 2017), UGA Kampala-Entebbe 51km (CCCC $476m, 2018), MWI Fibre Backbone 4000km (Huawei $121.8m, 2018) - 13 countries, 57 orgs, 30 contracts, 43 sources
