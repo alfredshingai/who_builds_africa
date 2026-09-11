@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.3.0] - 2026-09-11
+### Added
+- Data: expand to 30 real projects - added ZWE Beitbridge Border ($300m Raubex, 2022), TelOne Broadband ($98.6m Huawei, 2017), KEN Thwake Dam (CGGC, AfDB $370m, 2017), Mombasa Port Berths 20-21 (Toyo/JICA, 2016/2022), ETH Adama Wind 204MW (CGCOC/HydroChina, $392m, 2015), Bole Airport (CCCC, 2015), ZMB Kafue Gorge Lower 750MW (Sinohydro, $2bn, 2021), TZA Nyerere 2115MW (Arab Contractors/Elsewedy, $2.9bn, 2024), MOZ Maputo Bridge 3,041m (CRBC, $785m, 2018), RWA Bugesera Airport ($818m Mota-Engil PPP), SEN Dakar TER 55km (Eiffage 370m euros, 2021), GHA Bui 400MW (Sinohydro, $790m, 2013), AGO Lauca 2070MW (Odebrecht, $4.3bn, 2017), UGA Kampala-Entebbe 51km (CCCC $476m, 2018), MWI Fibre Backbone 4000km (Huawei $121.8m, 2018) - 13 countries, 57 orgs, 30 contracts, 43 sources
+- App: banner 30 REAL PROJECTS, dynamic country filter now 13, Quality view updated
+- Releases: v0.3.0 snapshot (30 features) - v0.2.0 (15) and v0.1.0 (9) preserved
+
 ## [v0.2.0] - 2026-09-11
 ### Added
 - Data: expand to 15 real projects - added ZWE New Parliament (Shanghai Construction, RMB675.8m grant, 2023), Victoria Falls Airport ($150m Exim, 2016), KEN KAIST at Konza ($94.7m Korea Eximbank, 2019), Lamu Port Berths 1-3 (CCCC $484m, 2021), ETH Hawassa Industrial Park (CCECC $246m, 2016), BWA/ZMB Kazungula Bridge (Daewoo $161m, 2021 cross-border) - 5 countries, 31 orgs, 15 contracts, 23 sources

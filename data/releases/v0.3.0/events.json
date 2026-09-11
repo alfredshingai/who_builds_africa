@@ -1,0 +1,266 @@
+[
+  {
+    "id": "wba_evt_01HREAL001",
+    "project_id": "wba_prj_01HREAL001",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL001",
+    "source_claim": "wba_clm_01HREAL001",
+    "notes": "Groundbreaking Hwange 7&8"
+  },
+  {
+    "id": "wba_evt_01HREAL002",
+    "project_id": "wba_prj_01HREAL001",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL002",
+    "source_claim": "wba_clm_01HREAL002",
+    "notes": "Commissioned 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL003",
+    "project_id": "wba_prj_01HREAL002",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL003",
+    "source_claim": "wba_clm_01HREAL003",
+    "notes": "Kariba South commissioned"
+  },
+  {
+    "id": "wba_evt_01HREAL004",
+    "project_id": "wba_prj_01HREAL003",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL004",
+    "source_claim": "wba_clm_01HREAL005",
+    "notes": "Groundbreaking RGM"
+  },
+  {
+    "id": "wba_evt_01HREAL005",
+    "project_id": "wba_prj_01HREAL003",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL005",
+    "source_claim": "wba_clm_01HREAL004",
+    "notes": "Completed 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL006",
+    "project_id": "wba_prj_01HREAL004",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL006",
+    "source_claim": "wba_clm_01HREAL006",
+    "notes": "Trial operation Nairobi Expressway"
+  },
+  {
+    "id": "wba_evt_01HREAL007",
+    "project_id": "wba_prj_01HREAL005",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL007",
+    "source_claim": "wba_clm_01HREAL007",
+    "notes": "Inaugurated SGR"
+  },
+  {
+    "id": "wba_evt_01HREAL008",
+    "project_id": "wba_prj_01HREAL006",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL008",
+    "source_claim": "wba_clm_01HREAL008",
+    "notes": "Vestas order / completed 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL009",
+    "project_id": "wba_prj_01HREAL007",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL010",
+    "source_claim": "wba_clm_01HREAL011",
+    "notes": "Trial Feb 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL010",
+    "project_id": "wba_prj_01HREAL007",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL009",
+    "source_claim": "wba_clm_01HREAL010",
+    "notes": "Opened 20 Sep 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL011",
+    "project_id": "wba_prj_01HREAL008",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL011",
+    "source_claim": "wba_clm_01HREAL012",
+    "notes": "Inaugurated 5 Oct 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL012",
+    "project_id": "wba_prj_01HREAL009",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL012",
+    "source_claim": "wba_clm_01HREAL014",
+    "notes": "GERD inaugurated 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL013",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL015",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Groundbreaking New Parliament"
+  },
+  {
+    "id": "wba_evt_01HREAL014",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL017",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Handover 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL015",
+    "project_id": "wba_prj_01HREAL011",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL019",
+    "source_claim": "wba_clm_01HREAL017",
+    "notes": "Opened 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL016",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL021",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Award Lamu 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL017",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL022",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Berth 1 commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL018",
+    "project_id": "wba_prj_01HREAL014",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL024",
+    "source_claim": "wba_clm_01HREAL020",
+    "notes": "Inaugurated Hawassa 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL019",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL025",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Award Kazungula Aug 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL020",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL026",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Construction start 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL021",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL028",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Completed 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL022",
+    "project_id": "wba_prj_01HREAL016",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL029",
+    "source_claim": "wba_clm_01HREAL023",
+    "notes": "Beitbridge commissioned Dec 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL023",
+    "project_id": "wba_prj_01HREAL018",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL031",
+    "source_claim": "wba_clm_01HREAL025",
+    "notes": "Thwake signed 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL024",
+    "project_id": "wba_prj_01HREAL019",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL033",
+    "source_claim": "wba_clm_01HREAL026",
+    "notes": "Mombasa Phase1 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL025",
+    "project_id": "wba_prj_01HREAL020",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL036",
+    "source_claim": "wba_clm_01HREAL028",
+    "notes": "Adama commissioned 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL026",
+    "project_id": "wba_prj_01HREAL022",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL037",
+    "source_claim": "wba_clm_01HREAL030",
+    "notes": "Kafue start 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL027",
+    "project_id": "wba_prj_01HREAL023",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL040",
+    "source_claim": "wba_clm_01HREAL031",
+    "notes": "Nyerere start Dec 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL028",
+    "project_id": "wba_prj_01HREAL024",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL039",
+    "source_claim": "wba_clm_01HREAL032",
+    "notes": "Maputo opened 2018-11-10"
+  },
+  {
+    "id": "wba_evt_01HREAL029",
+    "project_id": "wba_prj_01HREAL026",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL041",
+    "source_claim": "wba_clm_01HREAL034",
+    "notes": "Dakar TER start 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL030",
+    "project_id": "wba_prj_01HREAL026",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL042",
+    "source_claim": "wba_clm_01HREAL034",
+    "notes": "Dakar commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL031",
+    "project_id": "wba_prj_01HREAL027",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL044",
+    "source_claim": "wba_clm_01HREAL035",
+    "notes": "Bui commissioned 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL032",
+    "project_id": "wba_prj_01HREAL028",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL046",
+    "source_claim": "wba_clm_01HREAL036",
+    "notes": "Lauca first unit 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL033",
+    "project_id": "wba_prj_01HREAL030",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL049",
+    "source_claim": "wba_clm_01HREAL038",
+    "notes": "Malawi fibre 2018-04"
+  }
+]

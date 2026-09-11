@@ -1,0 +1,164 @@
+[
+  {
+    "org_id": "wba_org_01HREAL001",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL001"
+  },
+  {
+    "org_id": "wba_org_01HREAL002",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL001"
+  },
+  {
+    "org_id": "wba_org_01HREAL003",
+    "country_iso3": "CHN",
+    "relation": "financing",
+    "source_claim": "wba_clm_01HREAL003"
+  },
+  {
+    "org_id": "wba_org_01HREAL005",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL005"
+  },
+  {
+    "org_id": "wba_org_01HREAL007",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL007"
+  },
+  {
+    "org_id": "wba_org_01HREAL008",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL007"
+  },
+  {
+    "org_id": "wba_org_01HREAL012",
+    "country_iso3": "DNK",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL010"
+  },
+  {
+    "org_id": "wba_org_01HREAL014",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL011"
+  },
+  {
+    "org_id": "wba_org_01HREAL019",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL012"
+  },
+  {
+    "org_id": "wba_org_01HREAL020",
+    "country_iso3": "ITA",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL013"
+  },
+  {
+    "org_id": "wba_org_01HREAL022",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL015"
+  },
+  {
+    "org_id": "wba_org_01HREAL023",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL015"
+  },
+  {
+    "org_id": "wba_org_01HREAL025",
+    "country_iso3": "KOR",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL020"
+  },
+  {
+    "org_id": "wba_org_01HREAL027",
+    "country_iso3": "KOR",
+    "relation": "financing",
+    "source_claim": "wba_clm_01HREAL017"
+  },
+  {
+    "org_id": "wba_org_01HREAL033",
+    "country_iso3": "ZAF",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL023"
+  },
+  {
+    "org_id": "wba_org_01HREAL035",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL024"
+  },
+  {
+    "org_id": "wba_org_01HREAL037",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL025"
+  },
+  {
+    "org_id": "wba_org_01HREAL039",
+    "country_iso3": "JPN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL026"
+  },
+  {
+    "org_id": "wba_org_01HREAL042",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL028"
+  },
+  {
+    "org_id": "wba_org_01HREAL045",
+    "country_iso3": "ZMB",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL030"
+  },
+  {
+    "org_id": "wba_org_01HREAL047",
+    "country_iso3": "EGY",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL031"
+  },
+  {
+    "org_id": "wba_org_01HREAL048",
+    "country_iso3": "EGY",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL031"
+  },
+  {
+    "org_id": "wba_org_01HREAL050",
+    "country_iso3": "PRT",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL033"
+  },
+  {
+    "org_id": "wba_org_01HREAL052",
+    "country_iso3": "FRA",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL034"
+  },
+  {
+    "org_id": "wba_org_01HREAL054",
+    "country_iso3": "TUR",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL034"
+  },
+  {
+    "org_id": "wba_org_01HREAL057",
+    "country_iso3": "BRA",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL036"
+  },
+  {
+    "org_id": "wba_org_01HREAL058",
+    "country_iso3": "AUT",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01HREAL036"
+  }
+]

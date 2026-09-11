@@ -1,0 +1,356 @@
+[
+  {
+    "id": "wba_org_01HREAL001",
+    "canonical_name": "Sinohydro Corporation",
+    "org_type": "soe",
+    "notes": "China, subsidiary of PowerChina"
+  },
+  {
+    "id": "wba_org_01HREAL002",
+    "canonical_name": "PowerChina",
+    "org_type": "soe",
+    "notes": "Parent of Sinohydro"
+  },
+  {
+    "id": "wba_org_01HREAL003",
+    "canonical_name": "Export-Import Bank of China",
+    "org_type": "export_credit",
+    "notes": "Policy bank, China"
+  },
+  {
+    "id": "wba_org_01HREAL004",
+    "canonical_name": "Zimbabwe Power Company",
+    "org_type": "state_agency",
+    "notes": "State-owned utility, owner of Hwange/Kariba"
+  },
+  {
+    "id": "wba_org_01HREAL005",
+    "canonical_name": "China Jiangsu International Economic and Technical Cooperation Group",
+    "org_type": "soe",
+    "notes": "CJI, China"
+  },
+  {
+    "id": "wba_org_01HREAL006",
+    "canonical_name": "Airports Company of Zimbabwe",
+    "org_type": "state_agency",
+    "notes": "Owner of RGM Airport"
+  },
+  {
+    "id": "wba_org_01HREAL007",
+    "canonical_name": "China Road and Bridge Corporation",
+    "org_type": "soe",
+    "notes": "CRBC, subsidiary of CCCC"
+  },
+  {
+    "id": "wba_org_01HREAL008",
+    "canonical_name": "China Communications Construction Company",
+    "org_type": "soe",
+    "notes": "CCCC, parent of CRBC"
+  },
+  {
+    "id": "wba_org_01HREAL009",
+    "canonical_name": "Moja Expressway Company",
+    "org_type": "private",
+    "notes": "SPV for Nairobi Expressway, Kenya"
+  },
+  {
+    "id": "wba_org_01HREAL010",
+    "canonical_name": "Kenya National Highways Authority",
+    "org_type": "state_agency",
+    "notes": "KeNHA, conceding authority"
+  },
+  {
+    "id": "wba_org_01HREAL011",
+    "canonical_name": "Afristar Railway Operation Company",
+    "org_type": "private",
+    "notes": "Operator of SGR, subsidiary of CCCC"
+  },
+  {
+    "id": "wba_org_01HREAL012",
+    "canonical_name": "Vestas Wind Systems",
+    "org_type": "private",
+    "notes": "Denmark, turbine supplier"
+  },
+  {
+    "id": "wba_org_01HREAL013",
+    "canonical_name": "Lake Turkana Wind Power Ltd",
+    "org_type": "private",
+    "notes": "Project company, Kenya"
+  },
+  {
+    "id": "wba_org_01HREAL014",
+    "canonical_name": "China Railway Group",
+    "org_type": "soe",
+    "notes": "CREC"
+  },
+  {
+    "id": "wba_org_01HREAL015",
+    "canonical_name": "China Railway Eryuan Engineering Group",
+    "org_type": "soe",
+    "notes": "CREEC, designer"
+  },
+  {
+    "id": "wba_org_01HREAL016",
+    "canonical_name": "Shenzhen Metro Group",
+    "org_type": "soe",
+    "notes": "Operator, Addis Light Rail"
+  },
+  {
+    "id": "wba_org_01HREAL017",
+    "canonical_name": "Addis Ababa Light Rail Transit Service",
+    "org_type": "state_agency",
+    "notes": "Operator entity, Ethiopia"
+  },
+  {
+    "id": "wba_org_01HREAL018",
+    "canonical_name": "Ethiopian Railways Corporation",
+    "org_type": "state_agency",
+    "notes": "ERC, owner Addis Light Rail & Ethio-Djibouti"
+  },
+  {
+    "id": "wba_org_01HREAL019",
+    "canonical_name": "China Civil Engineering Construction Corporation",
+    "org_type": "soe",
+    "notes": "CCECC"
+  },
+  {
+    "id": "wba_org_01HREAL020",
+    "canonical_name": "Webuild S.p.A.",
+    "org_type": "private",
+    "notes": "Italy, formerly Salini Impregilo"
+  },
+  {
+    "id": "wba_org_01HREAL021",
+    "canonical_name": "Ethiopian Electric Power",
+    "org_type": "state_agency",
+    "notes": "EEP, owner of GERD"
+  },
+  {
+    "id": "wba_org_01HREAL022",
+    "canonical_name": "Shanghai Construction Group",
+    "org_type": "soe",
+    "notes": "China, EPC contractor New Parliament"
+  },
+  {
+    "id": "wba_org_01HREAL023",
+    "canonical_name": "China SIPPR Engineering Group",
+    "org_type": "soe",
+    "notes": "China, architect/design New Parliament"
+  },
+  {
+    "id": "wba_org_01HREAL024",
+    "canonical_name": "Ministry of Commerce of China",
+    "org_type": "state_agency",
+    "notes": "MOFCOM, grant financier via CIDCA"
+  },
+  {
+    "id": "wba_org_01HREAL025",
+    "canonical_name": "Daewoo Engineering & Construction",
+    "org_type": "private",
+    "notes": "South Korea, contractor Kazungula Bridge"
+  },
+  {
+    "id": "wba_org_01HREAL026",
+    "canonical_name": "Kenya Advanced Institute of Science and Technology",
+    "org_type": "state_agency",
+    "notes": "Kenya-KAIST, project entity at Konza"
+  },
+  {
+    "id": "wba_org_01HREAL027",
+    "canonical_name": "Export-Import Bank of Korea",
+    "org_type": "export_credit",
+    "notes": "Korea Eximbank, EDCF lender"
+  },
+  {
+    "id": "wba_org_01HREAL028",
+    "canonical_name": "Konza Technopolis Development Authority",
+    "org_type": "state_agency",
+    "notes": "KoTDA, Kenya"
+  },
+  {
+    "id": "wba_org_01HREAL029",
+    "canonical_name": "Kenya Ports Authority",
+    "org_type": "state_agency",
+    "notes": "Owner Lamu Port"
+  },
+  {
+    "id": "wba_org_01HREAL030",
+    "canonical_name": "Industrial Parks Development Corporation",
+    "org_type": "state_agency",
+    "notes": "IPDC, Ethiopia, owner Hawassa Park"
+  },
+  {
+    "id": "wba_org_01HREAL031",
+    "canonical_name": "Beijing Shougang International Engineering Technology",
+    "org_type": "private",
+    "notes": "China, lead design Hawassa"
+  },
+  {
+    "id": "wba_org_01HREAL033",
+    "canonical_name": "Raubex Group Limited",
+    "org_type": "private",
+    "notes": "South Africa, contractor Beitbridge"
+  },
+  {
+    "id": "wba_org_01HREAL034",
+    "canonical_name": "Zimborders Consortium",
+    "org_type": "private",
+    "notes": "Zimbabwe/South Africa, developer Beitbridge"
+  },
+  {
+    "id": "wba_org_01HREAL035",
+    "canonical_name": "Huawei Technologies",
+    "org_type": "private",
+    "notes": "China, contractor TelOne/Malawi fibre"
+  },
+  {
+    "id": "wba_org_01HREAL036",
+    "canonical_name": "TelOne Zimbabwe",
+    "org_type": "state_agency",
+    "notes": "State telco, owner broadband project"
+  },
+  {
+    "id": "wba_org_01HREAL037",
+    "canonical_name": "China Gezhouba Group Corporation",
+    "org_type": "soe",
+    "notes": "CGGC, Energy China, contractor Thwake"
+  },
+  {
+    "id": "wba_org_01HREAL038",
+    "canonical_name": "African Development Bank",
+    "org_type": "dev_bank",
+    "notes": "AfDB, financier Thwake"
+  },
+  {
+    "id": "wba_org_01HREAL039",
+    "canonical_name": "Toyo Construction",
+    "org_type": "private",
+    "notes": "Japan, contractor Mombasa Port"
+  },
+  {
+    "id": "wba_org_01HREAL040",
+    "canonical_name": "Japan International Cooperation Agency",
+    "org_type": "state_agency",
+    "notes": "JICA, financier Mombasa Port"
+  },
+  {
+    "id": "wba_org_01HREAL041",
+    "canonical_name": "Kenya Ports Authority",
+    "org_type": "state_agency",
+    "notes": "KPA, owner Mombasa Port"
+  },
+  {
+    "id": "wba_org_01HREAL042",
+    "canonical_name": "CGCOC Group",
+    "org_type": "soe",
+    "notes": "China, contractor Adama Wind"
+  },
+  {
+    "id": "wba_org_01HREAL043",
+    "canonical_name": "Goldwind",
+    "org_type": "private",
+    "notes": "China, turbine supplier Adama"
+  },
+  {
+    "id": "wba_org_01HREAL044",
+    "canonical_name": "Ethiopian Electric Power",
+    "org_type": "state_agency",
+    "notes": "EEP, owner Adama/Bole"
+  },
+  {
+    "id": "wba_org_01HREAL045",
+    "canonical_name": "ZESCO Limited",
+    "org_type": "state_agency",
+    "notes": "Zambia, owner Kafue"
+  },
+  {
+    "id": "wba_org_01HREAL046",
+    "canonical_name": "Tanzania Electric Supply Company",
+    "org_type": "state_agency",
+    "notes": "TANESCO, owner Nyerere"
+  },
+  {
+    "id": "wba_org_01HREAL047",
+    "canonical_name": "The Arab Contractors",
+    "org_type": "private",
+    "notes": "Egypt, contractor Nyerere"
+  },
+  {
+    "id": "wba_org_01HREAL048",
+    "canonical_name": "Elsewedy Electric",
+    "org_type": "private",
+    "notes": "Egypt, contractor Nyerere"
+  },
+  {
+    "id": "wba_org_01HREAL049",
+    "canonical_name": "Mozambique Ministry of Public Works",
+    "org_type": "state_agency",
+    "notes": "Owner Maputo Bridge"
+  },
+  {
+    "id": "wba_org_01HREAL050",
+    "canonical_name": "Mota-Engil Africa",
+    "org_type": "private",
+    "notes": "Portugal, developer/contractor Bugesera"
+  },
+  {
+    "id": "wba_org_01HREAL051",
+    "canonical_name": "Rwanda Ministry of Infrastructure",
+    "org_type": "state_agency",
+    "notes": "Owner Bugesera Airport"
+  },
+  {
+    "id": "wba_org_01HREAL052",
+    "canonical_name": "Eiffage Genie Civil",
+    "org_type": "private",
+    "notes": "France, contractor Dakar TER"
+  },
+  {
+    "id": "wba_org_01HREAL053",
+    "canonical_name": "Eiffage Senegal",
+    "org_type": "private",
+    "notes": "Senegal, contractor Dakar TER"
+  },
+  {
+    "id": "wba_org_01HREAL054",
+    "canonical_name": "Yapi Merkezi",
+    "org_type": "private",
+    "notes": "Turkey, contractor Dakar TER"
+  },
+  {
+    "id": "wba_org_01HREAL055",
+    "canonical_name": "Thales",
+    "org_type": "private",
+    "notes": "France, systems Dakar TER"
+  },
+  {
+    "id": "wba_org_01HREAL056",
+    "canonical_name": "Bui Power Authority",
+    "org_type": "state_agency",
+    "notes": "Ghana, owner Bui Dam"
+  },
+  {
+    "id": "wba_org_01HREAL057",
+    "canonical_name": "OEC - Odebrecht Engenharia",
+    "org_type": "private",
+    "notes": "Brazil, contractor Lauca"
+  },
+  {
+    "id": "wba_org_01HREAL058",
+    "canonical_name": "ANDRITZ Hydro",
+    "org_type": "private",
+    "notes": "Austria, supplier Lauca turbines"
+  },
+  {
+    "id": "wba_org_01HREAL059",
+    "canonical_name": "Uganda National Roads Authority",
+    "org_type": "state_agency",
+    "notes": "UNRA, owner Kampala Expressway"
+  },
+  {
+    "id": "wba_org_01HREAL060",
+    "canonical_name": "Malawi Ministry of Information",
+    "org_type": "state_agency",
+    "notes": "Owner Malawi fibre backbone"
+  }
+]

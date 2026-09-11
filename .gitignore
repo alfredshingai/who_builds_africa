@@ -24,3 +24,5 @@ app/.astro/
 .env
 !data/releases/v0.2.0/
 !data/releases/v0.2.0/**
+!data/releases/v0.3.0/
+!data/releases/v0.3.0/**
