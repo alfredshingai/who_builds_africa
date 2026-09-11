@@ -1,0 +1,21 @@
+{
+  "title": "WHO BUILDS AFRICA?",
+  "subtitle": "Africa Contract Footprints",
+  "tagline": "Neutral, source-tracked. Builds = financing - designing - constructing - supplying - consulting - operating - maintaining - JV. Map is interface - database is product.",
+  "search_placeholder": "e.g. Harare, SinoHydro, rail",
+  "country": "Country",
+  "sector": "Sector",
+  "role": "Role",
+  "status": "Status",
+  "origin": "Foreign origin",
+  "precision": "Location precision",
+  "reset": "Reset filters",
+  "table_view": "Table view",
+  "map": "Map",
+  "countries": "Countries",
+  "organizations": "Organizations",
+  "quality": "Quality",
+  "legend": "Legend - location precision",
+  "downloads": "Downloads",
+  "all": "All"
+}

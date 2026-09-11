@@ -1,0 +1,21 @@
+{
+  "title": "QUEM CONSTROI A AFRICA?",
+  "subtitle": "Pegadas de Contratos Africanos",
+  "tagline": "Neutro, rastreado por fonte. Constroi = financiamento - projeto - construcao - fornecimento - consultoria - operacao - JV. O mapa e a interface - o banco de dados e o produto. [Traducao humana necessaria - HUMAN REVIEW NEEDED]",
+  "search_placeholder": "ex. Harare, SinoHydro, ferrovia",
+  "country": "Pais",
+  "sector": "Setor",
+  "role": "Funcao",
+  "status": "Estado",
+  "origin": "Origem estrangeira",
+  "precision": "Precisao de localizacao",
+  "reset": "Redefinir",
+  "table_view": "Vista tabela",
+  "map": "Mapa",
+  "countries": "Paises",
+  "organizations": "Organizacoes",
+  "quality": "Qualidade",
+  "legend": "Legenda - precisao",
+  "downloads": "Downloads",
+  "all": "Todos"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "QUI CONSTRUIT L'AFRIQUE ?",
+  "subtitle": "Empreintes des Contrats Africains",
+  "tagline": "Neutre, trace par source. Construit = financement - conception - construction - fourniture - conseil - exploitation - JV. La carte est l'interface - la base de donnees est le produit. [Traduction humaine requise - HUMAN REVIEW NEEDED]",
+  "search_placeholder": "ex. Harare, SinoHydro, rail",
+  "country": "Pays",
+  "sector": "Secteur",
+  "role": "Role",
+  "status": "Statut",
+  "origin": "Origine etrangere",
+  "precision": "Precision de localisation",
+  "reset": "Reinitialiser",
+  "table_view": "Vue tableau",
+  "map": "Carte",
+  "countries": "Pays",
+  "organizations": "Organisations",
+  "quality": "Qualite",
+  "legend": "Legende - precision",
+  "downloads": "Telechargements",
+  "all": "Tous"
+}
