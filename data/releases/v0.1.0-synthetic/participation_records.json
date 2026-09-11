@@ -1,0 +1,68 @@
+[
+  {
+    "id": "wba_par_01H9SYN01A",
+    "project_id": "wba_prj_01H9SYN01A",
+    "contract_id": "wba_ctr_01H9SYN01A",
+    "org_id": "wba_org_01H9SYN01A",
+    "role": "contractor",
+    "start_date": "wba_date_01H9SYN01A",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_par_01H9SYN01B",
+    "project_id": "wba_prj_01H9SYN01A",
+    "contract_id": "",
+    "org_id": "wba_org_01H9SYN01D",
+    "role": "financier",
+    "start_date": "wba_date_01H9SYN01A",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SYNTHETIC loan"
+  },
+  {
+    "id": "wba_par_01H9SYN01C",
+    "project_id": "wba_prj_01H9SYN01B",
+    "contract_id": "wba_ctr_01H9SYN01B",
+    "org_id": "wba_org_01H9SYN01B",
+    "role": "contractor",
+    "start_date": "wba_date_01H9SYN01C",
+    "end_date": "wba_date_01H9SYN01G",
+    "share_percent": "",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_par_01H9SYN01D",
+    "project_id": "wba_prj_01H9SYN01C",
+    "contract_id": "wba_ctr_01H9SYN01C",
+    "org_id": "wba_org_01H9SYN01C",
+    "role": "contractor",
+    "start_date": "wba_date_01H9SYN01C",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_par_01H9SYN01E",
+    "project_id": "wba_prj_01H9SYN01D",
+    "contract_id": "wba_ctr_01H9SYN01D",
+    "org_id": "wba_org_01H9SYN01A",
+    "role": "supplier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SYNTHETIC supplier not builder"
+  },
+  {
+    "id": "wba_par_01H9SYN01F",
+    "project_id": "wba_prj_01H9SYN01E",
+    "contract_id": "wba_ctr_01H9SYN01E",
+    "org_id": "wba_org_01H9SYN01B",
+    "role": "consultant",
+    "start_date": "wba_date_01H9SYN01F",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "SYNTHETIC consulting"
+  }
+]

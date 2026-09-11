@@ -1,0 +1,44 @@
+[
+  {
+    "id": "wba_org_01H9SYN01A",
+    "canonical_name": "SinoHydro Corporation",
+    "org_type": "soe",
+    "notes": "SYNTHETIC - state-owned, China"
+  },
+  {
+    "id": "wba_org_01H9SYN01B",
+    "canonical_name": "Vinci Construction Grands Projets",
+    "org_type": "private",
+    "notes": "SYNTHETIC - France"
+  },
+  {
+    "id": "wba_org_01H9SYN01C",
+    "canonical_name": "China Road and Bridge Corporation",
+    "org_type": "soe",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_org_01H9SYN01D",
+    "canonical_name": "Export-Import Bank of China",
+    "org_type": "export_credit",
+    "notes": "SYNTHETIC financier"
+  },
+  {
+    "id": "wba_org_01H9SYN01E",
+    "canonical_name": "Ministry of Transport Zimbabwe",
+    "org_type": "state_agency",
+    "notes": "SYNTHETIC authority"
+  },
+  {
+    "id": "wba_org_01H9SYN01F",
+    "canonical_name": "Kenya National Highways Authority",
+    "org_type": "state_agency",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_org_01H9SYN01G",
+    "canonical_name": "Ethiopian Roads Authority",
+    "org_type": "state_agency",
+    "notes": "SYNTHETIC"
+  }
+]

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WHO BUILDS AFRICA? — Africa Contract Footprints</title>
+<meta name="description" content="Source-tracked map of foreign participation in African infrastructure — Zimbabwe, Kenya, Ethiopia (expands to all Africa).">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+:root{--c:#111;--muted:#666;--bg:#fff;--accent:#0b6b3a;--line:#e5e7eb;--card:#f9fafb}
+*{box-sizing:border-box}body{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;color:var(--c);background:var(--bg)}
+a{color:var(--accent)}header{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+header h1{margin:0;font-size:18px;letter-spacing:.02em}header h1 span{color:var(--accent)}header p{margin:2px 0 0;color:var(--muted);font-size:12px}
+.pill{border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:12px;background:var(--card)}
+.layout{display:grid;grid-template-columns:320px 1fr;min-height:calc(100vh - 64px)}@media(max-width:900px){.layout{grid-template-columns:1fr} #map{height:55vh}}
+#sidebar{border-right:1px solid var(--line);padding:12px;overflow:auto}
+#map{height:calc(100vh - 64px);min-height:320px}
+label{font-size:12px;color:var(--muted);display:block;margin:8px 0 4px}
+select,input{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.row{display:flex;gap:8px}.row> *{flex:1}
+.card{border:1px solid var(--line);border-radius:12px;padding:10px;margin:8px 0;background:var(--card)}
+.badge{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:2px 6px;background:#fff}
+.badge.corridor{border-style:dashed}.badge.country{background:#fff7ed}.badge.exact{background:#ecfdf5}.badge.approx{background:#eff6ff}
+small{color:var(--muted)}table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid var(--line);text-align:left;padding:6px 4px}
+#projectDetail{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding:12px;max-height:46vh;overflow:auto;display:none}
+.evidence{font-size:12px;padding:6px;border-left:3px solid var(--accent);background:#f0fdf4;margin:6px 0}
+footer{padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
+kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-radius:4px;background:var(--card);font-size:11px}
+</style>
+</head>
+<body>
+<header>
+  <div style="flex:1">
+    <h1>WHO BUILDS AFRICA? <span>— Africa Contract Footprints</span></h1>
+    <p>Neutral, source-tracked. <em>“Builds” = financing · designing · constructing · supplying · consulting · operating · maintaining · JV.</em> Map is interface — database is product. Initial: <b>Zimbabwe, Kenya, Ethiopia</b>. <span id="counts"></span></p>
+  </div>
+  <a class="pill" href="../data/releases/v0.1.0-synthetic/data.json" download>Download JSON</a>
+  <a class="pill" href="../data/releases/v0.1.0-synthetic/projects.geojson" download>GeoJSON</a>
+  <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
+</header>
+
+<div class="layout">
+  <aside id="sidebar" aria-label="Filters">
+    <div class="card" style="background:#fffbe6;border-color:#fde68a">
+      <b>SYNTHETIC DEMO</b><br><small>Records in this map are <b>SYNTHETIC</b> to demonstrate schema / UI. Real curated data replaces them via PR-reviewed CSVs. Every real claim will link to source + verbatim quote + evidence label. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/samples/synthetic/README.md">Learn more</a></small>
+    </div>
+    <label for="q">Search projects / orgs</label>
+    <input id="q" placeholder="e.g. Harare, SinoHydro, rail" aria-label="Search">
+    <div class="row">
+      <div><label for="country">Country</label><select id="country"><option value="">All</option><option value="ZWE">Zimbabwe</option><option value="KEN">Kenya</option><option value="ETH">Ethiopia</option></select></div>
+      <div><label for="sector">Sector</label><select id="sector"><option value="">All</option></select></div>
+    </div>
+    <div class="row">
+      <div><label for="role">Role</label><select id="role"><option value="">All roles</option></select></div>
+      <div><label for="status">Status</label><select id="status"><option value="">All</option></select></div>
+    </div>
+    <div class="row">
+      <div><label for="origin">Foreign origin</label><select id="origin"><option value="">All origins</option></select></div>
+      <div><label for="precision">Location precision</label><select id="precision"><option value="">All</option></select></div>
+    </div>
+    <div class="row" style="margin-top:8px">
+      <button id="reset" class="pill" style="width:100%">Reset filters</button>
+      <button id="tableToggle" class="pill" style="width:100%">Table view</button>
+    </div>
+    <div class="card">
+      <b>Legend — location precision</b><br>
+      <span class="badge exact">exact</span> precise point
+      <span class="badge approx">approx / city</span> area
+      <span class="badge corridor">corridor / cross-border</span> line
+      <span class="badge country">country only</span> centroid hollow<br>
+      <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
+    </div>
+    <div id="list" role="region" aria-live="polite"></div>
+    <div class="card"><b>Downloads</b><br>
+      <a href="../data/releases/v0.1.0-synthetic/projects.csv">projects.csv</a> ·
+      <a href="../data/releases/v0.1.0-synthetic/organizations.csv">organizations.csv</a> ·
+      <a href="../data/releases/v0.1.0-synthetic/claims.csv">claims.csv</a> ·
+      <a href="../data/releases/v0.1.0-synthetic/sources.csv">sources.csv</a> ·
+      <a href="../data/releases/v0.1.0-synthetic/footprints.sqlite">SQLite</a><br>
+      <small>Licenses: Code MIT, Data ODbL-1.0, Docs CC BY 4.0 — see <a href="../NOTICE.md">NOTICE</a>.</small>
+    </div>
+  </aside>
+  <div id="map" role="application" aria-label="Map of Africa — projects"></div>
+</div>
+
+<div id="projectDetail" aria-live="polite"></div>
+
+<div id="tableView" style="display:none;padding:12px">
+  <h3 style="margin:8px 0">Table view — all filtered projects</h3>
+  <div style="overflow:auto"><table id="tbl"><thead><tr><th>Project</th><th>Country</th><th>Sectors</th><th>Status</th><th>Precision</th><th>Roles</th></tr></thead><tbody></tbody></table></div>
+</div>
+
+<footer>
+  <span>© OpenStreetMap contributors, ODbL — <a href="https://www.openstreetmap.org/copyright">copyright</a></span>
+  <span>Built with MapLibre GL JS (BSD-3) · No proprietary tiles · Self-hostable</span>
+  <span>Keyboard: <kbd>Tab</kbd> navigate, <kbd>Enter</kbd> open, <kbd>/</kbd> search</span>
+  <span><a href="../DATA_METHODOLOGY.md">Methodology</a> · <a href="../DATA_DICTIONARY.md">Dictionary</a> · <a href="../SOURCING_GUIDE.md">Sourcing</a></span>
+</footer>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+// --- state
+let DATA, filtered=[]
+const els={q:q,country:country,sector:sector,role:role,status:status,origin:origin,precision:precision,list:list,counts:counts,detail:projectDetail,tbl:document.querySelector('#tbl tbody')}
+async function load(){
+  const r=await fetch('../data/releases/v0.1.0-synthetic/data.json')
+  DATA=await r.json()
+  // also build lookup
+  DATA._orgById=Object.fromEntries(DATA.organizations.map(o=>[o.id,o]))
+  DATA._countryByOrg=DATA.organization_countries
+  DATA._parByProject={}
+  for(const p of DATA.participation_records){(DATA._parByProject[p.project_id]??=[]).push(p)}
+  DATA._claimsByProject={}
+  for(const c of DATA.claims){(DATA._claimsByProject[c.project_id]??=[]).push(c)}
+  DATA._eventsByProject={}
+  for(const e of DATA.events){(DATA._eventsByProject[e.project_id]??=[]).push(e)}
+  initControls(); render(); initMap()
+}
+function initControls(){
+  const sectors=[...new Set(DATA.projects.flatMap(p=>p.sectors.split('|').filter(Boolean)))].sort()
+  for(const s of sectors){sector.appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
+  const roles=[...new Set(DATA.participation_records.map(p=>p.role))].sort()
+  for(const r of roles){role.appendChild(Object.assign(document.createElement('option'),{value:r,textContent:r}))}
+  const statuses=[...new Set(DATA.projects.map(p=>p.status))].sort()
+  for(const s of statuses){status.appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
+  const origins=[...new Set(DATA.organization_countries.map(o=>o.country_iso3))].sort()
+  for(const o of origins){origin.appendChild(Object.assign(document.createElement('option'),{value:o,textContent:o}))}
+  const precs=[...new Set(DATA.projects.map(p=>p.location_precision))].sort()
+  for(const p of precs){precision.appendChild(Object.assign(document.createElement('option'),{value:p,textContent:p}))}
+  for(const el of [q,country,sector,role,status,origin,precision]) el.addEventListener('input', render)
+  reset.onclick=()=>{q.value='';country.value='';sector.value='';role.value='';status.value='';origin.value='';precision.value='';render()}
+  tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
+  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();q.focus()}})
+}
+function matches(p){
+  const qq=q.value.trim().toLowerCase()
+  if(qq){
+    const hay=[p.canonical_name,p.summary,p.sectors, ...((DATA._parByProject[p.id]||[]).map(x=>DATA._orgById[x.org_id]?.canonical_name||''))].join(' ').toLowerCase()
+    if(!hay.includes(qq)) return false
+  }
+  if(country.value && p.country_iso3!==country.value) return false
+  if(sector.value && !p.sectors.split('|').includes(sector.value)) return false
+  if(status.value && p.status!==status.value) return false
+  if(precision.value && p.location_precision!==precision.value) return false
+  if(role.value){
+    const pars=DATA._parByProject[p.id]||[]
+    if(!pars.some(x=>x.role===role.value)) return false
+  }
+  if(origin.value){
+    const pars=DATA._parByProject[p.id]||[]
+    const orgIds=new Set(pars.map(x=>x.org_id))
+    const hasOrigin=DATA.organization_countries.some(oc=>orgIds.has(oc.org_id) && oc.country_iso3===origin.value)
+    if(!hasOrigin) return false
+  }
+  return true
+}
+function render(){
+  filtered=DATA.projects.filter(matches)
+  counts.textContent=`${filtered.length} / ${DATA.projects.length} projects`
+  list.innerHTML=filtered.map(p=>{
+    const pars=DATA._parByProject[p.id]||[]
+    const roles=pars.map(x=>DATA._orgById[x.org_id]?.canonical_name+` (${x.role})`).join(', ')||'<small>no participation yet</small>'
+    return `<div class="card" tabindex="0" role="button" aria-label="Open ${p.canonical_name}" onclick="openProject('${p.id}')" onkeydown="if(event.key==='Enter')openProject('${p.id}')">
+      <b>${p.canonical_name}</b> <span class="badge">${p.country_iso3}</span> <span class="badge ${p.location_precision}">${p.location_precision}</span>
+      <div><small>${p.sectors||'—'} · ${p.status}</small></div>
+      <div style="margin:6px 0">${roles}</div>
+      <small>${p.summary}</small>
+      <div style="margin-top:6px"><a href="#" onclick="event.preventDefault();openProject('${p.id}')">Details →</a></div>
+    </div>`
+  }).join('') || '<div class="card"><small>No matches — adjust filters. Try clearing search.</small></div>'
+  // table
+  els.tbl.innerHTML=filtered.map(p=>{
+    const pars=DATA._parByProject[p.id]||[]
+    const roles=pars.map(x=>x.role).join(', ')
+    return `<tr><td><a href="#" onclick="event.preventDefault();openProject('${p.id}')">${p.canonical_name}</a></td><td>${p.country_iso3}</td><td>${p.sectors}</td><td>${p.status}</td><td>${p.location_precision}</td><td>${roles}</td></tr>`
+  }).join('')
+  if(window._mapReady) updateMap()
+}
+function openProject(id){
+  const p=DATA.projects.find(x=>x.id===id)
+  if(!p) return
+  const pars=DATA._parByProject[id]||[]
+  const claims=DATA._claimsByProject[id]||[]
+  const events=(DATA._eventsByProject[id]||[]).slice().sort((a,b)=>a.date_id.localeCompare(b.date_id))
+  const contracts=DATA.contracts.filter(c=>c.project_id===id)
+  const detail=document.getElementById('projectDetail')
+  detail.style.display='block'
+  detail.innerHTML=`
+    <div style="display:flex;gap:12px;align-items:start;flex-wrap:wrap">
+      <div style="flex:1;min-width:280px">
+        <h3 style="margin:0">${p.canonical_name} <small>(${p.country_iso3} · <span class="badge ${p.location_precision}">${p.location_precision}</span>)</small></h3>
+        <p><small>${p.summary} — sectors: ${p.sectors||'—'} · status: ${p.status}</small></p>
+        <p><b>Organizations & roles</b></p>
+        <ul>${pars.map(x=>{
+          const org=DATA._orgById[x.org_id]; const oc=DATA.organization_countries.filter(o=>o.org_id===x.org_id)
+          return `<li><b>${org?org.canonical_name:x.org_id}</b> — <code>${x.role}</code> ${oc.length?`(${oc.map(o=>o.relation+':'+o.country_iso3).join(', ')})`:''} ${x.share_percent?`· ${x.share_percent}%`:''}</li>`
+        }).join('')||'<li><small>none</small></li>'}</ul>
+        <p><b>Contracts</b></p>
+        <ul>${contracts.map(c=>`<li>${c.title} — ${c.contract_type} / ${c.status} · ${c.currency||'—'} ${c.value_original||'undisclosed'} <small>(${c.value_precision})</small> · via ${c.contracting_authority||'—'} → ${c.contractor||'—'}</li>`).join('')||'<li><small>no contract rows</small></li>'}</ul>
+        <p><b>Timeline (events)</b></p>
+        <ol>${events.map(e=>{
+          const d=DATA.dates.find(x=>x.id===e.date_id)
+          return `<li><code>${e.event_type}</code> — ${d?d.display_string:d?.edtf_string||e.date_id} ${e.notes?`· ${e.notes}`:''}</li>`
+        }).join('')||'<li><small>no events</small></li>'}</ol>
+      </div>
+      <div style="flex:1;min-width:300px">
+        <p><b>Evidence — every claim links to source</b> <small>(strength: confirmed → unverified)</small></p>
+        ${claims.map(c=>{
+          const src=DATA.sources.find(s=>s.id===c.source_id)
+          return `<div class="evidence"><b>${c.claim_type}</b> — <code>${c.evidence_strength}</code> <small>(${c.corroboration_status})</small><br>
+          <em>${c.claim_text}</em><br>
+          <small>“${c.verbatim_quote.replace(/^SYNTHETIC QUOTE: /,'')}”</small><br>
+          <small>— ${src?src.publisher+', '+src.title: c.source_id} ${src?.url?`<a href="${src.url}" target="_blank" rel="noopener">source</a>`:''} ${src?.archive_url?`· <a href="${src.archive_url}" target="_blank">archive</a>`:''}</small></div>`
+        }).join('')||'<div class="evidence"><small>no claims</small></div>'}
+        <p><small>Location: ${p.lat&&p.lon?`${p.lat}, ${p.lon} (${p.location_precision})`: p.geom_wkt||p.location_precision+' — no precise coords'} · ID: ${p.id}</small></p>
+        <button class="pill" onclick="document.getElementById('projectDetail').style.display='none'">Close</button>
+      </div>
+    </div>`
+  detail.scrollIntoView({behavior:'smooth',block:'start'})
+  // focus map to project if has coords
+  if(window._map && p.lat && p.lon){ window._map.flyTo({center:[parseFloat(p.lon),parseFloat(p.lat)],zoom:6}) }
+}
+
+// --- map
+let map
+function initMap(){
+  const style={
+    version:8,
+    sources:{osm:{type:'raster',tiles:['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png','https://b.tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,attribution:'© OpenStreetMap contributors, ODbL'}},
+    layers:[{id:'osm',type:'raster',source:'osm'}]
+  }
+  map=new maplibregl.Map({container:'map',style:style,center:[30,2],zoom:3.2,attributionControl:true})
+  window._map=map
+  map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right')
+  map.on('load',()=>{window._mapReady=true; updateMap()})
+}
+function updateMap(){
+  if(!map || !map.getStyle()) return
+  const srcId='projects'
+  // remove previous
+  if(map.getSource(srcId)){ try{map.removeLayer('pts');map.removeLayer('corridor');}catch{} map.removeSource(srcId) }
+  const geojson={type:'FeatureCollection',features:filtered.map(p=>{
+    const lat=parseFloat(p.lat), lon=parseFloat(p.lon)
+    const hasPoint=!isNaN(lat)&&!isNaN(lon)
+    const geom=hasPoint?{type:'Point',coordinates:[lon,lat]}: p.geom_wkt&&p.geom_wkt.startsWith('LINESTRING')?{type:'LineString',coordinates:p.geom_wkt.replace('LINESTRING(','').replace(')','').split(',').map(s=>s.trim().split(' ').map(Number).reverse())}: null
+    return {type:'Feature',geometry:geom,properties:{id:p.id,name:p.canonical_name,precision:p.location_precision,status:p.status,country:p.country_iso3}}
+  }).filter(f=>f.geometry)}
+  map.addSource(srcId,{type:'geojson',data:geojson,cluster:false})
+  map.addLayer({id:'pts',type:'circle',source:srcId,filter:['==',['geometry-type'],'Point'],paint:{
+    'circle-radius':['match',['get','precision'],'exact',7,'approximate',6,'city',6,'corridor',5,'country',5,5],
+    'circle-color':['match',['get','country'],'ZWE','#0b6b3a','KEN','#1d4ed8','ETH','#b45309','#6b7280'],
+    'circle-stroke-width':['match',['get','precision'],'country',2,1],
+    'circle-stroke-color':'#fff',
+    'circle-opacity':['match',['get','precision'],'country',0.35,0.85]
+  }})
+  map.addLayer({id:'corridor',type:'line',source:srcId,filter:['==',['geometry-type'],'LineString'],paint:{'line-width':3,'line-color':'#0b6b3a','line-dasharray':[2,2]}})
+  // click
+  map.on('click','pts',(e)=>{const f=e.features[0]; if(f) openProject(f.properties.id)})
+  map.on('mouseenter','pts',()=>map.getCanvas().style.cursor='pointer')
+  map.on('mouseleave','pts',()=>map.getCanvas().style.cursor='')
+}
+
+load().catch(e=>{document.getElementById('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} — ensure <code>python scripts/build.py --samples --out data/releases/v0.1.0-synthetic</code> was run.</div>`})
+</script>
+</body>
+</html>

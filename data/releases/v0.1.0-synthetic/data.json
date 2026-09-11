@@ -1,0 +1,632 @@
+{
+  "projects": [
+    {
+      "id": "wba_prj_01H9SYN01A",
+      "canonical_name": "SYNTHETIC Harare-Masvingo Road Rehabilitation",
+      "aliases": "",
+      "country_iso3": "ZWE",
+      "sectors": "roads",
+      "status": "construction_started",
+      "location_precision": "corridor",
+      "lat": "",
+      "lon": "",
+      "geom_wkt": "LINESTRING(30.9 -17.8, 31.0 -19.9)",
+      "summary": "SYNTHETIC rehabilitation of 300km corridor",
+      "notes": "SYNTHETIC record only",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01H9SYN01B",
+      "canonical_name": "SYNTHETIC Nairobi Outer Ring Road",
+      "aliases": "",
+      "country_iso3": "KEN",
+      "sectors": "roads|urban_development",
+      "status": "completed",
+      "location_precision": "approximate",
+      "lat": "-1.28",
+      "lon": "36.82",
+      "geom_wkt": "",
+      "summary": "SYNTHETIC urban ring road",
+      "notes": "SYNTHETIC",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01H9SYN01C",
+      "canonical_name": "SYNTHETIC Addis-Djibouti Railway Section",
+      "aliases": "",
+      "country_iso3": "ETH",
+      "sectors": "railways",
+      "status": "delayed",
+      "location_precision": "city",
+      "lat": "9.03",
+      "lon": "38.74",
+      "geom_wkt": "",
+      "summary": "SYNTHETIC rail section near Addis",
+      "notes": "SYNTHETIC",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01H9SYN01D",
+      "canonical_name": "SYNTHETIC Kariba South Hydropower Extension",
+      "aliases": "",
+      "country_iso3": "ZWE",
+      "sectors": "hydropower",
+      "status": "commissioned",
+      "location_precision": "exact",
+      "lat": "-16.52",
+      "lon": "28.76",
+      "geom_wkt": "POINT(28.76 -16.52)",
+      "summary": "SYNTHETIC hydropower extension",
+      "notes": "SYNTHETIC precise coords",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    },
+    {
+      "id": "wba_prj_01H9SYN01E",
+      "canonical_name": "SYNTHETIC Lamu Port Berth 1",
+      "aliases": "",
+      "country_iso3": "KEN",
+      "sectors": "ports",
+      "status": "proposed",
+      "location_precision": "country",
+      "lat": "",
+      "lon": "",
+      "geom_wkt": "",
+      "summary": "SYNTHETIC proposed berth, location vague",
+      "notes": "SYNTHETIC country-level only",
+      "created_at": "2026-09-11",
+      "updated_at": "2026-09-11"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "wba_org_01H9SYN01A",
+      "canonical_name": "SinoHydro Corporation",
+      "org_type": "soe",
+      "notes": "SYNTHETIC - state-owned, China"
+    },
+    {
+      "id": "wba_org_01H9SYN01B",
+      "canonical_name": "Vinci Construction Grands Projets",
+      "org_type": "private",
+      "notes": "SYNTHETIC - France"
+    },
+    {
+      "id": "wba_org_01H9SYN01C",
+      "canonical_name": "China Road and Bridge Corporation",
+      "org_type": "soe",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_org_01H9SYN01D",
+      "canonical_name": "Export-Import Bank of China",
+      "org_type": "export_credit",
+      "notes": "SYNTHETIC financier"
+    },
+    {
+      "id": "wba_org_01H9SYN01E",
+      "canonical_name": "Ministry of Transport Zimbabwe",
+      "org_type": "state_agency",
+      "notes": "SYNTHETIC authority"
+    },
+    {
+      "id": "wba_org_01H9SYN01F",
+      "canonical_name": "Kenya National Highways Authority",
+      "org_type": "state_agency",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_org_01H9SYN01G",
+      "canonical_name": "Ethiopian Roads Authority",
+      "org_type": "state_agency",
+      "notes": "SYNTHETIC"
+    }
+  ],
+  "organization_aliases": [
+    {
+      "id": "wba_als_01H9SYN01A",
+      "org_id": "wba_org_01H9SYN01A",
+      "alias": "Sinohydro",
+      "lang": "en",
+      "is_transliteration": "false"
+    },
+    {
+      "id": "wba_als_01H9SYN01A2",
+      "org_id": "wba_org_01H9SYN01A",
+      "alias": "\u4e2d\u56fd\u6c34\u7535",
+      "lang": "zh",
+      "is_transliteration": "true"
+    }
+  ],
+  "organization_countries": [
+    {
+      "org_id": "wba_org_01H9SYN01A",
+      "country_iso3": "CHN",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01H9SYN01A"
+    },
+    {
+      "org_id": "wba_org_01H9SYN01B",
+      "country_iso3": "FRA",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01H9SYN01B"
+    },
+    {
+      "org_id": "wba_org_01H9SYN01C",
+      "country_iso3": "CHN",
+      "relation": "headquarters",
+      "source_claim": "wba_clm_01H9SYN01A"
+    },
+    {
+      "org_id": "wba_org_01H9SYN01D",
+      "country_iso3": "CHN",
+      "relation": "financing",
+      "source_claim": "wba_clm_01H9SYN01C"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "wba_ctr_01H9SYN01A",
+      "project_id": "wba_prj_01H9SYN01A",
+      "title": "SYNTHETIC Construction Contract",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01H9SYN01E",
+      "contractor": "wba_org_01H9SYN01A",
+      "contract_type": "construction",
+      "procurement_method": "open_tender",
+      "status": "signed",
+      "award_date": "wba_date_01H9SYN01A",
+      "sign_date": "wba_date_01H9SYN01A",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "150000000",
+      "value_precision": "approx",
+      "financing_source": "wba_org_01H9SYN01D",
+      "amendment_count": "0",
+      "notes": "SYNTHETIC contract value 150m approx"
+    },
+    {
+      "id": "wba_ctr_01H9SYN01B",
+      "project_id": "wba_prj_01H9SYN01B",
+      "title": "SYNTHETIC Outer Ring Design-Build",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01H9SYN01F",
+      "contractor": "wba_org_01H9SYN01B",
+      "contract_type": "design_build",
+      "procurement_method": "restricted_tender",
+      "status": "completed",
+      "award_date": "wba_date_01H9SYN01C",
+      "sign_date": "wba_date_01H9SYN01B",
+      "start_date": "",
+      "end_date": "wba_date_01H9SYN01G",
+      "currency": "EUR",
+      "value_original": "45000000",
+      "value_precision": "exact",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_ctr_01H9SYN01C",
+      "project_id": "wba_prj_01H9SYN01C",
+      "title": "SYNTHETIC Rail Civil Works Lot 2",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01H9SYN01G",
+      "contractor": "wba_org_01H9SYN01C",
+      "contract_type": "construction",
+      "procurement_method": "direct_award",
+      "status": "active",
+      "award_date": "wba_date_01H9SYN01C",
+      "sign_date": "",
+      "start_date": "wba_date_01H9SYN01C",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "",
+      "value_precision": "undisclosed",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "SYNTHETIC value undisclosed, demonstrates unknown handling"
+    },
+    {
+      "id": "wba_ctr_01H9SYN01D",
+      "project_id": "wba_prj_01H9SYN01D",
+      "title": "SYNTHETIC Electro-Mechanical Supply",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01H9SYN01E",
+      "contractor": "wba_org_01H9SYN01A",
+      "contract_type": "supply",
+      "procurement_method": "open_tender",
+      "status": "completed",
+      "award_date": "",
+      "sign_date": "wba_date_01H9SYN01A",
+      "start_date": "",
+      "end_date": "",
+      "currency": "USD",
+      "value_original": "30000000",
+      "value_precision": "exact",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "SYNTHETIC supply not construction - role precision"
+    },
+    {
+      "id": "wba_ctr_01H9SYN01E",
+      "project_id": "wba_prj_01H9SYN01E",
+      "title": "SYNTHETIC Berth 1 Feasibility",
+      "contract_id_external": "",
+      "contracting_authority": "wba_org_01H9SYN01F",
+      "contractor": "wba_org_01H9SYN01B",
+      "contract_type": "consulting",
+      "procurement_method": "unknown",
+      "status": "proposed",
+      "award_date": "wba_date_01H9SYN01F",
+      "sign_date": "",
+      "start_date": "",
+      "end_date": "",
+      "currency": "",
+      "value_original": "",
+      "value_precision": "undisclosed",
+      "financing_source": "",
+      "amendment_count": "0",
+      "notes": "SYNTHETIC proposal only"
+    }
+  ],
+  "participation_records": [
+    {
+      "id": "wba_par_01H9SYN01A",
+      "project_id": "wba_prj_01H9SYN01A",
+      "contract_id": "wba_ctr_01H9SYN01A",
+      "org_id": "wba_org_01H9SYN01A",
+      "role": "contractor",
+      "start_date": "wba_date_01H9SYN01A",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_par_01H9SYN01B",
+      "project_id": "wba_prj_01H9SYN01A",
+      "contract_id": "",
+      "org_id": "wba_org_01H9SYN01D",
+      "role": "financier",
+      "start_date": "wba_date_01H9SYN01A",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SYNTHETIC loan"
+    },
+    {
+      "id": "wba_par_01H9SYN01C",
+      "project_id": "wba_prj_01H9SYN01B",
+      "contract_id": "wba_ctr_01H9SYN01B",
+      "org_id": "wba_org_01H9SYN01B",
+      "role": "contractor",
+      "start_date": "wba_date_01H9SYN01C",
+      "end_date": "wba_date_01H9SYN01G",
+      "share_percent": "",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_par_01H9SYN01D",
+      "project_id": "wba_prj_01H9SYN01C",
+      "contract_id": "wba_ctr_01H9SYN01C",
+      "org_id": "wba_org_01H9SYN01C",
+      "role": "contractor",
+      "start_date": "wba_date_01H9SYN01C",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_par_01H9SYN01E",
+      "project_id": "wba_prj_01H9SYN01D",
+      "contract_id": "wba_ctr_01H9SYN01D",
+      "org_id": "wba_org_01H9SYN01A",
+      "role": "supplier",
+      "start_date": "",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SYNTHETIC supplier not builder"
+    },
+    {
+      "id": "wba_par_01H9SYN01F",
+      "project_id": "wba_prj_01H9SYN01E",
+      "contract_id": "wba_ctr_01H9SYN01E",
+      "org_id": "wba_org_01H9SYN01B",
+      "role": "consultant",
+      "start_date": "wba_date_01H9SYN01F",
+      "end_date": "",
+      "share_percent": "",
+      "notes": "SYNTHETIC consulting"
+    }
+  ],
+  "financing_records": [
+    {
+      "id": "wba_fin_01H9SYN01A",
+      "project_id": "wba_prj_01H9SYN01A",
+      "institution": "wba_org_01H9SYN01D",
+      "instrument": "loan",
+      "amount": "150000000",
+      "currency": "USD",
+      "share_percent": "",
+      "notes": "SYNTHETIC"
+    }
+  ],
+  "sources": [
+    {
+      "id": "wba_src_01H9SYN01A",
+      "title": "SYNTHETIC Ministry Press Release 2018",
+      "publisher": "Ministry of Transport Zimbabwe",
+      "authors": "",
+      "source_type": "ministry",
+      "pub_date": "wba_date_01H9SYN01A",
+      "access_date": "wba_date_01H9SYN01G",
+      "url": "https://example.com/synthetic/ministry-2018",
+      "archive_url": "https://web.archive.org/web/20180312/https://example.com/synthetic/ministry-2018",
+      "lang": "en",
+      "page": "1",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01H9SYN01B",
+      "title": "SYNTHETIC Company Annual Report 2019",
+      "publisher": "SinoHydro Corporation",
+      "authors": "",
+      "source_type": "company_report",
+      "pub_date": "wba_date_01H9SYN01C",
+      "access_date": "wba_date_01H9SYN01G",
+      "url": "https://example.com/synthetic/sinohydro-2019",
+      "archive_url": "",
+      "lang": "en",
+      "page": "42",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    },
+    {
+      "id": "wba_src_01H9SYN01C",
+      "title": "SYNTHETIC Trade Journal Article",
+      "publisher": "African Construction Review",
+      "authors": "",
+      "source_type": "trade",
+      "pub_date": "wba_date_01H9SYN01B",
+      "access_date": "wba_date_01H9SYN01G",
+      "url": "https://example.com/synthetic/acr-2018-03",
+      "archive_url": "",
+      "lang": "en",
+      "page": "15",
+      "classification": "secondary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
+    }
+  ],
+  "claims": [
+    {
+      "id": "wba_clm_01H9SYN01A",
+      "source_id": "wba_src_01H9SYN01A",
+      "project_id": "wba_prj_01H9SYN01A",
+      "organization_id": "wba_org_01H9SYN01A",
+      "contract_id": "wba_ctr_01H9SYN01A",
+      "verbatim_quote": "SYNTHETIC QUOTE: The Ministry awarded SinoHydro the construction contract for Harare-Masvingo Road on 12 March 2018.",
+      "claim_text": "The Ministry of Transport Zimbabwe awarded SinoHydro Corporation the construction contract for Harare-Masvingo Road on 12 March 2018.",
+      "claim_type": "award",
+      "evidence_strength": "officially_reported",
+      "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01H9SYN01B",
+      "source_id": "wba_src_01H9SYN01C",
+      "project_id": "wba_prj_01H9SYN01B",
+      "organization_id": "wba_org_01H9SYN01B",
+      "contract_id": "wba_ctr_01H9SYN01B",
+      "verbatim_quote": "SYNTHETIC QUOTE: Vinci reported completion of Outer Ring Road in March 2018.",
+      "claim_text": "Vinci Construction reported completion of Nairobi Outer Ring Road in March 2018.",
+      "claim_type": "status",
+      "evidence_strength": "credibly_reported",
+      "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01H9SYN01C",
+      "source_id": "wba_src_01H9SYN01B",
+      "project_id": "wba_prj_01H9SYN01A",
+      "organization_id": "wba_org_01H9SYN01D",
+      "contract_id": "",
+      "verbatim_quote": "SYNTHETIC QUOTE: Exim Bank provided USD 150m loan for project.",
+      "claim_text": "Export-Import Bank of China provided USD 150m loan for Harare-Masvingo Road.",
+      "claim_type": "value",
+      "evidence_strength": "officially_reported",
+      "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01H9SYN01D",
+      "source_id": "wba_src_01H9SYN01C",
+      "project_id": "wba_prj_01H9SYN01C",
+      "organization_id": "wba_org_01H9SYN01C",
+      "contract_id": "wba_ctr_01H9SYN01C",
+      "verbatim_quote": "SYNTHETIC QUOTE: CRBC delays cited for Addis section.",
+      "claim_text": "China Road and Bridge Corporation construction delayed for Addis-Djibouti section (approx 2018).",
+      "claim_type": "status",
+      "evidence_strength": "probable",
+      "corroboration_status": "disputed"
+    },
+    {
+      "id": "wba_clm_01H9SYN01E",
+      "source_id": "wba_src_01H9SYN01B",
+      "project_id": "wba_prj_01H9SYN01C",
+      "organization_id": "wba_org_01H9SYN01C",
+      "contract_id": "wba_ctr_01H9SYN01C",
+      "verbatim_quote": "SYNTHETIC QUOTE: CRBC claims on-schedule.",
+      "claim_text": "China Road and Bridge Corporation reported on-schedule progress for same section.",
+      "claim_type": "status",
+      "evidence_strength": "disputed",
+      "corroboration_status": "conflicting"
+    }
+  ],
+  "events": [
+    {
+      "id": "wba_evt_01H9SYN01A",
+      "project_id": "wba_prj_01H9SYN01A",
+      "event_type": "awarded",
+      "date_id": "wba_date_01H9SYN01A",
+      "source_claim": "wba_clm_01H9SYN01A",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_evt_01H9SYN01B",
+      "project_id": "wba_prj_01H9SYN01A",
+      "event_type": "signed",
+      "date_id": "wba_date_01H9SYN01A",
+      "source_claim": "wba_clm_01H9SYN01A",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_evt_01H9SYN01C",
+      "project_id": "wba_prj_01H9SYN01A",
+      "event_type": "construction_start",
+      "date_id": "wba_date_01H9SYN01B",
+      "source_claim": "wba_clm_01H9SYN01A",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_evt_01H9SYN01D",
+      "project_id": "wba_prj_01H9SYN01B",
+      "event_type": "completed",
+      "date_id": "wba_date_01H9SYN01B",
+      "source_claim": "wba_clm_01H9SYN01B",
+      "notes": "SYNTHETIC"
+    },
+    {
+      "id": "wba_evt_01H9SYN01E",
+      "project_id": "wba_prj_01H9SYN01C",
+      "event_type": "delayed",
+      "date_id": "wba_date_01H9SYN01D",
+      "source_claim": "wba_clm_01H9SYN01D",
+      "notes": "SYNTHETIC disputed"
+    },
+    {
+      "id": "wba_evt_01H9SYN01F",
+      "project_id": "wba_prj_01H9SYN01E",
+      "event_type": "proposed",
+      "date_id": "wba_date_01H9SYN01F",
+      "source_claim": "wba_clm_01H9SYN01E",
+      "notes": "SYNTHETIC unknown date"
+    }
+  ],
+  "dates": [
+    {
+      "id": "wba_date_01H9SYN01A",
+      "edtf_string": "2018-03-12",
+      "precision": "day",
+      "earliest": "2018-03-12",
+      "latest": "2018-03-12",
+      "display_string": "12 March 2018"
+    },
+    {
+      "id": "wba_date_01H9SYN01B",
+      "edtf_string": "2018-03",
+      "precision": "month",
+      "earliest": "2018-03-01",
+      "latest": "2018-03-31",
+      "display_string": "March 2018"
+    },
+    {
+      "id": "wba_date_01H9SYN01C",
+      "edtf_string": "2018",
+      "precision": "year",
+      "earliest": "2018-01-01",
+      "latest": "2018-12-31",
+      "display_string": "2018"
+    },
+    {
+      "id": "wba_date_01H9SYN01D",
+      "edtf_string": "~2018",
+      "precision": "approximate",
+      "earliest": "2017-01-01",
+      "latest": "2019-12-31",
+      "display_string": "Approximately 2018"
+    },
+    {
+      "id": "wba_date_01H9SYN01E",
+      "edtf_string": "2017/2019",
+      "precision": "range",
+      "earliest": "2017-01-01",
+      "latest": "2019-12-31",
+      "display_string": "Between 2017 and 2019"
+    },
+    {
+      "id": "wba_date_01H9SYN01F",
+      "edtf_string": "",
+      "precision": "unknown",
+      "earliest": "",
+      "latest": "",
+      "display_string": "Date unknown"
+    },
+    {
+      "id": "wba_date_01H9SYN01G",
+      "edtf_string": "2019-06-15",
+      "precision": "day",
+      "earliest": "2019-06-15",
+      "latest": "2019-06-15",
+      "display_string": "15 June 2019"
+    }
+  ],
+  "project_locations": [
+    {
+      "project_id": "wba_prj_01H9SYN01A",
+      "admin1": "Harare",
+      "admin2": "",
+      "city": "",
+      "locality": "",
+      "precision": "corridor",
+      "lat": "",
+      "lon": ""
+    },
+    {
+      "project_id": "wba_prj_01H9SYN01B",
+      "admin1": "Nairobi",
+      "admin2": "",
+      "city": "Nairobi",
+      "locality": "",
+      "precision": "approximate",
+      "lat": "-1.28",
+      "lon": "36.82"
+    },
+    {
+      "project_id": "wba_prj_01H9SYN01C",
+      "admin1": "Addis Ababa",
+      "admin2": "",
+      "city": "Addis Ababa",
+      "locality": "",
+      "precision": "city",
+      "lat": "9.03",
+      "lon": "38.74"
+    },
+    {
+      "project_id": "wba_prj_01H9SYN01D",
+      "admin1": "Matabeleland North",
+      "admin2": "",
+      "city": "Kariba",
+      "locality": "",
+      "precision": "exact",
+      "lat": "-16.52",
+      "lon": "28.76"
+    },
+    {
+      "project_id": "wba_prj_01H9SYN01E",
+      "admin1": "Lamu",
+      "admin2": "",
+      "city": "",
+      "locality": "",
+      "precision": "country",
+      "lat": "",
+      "lon": ""
+    }
+  ]
+}

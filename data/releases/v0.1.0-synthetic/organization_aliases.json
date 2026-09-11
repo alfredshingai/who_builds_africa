@@ -1,0 +1,16 @@
+[
+  {
+    "id": "wba_als_01H9SYN01A",
+    "org_id": "wba_org_01H9SYN01A",
+    "alias": "Sinohydro",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01H9SYN01A2",
+    "org_id": "wba_org_01H9SYN01A",
+    "alias": "\u4e2d\u56fd\u6c34\u7535",
+    "lang": "zh",
+    "is_transliteration": "true"
+  }
+]

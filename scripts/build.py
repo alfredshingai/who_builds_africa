@@ -35,6 +35,31 @@ def build(src: pathlib.Path, out: pathlib.Path, use_samples=False):
     gj={"type":"FeatureCollection","features":features, "_note":"SYNTHETIC if from samples; real data requires source-backed coords"}
     (out / "projects.geojson").write_text(json.dumps(gj, indent=2), encoding="utf-8")
 
+    # JSON extracts for frontend (projects + related records denormalized where useful)
+    def csv_to_json(name):
+        p = in_dir / f"{name}.csv"
+        if not p.exists(): return []
+        with open(p, newline="", encoding="utf-8") as f:
+            return list(csv.DictReader(f))
+    extracts = {
+        "projects": csv_to_json("projects"),
+        "organizations": csv_to_json("organizations"),
+        "organization_aliases": csv_to_json("organization_aliases"),
+        "organization_countries": csv_to_json("organization_countries"),
+        "contracts": csv_to_json("contracts"),
+        "participation_records": csv_to_json("participation_records"),
+        "financing_records": csv_to_json("financing_records"),
+        "sources": csv_to_json("sources"),
+        "claims": csv_to_json("claims"),
+        "events": csv_to_json("events"),
+        "dates": csv_to_json("dates"),
+        "project_locations": csv_to_json("project_locations"),
+    }
+    (out / "data.json").write_text(json.dumps(extracts, indent=2), encoding="utf-8")
+    # also individual JSON files for smaller fetches
+    for k,v in extracts.items():
+        (out / f"{k}.json").write_text(json.dumps(v, indent=2), encoding="utf-8")
+
     # SQLite
     db_path = out / "footprints.sqlite"
     if db_path.exists(): db_path.unlink()

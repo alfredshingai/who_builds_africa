@@ -1,0 +1,52 @@
+[
+  {
+    "project_id": "wba_prj_01H9SYN01A",
+    "admin1": "Harare",
+    "admin2": "",
+    "city": "",
+    "locality": "",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01H9SYN01B",
+    "admin1": "Nairobi",
+    "admin2": "",
+    "city": "Nairobi",
+    "locality": "",
+    "precision": "approximate",
+    "lat": "-1.28",
+    "lon": "36.82"
+  },
+  {
+    "project_id": "wba_prj_01H9SYN01C",
+    "admin1": "Addis Ababa",
+    "admin2": "",
+    "city": "Addis Ababa",
+    "locality": "",
+    "precision": "city",
+    "lat": "9.03",
+    "lon": "38.74"
+  },
+  {
+    "project_id": "wba_prj_01H9SYN01D",
+    "admin1": "Matabeleland North",
+    "admin2": "",
+    "city": "Kariba",
+    "locality": "",
+    "precision": "exact",
+    "lat": "-16.52",
+    "lon": "28.76"
+  },
+  {
+    "project_id": "wba_prj_01H9SYN01E",
+    "admin1": "Lamu",
+    "admin2": "",
+    "city": "",
+    "locality": "",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  }
+]

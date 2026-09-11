@@ -1,0 +1,12 @@
+[
+  {
+    "id": "wba_fin_01H9SYN01A",
+    "project_id": "wba_prj_01H9SYN01A",
+    "institution": "wba_org_01H9SYN01D",
+    "instrument": "loan",
+    "amount": "150000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "SYNTHETIC"
+  }
+]

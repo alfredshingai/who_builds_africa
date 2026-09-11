@@ -1,0 +1,58 @@
+[
+  {
+    "id": "wba_date_01H9SYN01A",
+    "edtf_string": "2018-03-12",
+    "precision": "day",
+    "earliest": "2018-03-12",
+    "latest": "2018-03-12",
+    "display_string": "12 March 2018"
+  },
+  {
+    "id": "wba_date_01H9SYN01B",
+    "edtf_string": "2018-03",
+    "precision": "month",
+    "earliest": "2018-03-01",
+    "latest": "2018-03-31",
+    "display_string": "March 2018"
+  },
+  {
+    "id": "wba_date_01H9SYN01C",
+    "edtf_string": "2018",
+    "precision": "year",
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "display_string": "2018"
+  },
+  {
+    "id": "wba_date_01H9SYN01D",
+    "edtf_string": "~2018",
+    "precision": "approximate",
+    "earliest": "2017-01-01",
+    "latest": "2019-12-31",
+    "display_string": "Approximately 2018"
+  },
+  {
+    "id": "wba_date_01H9SYN01E",
+    "edtf_string": "2017/2019",
+    "precision": "range",
+    "earliest": "2017-01-01",
+    "latest": "2019-12-31",
+    "display_string": "Between 2017 and 2019"
+  },
+  {
+    "id": "wba_date_01H9SYN01F",
+    "edtf_string": "",
+    "precision": "unknown",
+    "earliest": "",
+    "latest": "",
+    "display_string": "Date unknown"
+  },
+  {
+    "id": "wba_date_01H9SYN01G",
+    "edtf_string": "2019-06-15",
+    "precision": "day",
+    "earliest": "2019-06-15",
+    "latest": "2019-06-15",
+    "display_string": "15 June 2019"
+  }
+]

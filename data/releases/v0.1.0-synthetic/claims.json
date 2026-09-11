@@ -1,0 +1,62 @@
+[
+  {
+    "id": "wba_clm_01H9SYN01A",
+    "source_id": "wba_src_01H9SYN01A",
+    "project_id": "wba_prj_01H9SYN01A",
+    "organization_id": "wba_org_01H9SYN01A",
+    "contract_id": "wba_ctr_01H9SYN01A",
+    "verbatim_quote": "SYNTHETIC QUOTE: The Ministry awarded SinoHydro the construction contract for Harare-Masvingo Road on 12 March 2018.",
+    "claim_text": "The Ministry of Transport Zimbabwe awarded SinoHydro Corporation the construction contract for Harare-Masvingo Road on 12 March 2018.",
+    "claim_type": "award",
+    "evidence_strength": "officially_reported",
+    "corroboration_status": "uncorroborated"
+  },
+  {
+    "id": "wba_clm_01H9SYN01B",
+    "source_id": "wba_src_01H9SYN01C",
+    "project_id": "wba_prj_01H9SYN01B",
+    "organization_id": "wba_org_01H9SYN01B",
+    "contract_id": "wba_ctr_01H9SYN01B",
+    "verbatim_quote": "SYNTHETIC QUOTE: Vinci reported completion of Outer Ring Road in March 2018.",
+    "claim_text": "Vinci Construction reported completion of Nairobi Outer Ring Road in March 2018.",
+    "claim_type": "status",
+    "evidence_strength": "credibly_reported",
+    "corroboration_status": "uncorroborated"
+  },
+  {
+    "id": "wba_clm_01H9SYN01C",
+    "source_id": "wba_src_01H9SYN01B",
+    "project_id": "wba_prj_01H9SYN01A",
+    "organization_id": "wba_org_01H9SYN01D",
+    "contract_id": "",
+    "verbatim_quote": "SYNTHETIC QUOTE: Exim Bank provided USD 150m loan for project.",
+    "claim_text": "Export-Import Bank of China provided USD 150m loan for Harare-Masvingo Road.",
+    "claim_type": "value",
+    "evidence_strength": "officially_reported",
+    "corroboration_status": "uncorroborated"
+  },
+  {
+    "id": "wba_clm_01H9SYN01D",
+    "source_id": "wba_src_01H9SYN01C",
+    "project_id": "wba_prj_01H9SYN01C",
+    "organization_id": "wba_org_01H9SYN01C",
+    "contract_id": "wba_ctr_01H9SYN01C",
+    "verbatim_quote": "SYNTHETIC QUOTE: CRBC delays cited for Addis section.",
+    "claim_text": "China Road and Bridge Corporation construction delayed for Addis-Djibouti section (approx 2018).",
+    "claim_type": "status",
+    "evidence_strength": "probable",
+    "corroboration_status": "disputed"
+  },
+  {
+    "id": "wba_clm_01H9SYN01E",
+    "source_id": "wba_src_01H9SYN01B",
+    "project_id": "wba_prj_01H9SYN01C",
+    "organization_id": "wba_org_01H9SYN01C",
+    "contract_id": "wba_ctr_01H9SYN01C",
+    "verbatim_quote": "SYNTHETIC QUOTE: CRBC claims on-schedule.",
+    "claim_text": "China Road and Bridge Corporation reported on-schedule progress for same section.",
+    "claim_type": "status",
+    "evidence_strength": "disputed",
+    "corroboration_status": "conflicting"
+  }
+]

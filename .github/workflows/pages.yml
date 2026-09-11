@@ -1,0 +1,35 @@
+name: pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install pyyaml
+      - run: python scripts/validate.py --all && python scripts/validate.py --samples
+      - run: python scripts/build.py --samples --out data/releases/v0.1.0-synthetic
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+          # GitHub Pages serves from root if configured, docs/ is also available — we upload whole repo (static) so /app and /data are reachable
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

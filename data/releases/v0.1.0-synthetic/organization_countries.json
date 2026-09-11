@@ -1,0 +1,26 @@
+[
+  {
+    "org_id": "wba_org_01H9SYN01A",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01H9SYN01A"
+  },
+  {
+    "org_id": "wba_org_01H9SYN01B",
+    "country_iso3": "FRA",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01H9SYN01B"
+  },
+  {
+    "org_id": "wba_org_01H9SYN01C",
+    "country_iso3": "CHN",
+    "relation": "headquarters",
+    "source_claim": "wba_clm_01H9SYN01A"
+  },
+  {
+    "org_id": "wba_org_01H9SYN01D",
+    "country_iso3": "CHN",
+    "relation": "financing",
+    "source_claim": "wba_clm_01H9SYN01C"
+  }
+]

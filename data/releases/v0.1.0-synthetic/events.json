@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wba_evt_01H9SYN01A",
+    "project_id": "wba_prj_01H9SYN01A",
+    "event_type": "awarded",
+    "date_id": "wba_date_01H9SYN01A",
+    "source_claim": "wba_clm_01H9SYN01A",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_evt_01H9SYN01B",
+    "project_id": "wba_prj_01H9SYN01A",
+    "event_type": "signed",
+    "date_id": "wba_date_01H9SYN01A",
+    "source_claim": "wba_clm_01H9SYN01A",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_evt_01H9SYN01C",
+    "project_id": "wba_prj_01H9SYN01A",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01H9SYN01B",
+    "source_claim": "wba_clm_01H9SYN01A",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_evt_01H9SYN01D",
+    "project_id": "wba_prj_01H9SYN01B",
+    "event_type": "completed",
+    "date_id": "wba_date_01H9SYN01B",
+    "source_claim": "wba_clm_01H9SYN01B",
+    "notes": "SYNTHETIC"
+  },
+  {
+    "id": "wba_evt_01H9SYN01E",
+    "project_id": "wba_prj_01H9SYN01C",
+    "event_type": "delayed",
+    "date_id": "wba_date_01H9SYN01D",
+    "source_claim": "wba_clm_01H9SYN01D",
+    "notes": "SYNTHETIC disputed"
+  },
+  {
+    "id": "wba_evt_01H9SYN01F",
+    "project_id": "wba_prj_01H9SYN01E",
+    "event_type": "proposed",
+    "date_id": "wba_date_01H9SYN01F",
+    "source_claim": "wba_clm_01H9SYN01E",
+    "notes": "SYNTHETIC unknown date"
+  }
+]

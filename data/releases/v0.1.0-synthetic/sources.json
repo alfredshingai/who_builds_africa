@@ -1,0 +1,53 @@
+[
+  {
+    "id": "wba_src_01H9SYN01A",
+    "title": "SYNTHETIC Ministry Press Release 2018",
+    "publisher": "Ministry of Transport Zimbabwe",
+    "authors": "",
+    "source_type": "ministry",
+    "pub_date": "wba_date_01H9SYN01A",
+    "access_date": "wba_date_01H9SYN01G",
+    "url": "https://example.com/synthetic/ministry-2018",
+    "archive_url": "https://web.archive.org/web/20180312/https://example.com/synthetic/ministry-2018",
+    "lang": "en",
+    "page": "1",
+    "classification": "primary",
+    "accessibility": "open",
+    "paywall": "false",
+    "license": ""
+  },
+  {
+    "id": "wba_src_01H9SYN01B",
+    "title": "SYNTHETIC Company Annual Report 2019",
+    "publisher": "SinoHydro Corporation",
+    "authors": "",
+    "source_type": "company_report",
+    "pub_date": "wba_date_01H9SYN01C",
+    "access_date": "wba_date_01H9SYN01G",
+    "url": "https://example.com/synthetic/sinohydro-2019",
+    "archive_url": "",
+    "lang": "en",
+    "page": "42",
+    "classification": "primary",
+    "accessibility": "open",
+    "paywall": "false",
+    "license": ""
+  },
+  {
+    "id": "wba_src_01H9SYN01C",
+    "title": "SYNTHETIC Trade Journal Article",
+    "publisher": "African Construction Review",
+    "authors": "",
+    "source_type": "trade",
+    "pub_date": "wba_date_01H9SYN01B",
+    "access_date": "wba_date_01H9SYN01G",
+    "url": "https://example.com/synthetic/acr-2018-03",
+    "archive_url": "",
+    "lang": "en",
+    "page": "15",
+    "classification": "secondary",
+    "accessibility": "open",
+    "paywall": "false",
+    "license": ""
+  }
+]
