@@ -101,7 +101,8 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <script>
 // --- state
 let DATA, filtered=[]
-const els={q:q,country:country,sector:sector,role:role,status:status,origin:origin,precision:precision,list:list,counts:counts,detail:projectDetail,tbl:document.querySelector('#tbl tbody')}
+const $ = id => document.getElementById(id);
+const els={q:document.getElementById('q'),country:document.getElementById('country'),sector:document.getElementById('sector'),role:document.getElementById('role'),status:document.getElementById('status'),origin:document.getElementById('origin'),precision:document.getElementById('precision'),list:document.getElementById('list'),counts:document.getElementById('counts'),detail:document.getElementById('projectDetail'),tbl:document.querySelector('#tbl tbody')}
 async function load(){
   const r=await fetch('/data/releases/v0.1.0-synthetic/data.json')
   DATA=await r.json()
@@ -118,46 +119,46 @@ async function load(){
 }
 function initControls(){
   const sectors=[...new Set(DATA.projects.flatMap(p=>p.sectors.split('|').filter(Boolean)))].sort()
-  for(const s of sectors){sector.appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
+  for(const s of sectors){$('sector').appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
   const roles=[...new Set(DATA.participation_records.map(p=>p.role))].sort()
-  for(const r of roles){role.appendChild(Object.assign(document.createElement('option'),{value:r,textContent:r}))}
+  for(const r of roles){$('role').appendChild(Object.assign(document.createElement('option'),{value:r,textContent:r}))}
   const statuses=[...new Set(DATA.projects.map(p=>p.status))].sort()
-  for(const s of statuses){status.appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
+  for(const s of statuses){$('status').appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
   const origins=[...new Set(DATA.organization_countries.map(o=>o.country_iso3))].sort()
-  for(const o of origins){origin.appendChild(Object.assign(document.createElement('option'),{value:o,textContent:o}))}
+  for(const o of origins){$('origin').appendChild(Object.assign(document.createElement('option'),{value:o,textContent:o}))}
   const precs=[...new Set(DATA.projects.map(p=>p.location_precision))].sort()
-  for(const p of precs){precision.appendChild(Object.assign(document.createElement('option'),{value:p,textContent:p}))}
-  for(const el of [q,country,sector,role,status,origin,precision]) el.addEventListener('input', render)
-  reset.onclick=()=>{q.value='';country.value='';sector.value='';role.value='';status.value='';origin.value='';precision.value='';render()}
+  for(const p of precs){$('precision').appendChild(Object.assign(document.createElement('option'),{value:p,textContent:p}))}
+  for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', render)
+  reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render()}
   tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
-  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();q.focus()}})
+  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()}})
 }
 function matches(p){
-  const qq=q.value.trim().toLowerCase()
+  const qq=$('q').value.trim().toLowerCase()
   if(qq){
     const hay=[p.canonical_name,p.summary,p.sectors, ...((DATA._parByProject[p.id]||[]).map(x=>DATA._orgById[x.org_id]?.canonical_name||''))].join(' ').toLowerCase()
     if(!hay.includes(qq)) return false
   }
-  if(country.value && p.country_iso3!==country.value) return false
-  if(sector.value && !p.sectors.split('|').includes(sector.value)) return false
-  if(status.value && p.status!==status.value) return false
-  if(precision.value && p.location_precision!==precision.value) return false
-  if(role.value){
+  if($('country').value && p.country_iso3!==$('country').value) return false
+  if($('sector').value && !p.sectors.split('|').includes($('sector').value)) return false
+  if($('status').value && p.status!==$('status').value) return false
+  if($('precision').value && p.location_precision!==$('precision').value) return false
+  if($('role').value){
     const pars=DATA._parByProject[p.id]||[]
-    if(!pars.some(x=>x.role===role.value)) return false
+    if(!pars.some(x=>x.role===$('role').value)) return false
   }
-  if(origin.value){
+  if($('origin').value){
     const pars=DATA._parByProject[p.id]||[]
     const orgIds=new Set(pars.map(x=>x.org_id))
-    const hasOrigin=DATA.organization_countries.some(oc=>orgIds.has(oc.org_id) && oc.country_iso3===origin.value)
+    const hasOrigin=DATA.organization_countries.some(oc=>orgIds.has(oc.org_id) && oc.country_iso3===$('origin').value)
     if(!hasOrigin) return false
   }
   return true
 }
 function render(){
   filtered=DATA.projects.filter(matches)
-  counts.textContent=`${filtered.length} / ${DATA.projects.length} projects`
-  list.innerHTML=filtered.map(p=>{
+  $('counts').textContent=`${filtered.length} / ${DATA.projects.length} projects`
+  $('list').innerHTML=filtered.map(p=>{
     const pars=DATA._parByProject[p.id]||[]
     const roles=pars.map(x=>DATA._orgById[x.org_id]?.canonical_name+` (${x.role})`).join(', ')||'<small>no participation yet</small>'
     return `<div class="card" tabindex="0" role="button" aria-label="Open ${p.canonical_name}" onclick="openProject('${p.id}')" onkeydown="if(event.key==='Enter')openProject('${p.id}')">
@@ -260,7 +261,7 @@ function updateMap(){
   map.on('mouseleave','pts',()=>map.getCanvas().style.cursor='')
 }
 
-load().catch(e=>{document.getElementById('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} — ensure <code>python scripts/build.py --samples --out data/releases/v0.1.0-synthetic</code> was run.</div>`})
+load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} — ensure <code>python scripts/build.py --samples --out data/releases/v0.1.0-synthetic</code> was run.</div>`})
 </script>
 </body>
 </html>
