@@ -1,0 +1,152 @@
+[
+  {
+    "project_id": "wba_prj_01HREAL001",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Hwange",
+    "locality": "Hwange Power Station",
+    "precision": "exact",
+    "lat": "-18.383",
+    "lon": "26.48"
+  },
+  {
+    "project_id": "wba_prj_01HREAL002",
+    "admin1": "Matabeleland North",
+    "admin2": "Kariba",
+    "city": "Kariba",
+    "locality": "Kariba South",
+    "precision": "exact",
+    "lat": "-16.521",
+    "lon": "28.761"
+  },
+  {
+    "project_id": "wba_prj_01HREAL003",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Harare",
+    "locality": "RGM International Airport",
+    "precision": "approximate",
+    "lat": "-17.931",
+    "lon": "31.092"
+  },
+  {
+    "project_id": "wba_prj_01HREAL004",
+    "admin1": "Nairobi",
+    "admin2": "Nairobi",
+    "city": "Nairobi",
+    "locality": "JKIA\u2013James Gichuru corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL005",
+    "admin1": "Mombasa",
+    "admin2": "Mombasa",
+    "city": "Mombasa",
+    "locality": "Mombasa\u2013Nairobi corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL006",
+    "admin1": "Marsabit",
+    "admin2": "Loiyangalani",
+    "city": "Loiyangalani",
+    "locality": "Lake Turkana",
+    "precision": "exact",
+    "lat": "2.85",
+    "lon": "36.82"
+  },
+  {
+    "project_id": "wba_prj_01HREAL007",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis Light Rail corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL008",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis\u2013Djibouti corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL009",
+    "admin1": "Benishangul-Gumuz",
+    "admin2": "",
+    "city": "",
+    "locality": "GERD site",
+    "precision": "exact",
+    "lat": "11.22",
+    "lon": "35.09"
+  },
+  {
+    "project_id": "wba_prj_01HREAL010",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Mount Hampden",
+    "locality": "New Parliament site",
+    "precision": "exact",
+    "lat": "-17.689",
+    "lon": "30.943"
+  },
+  {
+    "project_id": "wba_prj_01HREAL011",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Victoria Falls",
+    "locality": "Victoria Falls Airport",
+    "precision": "exact",
+    "lat": "-18.096",
+    "lon": "25.839"
+  },
+  {
+    "project_id": "wba_prj_01HREAL012",
+    "admin1": "Machakos",
+    "admin2": "Athi River",
+    "city": "Konza",
+    "locality": "Konza Technopolis",
+    "precision": "approximate",
+    "lat": "-1.057",
+    "lon": "37.095"
+  },
+  {
+    "project_id": "wba_prj_01HREAL013",
+    "admin1": "Lamu",
+    "admin2": "Lamu",
+    "city": "Lamu",
+    "locality": "Lamu Port",
+    "precision": "exact",
+    "lat": "-2.416",
+    "lon": "40.910"
+  },
+  {
+    "project_id": "wba_prj_01HREAL014",
+    "admin1": "Sidama",
+    "admin2": "Hawassa",
+    "city": "Hawassa",
+    "locality": "Hawassa Park",
+    "precision": "exact",
+    "lat": "7.060",
+    "lon": "38.476"
+  },
+  {
+    "project_id": "wba_prj_01HREAL015",
+    "admin1": "Southern",
+    "admin2": "Chobe",
+    "city": "Kazungula",
+    "locality": "Kazungula Bridge site",
+    "precision": "exact",
+    "lat": "-17.775",
+    "lon": "25.262"
+  }
+]

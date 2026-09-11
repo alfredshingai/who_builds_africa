@@ -1,0 +1,12 @@
+id,project_id,institution,instrument,amount,currency,share_percent,notes
+wba_fin_01HREAL001,wba_prj_01HREAL001,wba_org_01HREAL003,loan,997700000,USD,,"85% preferential buyer credit, 20yr"
+wba_fin_01HREAL002,wba_prj_01HREAL002,wba_org_01HREAL003,loan,319450000,USD,,20yr 5yr grace 2%
+wba_fin_01HREAL003,wba_prj_01HREAL003,wba_org_01HREAL003,loan,153000000,USD,,RMB1.045bn ~$153m concessional 20yr 7yr grace 2%
+wba_fin_01HREAL004,wba_prj_01HREAL004,wba_org_01HREAL003,loan,494000000,USD,,Exim + CDB facility
+wba_fin_01HREAL005,wba_prj_01HREAL005,wba_org_01HREAL003,loan,3230000000,USD,,90% two loans $1.63bn each
+wba_fin_01HREAL006,wba_prj_01HREAL007,wba_org_01HREAL003,loan,403750000,USD,,85% of $475m
+wba_fin_01HREAL007,wba_prj_01HREAL008,wba_org_01HREAL003,loan,4000000000,USD,,~$4bn segments
+wba_fin_01HREAL008,wba_prj_01HREAL010,wba_org_01HREAL024,grant,675860000,CNY,,RMB 675.8m grant
+wba_fin_01HREAL009,wba_prj_01HREAL011,wba_org_01HREAL003,loan,150000000,USD,,$150m Exim
+wba_fin_01HREAL010,wba_prj_01HREAL012,wba_org_01HREAL027,loan,94700000,USD,,$94.7m EDCF
+wba_fin_01HREAL011,wba_prj_01HREAL014,wba_org_01HREAL019,equity,,USD,,$246m CCECC via IPDC budget

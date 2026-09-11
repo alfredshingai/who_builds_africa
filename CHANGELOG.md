@@ -4,6 +4,14 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.2.0] - 2026-09-11
+### Added
+- Data: expand to 15 real projects - added ZWE New Parliament (Shanghai Construction, RMB675.8m grant, 2023), Victoria Falls Airport ($150m Exim, 2016), KEN KAIST at Konza ($94.7m Korea Eximbank, 2019), Lamu Port Berths 1-3 (CCCC $484m, 2021), ETH Hawassa Industrial Park (CCECC $246m, 2016), BWA/ZMB Kazungula Bridge (Daewoo $161m, 2021 cross-border) - 5 countries, 31 orgs, 15 contracts, 23 sources
+- App: country filter now dynamic (populated from DATA.projects), banner 15 REAL PROJECTS, Quality header with Last verified + changelog link
+- Contributor: structured issue forms (data-submission.yml / correction.yml), scripts/new_project.py helper, data/templates/ CSV headers
+- UI: flex layout fix (no blank whitespace, 100dvh, map resize), remove all em dashes (185)
+- Releases: v0.2.0 snapshot (15 features) + v0.1.0-synthetic preserved, CITATION v0.2.0
+
 ## [v0.1.0] - 2026-09-11
 ### Added
 - Phase 0+1 foundation: MIT/ODbL-1.0/CC BY 4.0 split, GOVERNANCE.md, CONTRIBUTING.md, DATA_METHODOLOGY.md, DATA_DICTIONARY.md, SOURCING_GUIDE.md, vocabularies.yaml, JSON Schema, 14-table normalized model with EDTF dates, location_precision, evidence_strength, stable wba_* IDs

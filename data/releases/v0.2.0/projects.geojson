@@ -1,0 +1,256 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.48,
+          -18.383
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL001",
+        "name": "Hwange Thermal Power Station Expansion Units 7 & 8",
+        "country": "ZWE",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.761,
+          -16.521
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL002",
+        "name": "Kariba South Hydropower Station Expansion",
+        "country": "ZWE",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.092,
+          -17.931
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL003",
+        "name": "Robert Gabriel Mugabe International Airport Expansion",
+        "country": "ZWE",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL004",
+        "name": "Nairobi Expressway",
+        "country": "KEN",
+        "sectors": "roads|urban_development",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(36.92 -1.31, 36.78 -1.28)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL005",
+        "name": "Mombasa\u2013Nairobi Standard Gauge Railway Phase 1",
+        "country": "KEN",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(39.66 -4.05, 36.82 -1.29)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82,
+          2.85
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL006",
+        "name": "Lake Turkana Wind Power Project",
+        "country": "KEN",
+        "sectors": "wind_power",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL007",
+        "name": "Addis Ababa Light Rail Transit",
+        "country": "ETH",
+        "sectors": "public_transport|railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(38.78 8.98, 38.77 9.03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL008",
+        "name": "Addis Ababa\u2013Djibouti Standard Gauge Railway",
+        "country": "ETH",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(38.74 9.03, 43.0 11.59)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.09,
+          11.22
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL009",
+        "name": "Grand Ethiopian Renaissance Dam",
+        "country": "ETH",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.943,
+          -17.689
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL010",
+        "name": "New Parliament Building, Mount Hampden",
+        "country": "ZWE",
+        "sectors": "government_buildings",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.839,
+          -18.096
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL011",
+        "name": "Victoria Falls International Airport Expansion",
+        "country": "ZWE",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.095,
+          -1.057
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL012",
+        "name": "Kenya Advanced Institute of Science and Technology at Konza",
+        "country": "KEN",
+        "sectors": "schools|universities|telecommunications",
+        "status": "proposed",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.91,
+          -2.416
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL013",
+        "name": "Lamu Port First Three Berths",
+        "country": "KEN",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.476,
+          7.06
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL014",
+        "name": "Hawassa Industrial Park",
+        "country": "ETH",
+        "sectors": "industrial_parks|manufacturing",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.262,
+          -17.775
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL015",
+        "name": "Kazungula Bridge",
+        "country": "BWA",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    }
+  ],
+  "_note": "SYNTHETIC if from samples; real data requires source-backed coords"
+}
