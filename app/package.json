@@ -1,0 +1,17 @@
+{
+  "name": "who-builds-africa-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7"
+  },
+  "devDependencies": {
+    "astro": "^4.12"
+  }
+}

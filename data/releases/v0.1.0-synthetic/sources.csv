@@ -1,0 +1,4 @@
+id,title,publisher,authors,source_type,pub_date,access_date,url,archive_url,lang,page,classification,accessibility,paywall,license
+wba_src_01H9SYN01A,SYNTHETIC Ministry Press Release 2018,Ministry of Transport Zimbabwe,,ministry,wba_date_01H9SYN01A,wba_date_01H9SYN01G,https://example.com/synthetic/ministry-2018,https://web.archive.org/web/20180312/https://example.com/synthetic/ministry-2018,en,1,primary,open,false,
+wba_src_01H9SYN01B,SYNTHETIC Company Annual Report 2019,SinoHydro Corporation,,company_report,wba_date_01H9SYN01C,wba_date_01H9SYN01G,https://example.com/synthetic/sinohydro-2019,,en,42,primary,open,false,
+wba_src_01H9SYN01C,SYNTHETIC Trade Journal Article,African Construction Review,,trade,wba_date_01H9SYN01B,wba_date_01H9SYN01G,https://example.com/synthetic/acr-2018-03,,en,15,secondary,open,false,

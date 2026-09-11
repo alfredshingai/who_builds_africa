@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "WHO BUILDS AFRICA? — Africa Contract Footprints"
+message: "If you use this database, please cite it as below."
+type: dataset
+authors:
+  - family-names: Shingai
+    given-names: Alfred
+    orcid: https://orcid.org/0000-0000-0000-0000
+  - name: WHO BUILDS AFRICA Contributors
+repository-code: https://github.com/alfredshingai/who_builds_africa
+url: https://github.com/alfredshingai/who_builds_africa
+abstract: Source-tracked map and database documenting foreign participation in African infrastructure and development across time.
+keywords: [africa, infrastructure, contracts, foreign-investment, open-data, geospatial]
+license: ODbL-1.0
+version: 0.1.0
+date-released: 2026-09-11

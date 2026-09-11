@@ -1,0 +1,7 @@
+id,project_id,contract_id,org_id,role,start_date,end_date,share_percent,notes
+wba_par_01H9SYN01A,wba_prj_01H9SYN01A,wba_ctr_01H9SYN01A,wba_org_01H9SYN01A,contractor,wba_date_01H9SYN01A,,,SYNTHETIC
+wba_par_01H9SYN01B,wba_prj_01H9SYN01A,,wba_org_01H9SYN01D,financier,wba_date_01H9SYN01A,,,SYNTHETIC loan
+wba_par_01H9SYN01C,wba_prj_01H9SYN01B,wba_ctr_01H9SYN01B,wba_org_01H9SYN01B,contractor,wba_date_01H9SYN01C,wba_date_01H9SYN01G,,SYNTHETIC
+wba_par_01H9SYN01D,wba_prj_01H9SYN01C,wba_ctr_01H9SYN01C,wba_org_01H9SYN01C,contractor,wba_date_01H9SYN01C,,,SYNTHETIC
+wba_par_01H9SYN01E,wba_prj_01H9SYN01D,wba_ctr_01H9SYN01D,wba_org_01H9SYN01A,supplier,,,,SYNTHETIC supplier not builder
+wba_par_01H9SYN01F,wba_prj_01H9SYN01E,wba_ctr_01H9SYN01E,wba_org_01H9SYN01B,consultant,wba_date_01H9SYN01F,,,SYNTHETIC consulting

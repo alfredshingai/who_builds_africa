@@ -1,0 +1,6 @@
+project_id,admin1,admin2,city,locality,precision,lat,lon
+wba_prj_01H9SYN01A,Harare,,,,corridor,,
+wba_prj_01H9SYN01B,Nairobi,,Nairobi,,approximate,-1.28,36.82
+wba_prj_01H9SYN01C,Addis Ababa,,Addis Ababa,,city,9.03,38.74
+wba_prj_01H9SYN01D,Matabeleland North,,Kariba,,exact,-16.52,28.76
+wba_prj_01H9SYN01E,Lamu,,,,country,,

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Discussion / question
+    url: https://github.com/alfredshingai/who_builds_africa/discussions
+    about: Ask methodology or contribution questions

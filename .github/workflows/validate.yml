@@ -1,0 +1,23 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml
+      - name: Validate curated data
+        run: python scripts/validate.py --all
+      - name: Validate synthetic samples (schema demo)
+        run: python scripts/validate.py --samples
+      - name: Build release (dry run, synthetic)
+        run: python scripts/build.py --samples --out /tmp/release-test
+      - name: Check GeoJSON is valid
+        run: python -m json.tool /tmp/release-test/projects.geojson > /dev/null && echo "GeoJSON OK"

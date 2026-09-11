@@ -1,0 +1,8 @@
+id,canonical_name,org_type,notes
+wba_org_01H9SYN01A,SinoHydro Corporation,soe,"SYNTHETIC - state-owned, China"
+wba_org_01H9SYN01B,Vinci Construction Grands Projets,private,SYNTHETIC - France
+wba_org_01H9SYN01C,China Road and Bridge Corporation,soe,SYNTHETIC
+wba_org_01H9SYN01D,Export-Import Bank of China,export_credit,SYNTHETIC financier
+wba_org_01H9SYN01E,Ministry of Transport Zimbabwe,state_agency,SYNTHETIC authority
+wba_org_01H9SYN01F,Kenya National Highways Authority,state_agency,SYNTHETIC
+wba_org_01H9SYN01G,Ethiopian Roads Authority,state_agency,SYNTHETIC

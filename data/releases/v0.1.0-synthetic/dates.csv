@@ -1,0 +1,8 @@
+id,edtf_string,precision,earliest,latest,display_string
+wba_date_01H9SYN01A,2018-03-12,day,2018-03-12,2018-03-12,12 March 2018
+wba_date_01H9SYN01B,2018-03,month,2018-03-01,2018-03-31,March 2018
+wba_date_01H9SYN01C,2018,year,2018-01-01,2018-12-31,2018
+wba_date_01H9SYN01D,~2018,approximate,2017-01-01,2019-12-31,Approximately 2018
+wba_date_01H9SYN01E,2017/2019,range,2017-01-01,2019-12-31,Between 2017 and 2019
+wba_date_01H9SYN01F,,unknown,,,Date unknown
+wba_date_01H9SYN01G,2019-06-15,day,2019-06-15,2019-06-15,15 June 2019

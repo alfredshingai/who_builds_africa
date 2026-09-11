@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01H9SYN01A",
+        "name": "SYNTHETIC Harare-Masvingo Road Rehabilitation",
+        "country": "ZWE",
+        "sectors": "roads",
+        "status": "construction_started",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(30.9 -17.8, 31.0 -19.9)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82,
+          -1.28
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01H9SYN01B",
+        "name": "SYNTHETIC Nairobi Outer Ring Road",
+        "country": "KEN",
+        "sectors": "roads|urban_development",
+        "status": "completed",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.74,
+          9.03
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01H9SYN01C",
+        "name": "SYNTHETIC Addis-Djibouti Railway Section",
+        "country": "ETH",
+        "sectors": "railways",
+        "status": "delayed",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.76,
+          -16.52
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01H9SYN01D",
+        "name": "SYNTHETIC Kariba South Hydropower Extension",
+        "country": "ZWE",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01H9SYN01E",
+        "name": "SYNTHETIC Lamu Port Berth 1",
+        "country": "KEN",
+        "sectors": "ports",
+        "status": "proposed",
+        "location_precision": "country"
+      }
+    }
+  ],
+  "_note": "SYNTHETIC if from samples; real data requires source-backed coords"
+}

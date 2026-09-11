@@ -1,0 +1,11 @@
+---
+// Placeholder — Phase 3 will load data/releases/.../projects.geojson and render MapLibre
+// Map style: OSM via Carto Light (free) or self-hosted OpenMapTiles
+// Must display: © OpenStreetMap contributors, ODbL
+---
+<html><head><title>WHO BUILDS AFRICA? — map scaffold</title></head>
+<body>
+<h1>WHO BUILDS AFRICA? — coming in Phase 3</h1>
+<p>Data is ready in <code>data/curated/</code> and <code>samples/synthetic/projects.geojson</code>. Run <code>python scripts/build.py --samples --out data/releases/v0.1.0-synthetic</code> then serve GeoJSON via any static server + MapLibre.</p>
+<p>Filters: country (ZWE/KEN/ETH), sector, role, foreign origin, status, year/range (using dates.earliest/latest).</p>
+</body></html>

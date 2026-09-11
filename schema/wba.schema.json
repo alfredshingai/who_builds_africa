@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/alfredshingai/who_builds_africa/schema/wba.schema.json",
+  "title": "Africa Contract Footprints — record",
+  "type": "object",
+  "required": ["id", "type"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^wba_(prj|org|ctr|par|fin|src|clm|evt|date)_[0-9A-HJKMNP-TV-Z]{10,}$" },
+    "type": { "enum": ["project", "organization", "contract", "participation", "financing", "source", "claim", "event", "date"] }
+  },
+  "description": "Minimal JSON Schema for ID validation. Full CSV schema in DATA_DICTIONARY.md. Validate via scripts/validate.py (pydantic + frictionless)."
+}

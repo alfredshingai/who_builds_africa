@@ -1,0 +1,109 @@
+# Controlled vocabularies — proposals via Issue, approved by maintainer
+
+sectors:
+  - roads
+  - bridges
+  - railways
+  - ports
+  - airports
+  - public_transport
+  - dams
+  - irrigation
+  - water_supply
+  - sanitation
+  - hydropower
+  - solar_power
+  - wind_power
+  - transmission
+  - oil_gas
+  - mining_infrastructure
+  - industrial_parks
+  - special_economic_zones
+  - manufacturing
+  - telecommunications
+  - data_centres
+  - digital_infrastructure
+  - housing
+  - urban_development
+  - hospitals
+  - schools
+  - universities
+  - government_buildings
+  - agriculture
+  - tourism
+  - other
+
+organization_roles: # participation_records.role
+  - financier
+  - developer
+  - contractor
+  - subcontractor
+  - supplier
+  - consultant
+  - designer
+  - architect
+  - operator
+  - maintainer
+  - manager
+  - jv
+  - consortium_member
+  - sponsor
+
+project_status:
+  - proposed
+  - feasibility
+  - tender_issued
+  - awarded
+  - signed
+  - financing_secured
+  - construction_started
+  - delayed
+  - suspended
+  - contractor_replaced
+  - redesigned
+  - completed
+  - commissioned
+  - partially_completed
+  - cancelled
+  - abandoned
+  - revived
+  - disputed
+  - unknown
+
+contract_status:
+  - tender
+  - awarded
+  - signed
+  - active
+  - amended
+  - suspended
+  - cancelled
+  - completed
+  - disputed
+  - undisclosed
+
+procurement_method:
+  - open_tender
+  - restricted_tender
+  - direct_award
+  - ppp
+  - concession
+  - unknown
+
+value_precision: [exact, approx, range, undisclosed]
+
+location_precision: [exact, approximate, city, district, province, country, cross_border, corridor, unknown]
+
+evidence_strength: [confirmed, corroborated, officially_reported, credibly_reported, probable, unclear, disputed, unverified, corrected, archived]
+
+source_types: [gov_contract, procurement, ministry, public_agency, company_report, company_announcement, dev_bank, export_credit, regulatory, parliamentary, court, academic, research_report, journalism, trade, dataset, satellite, archive, other]
+
+date_precision: [day, month, year, approximate, range, before, after, unknown]
+
+organization_types: [private, soe, state_agency, dev_bank, commercial_lender, export_credit, government_agency, ppp, consortium, jv, other]
+
+organization_country_relations: [incorporation, headquarters, parent, ultimate_owner, financing, soe_origin]
+
+financing_instruments: [loan, grant, equity, export_credit, guarantee, other]
+
+event_types: [proposed, announced, feasibility, tender_issued, awarded, signed, financial_close, construction_start, delayed, suspended, contractor_replaced, redesigned, completed, commissioned, partially_completed, cancelled, abandoned, revived, extension, renewal, variation]

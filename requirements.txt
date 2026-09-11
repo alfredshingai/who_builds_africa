@@ -1,0 +1,12 @@
+# WHO BUILDS AFRICA — Python dependencies (FOSS only)
+pydantic>=2.7
+frictionless>=5.17
+pyyaml>=6.0
+python-dateutil>=2.9
+# geo/build (optional until Phase 3+)
+# geopandas>=0.14
+# shapely>=2.0
+# ------------------------------------------------------------------
+# dev
+pytest>=8.0
+ruff>=0.5

@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.db
+*.sqlite
+*.duckdb
+
+# Node
+app/node_modules/
+app/dist/
+app/.astro/
+
+# Releases built artifacts (keep synthetic demo but ignore large local builds)
+data/releases/v*.0/
+!data/releases/v0.1.0-synthetic/
+
+# OS
+.DS_Store
+.env
