@@ -17,6 +17,7 @@ header h1{margin:0;font-size:18px;letter-spacing:.02em}header h1 span{color:var(
 #map{height:100%;min-height:420px;min-height:clamp(360px, 60dvh, 100%);}
 label{font-size:12px;color:var(--muted);display:block;margin:8px 0 4px}
 select,input{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff}
+header select#lang{width:auto !important;min-width:78px;max-width:110px;padding:4px 8px;font-size:12px;border-radius:999px;background:var(--card)}
 .row{display:flex;gap:8px}.row> *{flex:1}
 .card{border:1px solid var(--line);border-radius:12px;padding:10px;margin:8px 0;background:var(--card)}
 .badge{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:2px 6px;background:#fff}
@@ -37,8 +38,8 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <a class="pill" href="/data/releases/v0.3.0/data.json" download>Download JSON</a>
   <a class="pill" href="/data/releases/v0.3.0/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
-  <select id="lang" class="pill" style="padding:4px 8px" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
-  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')">Map</button><button class="pill" onclick="showView('countries')">Countries</button><button class="pill" onclick="showView('orgs')">Organizations</button><button class="pill" onclick="showView('quality')">Quality</button></nav>
+  <select id="lang" class="pill" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
+  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button></nav>
 </header>
 
 <div class="layout">
@@ -46,26 +47,26 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
     <div class="card" style="background:#fffbe6;border-color:#fde68a">
       <b>30 REAL PROJECTS</b><br><small>Source-tracked records for <b>13 countries</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
     </div>
-    <label for="q">Search projects / orgs</label>
+    <label for="q" data-i18n="search_placeholder">Search projects / orgs</label>
     <input id="q" placeholder="e.g. Harare, SinoHydro, rail" aria-label="Search">
     <div class="row">
-      <div><label for="country">Country</label><select id="country"><option value="">All</option></select></div>
-      <div><label for="sector">Sector</label><select id="sector"><option value="">All</option></select></div>
+      <div><label for="country" data-i18n="country">Country</label><select id="country"><option value="">All</option></select></div>
+      <div><label for="sector" data-i18n="sector">Sector</label><select id="sector"><option value="">All</option></select></div>
     </div>
     <div class="row">
-      <div><label for="role">Role</label><select id="role"><option value="">All roles</option></select></div>
-      <div><label for="status">Status</label><select id="status"><option value="">All</option></select></div>
+      <div><label for="role" data-i18n="role">Role</label><select id="role"><option value="">All roles</option></select></div>
+      <div><label for="status" data-i18n="status">Status</label><select id="status"><option value="">All</option></select></div>
     </div>
     <div class="row">
-      <div><label for="origin">Foreign origin</label><select id="origin"><option value="">All origins</option></select></div>
-      <div><label for="precision">Location precision</label><select id="precision"><option value="">All</option></select></div>
+      <div><label for="origin" data-i18n="origin">Foreign origin</label><select id="origin"><option value="">All origins</option></select></div>
+      <div><label for="precision" data-i18n="precision">Location precision</label><select id="precision"><option value="">All</option></select></div>
     </div>
     <div class="row" style="margin-top:8px">
-      <button id="reset" class="pill" style="width:100%">Reset filters</button>
-      <button id="tableToggle" class="pill" style="width:100%">Table view</button>
+      <button id="reset" class="pill" style="width:100%" data-i18n="reset">Reset filters</button>
+      <button id="tableToggle" class="pill" style="width:100%" data-i18n="table_view">Table view</button>
     </div>
     <div class="card">
-      <b>Legend - location precision</b><br>
+      <b data-i18n="legend">Legend - location precision</b><br>
       <span class="badge exact">exact</span> precise point
       <span class="badge approx">approx / city</span> area
       <span class="badge corridor">corridor / cross-border</span> line
@@ -73,7 +74,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
     </div>
     <div id="list" role="region" aria-live="polite"></div>
-    <div class="card"><b>Downloads</b><br>
+    <div class="card"><b data-i18n="downloads">Downloads</b><br>
       <a href="/data/releases/v0.3.0/projects.csv">projects.csv</a> ·
       <a href="/data/releases/v0.3.0/organizations.csv">organizations.csv</a> ·
       <a href="/data/releases/v0.3.0/claims.csv">claims.csv</a> ·
