@@ -1,0 +1,92 @@
+[
+  {
+    "project_id": "wba_prj_01HREAL001",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Hwange",
+    "locality": "Hwange Power Station",
+    "precision": "exact",
+    "lat": "-18.383",
+    "lon": "26.48"
+  },
+  {
+    "project_id": "wba_prj_01HREAL002",
+    "admin1": "Matabeleland North",
+    "admin2": "Kariba",
+    "city": "Kariba",
+    "locality": "Kariba South",
+    "precision": "exact",
+    "lat": "-16.521",
+    "lon": "28.761"
+  },
+  {
+    "project_id": "wba_prj_01HREAL003",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Harare",
+    "locality": "RGM International Airport",
+    "precision": "approximate",
+    "lat": "-17.931",
+    "lon": "31.092"
+  },
+  {
+    "project_id": "wba_prj_01HREAL004",
+    "admin1": "Nairobi",
+    "admin2": "Nairobi",
+    "city": "Nairobi",
+    "locality": "JKIA\u2013James Gichuru corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL005",
+    "admin1": "Mombasa",
+    "admin2": "Mombasa",
+    "city": "Mombasa",
+    "locality": "Mombasa\u2013Nairobi corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL006",
+    "admin1": "Marsabit",
+    "admin2": "Loiyangalani",
+    "city": "Loiyangalani",
+    "locality": "Lake Turkana",
+    "precision": "exact",
+    "lat": "2.85",
+    "lon": "36.82"
+  },
+  {
+    "project_id": "wba_prj_01HREAL007",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis Light Rail corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL008",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis\u2013Djibouti corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL009",
+    "admin1": "Benishangul-Gumuz",
+    "admin2": "",
+    "city": "",
+    "locality": "GERD site",
+    "precision": "exact",
+    "lat": "11.22",
+    "lon": "35.09"
+  }
+]

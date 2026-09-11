@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wba_als_01HREAL001",
+    "org_id": "wba_org_01HREAL001",
+    "alias": "Sinohydro",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL002",
+    "org_id": "wba_org_01HREAL007",
+    "alias": "CRBC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL003",
+    "org_id": "wba_org_01HREAL014",
+    "alias": "CREC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL004",
+    "org_id": "wba_org_01HREAL020",
+    "alias": "Salini Impregilo",
+    "lang": "en",
+    "is_transliteration": "false"
+  }
+]

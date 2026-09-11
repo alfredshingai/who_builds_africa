@@ -1,0 +1,222 @@
+[
+  {
+    "id": "wba_par_01HREAL001",
+    "project_id": "wba_prj_01HREAL001",
+    "contract_id": "wba_ctr_01HREAL001",
+    "org_id": "wba_org_01HREAL001",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL001",
+    "end_date": "wba_date_01HREAL002",
+    "share_percent": "",
+    "notes": "EPC contractor, also 36% HESCO equity"
+  },
+  {
+    "id": "wba_par_01HREAL002",
+    "project_id": "wba_prj_01HREAL001",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "wba_date_01HREAL001",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim Bank lender 85%"
+  },
+  {
+    "id": "wba_par_01HREAL003",
+    "project_id": "wba_prj_01HREAL002",
+    "contract_id": "wba_ctr_01HREAL002",
+    "org_id": "wba_org_01HREAL001",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL003",
+    "share_percent": "",
+    "notes": "Sinohydro Bureau 16"
+  },
+  {
+    "id": "wba_par_01HREAL004",
+    "project_id": "wba_prj_01HREAL002",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "$319.45m preferential"
+  },
+  {
+    "id": "wba_par_01HREAL005",
+    "project_id": "wba_prj_01HREAL003",
+    "contract_id": "wba_ctr_01HREAL003",
+    "org_id": "wba_org_01HREAL005",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL004",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "CJI EPC"
+  },
+  {
+    "id": "wba_par_01HREAL006",
+    "project_id": "wba_prj_01HREAL003",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "wba_date_01HREAL004",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim Bank RMB 1.045bn"
+  },
+  {
+    "id": "wba_par_01HREAL007",
+    "project_id": "wba_prj_01HREAL004",
+    "contract_id": "wba_ctr_01HREAL004",
+    "org_id": "wba_org_01HREAL007",
+    "role": "contractor",
+    "start_date": "wba_date_01HREAL006",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "CRBC developer/contractor/operator via Moja Expressway"
+  },
+  {
+    "id": "wba_par_01HREAL008",
+    "project_id": "wba_prj_01HREAL004",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim + CDB $494m"
+  },
+  {
+    "id": "wba_par_01HREAL009",
+    "project_id": "wba_prj_01HREAL005",
+    "contract_id": "wba_ctr_01HREAL005",
+    "org_id": "wba_org_01HREAL007",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL007",
+    "share_percent": "",
+    "notes": "Prime contractor CRBC $3.6bn"
+  },
+  {
+    "id": "wba_par_01HREAL010",
+    "project_id": "wba_prj_01HREAL005",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL011",
+    "role": "operator",
+    "start_date": "wba_date_01HREAL007",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Afristar operator 5-10yr"
+  },
+  {
+    "id": "wba_par_01HREAL011",
+    "project_id": "wba_prj_01HREAL005",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim Bank 90% $3.23bn"
+  },
+  {
+    "id": "wba_par_01HREAL012",
+    "project_id": "wba_prj_01HREAL006",
+    "contract_id": "wba_ctr_01HREAL006",
+    "org_id": "wba_org_01HREAL012",
+    "role": "supplier",
+    "start_date": "wba_date_01HREAL014",
+    "end_date": "wba_date_01HREAL008",
+    "share_percent": "",
+    "notes": "Vestas 365 turbines supplier/installer"
+  },
+  {
+    "id": "wba_par_01HREAL013",
+    "project_id": "wba_prj_01HREAL006",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL012",
+    "role": "operator",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "12.5% equity, 15yr service, divested 2024"
+  },
+  {
+    "id": "wba_par_01HREAL014",
+    "project_id": "wba_prj_01HREAL007",
+    "contract_id": "wba_ctr_01HREAL009",
+    "org_id": "wba_org_01HREAL014",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL009",
+    "share_percent": "",
+    "notes": "CREC EPC $475m"
+  },
+  {
+    "id": "wba_par_01HREAL015",
+    "project_id": "wba_prj_01HREAL007",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL016",
+    "role": "operator",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Shenzhen Metro 5yr O&M $116m"
+  },
+  {
+    "id": "wba_par_01HREAL016",
+    "project_id": "wba_prj_01HREAL007",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim Bank 85%"
+  },
+  {
+    "id": "wba_par_01HREAL017",
+    "project_id": "wba_prj_01HREAL008",
+    "contract_id": "wba_ctr_01HREAL007",
+    "org_id": "wba_org_01HREAL014",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL011",
+    "share_percent": "",
+    "notes": "CREC Sebeta-Mieso"
+  },
+  {
+    "id": "wba_par_01HREAL018",
+    "project_id": "wba_prj_01HREAL008",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL019",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL011",
+    "share_percent": "",
+    "notes": "CCECC Mieso-Djibouti"
+  },
+  {
+    "id": "wba_par_01HREAL019",
+    "project_id": "wba_prj_01HREAL008",
+    "contract_id": "",
+    "org_id": "wba_org_01HREAL003",
+    "role": "financier",
+    "start_date": "",
+    "end_date": "",
+    "share_percent": "",
+    "notes": "Exim Bank ~$4bn"
+  },
+  {
+    "id": "wba_par_01HREAL020",
+    "project_id": "wba_prj_01HREAL009",
+    "contract_id": "wba_ctr_01HREAL008",
+    "org_id": "wba_org_01HREAL020",
+    "role": "contractor",
+    "start_date": "",
+    "end_date": "wba_date_01HREAL012",
+    "share_percent": "",
+    "notes": "Webuild designer & civil works, Italy"
+  }
+]

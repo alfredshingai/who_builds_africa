@@ -12,8 +12,11 @@ app/node_modules/
 app/dist/
 app/.astro/
 
-# Releases built artifacts (keep synthetic demo but ignore large local builds)
-data/releases/v*.0/
+# Releases — keep versioned exports in git for Vercel/static (small JSON/CSV/SQLite)
+# No ignore for data/releases; all releases are versioned snapshots
+# data/releases/v*.0/  # disabled — keep v0.1.0 real
+# !data/releases/v0.1.0-synthetic/  # no longer needed
+!data/releases/v0.1.0/
 !data/releases/v0.1.0-synthetic/
 
 # OS

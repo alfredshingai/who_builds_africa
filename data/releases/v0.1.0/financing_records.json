@@ -1,0 +1,72 @@
+[
+  {
+    "id": "wba_fin_01HREAL001",
+    "project_id": "wba_prj_01HREAL001",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "997700000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "85% preferential buyer credit, 20yr"
+  },
+  {
+    "id": "wba_fin_01HREAL002",
+    "project_id": "wba_prj_01HREAL002",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "319450000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "20yr 5yr grace 2%"
+  },
+  {
+    "id": "wba_fin_01HREAL003",
+    "project_id": "wba_prj_01HREAL003",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "153000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "RMB1.045bn ~$153m concessional 20yr 7yr grace 2%"
+  },
+  {
+    "id": "wba_fin_01HREAL004",
+    "project_id": "wba_prj_01HREAL004",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "494000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "Exim + CDB facility"
+  },
+  {
+    "id": "wba_fin_01HREAL005",
+    "project_id": "wba_prj_01HREAL005",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "3230000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "90% two loans $1.63bn each"
+  },
+  {
+    "id": "wba_fin_01HREAL006",
+    "project_id": "wba_prj_01HREAL007",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "403750000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "85% of $475m"
+  },
+  {
+    "id": "wba_fin_01HREAL007",
+    "project_id": "wba_prj_01HREAL008",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "4000000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "~$4bn segments"
+  }
+]
