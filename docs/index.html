@@ -37,6 +37,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <a class="pill" href="/data/releases/v0.1.0/data.json" download>Download JSON</a>
   <a class="pill" href="/data/releases/v0.1.0/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
+  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')">Map</button><button class="pill" onclick="showView('countries')">Countries</button><button class="pill" onclick="showView('orgs')">Organizations</button><button class="pill" onclick="showView('quality')">Quality</button></nav>
 </header>
 
 <div class="layout">
@@ -89,6 +90,9 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <h3 style="margin:8px 0">Table view — all filtered projects</h3>
   <div style="overflow:auto"><table id="tbl"><thead><tr><th>Project</th><th>Country</th><th>Sectors</th><th>Status</th><th>Precision</th><th>Roles</th></tr></thead><tbody></tbody></table></div>
 </div>
+<div id="countriesView" style="display:none;padding:14px"></div>
+<div id="orgsView" style="display:none;padding:14px"></div>
+<div id="qualityView" style="display:none;padding:14px"></div>
 
 <footer>
   <span>© OpenStreetMap contributors, ODbL — <a href="https://www.openstreetmap.org/copyright">copyright</a></span>
@@ -261,6 +265,76 @@ function updateMap(){
   map.on('mouseleave','pts',()=>map.getCanvas().style.cursor='')
 }
 
+function showView(v){
+  document.querySelector('.layout').style.display = v==='map' ? 'grid' : 'none';
+  document.getElementById('tableView').style.display = 'none';
+  document.getElementById('countriesView').style.display = v==='countries' ? 'block' : 'none';
+  document.getElementById('orgsView').style.display = v==='orgs' ? 'block' : 'none';
+  document.getElementById('qualityView').style.display = v==='quality' ? 'block' : 'none';
+  document.getElementById('projectDetail').style.display='none';
+  if(v==='countries') renderCountries();
+  if(v==='orgs') renderOrgs();
+  if(v==='quality') renderQuality();
+  if(v==='map' && window._map) setTimeout(()=>window._map.resize(),150);
+}
+function renderCountries(){
+  const byCountry={};
+  for(const p of DATA.projects){ (byCountry[p.country_iso3] ??= []).push(p) }
+  const html = Object.entries(byCountry).sort().map(([iso, list])=>{
+    const sectors={}; list.forEach(p=> p.sectors.split('|').forEach(s=> { if(s) sectors[s]=(sectors[s]||0)+1 }));
+    const origins={}; list.forEach(p=> {
+      const pars=DATA._parByProject[p.id]||[];
+      const oids=[...new Set(pars.map(x=>x.org_id))];
+      oids.forEach(id=> DATA.organization_countries.filter(oc=>oc.org_id===id).forEach(oc=> origins[oc.country_iso3]=(origins[oc.country_iso3]||0)+1))
+    });
+    const status={}; list.forEach(p=> status[p.status]=(status[p.status]||0)+1);
+    return `<div class="card">
+      <h3 style="margin:4px 0">${iso} — ${list.length} projects</h3>
+      <small>Sectors: ${Object.entries(sectors).map(([k,v])=>k+` (${v})`).join(', ')||'—'}</small><br>
+      <small>Status: ${Object.entries(status).map(([k,v])=>k+` (${v})`).join(', ')}</small><br>
+      <small>Foreign origins (participation count): ${Object.entries(origins).map(([k,v])=>k+` (${v})`).join(', ')||'—'}</small><br>
+      <div style="margin-top:6px">${list.map(p=>`<a href="#" onclick="event.preventDefault();showView('map');setTimeout(()=>openProject('${p.id}'),150)">${p.canonical_name}</a>`).join(' · ')}</div>
+      <div style="margin-top:6px"><button class="pill" onclick="$('country').value='${iso}';showView('map');render()">Filter map to ${iso}</button></div>
+    </div>`;
+  }).join('');
+  document.getElementById('countriesView').innerHTML = `<h2>Country profiles</h2>${html}<div class="card"><small>Counts are descriptive — see <a href="/DATA_METHODOLOGY.md">Limitations</a>: reporting bias, language bias, survivors. Do not infer causality from map counts.</small></div>`;
+}
+function renderOrgs(){
+  const byOrg={};
+  for(const par of DATA.participation_records){
+    const org=DATA._orgById[par.org_id];
+    if(!org) continue;
+    const k=par.org_id;
+    if(!byOrg[k]) byOrg[k]={org, pars:[], countries:new Set()};
+    byOrg[k].pars.push(par);
+    const proj=DATA.projects.find(p=>p.id===par.project_id);
+    if(proj) byOrg[k].countries.add(proj.country_iso3);
+  }
+  const rows=Object.values(byOrg).sort((a,b)=> b.pars.length - a.pars.length).map(v=>{
+    const roles={}; v.pars.forEach(p=> roles[p.role]=(roles[p.role]||0)+1);
+    const oc=DATA.organization_countries.filter(x=>x.org_id===v.org.id).map(x=>x.relation+':'+x.country_iso3).join(', ');
+    return `<tr><td><b>${v.org.canonical_name}</b><br><small>${v.org.org_type} · ${oc||'origin not disclosed'}</small></td><td>${v.pars.length}</td><td>${[...v.countries].join(', ')}</td><td>${Object.entries(roles).map(([k,c])=>k+` (${c})`).join(', ')}</td><td>${v.pars.map(p=>`<a href="#" onclick="event.preventDefault();showView('map');setTimeout(()=>openProject('${p.project_id}'),150)">${p.project_id.replace('wba_prj_01HREAL','…')}</a>`).join(' ')}</td></tr>`;
+  }).join('');
+  document.getElementById('orgsView').innerHTML = `<h2>Organizations — ${Object.keys(byOrg).length} active</h2><p><small>One org = multiple names/aliases, JVs, subsidiaries — see <code>organization_aliases.csv</code> and <code>organization_relations.csv</code>. Foreign = incorporation/headquarters/parent/ultimate_owner/financing distinguished.</small></p><div style="overflow:auto"><table><thead><tr><th>Organization</th><th>Participations</th><th>Countries</th><th>Roles</th><th>Projects</th></tr></thead><tbody>${rows}</tbody></table></div><p><small>Sorted by participations — CRBC/CCCC/Sinohydro appear in multiple countries.</small></p>`;
+}
+function renderQuality(){
+  const total=DATA.projects.length;
+  const exact=DATA.projects.filter(p=>p.location_precision==='exact').length;
+  const corridor=DATA.projects.filter(p=>p.location_precision==='corridor').length;
+  const approx=DATA.projects.filter(p=> ['approximate','city'].includes(p.location_precision)).length;
+  const undisclosedVal=DATA.contracts.filter(c=>c.value_precision==='undisclosed').length;
+  const withFin=DATA.financing_records.length;
+  const claimsByStrength={}; DATA.claims.forEach(c=> claimsByStrength[c.evidence_strength]=(claimsByStrength[c.evidence_strength]||0)+1);
+  const bySector={}; DATA.projects.forEach(p=> p.sectors.split('|').forEach(s=> { if(s) bySector[s]=(bySector[s]||0)+1 }));
+  document.getElementById('qualityView').innerHTML = `<h2>Quality & limitations</h2>
+    <div class="card"><b>Coverage</b>: ${total} projects, ${DATA.organizations.length} orgs, ${DATA.contracts.length} contracts, ${DATA.claims.length} claims, ${DATA.sources.length} sources</div>
+    <div class="card"><b>Geography</b>: exact ${exact}, corridor ${corridor}, approx/city ${approx} — <em>never fake coords</em>, hollow centroid for country-only</div>
+    <div class="card"><b>Values</b>: ${undisclosedVal}/${DATA.contracts.length} contracts undisclosed · ${withFin} financing records (Exim Bank, bonds) — do not conflate contract value vs loan vs estimate</div>
+    <div class="card"><b>Evidence</b>: ${Object.entries(claimsByStrength).map(([k,v])=>k+` (${v})`).join(', ')} — <em>see evidence cards per project</em></div>
+    <div class="card"><b>Sectors</b>: ${Object.entries(bySector).map(([k,v])=>k+` (${v})`).join(', ')}</div>
+    <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only — no causal claims from map.</div>
+    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.1.0/data.json">data.json</a> · <a href="/data/releases/v0.1.0/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.1.0/projects.csv">CSV</a> · <a href="/data/releases/v0.1.0/footprints.sqlite">SQLite</a> — stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
+}
 load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} — ensure <code>python scripts/build.py --out data/releases/v0.1.0</code> was run.</div>`})
 </script>
 </body>
