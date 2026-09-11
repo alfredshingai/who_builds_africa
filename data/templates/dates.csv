@@ -1,0 +1,2 @@
+id,edtf_string,precision,earliest,latest,display_string
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/dates.csv and add rows. Validate with python scripts/validate.py --all

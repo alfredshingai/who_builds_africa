@@ -1,0 +1,2 @@
+id,entity_type,entity_id,changed_by,changed_at,field,old_value,new_value,source_claim,reason
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/change_history.csv and add rows. Validate with python scripts/validate.py --all

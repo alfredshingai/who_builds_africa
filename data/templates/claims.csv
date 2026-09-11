@@ -1,0 +1,2 @@
+id,source_id,project_id,organization_id,contract_id,verbatim_quote,claim_text,claim_type,evidence_strength,corroboration_status
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/claims.csv and add rows. Validate with python scripts/validate.py --all

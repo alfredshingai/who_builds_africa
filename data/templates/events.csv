@@ -1,0 +1,2 @@
+id,project_id,event_type,date_id,source_claim,notes
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/events.csv and add rows. Validate with python scripts/validate.py --all

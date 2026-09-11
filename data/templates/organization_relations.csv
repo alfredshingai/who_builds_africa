@@ -1,0 +1,2 @@
+id,from_org,to_org,relation,start_date,end_date
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/organization_relations.csv and add rows. Validate with python scripts/validate.py --all

@@ -1,0 +1,2 @@
+id,project_id,contract_id,org_id,role,start_date,end_date,share_percent,notes
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/participation_records.csv and add rows. Validate with python scripts/validate.py --all

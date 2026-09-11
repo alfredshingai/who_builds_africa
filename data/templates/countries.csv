@@ -1,0 +1,2 @@
+iso3,name_en,name_fr,name_pt,region
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/countries.csv and add rows. Validate with python scripts/validate.py --all

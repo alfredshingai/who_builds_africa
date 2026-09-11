@@ -1,0 +1,2 @@
+id,project_id,institution,instrument,amount,currency,share_percent,notes
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/financing_records.csv and add rows. Validate with python scripts/validate.py --all

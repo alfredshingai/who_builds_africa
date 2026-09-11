@@ -1,0 +1,69 @@
+name: Data submission
+description: Propose a new project, contract, or organization with sources
+title: "data: [COUNTRY ISO3] Project name"
+labels: [data]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing - accuracy > speed. Read `DATA_METHODOLOGY.md` and `SOURCING_GUIDE.md` first. Every claim must link to a source with verbatim quote.
+  - type: input
+    id: project
+    attributes:
+      label: Project canonical name + country ISO3
+      placeholder: "e.g. Beitbridge-Harare Road Rehabilitation | ZWE"
+    validations: { required: true }
+  - type: dropdown
+    id: country
+    attributes:
+      label: Country
+      options: [ZWE, KEN, ETH, BWA, ZMB, Other]
+    validations: { required: true }
+  - type: dropdown
+    id: sector
+    attributes:
+      label: Sector
+      multiple: true
+      options: [roads, bridges, railways, ports, airports, public_transport, dams, irrigation, water_supply, sanitation, hydropower, solar_power, wind_power, transmission, oil_gas, mining_infrastructure, industrial_parks, special_economic_zones, manufacturing, telecommunications, data_centres, digital_infrastructure, housing, urban_development, hospitals, schools, universities, government_buildings, agriculture, tourism, other]
+  - type: textarea
+    id: orgs
+    attributes:
+      label: Foreign org(s) + role(s)
+      description: "One per line: Org | role (financier/contractor/supplier/consultant/designer/operator/maintainer/manager/jv/consortium_member/sponsor) | country of headquarters"
+      placeholder: "Sinohydro Corporation | contractor | CHN\nExport-Import Bank of China | financier | CHN"
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (URL + publisher + date + verbatim quote + claim_text)
+      description: "Every claim needs a source. Provide URL, publisher, publication date, verbatim quote, and the normalized claim_text it supports."
+      placeholder: "https://www.xinhuanet.com/... | Xinhua | 2018-06-27 | \"The project undertaken by Sinohydro broke ground...\" | Sinohydro is EPC contractor for Hwange, groundbreaking 27 June 2018."
+    validations: { required: true }
+  - type: input
+    id: dates
+    attributes:
+      label: Dates with precision
+      placeholder: "2018-06-27 (day), 2018-03 (month), 2018 (year), ~2018 (approx), 2017/2019 (range), before 2005, unknown"
+  - type: input
+    id: location
+    attributes:
+      label: Location precision + coords if exact
+      placeholder: "exact -18.383,26.48 | approximate | city | corridor | country | unknown"
+  - type: input
+    id: value
+    attributes:
+      label: Contract value (currency + precision)
+      placeholder: "USD 150000000 exact | USD 319450000 approx | CNY 1045000000 exact | undisclosed"
+  - type: textarea
+    id: conflicts
+    attributes:
+      label: Conflicts / uncertainties / notes
+      placeholder: "Sources disagree on value (X says $1bn, Y says $1.5bn) - preserve both."
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: Source supports specific claim_text (not just link)
+        - label: No invented dates/values/coords/roles - used unknown/undisclosed/country where needed
+        - label: Ran python scripts/validate.py --all locally and it passes

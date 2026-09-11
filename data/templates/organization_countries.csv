@@ -1,0 +1,2 @@
+org_id,country_iso3,relation,source_claim
+# See DATA_DICTIONARY.md for field definitions. Copy header to data/curated/organization_countries.csv and add rows. Validate with python scripts/validate.py --all
