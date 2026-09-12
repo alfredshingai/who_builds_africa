@@ -351,25 +351,44 @@ function renderAnalytics(){
   const byStatus={}; DATA.projects.forEach(p=> byStatus[p.status]=(byStatus[p.status]||0)+1);
   const byOrigin={}; DATA.organization_countries.forEach(oc=> byOrigin[oc.country_iso3]=(byOrigin[oc.country_iso3]||0)+1);
   const byYear={}; DATA.events.forEach(e=>{ const d=DATA.dates.find(x=>x.id===e.date_id); if(d&&d.earliest) { const y=d.earliest.slice(0,4); if(y!=='') byYear[y]=(byYear[y]||0)+1 } });
-  const vals=DATA.contracts.filter(c=>c.value_original && c.value_precision!=='undisclosed').map(c=> parseFloat(c.value_original)).filter(v=>!isNaN(v));
-  const html=`<h2>Analytics - descriptive only</h2>
-    <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Warnings:</b> counts are descriptive, not causal. Reporting bias (English/Chinese over-represented), language bias, survivorship (cancelled under-reported), disclosure bias (values missing not zero), changing definitions. See Quality view.</div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">@media(max-width:900px){grid-template-columns:1fr}
-      <div class="card"><canvas id="chartCountry"></canvas></div>
-      <div class="card"><canvas id="chartSector"></canvas></div>
-      <div class="card"><canvas id="chartStatus"></canvas></div>
-      <div class="card"><canvas id="chartOrigin"></canvas></div>
-      <div class="card"><canvas id="chartYear"></canvas></div>
-      <div class="card"><canvas id="chartValue"></canvas></div>
+  const vals=DATA.contracts.filter(c=>c.value_original && c.value_precision!=='undisclosed' && c.currency==='USD').map(c=> parseFloat(c.value_original)).filter(v=>!isNaN(v));
+  const byRole={}; DATA.participation_records.forEach(r=> byRole[r.role]=(byRole[r.role]||0)+1);
+  // Insights
+  const topCountry=Object.entries(byCountry).sort((a,b)=>b[1]-a[1])[0];
+  const topSector=Object.entries(bySector).sort((a,b)=>b[1]-a[1])[0];
+  const topOrigin=Object.entries(byOrigin).sort((a,b)=>b[1]-a[1])[0];
+  const disclosedPct=Math.round(vals.length/DATA.contracts.length*100);
+  const totalUSD=vals.reduce((a,b)=>a+b,0);
+  const avgUSD=vals.length? Math.round(totalUSD/vals.length/1e6):0;
+  const html=`<h2>Analytics - what the data can and cannot tell you</h2>
+    <div class="card"><b>How to read:</b> All charts are <em>descriptive counts of documented records</em>, not measures of influence, debt, or economic impact. Use filters on the Map to interrogate - click a country or sector to cross-check.</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px">
+      <div class="card" style="background:#ecfdf5;border-color:#6ee7b7"><b>Takeaway 1 - Geography</b><br>Most documented projects are in <b>${topCountry[0]} (${topCountry[1]}/${DATA.projects.length})</b>. This reflects research focus (ZWE/KEN/ETH first, 13/20 countries now) and disclosure bias - not that other countries have less building. <a href="#" onclick="event.preventDefault();showView('countries')">See Country profiles</a> for per-country breakdown.</div>
+      <div class="card" style="background:#eff6ff;border-color:#93c5fd"><b>Takeaway 2 - Sectors</b><br>Top sector is <b>${topSector[0].replace('_',' ')} (${topSector[1]})</b> - hydropower/dams + railways/ports dominate the documented set. <small>Energy and transport are most disclosed; housing/water/telecom may be under-reported.</small></div>
+      <div class="card" style="background:#fef3c7;border-color:#fcd34d"><b>Takeaway 3 - Who participates</b><br>Top foreign origin by participations is <b>${topOrigin[0]} (${topOrigin[1]})</b> - largely China via Exim Bank + SOEs (Sinohydro, CRBC, CCECC) - but with real diversity: Korea, Japan, France, Turkey, Italy, Portugal, South Africa, Denmark. <a href="#" onclick="event.preventDefault();showView('orgs')">See Organizations</a> (who is in >1 country).</div>
+      <div class="card" style="background:#fce7f3;border-color:#f9a8d4"><b>Takeaway 4 - Money is partial</b><br>Only <b>${vals.length}/${DATA.contracts.length} (${disclosedPct}%)</b> contracts have a disclosed USD value. Average disclosed is <b>~$${avgUSD}m</b>, but <b>do not sum</b> - currencies differ, some are loans not contract values, many undisclosed. See <code>value_precision</code>.</div>
     </div>
-    <div class="card"><small>Projects: ${DATA.projects.length} | Contracts: ${DATA.contracts.length} | Participations: ${DATA.participation_records.length} | Sources: ${DATA.sources.length} | Values disclosed: ${vals.length}/${DATA.contracts.length} | Financing records: ${DATA.financing_records.length}</small></div>`;
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+      <div class="card"><h4 style="margin:4px 0">Projects by country</h4><canvas id="chartCountry"></canvas><small>Click to filter - reflects curation coverage, not market share.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Projects by sector</h4><canvas id="chartSector"></canvas><small>Controlled vocab - propose new via Issue.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Status</h4><canvas id="chartStatus"></canvas><small>Historical events preserved - not just current status. Many commissioned vs construction_started.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Foreign origin (participations)</h4><canvas id="chartOrigin"></canvas><small>Counts participations, not projects - one project can have multiple origins. Distinguishes headquarters/financing.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Events by year</h4><canvas id="chartYear"></canvas><small>Contract awards vs commissioning - shows when evidence is dated, 2012-2024 peak in this set.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Roles</h4><canvas id="chartRole"></canvas><small>Contractor vs financier vs supplier - "builds" is never just one role.</small></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
+      <div class="card"><h4 style="margin:4px 0">Contract values - USD disclosed only (n=${vals.length})</h4><canvas id="chartValue"></canvas><small>Bins $0-50m, 50-200m, 200-500m, 500m-1bn, 1-5bn. Undisclosed ${DATA.contracts.length-vals.length} excluded. Do not aggregate across currencies.</small></div>
+      <div class="card"><h4 style="margin:4px 0">What we cannot say from this</h4><ul style="margin:6px 0;padding-left:18px"><li>Causality or debt sustainability - need loan terms + fiscal data</li><li>Completeness - under-reported pre-2000, non-English, cancelled projects</li><li>Precision - corridor/approx vs exact coords (see Legend)</li></ul><small>Read <a href="/DATA_METHODOLOGY.md">Methodology</a> and <a href="/docs/API.md">API</a> for versioned downloads.</small></div>
+    </div>
+    <div class="card"><small>Projects: ${DATA.projects.length} | Contracts: ${DATA.contracts.length} | Participations: ${DATA.participation_records.length} | Sources: ${DATA.sources.length} | Values disclosed USD: ${vals.length}/${DATA.contracts.length} | Financing records: ${DATA.financing_records.length} | Avg disclosed: $${avgUSD}m | Top: ${topCountry[0]}/${topSector[0]}/${topOrigin[0]}</small></div>`;
   document.getElementById('analyticsView').innerHTML=html;
-  const mk=(id, type, labels, data, label)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}}}})};
+  const mk=(id, type, labels, data, label)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c','#0ea5e9','#84cc16']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}, tooltip:{callbacks:{label:(c)=> `${c.label}: ${c.parsed.y ?? c.parsed} (${Math.round(c.parsed.y ?? c.parsed)/DATA.projects.length*100|0}%)`}}}, onClick:(e,els)=>{ if(els.length && id==='chartCountry'){ const iso=labels[els[0].index]; $('country').value=iso; showView('map'); render(); } } })}; };
   mk('chartCountry','bar',Object.keys(byCountry),Object.values(byCountry),'Projects by country');
   mk('chartSector','bar',Object.keys(bySector),Object.values(bySector),'Projects by sector');
   mk('chartStatus','doughnut',Object.keys(byStatus),Object.values(byStatus),'Status');
   mk('chartOrigin','bar',Object.keys(byOrigin).slice(0,10),Object.values(byOrigin).slice(0,10),'Participations by foreign origin (top 10)');
   const ys=Object.keys(byYear).sort(); mk('chartYear','bar',ys,ys.map(y=>byYear[y]),'Events by year');
+  mk('chartRole','bar',Object.keys(byRole),Object.values(byRole),'Roles');
   if(vals.length){ const bins=[0,50e6,200e6,500e6,1e9,5e9]; const counts=bins.slice(0,-1).map((b,i)=> vals.filter(v=> v>=b && v<bins[i+1]).length); const labels=bins.slice(0,-1).map((b,i)=> `${(b/1e6).toFixed(0)}-${(bins[i+1]/1e6).toFixed(0)}m`); mk('chartValue','bar',labels,counts,'Contract values (USD disclosed)'); }
 }
 load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.4.0</code> was run.</div>`})
