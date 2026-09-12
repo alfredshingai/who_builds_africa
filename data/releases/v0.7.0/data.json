@@ -13005,6 +13005,23 @@
       "accessibility": "open",
       "paywall": "false",
       "license": ""
+    },
+    {
+      "id": "wba_src_01HREAL124",
+      "title": "Hwange 7&8 - Zimbabwe Power Company project page",
+      "publisher": "Zimbabwe Power Company",
+      "authors": "",
+      "source_type": "public_agency",
+      "pub_date": "wba_date_01HREAL001",
+      "access_date": "wba_date_01HREAL013",
+      "url": "https://www.zpc.co.zw/hwange",
+      "archive_url": "",
+      "lang": "en",
+      "page": "",
+      "classification": "primary",
+      "accessibility": "open",
+      "paywall": "false",
+      "license": ""
     }
   ],
   "claims": [
@@ -14903,6 +14920,18 @@
       "claim_type": "award",
       "evidence_strength": "officially_reported",
       "corroboration_status": "uncorroborated"
+    },
+    {
+      "id": "wba_clm_01HREAL085",
+      "source_id": "wba_src_01HREAL124",
+      "project_id": "wba_prj_01HREAL001",
+      "organization_id": "wba_org_01HREAL001",
+      "contract_id": "wba_ctr_01HREAL001",
+      "verbatim_quote": "ZPC lists Sinohydro as contractor for Hwange Unit 7 and 8 expansion, 600MW.",
+      "claim_text": "ZPC confirms Sinohydro contractor for Hwange 7&8, 600MW.",
+      "claim_type": "award",
+      "evidence_strength": "corroborated",
+      "corroboration_status": "corroborated"
     }
   ],
   "events": [

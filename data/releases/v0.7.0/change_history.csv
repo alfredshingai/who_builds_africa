@@ -1,1 +1,2 @@
 id,entity_type,entity_id,changed_by,changed_at,field,old_value,new_value,source_claim,reason
+wba_chg_01,claim,wba_clm_01HREAL001,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL124,Added second source ZPC to corroborate Hwange
