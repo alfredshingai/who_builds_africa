@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.7.0] - 2026-09-11
+### Added
+- Data: expand to 150 real projects (+50) - exhaustive no prioritization - added 50: EGY El Dabaa Nuclear, Egypt HSR, NGA Lekki Port, Zungeru, CMR Nachtigal, ETH Koysha, NGA Second Niger Bridge, AGO Neto Airport, CIV Bedie Bridge, UGA Isimba, NGA Blue Line, DZA Algiers Metro, CMR Memve'ele, NGA Lagos-Ibadan Railway, EGY Benban Solar, MAR Tanger Med, Casablanca Tramway, GHA Kotoka T3, ZAF Medupi, ETH Gibe III, GIN Souapiti/Kaleta, RWA Rusumo, TZA Nyerere T3, GAB Kinguele Aval, TZA Dar BRT, NGA Abuja-Kaduna Railway, KEN Mau Summit Highway, SEN Diamniadio Stadium, Autoroute de l'Avenir, ZMB Lusaka-Ndola, ZAF Kusile, EGY Cairo LRT/Monorail, MAR Al Boraq HSR, NGA Kano-Maradi Railway, BEN Cotonou Port, TZA SGR, MAR Nador Port, CIV Singrobo, NGA Azura-Edo, SOM Berbera Port, ZMB Itezhi-Tezhi, ETH Ashegoda Wind, MAR Safi, GHA Kpone, UGA Bujagali, MAR Rabat Tramway, KEN Karimenu II Dam, SEN Taiba Wind - 54 countries, 201 orgs, 148 contracts, 173 sources, validated OK
+- App: banner 150 REAL PROJECTS, Quality updated
+- Releases: v0.7.0 snapshot (150 features, 584KB) - v0.6.0 (100) + v0.5.0 (75) preserved
+
 ## [v0.6.0] - 2026-09-11
 ### Added
 - Data: expand to 100 real projects (all 54 African countries present, historical inclusive 1960-2025, exhaustive no prioritization) - added 25: NGA Ajaokuta (USSR, abandoned), TZA/ZMB TAZARA (China, 1970-1975), GHA Akosombo (Impregilo, 1961-1965), MOZ Cahora Bassa (Portugal, 1969-1979), EGY Aswan High Dam (Soviet Hydroproject, 1960-1971), LBY Great Man-Made River (Dong Ah Korea, 1984-1996), SDN Merowe (CWE, 2004-2009), CIV Soubre (Sinohydro, 2013-2017), AGO Kilamba (CITIC, 2008-2011), NER Kandadji (CGGC, delayed), TZA Bagamoyo $10bn (China Merchants, suspended 2019), UGA/TZA EACOP 1443km (Total/CNOOC, 2022-2026), AGO Lobito Corridor (Trafigura, proposed 2023), CIV Abidjan Metro (Bouygues, delayed 2028), DZA Great Mosque (CSCEC, 2012-2024), DZA East-West Highway 1216km (CITIC-CRCC, 2006-2013), TUN Enfidha (TAV Turkey, 2007-2009), DJI Doraleh (DP World UAE, cancelled 2018), BWA Morupule B (CNEEC, defective), ETH Africa CDC HQ (CCECC, $80m, 2023), GIN Simandou 650km (WCS/Rio Tinto, 2023-), NGA Abuja Light Rail (CCECC, $500m, 2018), NER/BEN Niger-Benin 1950km (CNPC, 2023), SEN 2Africa 45k km (Alcatel, 2020-2025), SLE Bumbuna (Salini, 1971-2009) + ESH Dakhla Atlantic Port (SGTM Morocco, 2021-2028) - 54 countries, 170 orgs, 97 contracts, 122 sources, all statuses
