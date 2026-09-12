@@ -1,2 +1,12 @@
 id,entity_type,entity_id,changed_by,changed_at,field,old_value,new_value,source_claim,reason
 wba_chg_01,claim,wba_clm_01HREAL001,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL124,Added second source ZPC to corroborate Hwange
+wba_chg_02,claim,wba_clm_01HREAL87,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL125,Added second corroborating source for 10-project batch
+wba_chg_03,claim,wba_clm_01HREAL88,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL126,Added second corroborating source for 10-project batch
+wba_chg_04,claim,wba_clm_01HREAL89,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL127,Added second corroborating source for 10-project batch
+wba_chg_05,claim,wba_clm_01HREAL90,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL128,Added second corroborating source for 10-project batch
+wba_chg_06,claim,wba_clm_01HREAL91,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL129,Added second corroborating source for 10-project batch
+wba_chg_07,claim,wba_clm_01HREAL92,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL130,Added second corroborating source for 10-project batch
+wba_chg_08,claim,wba_clm_01HREAL93,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL131,Added second corroborating source for 10-project batch
+wba_chg_09,claim,wba_clm_01HREAL94,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL132,Added second corroborating source for 10-project batch
+wba_chg_010,claim,wba_clm_01HREAL95,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL133,Added second corroborating source for 10-project batch
+wba_chg_011,claim,wba_clm_01HREAL96,Alfred Shingai,2026-09-11,corroboration_status,uncorroborated,corroborated,wba_src_01HREAL134,Added second corroborating source for 10-project batch
