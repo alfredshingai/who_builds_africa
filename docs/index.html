@@ -39,7 +39,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <a class="pill" href="/data/releases/v0.4.0/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
   <select id="lang" class="pill" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
-  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button></nav>
+  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button><button class="pill" onclick="showView('analytics')">Analytics</button></nav>
 </header>
 
 <div class="layout">
@@ -95,6 +95,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <div id="countriesView" style="display:none;padding:14px"></div>
 <div id="orgsView" style="display:none;padding:14px"></div>
 <div id="qualityView" style="display:none;padding:14px"></div>
+<div id="analyticsView" style="display:none;padding:14px"></div>
 
 <footer>
   <span>© OpenStreetMap contributors, ODbL - <a href="https://www.openstreetmap.org/copyright">copyright</a></span>
@@ -103,6 +104,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <span><a href="/DATA_METHODOLOGY.md">Methodology</a> · <a href="/DATA_DICTIONARY.md">Dictionary</a> · <a href="/SOURCING_GUIDE.md">Sourcing</a></span>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
 // --- state
@@ -275,10 +277,12 @@ function showView(v){
   document.getElementById('countriesView').style.display = v==='countries' ? 'block' : 'none';
   document.getElementById('orgsView').style.display = v==='orgs' ? 'block' : 'none';
   document.getElementById('qualityView').style.display = v==='quality' ? 'block' : 'none';
+  document.getElementById('analyticsView').style.display = v==='analytics' ? 'block' : 'none';
   document.getElementById('projectDetail').style.display='none';
   if(v==='countries') renderCountries();
   if(v==='orgs') renderOrgs();
   if(v==='quality') renderQuality();
+  if(v==='analytics') renderAnalytics();
   if(v==='map' && window._map) setTimeout(()=>window._map.resize(),150);
 }
 function renderCountries(){
@@ -341,6 +345,33 @@ function renderQuality(){
 }
 async function loadLocale(lang){ try{ const r=await fetch(`/app/locales/${lang}.json`); if(!r.ok) return; const tr=await r.json(); document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.getAttribute('data-i18n'); if(tr[k]) el.textContent=tr[k]; }); const q=$('q'); if(q && tr.search_placeholder) q.placeholder=tr.search_placeholder; }catch(e){} }
 $('lang').addEventListener('change', e=>{ loadLocale(e.target.value); localStorage.setItem('wba_lang', e.target.value); document.documentElement.lang=e.target.value; if(e.target.value==='ar') document.documentElement.dir='rtl'; else document.documentElement.dir='ltr'; }); (function(){ const saved=localStorage.getItem('wba_lang'); if(saved){ $('lang').value=saved; loadLocale(saved); document.documentElement.lang=saved; } })();
+function renderAnalytics(){
+  const byCountry={}; DATA.projects.forEach(p=> byCountry[p.country_iso3]=(byCountry[p.country_iso3]||0)+1);
+  const bySector={}; DATA.projects.forEach(p=> p.sectors.split('|').forEach(s=>{ if(s) bySector[s]=(bySector[s]||0)+1 }));
+  const byStatus={}; DATA.projects.forEach(p=> byStatus[p.status]=(byStatus[p.status]||0)+1);
+  const byOrigin={}; DATA.organization_countries.forEach(oc=> byOrigin[oc.country_iso3]=(byOrigin[oc.country_iso3]||0)+1);
+  const byYear={}; DATA.events.forEach(e=>{ const d=DATA.dates.find(x=>x.id===e.date_id); if(d&&d.earliest) { const y=d.earliest.slice(0,4); if(y!=='') byYear[y]=(byYear[y]||0)+1 } });
+  const vals=DATA.contracts.filter(c=>c.value_original && c.value_precision!=='undisclosed').map(c=> parseFloat(c.value_original)).filter(v=>!isNaN(v));
+  const html=`<h2>Analytics - descriptive only</h2>
+    <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Warnings:</b> counts are descriptive, not causal. Reporting bias (English/Chinese over-represented), language bias, survivorship (cancelled under-reported), disclosure bias (values missing not zero), changing definitions. See Quality view.</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">@media(max-width:900px){grid-template-columns:1fr}
+      <div class="card"><canvas id="chartCountry"></canvas></div>
+      <div class="card"><canvas id="chartSector"></canvas></div>
+      <div class="card"><canvas id="chartStatus"></canvas></div>
+      <div class="card"><canvas id="chartOrigin"></canvas></div>
+      <div class="card"><canvas id="chartYear"></canvas></div>
+      <div class="card"><canvas id="chartValue"></canvas></div>
+    </div>
+    <div class="card"><small>Projects: ${DATA.projects.length} | Contracts: ${DATA.contracts.length} | Participations: ${DATA.participation_records.length} | Sources: ${DATA.sources.length} | Values disclosed: ${vals.length}/${DATA.contracts.length} | Financing records: ${DATA.financing_records.length}</small></div>`;
+  document.getElementById('analyticsView').innerHTML=html;
+  const mk=(id, type, labels, data, label)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}}}})};
+  mk('chartCountry','bar',Object.keys(byCountry),Object.values(byCountry),'Projects by country');
+  mk('chartSector','bar',Object.keys(bySector),Object.values(bySector),'Projects by sector');
+  mk('chartStatus','doughnut',Object.keys(byStatus),Object.values(byStatus),'Status');
+  mk('chartOrigin','bar',Object.keys(byOrigin).slice(0,10),Object.values(byOrigin).slice(0,10),'Participations by foreign origin (top 10)');
+  const ys=Object.keys(byYear).sort(); mk('chartYear','bar',ys,ys.map(y=>byYear[y]),'Events by year');
+  if(vals.length){ const bins=[0,50e6,200e6,500e6,1e9,5e9]; const counts=bins.slice(0,-1).map((b,i)=> vals.filter(v=> v>=b && v<bins[i+1]).length); const labels=bins.slice(0,-1).map((b,i)=> `${(b/1e6).toFixed(0)}-${(bins[i+1]/1e6).toFixed(0)}m`); mk('chartValue','bar',labels,counts,'Contract values (USD disclosed)'); }
+}
 load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.4.0</code> was run.</div>`})
 </script>
 </body>
