@@ -4,6 +4,10 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.7.1] - 2026-09-11
+### Changed
+- Deepen: exhaustive corroboration - all 150 now >=2 sources (136 added Government/Wikipedia second sources), 320 sources / 306 claims, 147 change_history entries, validate OK 0 errors, 737KB (was 584KB) - v0.7.0 150 preserved
+
 ## [v0.7.0] - 2026-09-11
 ### Added
 - Data: expand to 150 real projects (+50) - exhaustive no prioritization - added 50: EGY El Dabaa Nuclear, Egypt HSR, NGA Lekki Port, Zungeru, CMR Nachtigal, ETH Koysha, NGA Second Niger Bridge, AGO Neto Airport, CIV Bedie Bridge, UGA Isimba, NGA Blue Line, DZA Algiers Metro, CMR Memve'ele, NGA Lagos-Ibadan Railway, EGY Benban Solar, MAR Tanger Med, Casablanca Tramway, GHA Kotoka T3, ZAF Medupi, ETH Gibe III, GIN Souapiti/Kaleta, RWA Rusumo, TZA Nyerere T3, GAB Kinguele Aval, TZA Dar BRT, NGA Abuja-Kaduna Railway, KEN Mau Summit Highway, SEN Diamniadio Stadium, Autoroute de l'Avenir, ZMB Lusaka-Ndola, ZAF Kusile, EGY Cairo LRT/Monorail, MAR Al Boraq HSR, NGA Kano-Maradi Railway, BEN Cotonou Port, TZA SGR, MAR Nador Port, CIV Singrobo, NGA Azura-Edo, SOM Berbera Port, ZMB Itezhi-Tezhi, ETH Ashegoda Wind, MAR Safi, GHA Kpone, UGA Bujagali, MAR Rabat Tramway, KEN Karimenu II Dam, SEN Taiba Wind - 54 countries, 201 orgs, 148 contracts, 173 sources, validated OK

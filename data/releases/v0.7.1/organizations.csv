@@ -1,0 +1,202 @@
+id,canonical_name,org_type,notes
+wba_org_01HREAL001,Sinohydro Corporation,soe,"China, subsidiary of PowerChina"
+wba_org_01HREAL002,PowerChina,soe,Parent of Sinohydro
+wba_org_01HREAL003,Export-Import Bank of China,export_credit,"Policy bank, China"
+wba_org_01HREAL004,Zimbabwe Power Company,state_agency,"State-owned utility, owner of Hwange/Kariba"
+wba_org_01HREAL005,China Jiangsu International Economic and Technical Cooperation Group,soe,"CJI, China"
+wba_org_01HREAL006,Airports Company of Zimbabwe,state_agency,Owner of RGM Airport
+wba_org_01HREAL007,China Road and Bridge Corporation,soe,"CRBC, subsidiary of CCCC"
+wba_org_01HREAL008,China Communications Construction Company,soe,"CCCC, parent of CRBC"
+wba_org_01HREAL009,Moja Expressway Company,private,"SPV for Nairobi Expressway, Kenya"
+wba_org_01HREAL010,Kenya National Highways Authority,state_agency,"KeNHA, conceding authority"
+wba_org_01HREAL011,Afristar Railway Operation Company,private,"Operator of SGR, subsidiary of CCCC"
+wba_org_01HREAL012,Vestas Wind Systems,private,"Denmark, turbine supplier"
+wba_org_01HREAL013,Lake Turkana Wind Power Ltd,private,"Project company, Kenya"
+wba_org_01HREAL014,China Railway Group,soe,CREC
+wba_org_01HREAL015,China Railway Eryuan Engineering Group,soe,"CREEC, designer"
+wba_org_01HREAL016,Shenzhen Metro Group,soe,"Operator, Addis Light Rail"
+wba_org_01HREAL017,Addis Ababa Light Rail Transit Service,state_agency,"Operator entity, Ethiopia"
+wba_org_01HREAL018,Ethiopian Railways Corporation,state_agency,"ERC, owner Addis Light Rail & Ethio-Djibouti"
+wba_org_01HREAL019,China Civil Engineering Construction Corporation,soe,CCECC
+wba_org_01HREAL020,Webuild S.p.A.,private,"Italy, formerly Salini Impregilo"
+wba_org_01HREAL021,Ethiopian Electric Power,state_agency,"EEP, owner of GERD"
+wba_org_01HREAL022,Shanghai Construction Group,soe,"China, EPC contractor New Parliament"
+wba_org_01HREAL023,China SIPPR Engineering Group,soe,"China, architect/design New Parliament"
+wba_org_01HREAL024,Ministry of Commerce of China,state_agency,"MOFCOM, grant financier via CIDCA"
+wba_org_01HREAL025,Daewoo Engineering & Construction,private,"South Korea, contractor Kazungula Bridge"
+wba_org_01HREAL026,Kenya Advanced Institute of Science and Technology,state_agency,"Kenya-KAIST, project entity at Konza"
+wba_org_01HREAL027,Export-Import Bank of Korea,export_credit,"Korea Eximbank, EDCF lender"
+wba_org_01HREAL028,Konza Technopolis Development Authority,state_agency,"KoTDA, Kenya"
+wba_org_01HREAL029,Kenya Ports Authority,state_agency,Owner Lamu Port
+wba_org_01HREAL030,Industrial Parks Development Corporation,state_agency,"IPDC, Ethiopia, owner Hawassa Park"
+wba_org_01HREAL031,Beijing Shougang International Engineering Technology,private,"China, lead design Hawassa"
+wba_org_01HREAL033,Raubex Group Limited,private,"South Africa, contractor Beitbridge"
+wba_org_01HREAL034,Zimborders Consortium,private,"Zimbabwe/South Africa, developer Beitbridge"
+wba_org_01HREAL035,Huawei Technologies,private,"China, contractor TelOne/Malawi fibre"
+wba_org_01HREAL036,TelOne Zimbabwe,state_agency,"State telco, owner broadband project"
+wba_org_01HREAL037,China Gezhouba Group Corporation,soe,"CGGC, Energy China, contractor Thwake"
+wba_org_01HREAL038,African Development Bank,dev_bank,"AfDB, financier Thwake"
+wba_org_01HREAL039,Toyo Construction,private,"Japan, contractor Mombasa Port"
+wba_org_01HREAL040,Japan International Cooperation Agency,state_agency,"JICA, financier Mombasa Port"
+wba_org_01HREAL042,CGCOC Group,soe,"China, contractor Adama Wind"
+wba_org_01HREAL043,Goldwind,private,"China, turbine supplier Adama"
+wba_org_01HREAL045,ZESCO Limited,state_agency,"Zambia, owner Kafue"
+wba_org_01HREAL046,Tanzania Electric Supply Company,state_agency,"TANESCO, owner Nyerere"
+wba_org_01HREAL047,The Arab Contractors,private,"Egypt, contractor Nyerere"
+wba_org_01HREAL048,Elsewedy Electric,private,"Egypt, contractor Nyerere"
+wba_org_01HREAL049,Mozambique Ministry of Public Works,state_agency,Owner Maputo Bridge
+wba_org_01HREAL050,Mota-Engil Africa,private,"Portugal, developer/contractor Bugesera"
+wba_org_01HREAL051,Rwanda Ministry of Infrastructure,state_agency,Owner Bugesera Airport
+wba_org_01HREAL052,Eiffage Genie Civil,private,"France, contractor Dakar TER"
+wba_org_01HREAL053,Eiffage Senegal,private,"Senegal, contractor Dakar TER"
+wba_org_01HREAL054,Yapi Merkezi,private,"Turkey, contractor Dakar TER"
+wba_org_01HREAL055,Thales,private,"France, systems Dakar TER"
+wba_org_01HREAL056,Bui Power Authority,state_agency,"Ghana, owner Bui Dam"
+wba_org_01HREAL057,OEC - Odebrecht Engenharia,private,"Brazil, contractor Lauca"
+wba_org_01HREAL058,ANDRITZ Hydro,private,"Austria, supplier Lauca turbines"
+wba_org_01HREAL059,Uganda National Roads Authority,state_agency,"UNRA, owner Kampala Expressway"
+wba_org_01HREAL060,Malawi Ministry of Information,state_agency,Owner Malawi fibre backbone
+wba_org_01HREAL062,Zimbabwe National Water Authority,state_agency,"ZINWA, owner Tokwe-Mukosi"
+wba_org_01HREAL063,NetOne Cellular,state_agency,"Zimbabwe, owner NetOne Broadband"
+wba_org_01HREAL064,Olkaria Geothermal Power,state_agency,"Kenya, owner Olkaria"
+wba_org_01HREAL066,Toshiba Energy Systems,private,"Japan, turbine supplier Olkaria"
+wba_org_01HREAL067,China Wu Yi,private,"China, contractor Nairobi Outer Ring"
+wba_org_01HREAL068,Kenya Urban Roads Authority,state_agency,"KURA, owner Outer Ring"
+wba_org_01HREAL069,Genale Dawa III EPC JV,private,JV for Genale Dawa
+wba_org_01HREAL070,Zambia Airports Corporation Limited,state_agency,"ZACL, owner KKIA"
+wba_org_01HREAL071,China Jiangxi International Economic & Technical Cooperation,soe,"CJIC, contractor KKIA"
+wba_org_01HREAL073,Tanzania Railways Corporation,state_agency,"TRC, owner Tanzania SGR"
+wba_org_01HREAL074,Vale S.A.,private,"Brazil, sponsor Nacala corridor"
+wba_org_01HREAL075,Mitsui & Co.,private,"Japan, sponsor Nacala"
+wba_org_01HREAL076,AECOM,private,"USA, designer Tema Port"
+wba_org_01HREAL077,Meridian Port Services,private,"Ghana, JV Tema Port"
+wba_org_01HREAL078,Bollore Africa Logistics,private,"France, shareholder Tema"
+wba_org_01HREAL079,APM Terminals,private,"Denmark/Netherlands, shareholder Tema"
+wba_org_01HREAL080,ICBC,private,"China, financier Caculo Cabaca"
+wba_org_01HREAL081,ACWA Power,private,"Saudi Arabia, developer Noor Ouarzazate"
+wba_org_01HREAL082,Moroccan Agency for Sustainable Energy,state_agency,"MASEN, owner Noor"
+wba_org_01HREAL083,Namibian Ports Authority,state_agency,"Namport, owner Walvis Bay"
+wba_org_01HREAL084,Kribi Port Authority,state_agency,"Cameroon, owner Kribi Port"
+wba_org_01HREAL085,Bombela Consortium,private,"South Africa, EPC Gautrain"
+wba_org_01HREAL086,Bouygues Travaux Publics,private,"France, contractor Gautrain"
+wba_org_01HREAL087,Sicomines,private,"DRC, mining JV Busanga"
+wba_org_01HREAL088,China State Construction Engineering Corporation,soe,"CSCEC, contractor New Capital CBD"
+wba_org_01HREAL089,Administrative Capital for Urban Development,state_agency,"Egypt, owner New Capital"
+wba_org_01HREAL090,Limak Holding,private,"Turkey, contractor AIBD"
+wba_org_01HREAL091,Summa Construction,private,"Turkey, contractor AIBD/BK Arena"
+wba_org_01HREAL092,Dakar Airport Authority,state_agency,"Senegal, owner AIBD"
+wba_org_01HREAL093,Rwanda Housing Authority,state_agency,"Rwanda, owner BK Arena"
+wba_org_01HREAL094,Uganda Ministry of Energy,state_agency,"Uganda, owner Karuma"
+wba_org_01HREAL096,Societe Nationale d Electricite du Burkina Faso,state_agency,"SONABEL, owner Zagtouli"
+wba_org_01HREAL097,Agence Francaise de Developpement,dev_bank,"AFD, financier Zagtouli"
+wba_org_01HREAL098,Cegelec,private,"France, EPC Zagtouli"
+wba_org_01HREAL099,Tyazhpromexport,state_agency,"Soviet Union, contractor Ajaokuta"
+wba_org_01HREAL100,Ajaokuta Steel Company Limited,state_agency,"Nigeria, owner Ajaokuta"
+wba_org_01HREAL101,TAZARA Authority,state_agency,Tanzania-Zambia Railway Authority
+wba_org_01HREAL102,Ministry of Railways China,state_agency,"China, financier TAZARA"
+wba_org_01HREAL103,Impregilo,private,"Italy, contractor Akosombo"
+wba_org_01HREAL104,Volta River Authority,state_agency,"Ghana, owner Akosombo"
+wba_org_01HREAL105,Hidrolectrica de Cahora Bassa,private,"Mozambique, owner Cahora Bassa"
+wba_org_01HREAL106,Sorefame,private,"Portugal, builder Cahora Bassa"
+wba_org_01HREAL107,Hydroproject Institute,state_agency,"Soviet Union, designer Aswan High Dam"
+wba_org_01HREAL108,Egyptian Ministry of Water Resources,state_agency,"Egypt, owner Aswan"
+wba_org_01HREAL110,Great Man-Made River Authority,state_agency,"Libya, owner GMR"
+wba_org_01HREAL111,China International Water and Electric Corporation,soe,"CWE, contractor Merowe"
+wba_org_01HREAL112,Lahmeyer International,private,"Germany, consultant Merowe"
+wba_org_01HREAL113,Ministry of Electricity Sudan,state_agency,"Sudan, owner Merowe"
+wba_org_01HREAL114,CITIC Group,soe,"China, contractor Kilamba Kiaxi"
+wba_org_01HREAL115,Government of Angola,state_agency,"Angola, owner Kilamba"
+wba_org_01HREAL116,Kandadji Dam Authority,state_agency,"Niger, owner Kandadji"
+wba_org_01HREAL117,Zarubezhvodstroy,private,"Russia, former contractor Kandadji"
+wba_org_01HREAL118,China Merchants Holdings International,private,"China, concessionaire Bagamoyo"
+wba_org_01HREAL119,Oman State General Reserve Fund,private,"Oman, co-investor Bagamoyo"
+wba_org_01HREAL120,Tanzania Ports Authority,state_agency,"Tanzania, owner Bagamoyo"
+wba_org_01HREAL121,TotalEnergies,private,"France, operator EACOP"
+wba_org_01HREAL122,China National Offshore Oil Corporation,soe,"CNOOC, partner EACOP"
+wba_org_01HREAL124,Lobito Atlantic Railway Consortium,private,"Trafigura/Mota-Engil/Vecturis, concessionaire Lobito Corridor"
+wba_org_01HREAL125,Alstom,private,"France, supplier Ajaokuta? No, for Dakar/Alstom TER, also for Abidjan? Use for Abidjan"
+wba_org_01HREAL127,Abidjan Metro Authority,state_agency,"Ivory Coast, owner Abidjan Metro"
+wba_org_01HREAL128,KSP Jurgen Engel Architekten,private,"Germany, designer Djamaa El Djazair"
+wba_org_01HREAL129,Societe Nationale des Autoroutes d Algerie,state_agency,"Algeria, owner East-West Highway"
+wba_org_01HREAL130,CITIC-CRCC Joint Venture,private,"China, contractor East-West Highway"
+wba_org_01HREAL131,Cojaal JV,private,"Japan, contractor East-West Highway central lot"
+wba_org_01HREAL132,TAV Airports Holding,private,"Turkey, developer Enfidha Airport"
+wba_org_01HREAL133,Enfidha Airport Authority,state_agency,"Tunisia, owner Enfidha"
+wba_org_01HREAL134,DP World,private,"UAE, concessionaire Doraleh"
+wba_org_01HREAL135,Djibouti Ports Authority,state_agency,"Djibouti, owner Doraleh"
+wba_org_01HREAL136,China National Electric Equipment Corporation,soe,"CNEEC, contractor Morupule B"
+wba_org_01HREAL137,Botswana Power Corporation,state_agency,"Botswana, owner Morupule B"
+wba_org_01HREAL138,Africa Centres for Disease Control and Prevention,state_agency,"Africa CDC, owner Africa CDC HQ"
+wba_org_01HREAL139,Winning Consortium Simandou,private,"Guinea, co-developer Simandou"
+wba_org_01HREAL140,Rio Tinto Simfer,private,"UK/Australia, co-developer Simandou"
+wba_org_01HREAL141,Abuja Rail Mass Transit Authority,state_agency,"Nigeria, owner Abuja Light Rail"
+wba_org_01HREAL142,Niger-Benin Pipeline Company,private,"Niger/Benin, EACOP-like WAPCo"
+wba_org_01HREAL143,China National Petroleum Corporation,soe,"CNPC, developer Niger-Benin pipeline"
+wba_org_01HREAL144,Alcatel Submarine Networks,private,"France, builder 2Africa cable"
+wba_org_01HREAL145,2Africa Consortium,private,Meta/Vodafone/Orange/STC etc.
+wba_org_01HREAL146,Salini Impregilo,private,"Italy, contractor Bumbuna"
+wba_org_01HREAL147,Sierra Leone Ministry of Energy,state_agency,"Sierra Leone, owner Bumbuna"
+wba_org_01HREAL099,CMC di Ravenna,private,"Italy, contractor Jiji"
+wba_org_01HREAL100,Orascom Construction,private,"Egypt, contractor Jiji"
+wba_org_01HREAL101,Vinci Airports,private,"France, concessionaire Cabo Verde"
+wba_org_01HREAL102,Teixeira Duarte,private,"Portugal, contractor Cabo Verde"
+wba_org_01HREAL103,China Gezhouba Group Company,soe,"CGGC China, contractor Boali"
+wba_org_01HREAL104,HNAC Technology,private,"China, contractor Boali II"
+wba_org_01HREAL105,Elsewedy Electric T&D,private,"Egypt, contractor Djermaya"
+wba_org_01HREAL106,Djermaya CDEN Energy,private,"Chad, developer Djermaya"
+wba_org_01HREAL107,China Jiangsu International,soe,"China Jiangsu, contractor Bambao"
+wba_org_01HREAL108,China Shenyang International,soe,"China, contractor El-Maarouf"
+wba_org_01HREAL110,Arab Contractors,private,"Egypt, contractor Nguema-Sipopo"
+wba_org_01HREAL111,SFECO Group,soe,"China Shanghai SFECO, contractor Hirgigo"
+wba_org_01HREAL112,Maguga Dam Joint Venture,private,"South Africa, contractor Maguga"
+wba_org_01HREAL113,Trans-Gabon Railway Concession,private,"Gabon, SETRAG Eramet/Meridiam"
+wba_org_01HREAL114,Isolux Corsan,private,"Spain, contractor Senegambia Bridge"
+wba_org_01HREAL115,Longjian Road and Bridge,soe,"China, contractor Bissau-Safim"
+wba_org_01HREAL116,Lesotho Highlands Development Authority,state_agency,"Lesotho, owner Katse"
+wba_org_01HREAL117,Highlands Water Venture,private,"Lesotho Highlands JV, contractor Katse"
+wba_org_01HREAL118,Dawnus International,private,"UK, contractor Mount Coffee"
+wba_org_01HREAL119,VOITH Hydro,private,"Germany, supplier Mount Coffee"
+wba_org_01HREAL120,Eranove,private,"France, developer Sahofika"
+wba_org_01HREAL121,Eiffage,private,"France, contractor Sahofika"
+wba_org_01HREAL122,Sinohydro Bureau 15,soe,"China, contractor Gouina"
+wba_org_01HREAL124,Larsen & Toubro,private,"India, contractor Metro Express"
+wba_org_01HREAL125,FB Group,private,"Turkey, concessionaire Sao Tome Airport"
+wba_org_01HREAL126,Jan De Nul,private,"Belgium, dredging Port Victoria"
+wba_org_01HREAL127,ENEZ Insaat,private,"Turkey, contractor Mogadishu roads"
+wba_org_01HREAL128,Louis Berger Group,private,"USA, contractor Juba-Nimule"
+wba_org_01HREAL129,China Merchants Port Holdings,private,"China, concessionaire Lome Terminal"
+wba_org_01HREAL130,Bollore SE2M-TOGO,private,"France, construction Lome"
+wba_org_01HREAL131,Porto Ingles JV,private,"Portugal/Cape Verde, contractor Maio"
+wba_org_01HREAL148,SGTM - Societe Generale des Travaux du Maroc,private,"Morocco, contractor Dakhla Port"
+wba_org_01HREAL149,Dakhla Atlantic Port Authority,state_agency,"Morocco/Western Sahara, owner Dakhla Port"
+wba_org_01HREAL150,Rosatom,private,Contractor El Dabaa Nuclear Power Plant
+wba_org_01HREAL151,Siemens Mobility,private,Contractor Egypt High-Speed Rail 2000km
+wba_org_01HREAL152,China Harbour Engineering Company,private,Contractor Lekki Deep Sea Port
+wba_org_01HREAL153,Sinohydro,private,Contractor Zungeru Hydropower 700MW
+wba_org_01HREAL154,EDF,private,Contractor Nachtigal Hydropower 420MW
+wba_org_01HREAL155,WeBuild,private,Contractor Koysha Hydropower 2200MW
+wba_org_01HREAL156,Julius Berger,private,Contractor Second River Niger Bridge
+wba_org_01HREAL157,AVIC International,private,Contractor Antonio Agostinho Neto Airport Luanda
+wba_org_01HREAL159,CWE,private,Contractor Isimba Hydropower 183MW
+wba_org_01HREAL160,CCECC,private,Contractor Lagos Blue Line 27km
+wba_org_01HREAL161,VINCI,private,Contractor Algiers Metro Line 1
+wba_org_01HREAL164,Scatec,private,Contractor Benban Solar Park 390MW
+wba_org_01HREAL165,Bouygues Construction,private,Contractor Tanger Med Port Complex
+wba_org_01HREAL167,Mapa Construction,private,Contractor Kotoka Airport Terminal 3
+wba_org_01HREAL168,Hitachi Power Europe,private,Contractor Medupi Power Station 4800MW
+wba_org_01HREAL173,BAM International,private,Contractor Julius Nyerere Airport Terminal 3
+wba_org_01HREAL174,Sinohydro Bureau 16,private,Contractor Kinguele Aval Hydropower 35MW
+wba_org_01HREAL175,Strabag International,private,Contractor Dar es Salaam BRT Phase 1
+wba_org_01HREAL178,Summa Insaat,private,Contractor Diamniadio Olympic Stadium 50000
+wba_org_01HREAL180,China Jiangxi,private,Contractor Lusaka-Ndola Dual Carriageway 321km
+wba_org_01HREAL181,Mitsubishi Hitachi,private,Contractor Kusile Power Station 4800MW
+wba_org_01HREAL182,CREC,private,Contractor Cairo Light Rail Transit 70km
+wba_org_01HREAL183,Bombardier/Orascom,private,Contractor Cairo Monorail 99km
+wba_org_01HREAL185,Mota-Engil,private,Contractor Kano-Maradi Railway 384km
+wba_org_01HREAL186,Eiffage Genie Civil Marine,private,Contractor Port of Cotonou Extension
+wba_org_01HREAL188,STFA/SGTM/Jan De Nul,private,Contractor Nador West Med Port
+wba_org_01HREAL190,Siemens/Julius Berger,private,Contractor Azura-Edo IPP 459MW
+wba_org_01HREAL193,Vergnet,private,Contractor Ashegoda Wind Farm 120MW
+wba_org_01HREAL194,Daewoo,private,Contractor Safi Independent Power Plant 1386MW
+wba_org_01HREAL195,Group Five,private,Contractor Kpone IPP 350MW
+wba_org_01HREAL199,Vestas,private,Contractor Taiba N'Diaye Wind Farm 158.7MW

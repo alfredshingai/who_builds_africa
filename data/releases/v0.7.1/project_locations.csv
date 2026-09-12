@@ -1,0 +1,151 @@
+project_id,admin1,admin2,city,locality,precision,lat,lon
+wba_prj_01HREAL001,Matabeleland North,Hwange,Hwange,Hwange Power Station,exact,-18.383,26.48
+wba_prj_01HREAL002,Matabeleland North,Kariba,Kariba,Kariba South,exact,-16.521,28.761
+wba_prj_01HREAL003,Harare,Harare,Harare,RGM International Airport,approximate,-17.931,31.092
+wba_prj_01HREAL004,Nairobi,Nairobi,Nairobi,JKIA–James Gichuru corridor,corridor,,
+wba_prj_01HREAL005,Mombasa,Mombasa,Mombasa,Mombasa–Nairobi corridor,corridor,,
+wba_prj_01HREAL006,Marsabit,Loiyangalani,Loiyangalani,Lake Turkana,exact,2.85,36.82
+wba_prj_01HREAL007,Addis Ababa,Addis Ababa,Addis Ababa,Addis Light Rail corridor,corridor,,
+wba_prj_01HREAL008,Addis Ababa,Addis Ababa,Addis Ababa,Addis–Djibouti corridor,corridor,,
+wba_prj_01HREAL009,Benishangul-Gumuz,,,GERD site,exact,11.22,35.09
+wba_prj_01HREAL010,Harare,Harare,Mount Hampden,New Parliament site,exact,-17.689,30.943
+wba_prj_01HREAL011,Matabeleland North,Hwange,Victoria Falls,Victoria Falls Airport,exact,-18.096,25.839
+wba_prj_01HREAL012,Machakos,Athi River,Konza,Konza Technopolis,approximate,-1.057,37.095
+wba_prj_01HREAL013,Lamu,Lamu,Lamu,Lamu Port,exact,-2.416,40.910
+wba_prj_01HREAL014,Sidama,Hawassa,Hawassa,Hawassa Park,exact,7.060,38.476
+wba_prj_01HREAL015,Southern,Chobe,Kazungula,Kazungula Bridge site,exact,-17.775,25.262
+wba_prj_01HREAL016,Matabeleland South,Beitbridge,Beitbridge,Beitbridge Border,exact,-22.217,29.987
+wba_prj_01HREAL017,Harare,Harare,Harare,TelOne data centres,approximate,-17.829,31.053
+wba_prj_01HREAL018,Kitui/Makueni,Kitui,Thwake,Thwake Dam site,exact,-1.789,37.738
+wba_prj_01HREAL019,Coast,Mombasa,Mombasa,Mombasa Port Berths 20-21,exact,-4.054,39.636
+wba_prj_01HREAL020,Oromia,Adama,Adama,Adama Wind site,exact,8.458,39.250
+wba_prj_01HREAL021,Addis Ababa,Bole,Addis Ababa,Bole Airport,exact,8.978,38.797
+wba_prj_01HREAL022,Southern,Kafue,Kafue Gorge,Kafue Lower site,exact,-15.803,28.424
+wba_prj_01HREAL023,Morogoro,Ulanga,Nyerere,Rufiji River dam,exact,-7.809,37.861
+wba_prj_01HREAL024,Maputo,Maputo,Maputo,Maputo Bay Bridge,exact,-25.973,32.572
+wba_prj_01HREAL025,Eastern,Bugesera,Bugesera,Bugesera Airport site,exact,-2.130,30.181
+wba_prj_01HREAL026,Dakar,Dakar,Dakar,Dakar TER corridor,corridor,,
+wba_prj_01HREAL027,Bono,Bui,Bui,Bui Dam site,exact,8.278,-2.121
+wba_prj_01HREAL028,Cuanza Norte,Cazengo,Cacuso,Lauca site,exact,-9.743,15.121
+wba_prj_01HREAL029,Central,Wakiso,Kajjansi,Kampala-Entebbe corridor,corridor,,
+wba_prj_01HREAL030,Central,Lilongwe,Lilongwe,Malawi fibre backbone,exact,-13.962,33.787
+wba_prj_01HREAL031,Masvingo,Chivi,Tokwe-Mukosi,Tokwe-Mukosi Dam,exact,-20.728,30.507
+wba_prj_01HREAL032,Harare,Harare,Harare,NetOne HQ,approximate,-17.825,31.033
+wba_prj_01HREAL033,Nakuru,Naivasha,Olkaria,Olkaria Geothermal field,exact,-0.892,36.287
+wba_prj_01HREAL034,Nairobi,Nairobi,Nairobi,Outer Ring corridor,corridor,,
+wba_prj_01HREAL035,Oromia,Arsi,Dodola,Genale Dawa III site,exact,5.846,39.221
+wba_prj_01HREAL036,Lusaka,Lusaka,Lusaka,KKIA,exact,-15.325,28.449
+wba_prj_01HREAL037,Tabora,Tabora,Tabora,Tanzania SGR corridor,corridor,,
+wba_prj_01HREAL038,Nampula,Nacala,Nacala,Nacala Corridor,corridor,,
+wba_prj_01HREAL039,Greater Accra,Tema,Tema,Tema Port T3,exact,5.618,-0.018
+wba_prj_01HREAL040,Cuanza Norte,Cazengo,Cacuso,Caculo Cabaca site,exact,-9.312,16.016
+wba_prj_01HREAL041,Drâa-Tafilalet,Ouarzazate,Ouarzazate,Noor Complex,exact,31.048,-6.869
+wba_prj_01HREAL042,Erongo,Walvis Bay,Walvis Bay,Walvis Bay Terminal,exact,-22.959,14.481
+wba_prj_01HREAL043,South,Ocean,Kribi,Kribi Port,exact,2.945,9.909
+wba_prj_01HREAL044,Gauteng,Johannesburg,Johannesburg,Gautrain corridor,corridor,,
+wba_prj_01HREAL045,Lualaba,Kolwezi,Busanga,Busanga site,exact,-10.917,26.909
+wba_prj_01HREAL046,Cairo,New Capital,New Capital,New Capital CBD,exact,30.020,31.667
+wba_prj_01HREAL047,Thiès,Mbour,Diass,AIBD Dakar,exact,14.670,-17.073
+wba_prj_01HREAL048,Kigali,Gasabo,Kigali,BK Arena,exact,-1.953,30.091
+wba_prj_01HREAL049,Kiryaandongo,Bweyale,Karuma,Karuma site,exact,2.235,32.233
+wba_prj_01HREAL050,Centre,Ouagadougou,Zagtouli,Zagtouli Solar,exact,12.382,-1.477
+wba_prj_01HREAL051,Kogi,Ajaokuta,Ajaokuta,Ajaokuta Steel Mill,approximate,7.553,6.663
+wba_prj_01HREAL052,Dar es Salaam,Dar es Salaam,Dar es Salaam,TAZARA corridor,corridor,,
+wba_prj_01HREAL053,Eastern,Yilo Krobo,Akosombo,Akosombo Dam,exact,6.295,0.058
+wba_prj_01HREAL054,Tete,Cahora Bassa,Songo,Cahora Bassa Dam,exact,-15.586,32.702
+wba_prj_01HREAL055,Aswan,Aswan,Aswan,Aswan High Dam,exact,23.973,32.881
+wba_prj_01HREAL056,Jufra,Houn,Houn,GMR Phases,corridor,,
+wba_prj_01HREAL057,Northern,Merowe,Merowe,Merowe Dam,exact,18.668,31.842
+wba_prj_01HREAL058,Nawa,Soubre,Soubre,Soubre Dam,exact,5.787,-6.661
+wba_prj_01HREAL059,Luanda,Belas,Kilamba,Kilamba New City,approximate,-8.992,13.276
+wba_prj_01HREAL060,Tillaberi,Kandadji,Ayoru,Kandadji Dam,approximate,14.612,0.986
+wba_prj_01HREAL061,Pwani,Bagamoyo,Bagamoyo,Bagamoyo Port,approximate,-6.478,38.901
+wba_prj_01HREAL062,Hoima,Kikuube,Hoima,EACOP Hoima,corridor,,
+wba_prj_01HREAL063,Benguela,Lobito,Lobito,Lobito Corridor,corridor,,
+wba_prj_01HREAL064,Abidjan,Abidjan,Abidjan,Abidjan Metro corridor,corridor,,
+wba_prj_01HREAL065,Algiers,Algiers,Algiers,Djamaa El Djazair,exact,36.739,3.031
+wba_prj_01HREAL066,Algiers,Algiers,Algiers,East-West Highway corridor,corridor,,
+wba_prj_01HREAL067,Sousse,Enfidha,Enfidha,Enfidha Airport,exact,36.077,10.437
+wba_prj_01HREAL068,Djibouti,Djibouti,Djibouti,Doraleh Port,exact,11.600,43.150
+wba_prj_01HREAL069,Central,Palapye,Palapye,Morupule B,exact,-22.514,27.030
+wba_prj_01HREAL070,Addis Ababa,Addis Ababa,Addis Ababa,Africa CDC HQ,exact,8.997,38.771
+wba_prj_01HREAL071,Nzerekore,Beyla,Simandou,Simandou site,corridor,,
+wba_prj_01HREAL072,Federal Capital Territory,Abuja,Abuja,Abuja Light Rail corridor,corridor,,
+wba_prj_01HREAL073,Agadez,Arlit,Arlit,Niger-Benin Pipeline corridor,corridor,,
+wba_prj_01HREAL074,Dakar,Dakar,Dakar,2Africa cable landing,corridor,,
+wba_prj_01HREAL075,Northern,Tonkolili,Bumbuna,Bumbuna Dam,exact,9.067,-11.724
+wba_prj_01HREAL076,Bujumbura Rural,Mukike,Jiji,Jiji site,exact,3.806,29.917
+wba_prj_01HREAL077,Sal,Sal,Espargos,Cabo Verde airports corridor,corridor,,
+wba_prj_01HREAL078,Ombella-Mpoko,Boali,Boali,Boali Complex,exact,4.800,18.100
+wba_prj_01HREAL079,Hadjer-Lamis,Djermaya,Djermaya,Djermaya Solar,exact,11.950,15.100
+wba_prj_01HREAL080,Grande Comore,Bambao,Moroni,Bambao Hospital,exact,-11.750,43.400
+wba_prj_01HREAL081,Kouilou,Pointe-Noire,Pointe-Noire,RN1 corridor,corridor,,
+wba_prj_01HREAL082,Bioko Norte,Malabo,Sipopo,Sipopo Road,corridor,,
+wba_prj_01HREAL083,Southern Red Sea,Massawa,Hirgigo,Hirgigo,exact,15.336,39.650
+wba_prj_01HREAL084,Shiselweni,Shiselweni,Maguga,Maguga Dam,exact,-26.070,31.120
+wba_prj_01HREAL085,Estuaire,Libreville,Owendo,Trans-Gabon corridor,corridor,,
+wba_prj_01HREAL086,North Bank,Kerewan,Farafenni,Senegambia Bridge,exact,13.534,-15.928
+wba_prj_01HREAL087,Biombo,Safim,Safim,Bissau-Safim Highway,exact,11.865,-15.583
+wba_prj_01HREAL088,Maseru,Katse,Katse,Katse Dam,exact,-29.334,28.520
+wba_prj_01HREAL089,Montserrado,Careysburg,Careysburg,Mount Coffee,exact,6.303,-10.356
+wba_prj_01HREAL090,Analamanga,Antananarivo,Sahofika,Sahofika site,exact,-19.250,47.850
+wba_prj_01HREAL091,Kayes,Bafoulabe,Manantali,Gouina site,exact,14.752,-11.057
+wba_prj_01HREAL092,Trarza,Nouakchott,Nouakchott,Friendship Port,exact,18.083,-15.975
+wba_prj_01HREAL093,Plaines Wilhems,Curepipe,Curepipe,Metro Express corridor,corridor,,
+wba_prj_01HREAL094,Agua Grande,Sao Tome,Sao Tome,Sao Tome Airport,exact,0.380,6.712
+wba_prj_01HREAL095,Mahe,Victoria,Victoria,Port Victoria,exact,-4.616,55.471
+wba_prj_01HREAL096,Benadir,Mogadishu,Mogadishu,Mogadishu corridor,corridor,,
+wba_prj_01HREAL097,Central Equatoria,Juba,Juba,Juba-Nimule corridor,corridor,,
+wba_prj_01HREAL098,Maritime,Lome,Lome,Lome Port,exact,6.135,1.300
+wba_prj_01HREAL099,Maio,Maio,Porto Ingles,Maio Port,exact,15.138,-23.214
+wba_prj_01HREAL100,Dakhla-Oued Ed-Dahab,Dakhla,Dakhla,Dakhla Port,exact,23.700,-15.900
+wba_prj_01HREAL101,EGY,,EGY,Location for wba_prj_01HREAL101,approximate,,
+wba_prj_01HREAL102,EGY,,EGY,Location for wba_prj_01HREAL102,approximate,,
+wba_prj_01HREAL103,NGA,,NGA,Location for wba_prj_01HREAL103,approximate,,
+wba_prj_01HREAL104,NGA,,NGA,Location for wba_prj_01HREAL104,approximate,,
+wba_prj_01HREAL105,CMR,,CMR,Location for wba_prj_01HREAL105,approximate,,
+wba_prj_01HREAL106,ETH,,ETH,Location for wba_prj_01HREAL106,approximate,,
+wba_prj_01HREAL107,NGA,,NGA,Location for wba_prj_01HREAL107,approximate,,
+wba_prj_01HREAL108,AGO,,AGO,Location for wba_prj_01HREAL108,approximate,,
+wba_prj_01HREAL109,CIV,,CIV,Location for wba_prj_01HREAL109,approximate,,
+wba_prj_01HREAL110,UGA,,UGA,Location for wba_prj_01HREAL110,approximate,,
+wba_prj_01HREAL111,NGA,,NGA,Location for wba_prj_01HREAL111,approximate,,
+wba_prj_01HREAL112,DZA,,DZA,Location for wba_prj_01HREAL112,approximate,,
+wba_prj_01HREAL113,CMR,,CMR,Location for wba_prj_01HREAL113,approximate,,
+wba_prj_01HREAL114,NGA,,NGA,Location for wba_prj_01HREAL114,approximate,,
+wba_prj_01HREAL115,EGY,,EGY,Location for wba_prj_01HREAL115,approximate,,
+wba_prj_01HREAL116,MAR,,MAR,Location for wba_prj_01HREAL116,approximate,,
+wba_prj_01HREAL117,MAR,,MAR,Location for wba_prj_01HREAL117,approximate,,
+wba_prj_01HREAL118,GHA,,GHA,Location for wba_prj_01HREAL118,approximate,,
+wba_prj_01HREAL119,ZAF,,ZAF,Location for wba_prj_01HREAL119,approximate,,
+wba_prj_01HREAL120,ETH,,ETH,Location for wba_prj_01HREAL120,approximate,,
+wba_prj_01HREAL121,GIN,,GIN,Location for wba_prj_01HREAL121,approximate,,
+wba_prj_01HREAL122,GIN,,GIN,Location for wba_prj_01HREAL122,approximate,,
+wba_prj_01HREAL123,RWA,,RWA,Location for wba_prj_01HREAL123,approximate,,
+wba_prj_01HREAL124,TZA,,TZA,Location for wba_prj_01HREAL124,approximate,,
+wba_prj_01HREAL125,GAB,,GAB,Location for wba_prj_01HREAL125,approximate,,
+wba_prj_01HREAL126,TZA,,TZA,Location for wba_prj_01HREAL126,approximate,,
+wba_prj_01HREAL127,NGA,,NGA,Location for wba_prj_01HREAL127,approximate,,
+wba_prj_01HREAL128,KEN,,KEN,Location for wba_prj_01HREAL128,approximate,,
+wba_prj_01HREAL129,SEN,,SEN,Location for wba_prj_01HREAL129,approximate,,
+wba_prj_01HREAL130,SEN,,SEN,Location for wba_prj_01HREAL130,approximate,,
+wba_prj_01HREAL131,ZMB,,ZMB,Location for wba_prj_01HREAL131,approximate,,
+wba_prj_01HREAL132,ZAF,,ZAF,Location for wba_prj_01HREAL132,approximate,,
+wba_prj_01HREAL133,EGY,,EGY,Location for wba_prj_01HREAL133,approximate,,
+wba_prj_01HREAL134,EGY,,EGY,Location for wba_prj_01HREAL134,approximate,,
+wba_prj_01HREAL135,MAR,,MAR,Location for wba_prj_01HREAL135,approximate,,
+wba_prj_01HREAL136,NGA,,NGA,Location for wba_prj_01HREAL136,approximate,,
+wba_prj_01HREAL137,BEN,,BEN,Location for wba_prj_01HREAL137,approximate,,
+wba_prj_01HREAL138,TZA,,TZA,Location for wba_prj_01HREAL138,approximate,,
+wba_prj_01HREAL139,MAR,,MAR,Location for wba_prj_01HREAL139,approximate,,
+wba_prj_01HREAL140,CIV,,CIV,Location for wba_prj_01HREAL140,approximate,,
+wba_prj_01HREAL141,NGA,,NGA,Location for wba_prj_01HREAL141,approximate,,
+wba_prj_01HREAL142,SOM,,SOM,Location for wba_prj_01HREAL142,approximate,,
+wba_prj_01HREAL143,ZMB,,ZMB,Location for wba_prj_01HREAL143,approximate,,
+wba_prj_01HREAL144,ETH,,ETH,Location for wba_prj_01HREAL144,approximate,,
+wba_prj_01HREAL145,MAR,,MAR,Location for wba_prj_01HREAL145,approximate,,
+wba_prj_01HREAL146,GHA,,GHA,Location for wba_prj_01HREAL146,approximate,,
+wba_prj_01HREAL147,UGA,,UGA,Location for wba_prj_01HREAL147,approximate,,
+wba_prj_01HREAL148,MAR,,MAR,Location for wba_prj_01HREAL148,approximate,,
+wba_prj_01HREAL149,KEN,,KEN,Location for wba_prj_01HREAL149,approximate,,
+wba_prj_01HREAL150,SEN,,SEN,Location for wba_prj_01HREAL150,approximate,,
