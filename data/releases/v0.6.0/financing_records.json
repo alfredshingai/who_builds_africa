@@ -1,0 +1,282 @@
+[
+  {
+    "id": "wba_fin_01HREAL001",
+    "project_id": "wba_prj_01HREAL001",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "997700000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "85% preferential buyer credit, 20yr"
+  },
+  {
+    "id": "wba_fin_01HREAL002",
+    "project_id": "wba_prj_01HREAL002",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "319450000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "20yr 5yr grace 2%"
+  },
+  {
+    "id": "wba_fin_01HREAL003",
+    "project_id": "wba_prj_01HREAL003",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "153000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "RMB1.045bn ~$153m concessional 20yr 7yr grace 2%"
+  },
+  {
+    "id": "wba_fin_01HREAL004",
+    "project_id": "wba_prj_01HREAL004",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "494000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "Exim + CDB facility"
+  },
+  {
+    "id": "wba_fin_01HREAL005",
+    "project_id": "wba_prj_01HREAL005",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "3230000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "90% two loans $1.63bn each"
+  },
+  {
+    "id": "wba_fin_01HREAL006",
+    "project_id": "wba_prj_01HREAL007",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "403750000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "85% of $475m"
+  },
+  {
+    "id": "wba_fin_01HREAL007",
+    "project_id": "wba_prj_01HREAL008",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "4000000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "~$4bn segments"
+  },
+  {
+    "id": "wba_fin_01HREAL008",
+    "project_id": "wba_prj_01HREAL010",
+    "institution": "wba_org_01HREAL024",
+    "instrument": "grant",
+    "amount": "675860000",
+    "currency": "CNY",
+    "share_percent": "",
+    "notes": "RMB 675.8m grant"
+  },
+  {
+    "id": "wba_fin_01HREAL009",
+    "project_id": "wba_prj_01HREAL011",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "150000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$150m Exim"
+  },
+  {
+    "id": "wba_fin_01HREAL010",
+    "project_id": "wba_prj_01HREAL012",
+    "institution": "wba_org_01HREAL027",
+    "instrument": "loan",
+    "amount": "94700000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$94.7m EDCF"
+  },
+  {
+    "id": "wba_fin_01HREAL011",
+    "project_id": "wba_prj_01HREAL014",
+    "institution": "wba_org_01HREAL019",
+    "instrument": "equity",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$246m CCECC via IPDC budget"
+  },
+  {
+    "id": "wba_fin_01HREAL012",
+    "project_id": "wba_prj_01HREAL017",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "98600000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$98.6m PBC"
+  },
+  {
+    "id": "wba_fin_01HREAL013",
+    "project_id": "wba_prj_01HREAL019",
+    "institution": "wba_org_01HREAL040",
+    "instrument": "loan",
+    "amount": "32000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "JICA Sh32bn ~ $300m"
+  },
+  {
+    "id": "wba_fin_01HREAL014",
+    "project_id": "wba_prj_01HREAL027",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "623500000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$293.5m + $330m"
+  },
+  {
+    "id": "wba_fin_01HREAL015",
+    "project_id": "wba_prj_01HREAL029",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "350000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$350m PBC 2/3"
+  },
+  {
+    "id": "wba_fin_01HREAL016",
+    "project_id": "wba_prj_01HREAL032",
+    "institution": "wba_org_01HREAL003",
+    "instrument": "loan",
+    "amount": "71000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$71m NetOne"
+  },
+  {
+    "id": "wba_fin_01HREAL017",
+    "project_id": "wba_prj_01HREAL034",
+    "institution": "wba_org_01HREAL038",
+    "instrument": "loan",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "AfDB UA77.6m"
+  },
+  {
+    "id": "wba_fin_01HREAL018",
+    "project_id": "wba_prj_01HREAL040",
+    "institution": "wba_org_01HREAL080",
+    "instrument": "loan",
+    "amount": "3825000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "ICBC 85% $4.5bn *0.85"
+  },
+  {
+    "id": "wba_fin_01HREAL019",
+    "project_id": "wba_prj_01HREAL042",
+    "institution": "wba_org_01HREAL038",
+    "instrument": "loan",
+    "amount": "200000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "AfDB $200m Walvis"
+  },
+  {
+    "id": "wba_fin_01HREAL020",
+    "project_id": "wba_prj_01HREAL050",
+    "institution": "wba_org_01HREAL097",
+    "instrument": "loan",
+    "amount": "22500000",
+    "currency": "EUR",
+    "share_percent": "",
+    "notes": "AFD 22.5m"
+  },
+  {
+    "id": "wba_fin_01HREAL021",
+    "project_id": "wba_prj_01HREAL051",
+    "institution": "wba_org_01HREAL099",
+    "instrument": "other",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "Tyazhpromexport USSR turnkey"
+  },
+  {
+    "id": "wba_fin_01HREAL022",
+    "project_id": "wba_prj_01HREAL053",
+    "institution": "wba_org_01HREAL103",
+    "instrument": "other",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "World Bank/USA/UK 25% loans"
+  },
+  {
+    "id": "wba_fin_01HREAL023",
+    "project_id": "wba_prj_01HREAL061",
+    "institution": "wba_org_01HREAL118",
+    "instrument": "other",
+    "amount": "10000000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$10bn 99yr lease requested"
+  },
+  {
+    "id": "wba_fin_01HREAL024",
+    "project_id": "wba_prj_01HREAL062",
+    "institution": "wba_org_01HREAL121",
+    "instrument": "other",
+    "amount": "5600000000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$5.6bn EACOP"
+  },
+  {
+    "id": "wba_fin_01HREAL025",
+    "project_id": "wba_prj_01HREAL076",
+    "institution": "wba_org_01HREAL099",
+    "instrument": "other",
+    "amount": "",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "Orascom JV EUR67.8m AfDB/EU/EIB"
+  },
+  {
+    "id": "wba_fin_01HREAL026",
+    "project_id": "wba_prj_01HREAL077",
+    "institution": "wba_org_01HREAL101",
+    "instrument": "other",
+    "amount": "60000000",
+    "currency": "EUR",
+    "share_percent": "",
+    "notes": "IFC EUR60m sustainability"
+  },
+  {
+    "id": "wba_fin_01HREAL027",
+    "project_id": "wba_prj_01HREAL080",
+    "institution": "wba_org_01HREAL107",
+    "instrument": "other",
+    "amount": "56500000",
+    "currency": "CNY",
+    "share_percent": "",
+    "notes": "RMB56.5m grant"
+  },
+  {
+    "id": "wba_fin_01HREAL028",
+    "project_id": "wba_prj_01HREAL083",
+    "institution": "wba_org_01HREAL111",
+    "instrument": "loan",
+    "amount": "98600000",
+    "currency": "USD",
+    "share_percent": "",
+    "notes": "$98.6m Exim"
+  }
+]

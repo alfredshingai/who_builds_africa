@@ -13,7 +13,7 @@ SYNTHETIC = ROOT / "samples" / "synthetic"
 SCHEMA_DIR = ROOT / "schema"
 
 # Africa bbox approx
-AFRICA_BBOX = (-35, -25, 38, 52)  # lat_min, lon_min, lat_max, lon_max (approx)
+AFRICA_BBOX = (-35, -25, 38, 62)  # lat_min, lon_min, lat_max, lon_max (approx) - includes Seychelles/Mauritius
 
 def load_vocab():
     with open(SCHEMA_DIR / "vocabularies.yaml") as f:

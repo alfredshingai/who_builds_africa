@@ -35,8 +35,8 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
     <h1><span data-i18n="title">WHO BUILDS AFRICA?</span> <span data-i18n="subtitle">- Africa Contract Footprints</span></h1>
     <p>Neutral, source-tracked. <em>“Builds” = financing · designing · constructing · supplying · consulting · operating · maintaining · JV.</em> Map is interface - database is product. Initial: <b>Zimbabwe, Kenya, Ethiopia</b>. <span id="counts"></span></p>
   </div>
-  <a class="pill" href="/data/releases/v0.5.0/data.json" download>Download JSON</a>
-  <a class="pill" href="/data/releases/v0.5.0/projects.geojson" download>GeoJSON</a>
+  <a class="pill" href="/data/releases/v0.6.0/data.json" download>Download JSON</a>
+  <a class="pill" href="/data/releases/v0.6.0/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
   <select id="lang" class="pill" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
   <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button><button class="pill" onclick="showView('analytics')">Analytics</button></nav>
@@ -45,7 +45,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <div class="layout">
   <aside id="sidebar" aria-label="Filters">
     <div class="card" style="background:#fffbe6;border-color:#fde68a">
-      <b>75 REAL PROJECTS</b><br><small>Source-tracked records for <b>30 countries</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
+      <b>100 REAL PROJECTS</b><br><small>Source-tracked records for <b>54 countries</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
     </div>
     <label for="q" data-i18n="search_placeholder">Search projects / orgs</label>
     <input id="q" placeholder="e.g. Harare, SinoHydro, rail" aria-label="Search">
@@ -75,11 +75,11 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
     </div>
     <div id="list" role="region" aria-live="polite"></div>
     <div class="card"><b data-i18n="downloads">Downloads</b><br>
-      <a href="/data/releases/v0.5.0/projects.csv">projects.csv</a> ·
-      <a href="/data/releases/v0.5.0/organizations.csv">organizations.csv</a> ·
-      <a href="/data/releases/v0.5.0/claims.csv">claims.csv</a> ·
-      <a href="/data/releases/v0.5.0/sources.csv">sources.csv</a> ·
-      <a href="/data/releases/v0.5.0/footprints.sqlite">SQLite</a><br>
+      <a href="/data/releases/v0.6.0/projects.csv">projects.csv</a> ·
+      <a href="/data/releases/v0.6.0/organizations.csv">organizations.csv</a> ·
+      <a href="/data/releases/v0.6.0/claims.csv">claims.csv</a> ·
+      <a href="/data/releases/v0.6.0/sources.csv">sources.csv</a> ·
+      <a href="/data/releases/v0.6.0/footprints.sqlite">SQLite</a><br>
       <small>Licenses: Code MIT, Data ODbL-1.0, Docs CC BY 4.0 - see <a href="/NOTICE.md">NOTICE</a>.</small>
     </div>
   </aside>
@@ -112,7 +112,7 @@ let DATA, filtered=[]
 const $ = id => document.getElementById(id);
 const els={q:document.getElementById('q'),country:document.getElementById('country'),sector:document.getElementById('sector'),role:document.getElementById('role'),status:document.getElementById('status'),origin:document.getElementById('origin'),precision:document.getElementById('precision'),list:document.getElementById('list'),counts:document.getElementById('counts'),detail:document.getElementById('projectDetail'),tbl:document.querySelector('#tbl tbody')}
 async function load(){
-  const r=await fetch('/data/releases/v0.5.0/data.json')
+  const r=await fetch('/data/releases/v0.6.0/data.json')
   DATA=await r.json()
   // also build lookup
   DATA._orgById=Object.fromEntries(DATA.organizations.map(o=>[o.id,o]))
@@ -341,7 +341,7 @@ function renderQuality(){
     <div class="card"><b>Evidence</b>: ${Object.entries(claimsByStrength).map(([k,v])=>k+` (${v})`).join(', ')} - <em>see evidence cards per project</em></div>
     <div class="card"><b>Sectors</b>: ${Object.entries(bySector).map(([k,v])=>k+` (${v})`).join(', ')}</div>
     <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only - no causal claims from map.</div>
-    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.5.0/data.json">data.json</a> · <a href="/data/releases/v0.5.0/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.5.0/projects.csv">CSV</a> · <a href="/data/releases/v0.5.0/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
+    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.6.0/data.json">data.json</a> · <a href="/data/releases/v0.6.0/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.6.0/projects.csv">CSV</a> · <a href="/data/releases/v0.6.0/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
 }
 async function loadLocale(lang){ try{ const r=await fetch(`/app/locales/${lang}.json`); if(!r.ok) return; const tr=await r.json(); document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.getAttribute('data-i18n'); if(tr[k]) el.textContent=tr[k]; }); const q=$('q'); if(q && tr.search_placeholder) q.placeholder=tr.search_placeholder; }catch(e){} }
 $('lang').addEventListener('change', e=>{ loadLocale(e.target.value); localStorage.setItem('wba_lang', e.target.value); document.documentElement.lang=e.target.value; if(e.target.value==='ar') document.documentElement.dir='rtl'; else document.documentElement.dir='ltr'; }); (function(){ const saved=localStorage.getItem('wba_lang'); if(saved){ $('lang').value=saved; loadLocale(saved); document.documentElement.lang=saved; } })();
@@ -363,7 +363,7 @@ function renderAnalytics(){
   const html=`<h2>Analytics - what the data can and cannot tell you</h2>
     <div class="card"><b>How to read:</b> All charts are <em>descriptive counts of documented records</em>, not measures of influence, debt, or economic impact. Use filters on the Map to interrogate - click a country or sector to cross-check.</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px">
-      <div class="card" style="background:#ecfdf5;border-color:#6ee7b7"><b>Takeaway 1 - Geography</b><br>Most documented projects are in <b>${topCountry[0]} (${topCountry[1]}/${DATA.projects.length})</b>. This reflects research focus (ZWE/KEN/ETH first, 13/30 countries now) and disclosure bias - not that other countries have less building. <a href="#" onclick="event.preventDefault();showView('countries')">See Country profiles</a> for per-country breakdown.</div>
+      <div class="card" style="background:#ecfdf5;border-color:#6ee7b7"><b>Takeaway 1 - Geography</b><br>Most documented projects are in <b>${topCountry[0]} (${topCountry[1]}/${DATA.projects.length})</b>. This reflects research focus (ZWE/KEN/ETH first, 13/54 countries now) and disclosure bias - not that other countries have less building. <a href="#" onclick="event.preventDefault();showView('countries')">See Country profiles</a> for per-country breakdown.</div>
       <div class="card" style="background:#eff6ff;border-color:#93c5fd"><b>Takeaway 2 - Sectors</b><br>Top sector is <b>${topSector[0].replace('_',' ')} (${topSector[1]})</b> - hydropower/dams + railways/ports dominate the documented set. <small>Energy and transport are most disclosed; housing/water/telecom may be under-reported.</small></div>
       <div class="card" style="background:#fef3c7;border-color:#fcd34d"><b>Takeaway 3 - Who participates</b><br>Top foreign origin by participations is <b>${topOrigin[0]} (${topOrigin[1]})</b> - largely China via Exim Bank + SOEs (Sinohydro, CRBC, CCECC) - but with real diversity: Korea, Japan, France, Turkey, Italy, Portugal, South Africa, Denmark. <a href="#" onclick="event.preventDefault();showView('orgs')">See Organizations</a> (who is in >1 country).</div>
       <div class="card" style="background:#fce7f3;border-color:#f9a8d4"><b>Takeaway 4 - Money is partial</b><br>Only <b>${vals.length}/${DATA.contracts.length} (${disclosedPct}%)</b> contracts have a disclosed USD value. Average disclosed is <b>~$${avgUSD}m</b>, but <b>do not sum</b> - currencies differ, some are loans not contract values, many undisclosed. See <code>value_precision</code>.</div>
@@ -391,7 +391,7 @@ function renderAnalytics(){
   mk('chartRole','bar',Object.keys(byRole),Object.values(byRole),'Roles');
   if(vals.length){ const bins=[0,50e6,200e6,500e6,1e9,5e9]; const counts=bins.slice(0,-1).map((b,i)=> vals.filter(v=> v>=b && v<bins[i+1]).length); const labels=bins.slice(0,-1).map((b,i)=> `${(b/1e6).toFixed(0)}-${(bins[i+1]/1e6).toFixed(0)}m`); mk('chartValue','bar',labels,counts,'Contract values (USD disclosed)'); }
 }
-load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.5.0</code> was run.</div>`})
+load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.6.0</code> was run.</div>`})
 </script>
 </body>
 </html>
