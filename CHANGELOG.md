@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.5] - 2026-09-14
+### Added
+- Data: 124 to 128 verified (+4). Cape Verde Santiago desalination Toyota Tsusho Japan 15.292bn yen JICA Oct 2025, ENAPOR vessel Shenzhen Churui China 17m euro Apr 2026, Cape Verde airports Teixeira Duarte Portugal 70.7m euro Jul 2023, Eritrea Habela-Cheatat 31km SFECO China Nov 2019. Cape Verde gap 0 to 3, Eritrea 0 to 1. Validate OK, 539KB+.
+- App: banner 128 REAL PROJECTS, fetches /data/releases/v0.8.5/data.json
+- Releases: v0.8.5 snapshot (128 features)
+
 ## [v0.8.4] - 2026-09-14
 ### Added
 - Data: 122 to 124 verified (+2 Burundi with page reads). Bujumbura-Gitaza RN3 25 km CFHEC China 47.2m USD World Bank awarded Nov 2024 and Uvinza-Musongati SGR 282 km CREGC+CREDC China Sh5.38tn signed Jan 2025. Burundi gap from 0 to 2. Validate OK, 539KB.
