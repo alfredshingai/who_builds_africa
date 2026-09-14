@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.3] - 2026-09-14
+### Fixed
+- Data: deepen 2 existing with page reads. Kano-Maradi 384km NGA fixed dangling contractor 185 to Mota-Engil 206 Portugal plus 1.82bn USD value plus RailwayPro second source plus status signed. Rironi-Mau Summit KEN fixed VINCI cancelled to CRBC preferred Oct 2025 with ConstructionKenya source plus new 200bn KES contract plus contractor_replaced event. Validate OK.
+- App: fetches /data/releases/v0.8.3/data.json
+- Releases: v0.8.3 snapshot (122 features)
+
 ## [v0.8.2] - 2026-09-14
 ### Added
 - Data: 115 to 122 verified projects (+7 new foreign contracts with full page reads). Uganda Kampala-Malaba SGR 272 km Yapi Merkezi Turkey 2.7bn euro (Reuters + Railway Gazette), Uganda Iganga-Kamuli 56 km Arab Contractors Egypt 70m USD, Uganda Lusalira-Sembabule 97 km Tecnovia Portugal 126m euro, Senegal Ndande-Gueoul 30 km CRBC China 132m USD + Mekhe-Ndande 19 km CWE China 76.3m USD (Goalfore), Kenya Galana Kulalu dam CCCC China Sh40bn, Kenya Umaa dam China Jiangxi 1.9bn KES. All verbatim quotes exact from pages, validate OK 0 errors, 526KB data.json.
