@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.1] - 2026-09-14
+### Fixed
+- Data: clean 200 to 115 source-verified projects - removed 85 projects that had only Wikipedia sources with no information (155 Wikipedia sources and 204 dependent claims deleted where `verbatim_quote` not in Wikipedia page, per `SOURCING_GUIDE.md:5` tertiary not primary). Removed 50 spurious `USA` HQ rows where `organization_countries.csv:172` `source_claim` was a `status` claim not an org HQ claim (e.g. `Sinohydro` `CHN/USA`, `Rosatom` `USA` should be `RUS`). Fixed 61 source `id` dups, 35 claim `id` dups, 30 org `id` dups, 24 contract `id` dups, 49 participation `id` dups by reassigning new IDs `01HREAL310` etc. Validate OK 0 warnings 0 errors, 500KB `data.json` (was 894KB). Projects now all have at least one real `sources.csv` with `publisher` + `url` + `verbatim_quote` that contains the claim.
+- App: banner `115 REAL PROJECTS`, fetches `/data/releases/v0.8.1/data.json`
+- Releases: `v0.8.1` snapshot (115 features, 500KB) - `v0.8.0` (200 with Wikipedia) preserved for history but deprecated
+
 ## [v0.8.0] - 2026-09-14
 ### Added
 - Data: expand to 200 real projects (+50, exhaustive, no prioritization) - 55 countries, 237 organizations, 198 contracts, 249 participations, 370 sources, 355 claims. New coverage spans nuclear (El Dabaa EGY), high-speed rail (Egypt HSR, Al Boraq MAR), deep-sea ports (Lekki NGA, Cotonou BEN, Berbera SOM), hydro (Zungeru NGA, Nachtigal CMR, Koysha ETH, Gibe III ETH, Bujagali UGA, Isimba UGA, Rusumo RWA, Itezhi-Tezhi ZMB), urban transit (Lagos Blue Line, Algiers Metro, Cairo LRT/Monorail, Casablanca/Rabat tramways, Dar BRT), wind/solar (Kipeto KEN, Ashegoda ETH, Taiba SEN, Benban EGY, Safi MAR), thermal (Medupi/Kusile ZAF, Kpone GHA, Azura-Edo NGA), water (Karimenu II KEN)
