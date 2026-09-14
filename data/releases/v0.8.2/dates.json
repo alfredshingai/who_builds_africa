@@ -1,0 +1,2314 @@
+[
+  {
+    "id": "wba_date_01HREAL001",
+    "edtf_string": "2018-06-27",
+    "precision": "day",
+    "earliest": "2018-06-27",
+    "latest": "2018-06-27",
+    "display_string": "27 June 2018"
+  },
+  {
+    "id": "wba_date_01HREAL002",
+    "edtf_string": "2023-08-04",
+    "precision": "day",
+    "earliest": "2023-08-04",
+    "latest": "2023-08-04",
+    "display_string": "4 August 2023"
+  },
+  {
+    "id": "wba_date_01HREAL003",
+    "edtf_string": "2018-03-28",
+    "precision": "day",
+    "earliest": "2018-03-28",
+    "latest": "2018-03-28",
+    "display_string": "28 March 2018"
+  },
+  {
+    "id": "wba_date_01HREAL004",
+    "edtf_string": "2018-07-23",
+    "precision": "day",
+    "earliest": "2018-07-23",
+    "latest": "2018-07-23",
+    "display_string": "23 July 2018"
+  },
+  {
+    "id": "wba_date_01HREAL005",
+    "edtf_string": "2023",
+    "precision": "year",
+    "earliest": "2023-01-01",
+    "latest": "2023-12-31",
+    "display_string": "2023"
+  },
+  {
+    "id": "wba_date_01HREAL006",
+    "edtf_string": "2022-05-14",
+    "precision": "day",
+    "earliest": "2022-05-14",
+    "latest": "2022-05-14",
+    "display_string": "14 May 2022"
+  },
+  {
+    "id": "wba_date_01HREAL007",
+    "edtf_string": "2017-05-31",
+    "precision": "day",
+    "earliest": "2017-05-31",
+    "latest": "2017-05-31",
+    "display_string": "31 May 2017"
+  },
+  {
+    "id": "wba_date_01HREAL008",
+    "edtf_string": "2018",
+    "precision": "year",
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "display_string": "2018"
+  },
+  {
+    "id": "wba_date_01HREAL009",
+    "edtf_string": "2015-09-20",
+    "precision": "day",
+    "earliest": "2015-09-20",
+    "latest": "2015-09-20",
+    "display_string": "20 September 2015"
+  },
+  {
+    "id": "wba_date_01HREAL010",
+    "edtf_string": "2015-02",
+    "precision": "month",
+    "earliest": "2015-02-01",
+    "latest": "2015-02-28",
+    "display_string": "February 2015"
+  },
+  {
+    "id": "wba_date_01HREAL011",
+    "edtf_string": "2016-10-05",
+    "precision": "day",
+    "earliest": "2016-10-05",
+    "latest": "2016-10-05",
+    "display_string": "5 October 2016"
+  },
+  {
+    "id": "wba_date_01HREAL012",
+    "edtf_string": "2025-09-09",
+    "precision": "day",
+    "earliest": "2025-09-09",
+    "latest": "2025-09-09",
+    "display_string": "9 September 2025"
+  },
+  {
+    "id": "wba_date_01HREAL013",
+    "edtf_string": "2026-09-11",
+    "precision": "day",
+    "earliest": "2026-09-11",
+    "latest": "2026-09-11",
+    "display_string": "11 September 2026"
+  },
+  {
+    "id": "wba_date_01HREAL014",
+    "edtf_string": "2014",
+    "precision": "year",
+    "earliest": "2014-01-01",
+    "latest": "2014-12-31",
+    "display_string": "2014"
+  },
+  {
+    "id": "wba_date_01HREAL015",
+    "edtf_string": "2018-09-28",
+    "precision": "day",
+    "earliest": "2018-09-28",
+    "latest": "2018-09-28",
+    "display_string": "28 September 2018"
+  },
+  {
+    "id": "wba_date_01HREAL016",
+    "edtf_string": "2022-05-27",
+    "precision": "day",
+    "earliest": "2022-05-27",
+    "latest": "2022-05-27",
+    "display_string": "27 May 2022"
+  },
+  {
+    "id": "wba_date_01HREAL017",
+    "edtf_string": "2023-10-26",
+    "precision": "day",
+    "earliest": "2023-10-26",
+    "latest": "2023-10-26",
+    "display_string": "26 October 2023"
+  },
+  {
+    "id": "wba_date_01HREAL018",
+    "edtf_string": "2013",
+    "precision": "year",
+    "earliest": "2013-01-01",
+    "latest": "2013-12-31",
+    "display_string": "2013"
+  },
+  {
+    "id": "wba_date_01HREAL019",
+    "edtf_string": "2016-11-19",
+    "precision": "day",
+    "earliest": "2016-11-19",
+    "latest": "2016-11-19",
+    "display_string": "19 November 2016"
+  },
+  {
+    "id": "wba_date_01HREAL020",
+    "edtf_string": "2019",
+    "precision": "year",
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "display_string": "2019"
+  },
+  {
+    "id": "wba_date_01HREAL021",
+    "edtf_string": "2013-04-11",
+    "precision": "day",
+    "earliest": "2013-04-11",
+    "latest": "2013-04-11",
+    "display_string": "11 April 2013"
+  },
+  {
+    "id": "wba_date_01HREAL022",
+    "edtf_string": "2021-05-20",
+    "precision": "day",
+    "earliest": "2021-05-20",
+    "latest": "2021-05-20",
+    "display_string": "20 May 2021"
+  },
+  {
+    "id": "wba_date_01HREAL023",
+    "edtf_string": "2015-07-16",
+    "precision": "day",
+    "earliest": "2015-07-16",
+    "latest": "2015-07-16",
+    "display_string": "16 July 2015"
+  },
+  {
+    "id": "wba_date_01HREAL024",
+    "edtf_string": "2016-07-20",
+    "precision": "day",
+    "earliest": "2016-07-20",
+    "latest": "2016-07-20",
+    "display_string": "20 July 2016"
+  },
+  {
+    "id": "wba_date_01HREAL025",
+    "edtf_string": "2014-08",
+    "precision": "month",
+    "earliest": "2014-08-01",
+    "latest": "2014-08-31",
+    "display_string": "August 2014"
+  },
+  {
+    "id": "wba_date_01HREAL026",
+    "edtf_string": "2014-10-12",
+    "precision": "day",
+    "earliest": "2014-10-12",
+    "latest": "2014-10-12",
+    "display_string": "12 October 2014"
+  },
+  {
+    "id": "wba_date_01HREAL027",
+    "edtf_string": "2020-09",
+    "precision": "month",
+    "earliest": "2020-09-01",
+    "latest": "2020-09-30",
+    "display_string": "September 2020"
+  },
+  {
+    "id": "wba_date_01HREAL028",
+    "edtf_string": "2021-05-10",
+    "precision": "day",
+    "earliest": "2021-05-10",
+    "latest": "2021-05-10",
+    "display_string": "10 May 2021"
+  },
+  {
+    "id": "wba_date_01HREAL029",
+    "edtf_string": "2022-12",
+    "precision": "month",
+    "earliest": "2022-12-01",
+    "latest": "2022-12-31",
+    "display_string": "December 2022"
+  },
+  {
+    "id": "wba_date_01HREAL030",
+    "edtf_string": "2017",
+    "precision": "year",
+    "earliest": "2017-01-01",
+    "latest": "2017-12-31",
+    "display_string": "2017"
+  },
+  {
+    "id": "wba_date_01HREAL031",
+    "edtf_string": "2017-11-15",
+    "precision": "day",
+    "earliest": "2017-11-15",
+    "latest": "2017-11-15",
+    "display_string": "15 November 2017"
+  },
+  {
+    "id": "wba_date_01HREAL032",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL033",
+    "edtf_string": "2016-02",
+    "precision": "month",
+    "earliest": "2016-02-01",
+    "latest": "2016-02-29",
+    "display_string": "February 2016"
+  },
+  {
+    "id": "wba_date_01HREAL034",
+    "edtf_string": "2022-05",
+    "precision": "month",
+    "earliest": "2022-05-01",
+    "latest": "2022-05-31",
+    "display_string": "May 2022"
+  },
+  {
+    "id": "wba_date_01HREAL035",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL036",
+    "edtf_string": "2015",
+    "precision": "year",
+    "earliest": "2015-01-01",
+    "latest": "2015-12-31",
+    "display_string": "2015"
+  },
+  {
+    "id": "wba_date_01HREAL037",
+    "edtf_string": "2015-11",
+    "precision": "month",
+    "earliest": "2015-11-01",
+    "latest": "2015-11-30",
+    "display_string": "November 2015"
+  },
+  {
+    "id": "wba_date_01HREAL038",
+    "edtf_string": "2021",
+    "precision": "year",
+    "earliest": "2021-01-01",
+    "latest": "2021-12-31",
+    "display_string": "2021"
+  },
+  {
+    "id": "wba_date_01HREAL039",
+    "edtf_string": "2018-11-10",
+    "precision": "day",
+    "earliest": "2018-11-10",
+    "latest": "2018-11-10",
+    "display_string": "10 November 2018"
+  },
+  {
+    "id": "wba_date_01HREAL040",
+    "edtf_string": "2018-12",
+    "precision": "month",
+    "earliest": "2018-12-01",
+    "latest": "2018-12-31",
+    "display_string": "December 2018"
+  },
+  {
+    "id": "wba_date_01HREAL041",
+    "edtf_string": "2016-12-14",
+    "precision": "day",
+    "earliest": "2016-12-14",
+    "latest": "2016-12-14",
+    "display_string": "14 December 2016"
+  },
+  {
+    "id": "wba_date_01HREAL042",
+    "edtf_string": "2021-12-27",
+    "precision": "day",
+    "earliest": "2021-12-27",
+    "latest": "2021-12-27",
+    "display_string": "27 December 2021"
+  },
+  {
+    "id": "wba_date_01HREAL043",
+    "edtf_string": "2007-04-19",
+    "precision": "day",
+    "earliest": "2007-04-19",
+    "latest": "2007-04-19",
+    "display_string": "19 April 2007"
+  },
+  {
+    "id": "wba_date_01HREAL044",
+    "edtf_string": "2013-12-19",
+    "precision": "day",
+    "earliest": "2013-12-19",
+    "latest": "2013-12-19",
+    "display_string": "19 December 2013"
+  },
+  {
+    "id": "wba_date_01HREAL045",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL046",
+    "edtf_string": "2017-08-04",
+    "precision": "day",
+    "earliest": "2017-08-04",
+    "latest": "2017-08-04",
+    "display_string": "4 August 2017"
+  },
+  {
+    "id": "wba_date_01HREAL047",
+    "edtf_string": "2010-10",
+    "precision": "month",
+    "earliest": "2010-10-01",
+    "latest": "2010-10-31",
+    "display_string": "October 2010"
+  },
+  {
+    "id": "wba_date_01HREAL048",
+    "edtf_string": "2018-06",
+    "precision": "month",
+    "earliest": "2018-06-01",
+    "latest": "2018-06-30",
+    "display_string": "June 2018"
+  },
+  {
+    "id": "wba_date_01HREAL049",
+    "edtf_string": "2018-04",
+    "precision": "month",
+    "earliest": "2018-04-01",
+    "latest": "2018-04-30",
+    "display_string": "April 2018"
+  },
+  {
+    "id": "wba_date_01HREAL050",
+    "edtf_string": "2016",
+    "precision": "year",
+    "earliest": "2016-01-01",
+    "latest": "2016-12-31",
+    "display_string": "2016"
+  },
+  {
+    "id": "wba_date_01HREAL051",
+    "edtf_string": "2024",
+    "precision": "year",
+    "earliest": "2024-01-01",
+    "latest": "2024-12-31",
+    "display_string": "2024"
+  },
+  {
+    "id": "wba_date_01HREAL052",
+    "edtf_string": "2016-12",
+    "precision": "month",
+    "earliest": "2016-12-01",
+    "latest": "2016-12-31",
+    "display_string": "December 2016"
+  },
+  {
+    "id": "wba_date_01HREAL053",
+    "edtf_string": "2017",
+    "precision": "year",
+    "earliest": "2017-01-01",
+    "latest": "2017-12-31",
+    "display_string": "2017"
+  },
+  {
+    "id": "wba_date_01HREAL054",
+    "edtf_string": "2019",
+    "precision": "year",
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "display_string": "2019"
+  },
+  {
+    "id": "wba_date_01HREAL055",
+    "edtf_string": "2015-01",
+    "precision": "month",
+    "earliest": "2015-01-01",
+    "latest": "2015-01-31",
+    "display_string": "January 2015"
+  },
+  {
+    "id": "wba_date_01HREAL056",
+    "edtf_string": "2015",
+    "precision": "year",
+    "earliest": "2015-01-01",
+    "latest": "2015-12-31",
+    "display_string": "2015"
+  },
+  {
+    "id": "wba_date_01HREAL057",
+    "edtf_string": "2020-02",
+    "precision": "month",
+    "earliest": "2020-02-01",
+    "latest": "2020-02-29",
+    "display_string": "February 2020"
+  },
+  {
+    "id": "wba_date_01HREAL058",
+    "edtf_string": "2015",
+    "precision": "year",
+    "earliest": "2015-01-01",
+    "latest": "2015-12-31",
+    "display_string": "2015"
+  },
+  {
+    "id": "wba_date_01HREAL059",
+    "edtf_string": "2021",
+    "precision": "year",
+    "earliest": "2021-01-01",
+    "latest": "2021-12-31",
+    "display_string": "2021"
+  },
+  {
+    "id": "wba_date_01HREAL060",
+    "edtf_string": "2015-11",
+    "precision": "month",
+    "earliest": "2015-11-01",
+    "latest": "2015-11-30",
+    "display_string": "November 2015"
+  },
+  {
+    "id": "wba_date_01HREAL061",
+    "edtf_string": "2021-12-28",
+    "precision": "day",
+    "earliest": "2021-12-28",
+    "latest": "2021-12-28",
+    "display_string": "28 December 2021"
+  },
+  {
+    "id": "wba_date_01HREAL062",
+    "edtf_string": "2015",
+    "precision": "year",
+    "earliest": "2015-01-01",
+    "latest": "2015-12-31",
+    "display_string": "2015"
+  },
+  {
+    "id": "wba_date_01HREAL063",
+    "edtf_string": "2017",
+    "precision": "year",
+    "earliest": "2017-01-01",
+    "latest": "2017-12-31",
+    "display_string": "2017"
+  },
+  {
+    "id": "wba_date_01HREAL064",
+    "edtf_string": "2016-02",
+    "precision": "month",
+    "earliest": "2016-02-01",
+    "latest": "2016-02-29",
+    "display_string": "February 2016"
+  },
+  {
+    "id": "wba_date_01HREAL065",
+    "edtf_string": "2014",
+    "precision": "year",
+    "earliest": "2014-01-01",
+    "latest": "2014-12-31",
+    "display_string": "2014"
+  },
+  {
+    "id": "wba_date_01HREAL066",
+    "edtf_string": "2018-11",
+    "precision": "month",
+    "earliest": "2018-11-01",
+    "latest": "2018-11-30",
+    "display_string": "November 2018"
+  },
+  {
+    "id": "wba_date_01HREAL067",
+    "edtf_string": "2014-05",
+    "precision": "month",
+    "earliest": "2014-05-01",
+    "latest": "2014-05-31",
+    "display_string": "May 2014"
+  },
+  {
+    "id": "wba_date_01HREAL068",
+    "edtf_string": "2019-08-02",
+    "precision": "day",
+    "earliest": "2019-08-02",
+    "latest": "2019-08-02",
+    "display_string": "2 August 2019"
+  },
+  {
+    "id": "wba_date_01HREAL069",
+    "edtf_string": "2018-02-21",
+    "precision": "day",
+    "earliest": "2018-02-21",
+    "latest": "2018-02-21",
+    "display_string": "21 February 2018"
+  },
+  {
+    "id": "wba_date_01HREAL070",
+    "edtf_string": "2016",
+    "precision": "year",
+    "earliest": "2016-01-01",
+    "latest": "2016-12-31",
+    "display_string": "2016"
+  },
+  {
+    "id": "wba_date_01HREAL071",
+    "edtf_string": "2017-11",
+    "precision": "month",
+    "earliest": "2017-11-01",
+    "latest": "2017-11-30",
+    "display_string": "November 2017"
+  },
+  {
+    "id": "wba_date_01HREAL072",
+    "edtf_string": "2019",
+    "precision": "year",
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "display_string": "2019"
+  },
+  {
+    "id": "wba_date_01HREAL073",
+    "edtf_string": "2017-08-05",
+    "precision": "day",
+    "earliest": "2017-08-05",
+    "latest": "2017-08-05",
+    "display_string": "5 August 2017"
+  },
+  {
+    "id": "wba_date_01HREAL074",
+    "edtf_string": "2006-09",
+    "precision": "month",
+    "earliest": "2006-09-01",
+    "latest": "2006-09-30",
+    "display_string": "September 2006"
+  },
+  {
+    "id": "wba_date_01HREAL075",
+    "edtf_string": "2012-06",
+    "precision": "month",
+    "earliest": "2012-06-01",
+    "latest": "2012-06-30",
+    "display_string": "June 2012"
+  },
+  {
+    "id": "wba_date_01HREAL076",
+    "edtf_string": "2023-10-06",
+    "precision": "day",
+    "earliest": "2023-10-06",
+    "latest": "2023-10-06",
+    "display_string": "6 October 2023"
+  },
+  {
+    "id": "wba_date_01HREAL077",
+    "edtf_string": "2016",
+    "precision": "year",
+    "earliest": "2016-01-01",
+    "latest": "2016-12-31",
+    "display_string": "2016"
+  },
+  {
+    "id": "wba_date_01HREAL078",
+    "edtf_string": "2017-12-07",
+    "precision": "day",
+    "earliest": "2017-12-07",
+    "latest": "2017-12-07",
+    "display_string": "7 December 2017"
+  },
+  {
+    "id": "wba_date_01HREAL079",
+    "edtf_string": "2019-01",
+    "precision": "month",
+    "earliest": "2019-01-01",
+    "latest": "2019-01-31",
+    "display_string": "January 2019"
+  },
+  {
+    "id": "wba_date_01HREAL080",
+    "edtf_string": "2019-08",
+    "precision": "month",
+    "earliest": "2019-08-01",
+    "latest": "2019-08-31",
+    "display_string": "August 2019"
+  },
+  {
+    "id": "wba_date_01HREAL081",
+    "edtf_string": "2013",
+    "precision": "year",
+    "earliest": "2013-01-01",
+    "latest": "2013-12-31",
+    "display_string": "2013"
+  },
+  {
+    "id": "wba_date_01HREAL082",
+    "edtf_string": "2024-09-26",
+    "precision": "day",
+    "earliest": "2024-09-26",
+    "latest": "2024-09-26",
+    "display_string": "26 September 2024"
+  },
+  {
+    "id": "wba_date_01HREAL083",
+    "edtf_string": "2017-11",
+    "precision": "month",
+    "earliest": "2017-11-01",
+    "latest": "2017-11-30",
+    "display_string": "November 2017"
+  },
+  {
+    "id": "wba_date_01HREAL084",
+    "edtf_string": "2018-04",
+    "precision": "month",
+    "earliest": "2018-04-01",
+    "latest": "2018-04-30",
+    "display_string": "April 2018"
+  },
+  {
+    "id": "wba_date_01HREAL085",
+    "edtf_string": "1979",
+    "precision": "year",
+    "earliest": "1979-01-01",
+    "latest": "1979-12-31",
+    "display_string": "1979"
+  },
+  {
+    "id": "wba_date_01HREAL086",
+    "edtf_string": "1994",
+    "precision": "year",
+    "earliest": "1994-01-01",
+    "latest": "1994-12-31",
+    "display_string": "1994"
+  },
+  {
+    "id": "wba_date_01HREAL087",
+    "edtf_string": "1970",
+    "precision": "year",
+    "earliest": "1970-01-01",
+    "latest": "1970-12-31",
+    "display_string": "1970"
+  },
+  {
+    "id": "wba_date_01HREAL088",
+    "edtf_string": "1975",
+    "precision": "year",
+    "earliest": "1975-01-01",
+    "latest": "1975-12-31",
+    "display_string": "1975"
+  },
+  {
+    "id": "wba_date_01HREAL089",
+    "edtf_string": "1961",
+    "precision": "year",
+    "earliest": "1961-01-01",
+    "latest": "1961-12-31",
+    "display_string": "1961"
+  },
+  {
+    "id": "wba_date_01HREAL090",
+    "edtf_string": "1965",
+    "precision": "year",
+    "earliest": "1965-01-01",
+    "latest": "1965-12-31",
+    "display_string": "1965"
+  },
+  {
+    "id": "wba_date_01HREAL091",
+    "edtf_string": "1969",
+    "precision": "year",
+    "earliest": "1969-01-01",
+    "latest": "1969-12-31",
+    "display_string": "1969"
+  },
+  {
+    "id": "wba_date_01HREAL092",
+    "edtf_string": "1979",
+    "precision": "year",
+    "earliest": "1979-01-01",
+    "latest": "1979-12-31",
+    "display_string": "1979"
+  },
+  {
+    "id": "wba_date_01HREAL093",
+    "edtf_string": "1960",
+    "precision": "year",
+    "earliest": "1960-01-01",
+    "latest": "1960-12-31",
+    "display_string": "1960"
+  },
+  {
+    "id": "wba_date_01HREAL094",
+    "edtf_string": "1971-01-15",
+    "precision": "day",
+    "earliest": "1971-01-15",
+    "latest": "1971-01-15",
+    "display_string": "15 January 1971"
+  },
+  {
+    "id": "wba_date_01HREAL095",
+    "edtf_string": "1984",
+    "precision": "year",
+    "earliest": "1984-01-01",
+    "latest": "1984-12-31",
+    "display_string": "1984"
+  },
+  {
+    "id": "wba_date_01HREAL096",
+    "edtf_string": "1991",
+    "precision": "year",
+    "earliest": "1991-01-01",
+    "latest": "1991-12-31",
+    "display_string": "1991"
+  },
+  {
+    "id": "wba_date_01HREAL097",
+    "edtf_string": "1996",
+    "precision": "year",
+    "earliest": "1996-01-01",
+    "latest": "1996-12-31",
+    "display_string": "1996"
+  },
+  {
+    "id": "wba_date_01HREAL098",
+    "edtf_string": "2004",
+    "precision": "year",
+    "earliest": "2004-01-01",
+    "latest": "2004-12-31",
+    "display_string": "2004"
+  },
+  {
+    "id": "wba_date_01HREAL099",
+    "edtf_string": "2009-03-03",
+    "precision": "day",
+    "earliest": "2009-03-03",
+    "latest": "2009-03-03",
+    "display_string": "3 March 2009"
+  },
+  {
+    "id": "wba_date_01HREAL100",
+    "edtf_string": "2013",
+    "precision": "year",
+    "earliest": "2013-01-01",
+    "latest": "2013-12-31",
+    "display_string": "2013"
+  },
+  {
+    "id": "wba_date_01HREAL101",
+    "edtf_string": "2017-11-02",
+    "precision": "day",
+    "earliest": "2017-11-02",
+    "latest": "2017-11-02",
+    "display_string": "2 November 2017"
+  },
+  {
+    "id": "wba_date_01HREAL102",
+    "edtf_string": "2008",
+    "precision": "year",
+    "earliest": "2008-01-01",
+    "latest": "2008-12-31",
+    "display_string": "2008"
+  },
+  {
+    "id": "wba_date_01HREAL103",
+    "edtf_string": "2011",
+    "precision": "year",
+    "earliest": "2011-01-01",
+    "latest": "2011-12-31",
+    "display_string": "2011"
+  },
+  {
+    "id": "wba_date_01HREAL104",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL105",
+    "edtf_string": "2013-02-19",
+    "precision": "day",
+    "earliest": "2013-02-19",
+    "latest": "2013-02-19",
+    "display_string": "19 February 2013"
+  },
+  {
+    "id": "wba_date_01HREAL106",
+    "edtf_string": "2019",
+    "precision": "year",
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "display_string": "2019"
+  },
+  {
+    "id": "wba_date_01HREAL107",
+    "edtf_string": "2013",
+    "precision": "year",
+    "earliest": "2013-01-01",
+    "latest": "2013-12-31",
+    "display_string": "2013"
+  },
+  {
+    "id": "wba_date_01HREAL108",
+    "edtf_string": "2019",
+    "precision": "year",
+    "earliest": "2019-01-01",
+    "latest": "2019-12-31",
+    "display_string": "2019"
+  },
+  {
+    "id": "wba_date_01HREAL109",
+    "edtf_string": "2022",
+    "precision": "year",
+    "earliest": "2022-01-01",
+    "latest": "2022-12-31",
+    "display_string": "2022"
+  },
+  {
+    "id": "wba_date_01HREAL110",
+    "edtf_string": "2023",
+    "precision": "year",
+    "earliest": "2023-01-01",
+    "latest": "2023-12-31",
+    "display_string": "2023"
+  },
+  {
+    "id": "wba_date_01HREAL111",
+    "edtf_string": "2017",
+    "precision": "year",
+    "earliest": "2017-01-01",
+    "latest": "2017-12-31",
+    "display_string": "2017"
+  },
+  {
+    "id": "wba_date_01HREAL112",
+    "edtf_string": "2028",
+    "precision": "year",
+    "earliest": "2028-01-01",
+    "latest": "2028-12-31",
+    "display_string": "2028"
+  },
+  {
+    "id": "wba_date_01HREAL113",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL114",
+    "edtf_string": "2024",
+    "precision": "year",
+    "earliest": "2024-01-01",
+    "latest": "2024-12-31",
+    "display_string": "2024"
+  },
+  {
+    "id": "wba_date_01HREAL115",
+    "edtf_string": "2006",
+    "precision": "year",
+    "earliest": "2006-01-01",
+    "latest": "2006-12-31",
+    "display_string": "2006"
+  },
+  {
+    "id": "wba_date_01HREAL116",
+    "edtf_string": "2013",
+    "precision": "year",
+    "earliest": "2013-01-01",
+    "latest": "2013-12-31",
+    "display_string": "2013"
+  },
+  {
+    "id": "wba_date_01HREAL117",
+    "edtf_string": "2007",
+    "precision": "year",
+    "earliest": "2007-01-01",
+    "latest": "2007-12-31",
+    "display_string": "2007"
+  },
+  {
+    "id": "wba_date_01HREAL118",
+    "edtf_string": "2009",
+    "precision": "year",
+    "earliest": "2009-01-01",
+    "latest": "2009-12-31",
+    "display_string": "2009"
+  },
+  {
+    "id": "wba_date_01HREAL119",
+    "edtf_string": "2006",
+    "precision": "year",
+    "earliest": "2006-01-01",
+    "latest": "2006-12-31",
+    "display_string": "2006"
+  },
+  {
+    "id": "wba_date_01HREAL120",
+    "edtf_string": "2018-02-22",
+    "precision": "day",
+    "earliest": "2018-02-22",
+    "latest": "2018-02-22",
+    "display_string": "22 February 2018"
+  },
+  {
+    "id": "wba_date_01HREAL121",
+    "edtf_string": "2009",
+    "precision": "year",
+    "earliest": "2009-01-01",
+    "latest": "2009-12-31",
+    "display_string": "2009"
+  },
+  {
+    "id": "wba_date_01HREAL122",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL123",
+    "edtf_string": "2020-12",
+    "precision": "month",
+    "earliest": "2020-12-01",
+    "latest": "2020-12-31",
+    "display_string": "December 2020"
+  },
+  {
+    "id": "wba_date_01HREAL124",
+    "edtf_string": "2021-11",
+    "precision": "month",
+    "earliest": "2021-11-01",
+    "latest": "2021-11-30",
+    "display_string": "November 2021"
+  },
+  {
+    "id": "wba_date_01HREAL125",
+    "edtf_string": "2023-01-11",
+    "precision": "day",
+    "earliest": "2023-01-11",
+    "latest": "2023-01-11",
+    "display_string": "11 January 2023"
+  },
+  {
+    "id": "wba_date_01HREAL126",
+    "edtf_string": "2023",
+    "precision": "year",
+    "earliest": "2023-01-01",
+    "latest": "2023-12-31",
+    "display_string": "2023"
+  },
+  {
+    "id": "wba_date_01HREAL127",
+    "edtf_string": "2025",
+    "precision": "year",
+    "earliest": "2025-01-01",
+    "latest": "2025-12-31",
+    "display_string": "2025"
+  },
+  {
+    "id": "wba_date_01HREAL128",
+    "edtf_string": "2007",
+    "precision": "year",
+    "earliest": "2007-01-01",
+    "latest": "2007-12-31",
+    "display_string": "2007"
+  },
+  {
+    "id": "wba_date_01HREAL129",
+    "edtf_string": "2018-07-12",
+    "precision": "day",
+    "earliest": "2018-07-12",
+    "latest": "2018-07-12",
+    "display_string": "12 July 2018"
+  },
+  {
+    "id": "wba_date_01HREAL130",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL131",
+    "edtf_string": "2024",
+    "precision": "year",
+    "earliest": "2024-01-01",
+    "latest": "2024-12-31",
+    "display_string": "2024"
+  },
+  {
+    "id": "wba_date_01HREAL132",
+    "edtf_string": "2022",
+    "precision": "year",
+    "earliest": "2022-01-01",
+    "latest": "2022-12-31",
+    "display_string": "2022"
+  },
+  {
+    "id": "wba_date_01HREAL133",
+    "edtf_string": "2024",
+    "precision": "year",
+    "earliest": "2024-01-01",
+    "latest": "2024-12-31",
+    "display_string": "2024"
+  },
+  {
+    "id": "wba_date_01HREAL134",
+    "edtf_string": "1971",
+    "precision": "year",
+    "earliest": "1971-01-01",
+    "latest": "1971-12-31",
+    "display_string": "1971"
+  },
+  {
+    "id": "wba_date_01HREAL135",
+    "edtf_string": "2009",
+    "precision": "year",
+    "earliest": "2009-01-01",
+    "latest": "2009-12-31",
+    "display_string": "2009"
+  },
+  {
+    "id": "wba_date_01HREAL136",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL137",
+    "edtf_string": "2022",
+    "precision": "year",
+    "earliest": "2022-01-01",
+    "latest": "2022-12-31",
+    "display_string": "2022"
+  },
+  {
+    "id": "wba_date_01HREAL138",
+    "edtf_string": "2018-10-17",
+    "precision": "day",
+    "earliest": "2018-10-17",
+    "latest": "2018-10-17",
+    "display_string": "17 October 2018"
+  },
+  {
+    "id": "wba_date_01HREAL139",
+    "edtf_string": "2025-06-25",
+    "precision": "day",
+    "earliest": "2025-06-25",
+    "latest": "2025-06-25",
+    "display_string": "25 June 2025"
+  },
+  {
+    "id": "wba_date_01HREAL140",
+    "edtf_string": "2022-07-18",
+    "precision": "day",
+    "earliest": "2022-07-18",
+    "latest": "2022-07-18",
+    "display_string": "18 July 2022"
+  },
+  {
+    "id": "wba_date_01HREAL141",
+    "edtf_string": "2026-01",
+    "precision": "month",
+    "earliest": "2026-01-01",
+    "latest": "2026-01-31",
+    "display_string": "January 2026"
+  },
+  {
+    "id": "wba_date_01HREAL142",
+    "edtf_string": "2018",
+    "precision": "year",
+    "earliest": "2018-01-01",
+    "latest": "2018-12-31",
+    "display_string": "2018"
+  },
+  {
+    "id": "wba_date_01HREAL143",
+    "edtf_string": "2021-08",
+    "precision": "month",
+    "earliest": "2021-08-01",
+    "latest": "2021-08-31",
+    "display_string": "August 2021"
+  },
+  {
+    "id": "wba_date_01HREAL144",
+    "edtf_string": "2023-05-23",
+    "precision": "day",
+    "earliest": "2023-05-23",
+    "latest": "2023-05-23",
+    "display_string": "23 May 2023"
+  },
+  {
+    "id": "wba_date_01HREAL145",
+    "edtf_string": "2009-11-27",
+    "precision": "day",
+    "earliest": "2009-11-27",
+    "latest": "2009-11-27",
+    "display_string": "27 November 2009"
+  },
+  {
+    "id": "wba_date_01HREAL146",
+    "edtf_string": "2012-05-28",
+    "precision": "day",
+    "earliest": "2012-05-28",
+    "latest": "2012-05-28",
+    "display_string": "28 May 2012"
+  },
+  {
+    "id": "wba_date_01HREAL147",
+    "edtf_string": "2014-07",
+    "precision": "month",
+    "earliest": "2014-07-01",
+    "latest": "2014-07-31",
+    "display_string": "July 2014"
+  },
+  {
+    "id": "wba_date_01HREAL148",
+    "edtf_string": "2008-03",
+    "precision": "month",
+    "earliest": "2008-03-01",
+    "latest": "2008-03-31",
+    "display_string": "March 2008"
+  },
+  {
+    "id": "wba_date_01HREAL149",
+    "edtf_string": "2016-03-01",
+    "precision": "day",
+    "earliest": "2016-03-01",
+    "latest": "2016-03-01",
+    "display_string": "1 March 2016"
+  },
+  {
+    "id": "wba_date_01HREAL150",
+    "edtf_string": "2003",
+    "precision": "year",
+    "earliest": "2003-01-01",
+    "latest": "2003-12-31",
+    "display_string": "2003"
+  },
+  {
+    "id": "wba_date_01HREAL151",
+    "edtf_string": "2012",
+    "precision": "year",
+    "earliest": "2012-01-01",
+    "latest": "2012-12-31",
+    "display_string": "2012"
+  },
+  {
+    "id": "wba_date_01HREAL152",
+    "edtf_string": "2021",
+    "precision": "year",
+    "earliest": "2021-01-01",
+    "latest": "2021-12-31",
+    "display_string": "2021"
+  },
+  {
+    "id": "wba_date_01HREAL153",
+    "edtf_string": "2012-07",
+    "precision": "month",
+    "earliest": "2012-07-01",
+    "latest": "2012-07-31",
+    "display_string": "July 2012"
+  },
+  {
+    "id": "wba_date_01HREAL154",
+    "edtf_string": "2015-05",
+    "precision": "month",
+    "earliest": "2015-05-01",
+    "latest": "2015-05-31",
+    "display_string": "May 2015"
+  },
+  {
+    "id": "wba_date_01HREAL155",
+    "edtf_string": "2017-11-15",
+    "precision": "day",
+    "earliest": "2017-11-15",
+    "latest": "2017-11-15",
+    "display_string": "15 November 2017"
+  },
+  {
+    "id": "wba_date_01HREAL156",
+    "edtf_string": "1998",
+    "precision": "year",
+    "earliest": "1998-01-01",
+    "latest": "1998-12-31",
+    "display_string": "1998"
+  },
+  {
+    "id": "wba_date_01HREAL157",
+    "edtf_string": "2001-09",
+    "precision": "month",
+    "earliest": "2001-09-01",
+    "latest": "2001-09-30",
+    "display_string": "September 2001"
+  },
+  {
+    "id": "wba_date_01HREAL158",
+    "edtf_string": "2016-07-20",
+    "precision": "day",
+    "earliest": "2016-07-20",
+    "latest": "2016-07-20",
+    "display_string": "20 July 2016"
+  },
+  {
+    "id": "wba_date_01HREAL159",
+    "edtf_string": "2015",
+    "precision": "year",
+    "earliest": "2015-01-01",
+    "latest": "2015-12-31",
+    "display_string": "2015"
+  },
+  {
+    "id": "wba_date_01HREAL160",
+    "edtf_string": "2019-01-21",
+    "precision": "day",
+    "earliest": "2019-01-21",
+    "latest": "2019-01-21",
+    "display_string": "21 January 2019"
+  },
+  {
+    "id": "wba_date_01HREAL161",
+    "edtf_string": "2025-06-16",
+    "precision": "day",
+    "earliest": "2025-06-16",
+    "latest": "2025-06-16",
+    "display_string": "16 June 2025"
+  },
+  {
+    "id": "wba_date_01HREAL162",
+    "edtf_string": "1991-02",
+    "precision": "month",
+    "earliest": "1991-02-01",
+    "latest": "1991-02-28",
+    "display_string": "February 1991"
+  },
+  {
+    "id": "wba_date_01HREAL163",
+    "edtf_string": "1997-05",
+    "precision": "month",
+    "earliest": "1997-05-01",
+    "latest": "1997-05-31",
+    "display_string": "May 1997"
+  },
+  {
+    "id": "wba_date_01HREAL164",
+    "edtf_string": "2016-12-02",
+    "precision": "day",
+    "earliest": "2016-12-02",
+    "latest": "2016-12-02",
+    "display_string": "2 December 2016"
+  },
+  {
+    "id": "wba_date_01HREAL165",
+    "edtf_string": "1984",
+    "precision": "year",
+    "earliest": "1984-01-01",
+    "latest": "1984-12-31",
+    "display_string": "1984"
+  },
+  {
+    "id": "wba_date_01HREAL166",
+    "edtf_string": "2006",
+    "precision": "year",
+    "earliest": "2006-01-01",
+    "latest": "2006-12-31",
+    "display_string": "2006"
+  },
+  {
+    "id": "wba_date_01HREAL167",
+    "edtf_string": "2009",
+    "precision": "year",
+    "earliest": "2009-01-01",
+    "latest": "2009-12-31",
+    "display_string": "2009"
+  },
+  {
+    "id": "wba_date_01HREAL168",
+    "edtf_string": "1979-04",
+    "precision": "month",
+    "earliest": "1979-04-01",
+    "latest": "1979-04-30",
+    "display_string": "April 1979"
+  },
+  {
+    "id": "wba_date_01HREAL169",
+    "edtf_string": "1986-09-17",
+    "precision": "day",
+    "earliest": "1986-09-17",
+    "latest": "1986-09-17",
+    "display_string": "17 September 1986"
+  },
+  {
+    "id": "wba_date_01HREAL170",
+    "edtf_string": "2014-11-30",
+    "precision": "day",
+    "earliest": "2014-11-30",
+    "latest": "2014-11-30",
+    "display_string": "30 November 2014"
+  },
+  {
+    "id": "wba_date_01HREAL171",
+    "edtf_string": "2016-04-30",
+    "precision": "day",
+    "earliest": "2016-04-30",
+    "latest": "2016-04-30",
+    "display_string": "30 April 2016"
+  },
+  {
+    "id": "wba_date_01HREAL172",
+    "edtf_string": "2017-07-31",
+    "precision": "day",
+    "earliest": "2017-07-31",
+    "latest": "2017-07-31",
+    "display_string": "31 July 2017"
+  },
+  {
+    "id": "wba_date_01HREAL173",
+    "edtf_string": "2019-10-04",
+    "precision": "day",
+    "earliest": "2019-10-04",
+    "latest": "2019-10-04",
+    "display_string": "4 October 2019"
+  },
+  {
+    "id": "wba_date_01HREAL174",
+    "edtf_string": "2024-06",
+    "precision": "month",
+    "earliest": "2024-06-01",
+    "latest": "2024-06-30",
+    "display_string": "June 2024"
+  },
+  {
+    "id": "wba_date_01HREAL175",
+    "edtf_string": "2022-06-24",
+    "precision": "day",
+    "earliest": "2022-06-24",
+    "latest": "2022-06-24",
+    "display_string": "24 June 2022"
+  },
+  {
+    "id": "wba_date_01HREAL176",
+    "edtf_string": "2019-02-18",
+    "precision": "day",
+    "earliest": "2019-02-18",
+    "latest": "2019-02-18",
+    "display_string": "18 February 2019"
+  },
+  {
+    "id": "wba_date_01HREAL177",
+    "edtf_string": "2019-12",
+    "precision": "month",
+    "earliest": "2019-12-01",
+    "latest": "2019-12-31",
+    "display_string": "December 2019"
+  },
+  {
+    "id": "wba_date_01HREAL178",
+    "edtf_string": "2008",
+    "precision": "year",
+    "earliest": "2008-01-01",
+    "latest": "2008-12-31",
+    "display_string": "2008"
+  },
+  {
+    "id": "wba_date_01HREAL179",
+    "edtf_string": "2012-11",
+    "precision": "month",
+    "earliest": "2012-11-01",
+    "latest": "2012-11-30",
+    "display_string": "November 2012"
+  },
+  {
+    "id": "wba_date_01HREAL181",
+    "edtf_string": "2023",
+    "precision": "year",
+    "earliest": "2023-01-01",
+    "latest": "2023-12-31",
+    "display_string": "2023"
+  },
+  {
+    "id": "wba_date_01HREAL182",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL183",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL184",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL185",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL186",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL187",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL188",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL189",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL190",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL191",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL192",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL193",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL194",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL195",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL196",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL197",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL198",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL199",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL200",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL201",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL202",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL203",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL204",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL205",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL206",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL207",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL208",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL209",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL210",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL211",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL212",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL213",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL214",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL215",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL216",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL217",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL218",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL219",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL220",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL221",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL222",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL223",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL224",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL225",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL226",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL227",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL228",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL229",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL230",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL231",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL282",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL283",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL284",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL285",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL286",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL287",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL288",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL289",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL290",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL291",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL292",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL293",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL294",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL295",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL296",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL297",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL298",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL299",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL300",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL301",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL302",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL303",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL304",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL305",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL306",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL307",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL308",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL309",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL310",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL311",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL312",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL313",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL314",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL315",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL316",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL317",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL318",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL319",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL320",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL321",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL322",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL323",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL324",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL325",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL326",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL327",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL328",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL329",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL330",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL331",
+    "edtf_string": "2020",
+    "precision": "year",
+    "earliest": "2020-01-01",
+    "latest": "2020-12-31",
+    "display_string": "2020"
+  },
+  {
+    "id": "wba_date_01HREAL332",
+    "edtf_string": "2024-10-14",
+    "precision": "day",
+    "earliest": "2024-10-14",
+    "latest": "2024-10-14",
+    "display_string": "14 October 2024"
+  },
+  {
+    "id": "wba_date_01HREAL333",
+    "edtf_string": "2024-10-24",
+    "precision": "day",
+    "earliest": "2024-10-24",
+    "latest": "2024-10-24",
+    "display_string": "24 October 2024"
+  },
+  {
+    "id": "wba_date_01HREAL334",
+    "edtf_string": "2024-10-16",
+    "precision": "day",
+    "earliest": "2024-10-16",
+    "latest": "2024-10-16",
+    "display_string": "16 October 2024"
+  },
+  {
+    "id": "wba_date_01HREAL335",
+    "edtf_string": "2024-11-08",
+    "precision": "day",
+    "earliest": "2024-11-08",
+    "latest": "2024-11-08",
+    "display_string": "8 November 2024"
+  },
+  {
+    "id": "wba_date_01HREAL336",
+    "edtf_string": "2024-12-09",
+    "precision": "day",
+    "earliest": "2024-12-09",
+    "latest": "2024-12-09",
+    "display_string": "9 December 2024"
+  },
+  {
+    "id": "wba_date_01HREAL337",
+    "edtf_string": "2024-05-14",
+    "precision": "day",
+    "earliest": "2024-05-14",
+    "latest": "2024-05-14",
+    "display_string": "14 May 2024"
+  },
+  {
+    "id": "wba_date_01HREAL338",
+    "edtf_string": "2023-04",
+    "precision": "month",
+    "earliest": "2023-04-01",
+    "latest": "2023-04-30",
+    "display_string": "April 2023"
+  },
+  {
+    "id": "wba_date_01HREAL339",
+    "edtf_string": "2026-01",
+    "precision": "month",
+    "earliest": "2026-01-01",
+    "latest": "2026-01-31",
+    "display_string": "January 2026"
+  },
+  {
+    "id": "wba_date_01HREAL340",
+    "edtf_string": "2024-07-09",
+    "precision": "day",
+    "earliest": "2024-07-09",
+    "latest": "2024-07-09",
+    "display_string": "9 July 2024"
+  }
+]

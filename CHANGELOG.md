@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.2] - 2026-09-14
+### Added
+- Data: 115 to 122 verified projects (+7 new foreign contracts with full page reads). Uganda Kampala-Malaba SGR 272 km Yapi Merkezi Turkey 2.7bn euro (Reuters + Railway Gazette), Uganda Iganga-Kamuli 56 km Arab Contractors Egypt 70m USD, Uganda Lusalira-Sembabule 97 km Tecnovia Portugal 126m euro, Senegal Ndande-Gueoul 30 km CRBC China 132m USD + Mekhe-Ndande 19 km CWE China 76.3m USD (Goalfore), Kenya Galana Kulalu dam CCCC China Sh40bn, Kenya Umaa dam China Jiangxi 1.9bn KES. All verbatim quotes exact from pages, validate OK 0 errors, 526KB data.json.
+- App: banner 122 REAL PROJECTS, fetches /data/releases/v0.8.2/data.json
+- Releases: v0.8.2 snapshot (122 features) - v0.8.1 preserved
+
 ## [v0.8.1] - 2026-09-14
 ### Fixed
 - Data: clean 200 to 115 source-verified projects - removed 85 projects that had only Wikipedia sources with no information (155 Wikipedia sources and 204 dependent claims deleted where `verbatim_quote` not in Wikipedia page, per `SOURCING_GUIDE.md:5` tertiary not primary). Removed 50 spurious `USA` HQ rows where `organization_countries.csv:172` `source_claim` was a `status` claim not an org HQ claim (e.g. `Sinohydro` `CHN/USA`, `Rosatom` `USA` should be `RUS`). Fixed 61 source `id` dups, 35 claim `id` dups, 30 org `id` dups, 24 contract `id` dups, 49 participation `id` dups by reassigning new IDs `01HREAL310` etc. Validate OK 0 warnings 0 errors, 500KB `data.json` (was 894KB). Projects now all have at least one real `sources.csv` with `publisher` + `url` + `verbatim_quote` that contains the claim.
