@@ -73,8 +73,11 @@ def build(src: pathlib.Path, out: pathlib.Path, use_samples=False):
         cur.execute("INSERT INTO projects VALUES (?,?,?,?,?,?,?,?)", (p["id"], p["name"], p["country"], p["sectors"], p["status"], p["location_precision"], lat, lon))
     con.commit(); con.close()
 
-    # CITATION
-    (out / "CITATION.md").write_text(f"# Release {out.name}\n\nCite: Africa Contract Footprints / WHO BUILDS AFRICA? ({out.name}), ODbL-1.0\nSource: https://github.com/alfredshingai/who_builds_africa\nCounts: {len(features)} project features\n", encoding="utf-8")
+    # CITATION - preserve detailed citation if already exists (detailed version has >5 lines)
+    citation_path = out / "CITATION.md"
+    if not citation_path.exists() or len(citation_path.read_text(encoding="utf-8").splitlines()) <= 6:
+        # only auto-generate minimal if no detailed citation exists
+        citation_path.write_text(f"# Release {out.name}\n\nCite: Africa Contract Footprints / WHO BUILDS AFRICA? ({out.name}), ODbL-1.0\nSource: https://github.com/alfredshingai/who_builds_africa\nCounts: {len(features)} project features\n", encoding="utf-8")
     print(f"Built {len(features)} features -> {out}")
 
 if __name__ == "__main__":
