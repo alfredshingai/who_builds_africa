@@ -19,7 +19,7 @@ body:
     id: proposed
     attributes:
       label: Proposed value + source (URL + verbatim quote + evidence_strength)"
-      placeholder: "Propose: USD 997700000 approx — source https://... | Xinhua | 2018-06-27 | \"...\" | evidence_strength officially_reported"
+      placeholder: "Propose: USD 997700000 approx - source https://... | Xinhua | 2018-06-27 | \"...\" | evidence_strength officially_reported"
     validations: { required: true }
   - type: textarea
     id: reason
