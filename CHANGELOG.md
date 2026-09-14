@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.4] - 2026-09-14
+### Added
+- Data: 122 to 124 verified (+2 Burundi with page reads). Bujumbura-Gitaza RN3 25 km CFHEC China 47.2m USD World Bank awarded Nov 2024 and Uvinza-Musongati SGR 282 km CREGC+CREDC China Sh5.38tn signed Jan 2025. Burundi gap from 0 to 2. Validate OK, 539KB.
+- App: banner 124 REAL PROJECTS, fetches /data/releases/v0.8.4/data.json
+- Releases: v0.8.4 snapshot (124 features)
+
 ## [v0.8.3] - 2026-09-14
 ### Fixed
 - Data: deepen 2 existing with page reads. Kano-Maradi 384km NGA fixed dangling contractor 185 to Mota-Engil 206 Portugal plus 1.82bn USD value plus RailwayPro second source plus status signed. Rironi-Mau Summit KEN fixed VINCI cancelled to CRBC preferred Oct 2025 with ConstructionKenya source plus new 200bn KES contract plus contractor_replaced event. Validate OK.
