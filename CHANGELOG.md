@@ -4,6 +4,13 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.0] - 2026-09-14
+### Added
+- Data: expand to 200 real projects (+50, exhaustive, no prioritization) - 55 countries, 237 organizations, 198 contracts, 249 participations, 370 sources, 355 claims. New coverage spans nuclear (El Dabaa EGY), high-speed rail (Egypt HSR, Al Boraq MAR), deep-sea ports (Lekki NGA, Cotonou BEN, Berbera SOM), hydro (Zungeru NGA, Nachtigal CMR, Koysha ETH, Gibe III ETH, Bujagali UGA, Isimba UGA, Rusumo RWA, Itezhi-Tezhi ZMB), urban transit (Lagos Blue Line, Algiers Metro, Cairo LRT/Monorail, Casablanca/Rabat tramways, Dar BRT), wind/solar (Kipeto KEN, Ashegoda ETH, Taiba SEN, Benban EGY, Safi MAR), thermal (Medupi/Kusile ZAF, Kpone GHA, Azura-Edo NGA), water (Karimenu II KEN)
+- Fix: location precision honest - 100 country-level records corrected from approximate to country (no fake coords), validate OK 0 warnings 0 errors
+- App: banner 200 REAL PROJECTS, fetches /data/releases/v0.8.0/data.json
+- Releases: v0.8.0 snapshot (200 features, 894KB) - v0.7.1 (150 deepened) + v0.7.0 (150) preserved
+
 ## [v0.7.1] - 2026-09-11
 ### Changed
 - Deepen: exhaustive corroboration - all 150 now >=2 sources (136 added Government/Wikipedia second sources), 320 sources / 306 claims, 147 change_history entries, validate OK 0 errors, 737KB (was 584KB) - v0.7.0 150 preserved
