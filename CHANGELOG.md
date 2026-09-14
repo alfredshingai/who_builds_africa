@@ -4,12 +4,6 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
-## [v0.9.0] - 2026-09-14
-### Added
-- Data: expand to 250 real projects (+50, exhaustive, no prioritization) - 55 countries, 259 organizations, 248 contracts, 299 participations, 420 sources, 407 claims. New batch covers second projects for all 1-project countries (BEN Glo-Djigbe Airport and Cotton Road 2, BFA Ouaga-Bobo Highway and Zagtouli extension, CAF Bangui River Port, COG RN1 Dolisie-Brazzaville and Occidental Port, COM Moheli Highway and Moroni Power, GMB Banjul Port and Brikama Road and Farafenni Bridge, GNB Bissau Port and Cacheu Port and Bafata Hospital, LBR Mount Coffee Extension and Buchanan and Greenville Ports, LBY Misrata and Tripoli Metro and Benghazi Port, MLI Bamako-Bure Road and Kayes Solar, plus MDG Antananarivo-Toamasina Highway, MRT Nouakchott and Nouadhibou Ports, MUS Port Louis and Mauritius LRT2, MWI Mangochi and Lilongwe Water, NAM Walvis Bay Corridor and Windhoek Bypass, SDN Roseires and Khartoum Bridge, SSD Juba Distribution and Juba-Bor Road, STP Sao Tome Airport and Neves Port, SWZ Mbabane Bypass and Manzini Highway, SYC Victoria Port and Mahe Hospital, TCD Ndjamena Water and Bridge, TGO Lome Bypass and Lome 4th Berth) - validate OK 0 warnings 0 errors, 994KB data.json
-- App: banner 250 REAL PROJECTS, fetches /data/releases/v0.9.0/data.json
-- Releases: v0.9.0 snapshot (250 features, 994KB) - v0.8.0 (200) preserved
-
 ## [v0.8.0] - 2026-09-14
 ### Added
 - Data: expand to 200 real projects (+50, exhaustive, no prioritization) - 55 countries, 237 organizations, 198 contracts, 249 participations, 370 sources, 355 claims. New coverage spans nuclear (El Dabaa EGY), high-speed rail (Egypt HSR, Al Boraq MAR), deep-sea ports (Lekki NGA, Cotonou BEN, Berbera SOM), hydro (Zungeru NGA, Nachtigal CMR, Koysha ETH, Gibe III ETH, Bujagali UGA, Isimba UGA, Rusumo RWA, Itezhi-Tezhi ZMB), urban transit (Lagos Blue Line, Algiers Metro, Cairo LRT/Monorail, Casablanca/Rabat tramways, Dar BRT), wind/solar (Kipeto KEN, Ashegoda ETH, Taiba SEN, Benban EGY, Safi MAR), thermal (Medupi/Kusile ZAF, Kpone GHA, Azura-Edo NGA), water (Karimenu II KEN)
