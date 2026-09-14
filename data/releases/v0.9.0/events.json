@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "wba_evt_01HREAL001",
+    "project_id": "wba_prj_01HREAL001",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL001",
+    "source_claim": "wba_clm_01HREAL001",
+    "notes": "Groundbreaking Hwange 7&8"
+  },
+  {
+    "id": "wba_evt_01HREAL002",
+    "project_id": "wba_prj_01HREAL001",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL002",
+    "source_claim": "wba_clm_01HREAL002",
+    "notes": "Commissioned 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL003",
+    "project_id": "wba_prj_01HREAL002",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL003",
+    "source_claim": "wba_clm_01HREAL003",
+    "notes": "Kariba South commissioned"
+  },
+  {
+    "id": "wba_evt_01HREAL004",
+    "project_id": "wba_prj_01HREAL003",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL004",
+    "source_claim": "wba_clm_01HREAL005",
+    "notes": "Groundbreaking RGM"
+  },
+  {
+    "id": "wba_evt_01HREAL005",
+    "project_id": "wba_prj_01HREAL003",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL005",
+    "source_claim": "wba_clm_01HREAL004",
+    "notes": "Completed 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL006",
+    "project_id": "wba_prj_01HREAL004",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL006",
+    "source_claim": "wba_clm_01HREAL006",
+    "notes": "Trial operation Nairobi Expressway"
+  },
+  {
+    "id": "wba_evt_01HREAL007",
+    "project_id": "wba_prj_01HREAL005",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL007",
+    "source_claim": "wba_clm_01HREAL007",
+    "notes": "Inaugurated SGR"
+  },
+  {
+    "id": "wba_evt_01HREAL008",
+    "project_id": "wba_prj_01HREAL006",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL008",
+    "source_claim": "wba_clm_01HREAL008",
+    "notes": "Vestas order / completed 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL009",
+    "project_id": "wba_prj_01HREAL007",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL010",
+    "source_claim": "wba_clm_01HREAL011",
+    "notes": "Trial Feb 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL010",
+    "project_id": "wba_prj_01HREAL007",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL009",
+    "source_claim": "wba_clm_01HREAL010",
+    "notes": "Opened 20 Sep 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL011",
+    "project_id": "wba_prj_01HREAL008",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL011",
+    "source_claim": "wba_clm_01HREAL012",
+    "notes": "Inaugurated 5 Oct 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL012",
+    "project_id": "wba_prj_01HREAL009",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL012",
+    "source_claim": "wba_clm_01HREAL014",
+    "notes": "GERD inaugurated 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL013",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL015",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Groundbreaking New Parliament"
+  },
+  {
+    "id": "wba_evt_01HREAL014",
+    "project_id": "wba_prj_01HREAL010",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL017",
+    "source_claim": "wba_clm_01HREAL015",
+    "notes": "Handover 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL015",
+    "project_id": "wba_prj_01HREAL011",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL019",
+    "source_claim": "wba_clm_01HREAL017",
+    "notes": "Opened 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL016",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL021",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Award Lamu 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL017",
+    "project_id": "wba_prj_01HREAL013",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL022",
+    "source_claim": "wba_clm_01HREAL019",
+    "notes": "Berth 1 commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL018",
+    "project_id": "wba_prj_01HREAL014",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL024",
+    "source_claim": "wba_clm_01HREAL020",
+    "notes": "Inaugurated Hawassa 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL019",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL025",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Award Kazungula Aug 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL020",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL026",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Construction start 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL021",
+    "project_id": "wba_prj_01HREAL015",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL028",
+    "source_claim": "wba_clm_01HREAL022",
+    "notes": "Completed 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL022",
+    "project_id": "wba_prj_01HREAL016",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL029",
+    "source_claim": "wba_clm_01HREAL023",
+    "notes": "Beitbridge commissioned Dec 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL023",
+    "project_id": "wba_prj_01HREAL018",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL031",
+    "source_claim": "wba_clm_01HREAL025",
+    "notes": "Thwake signed 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL024",
+    "project_id": "wba_prj_01HREAL019",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL033",
+    "source_claim": "wba_clm_01HREAL026",
+    "notes": "Mombasa Phase1 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL025",
+    "project_id": "wba_prj_01HREAL020",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL036",
+    "source_claim": "wba_clm_01HREAL028",
+    "notes": "Adama commissioned 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL026",
+    "project_id": "wba_prj_01HREAL022",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL037",
+    "source_claim": "wba_clm_01HREAL030",
+    "notes": "Kafue start 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL027",
+    "project_id": "wba_prj_01HREAL023",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL040",
+    "source_claim": "wba_clm_01HREAL031",
+    "notes": "Nyerere start Dec 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL028",
+    "project_id": "wba_prj_01HREAL024",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL039",
+    "source_claim": "wba_clm_01HREAL032",
+    "notes": "Maputo opened 2018-11-10"
+  },
+  {
+    "id": "wba_evt_01HREAL029",
+    "project_id": "wba_prj_01HREAL026",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL041",
+    "source_claim": "wba_clm_01HREAL034",
+    "notes": "Dakar TER start 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL030",
+    "project_id": "wba_prj_01HREAL026",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL042",
+    "source_claim": "wba_clm_01HREAL034",
+    "notes": "Dakar commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL031",
+    "project_id": "wba_prj_01HREAL027",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL044",
+    "source_claim": "wba_clm_01HREAL035",
+    "notes": "Bui commissioned 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL032",
+    "project_id": "wba_prj_01HREAL028",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL046",
+    "source_claim": "wba_clm_01HREAL036",
+    "notes": "Lauca first unit 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL033",
+    "project_id": "wba_prj_01HREAL030",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL049",
+    "source_claim": "wba_clm_01HREAL038",
+    "notes": "Malawi fibre 2018-04"
+  },
+  {
+    "id": "wba_evt_01HREAL034",
+    "project_id": "wba_prj_01HREAL031",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL052",
+    "source_claim": "wba_clm_01HREAL039",
+    "notes": "Tokwe-Mukosi completed Dec 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL035",
+    "project_id": "wba_prj_01HREAL033",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL055",
+    "source_claim": "wba_clm_01HREAL041",
+    "notes": "Olkaria commissioned 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL036",
+    "project_id": "wba_prj_01HREAL034",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL055",
+    "source_claim": "wba_clm_01HREAL042",
+    "notes": "Outer Ring launched Jan 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL037",
+    "project_id": "wba_prj_01HREAL036",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL058",
+    "source_claim": "wba_clm_01HREAL043",
+    "notes": "KKIA commissioned 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL038",
+    "project_id": "wba_prj_01HREAL037",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL061",
+    "source_claim": "wba_clm_01HREAL044",
+    "notes": "Tanzania SGR signed Dec 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL039",
+    "project_id": "wba_prj_01HREAL041",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL064",
+    "source_claim": "wba_clm_01HREAL048",
+    "notes": "Noor Phase I 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL040",
+    "project_id": "wba_prj_01HREAL042",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL068",
+    "source_claim": "wba_clm_01HREAL049",
+    "notes": "Walvis Bay launched 2 Aug 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL041",
+    "project_id": "wba_prj_01HREAL043",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL069",
+    "source_claim": "wba_clm_01HREAL050",
+    "notes": "Kribi Phase I 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL042",
+    "project_id": "wba_prj_01HREAL044",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL075",
+    "source_claim": "wba_clm_01HREAL051",
+    "notes": "Gautrain commissioned 2012"
+  },
+  {
+    "id": "wba_evt_01HREAL043",
+    "project_id": "wba_prj_01HREAL045",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL076",
+    "source_claim": "wba_clm_01HREAL052",
+    "notes": "Busanga commissioned Oct 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL044",
+    "project_id": "wba_prj_01HREAL046",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL077",
+    "source_claim": "wba_clm_01HREAL053",
+    "notes": "New Capital CBD structures 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL045",
+    "project_id": "wba_prj_01HREAL047",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL078",
+    "source_claim": "wba_clm_01HREAL054",
+    "notes": "AIBD opened Dec 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL046",
+    "project_id": "wba_prj_01HREAL048",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL080",
+    "source_claim": "wba_clm_01HREAL055",
+    "notes": "BK Arena inaugurated Aug 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL047",
+    "project_id": "wba_prj_01HREAL049",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL082",
+    "source_claim": "wba_clm_01HREAL056",
+    "notes": "Karuma commissioned Sep 2024"
+  },
+  {
+    "id": "wba_evt_01HREAL048",
+    "project_id": "wba_prj_01HREAL050",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL084",
+    "source_claim": "wba_clm_01HREAL058",
+    "notes": "Zagtouli commissioned Nov 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL049",
+    "project_id": "wba_prj_01HREAL051",
+    "event_type": "abandoned",
+    "date_id": "wba_date_01HREAL086",
+    "source_claim": "wba_clm_01HREAL059",
+    "notes": "Ajaokuta abandoned 1994 98%"
+  },
+  {
+    "id": "wba_evt_01HREAL050",
+    "project_id": "wba_prj_01HREAL052",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL088",
+    "source_claim": "wba_clm_01HREAL060",
+    "notes": "TAZARA commissioned 1975"
+  },
+  {
+    "id": "wba_evt_01HREAL051",
+    "project_id": "wba_prj_01HREAL053",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL090",
+    "source_claim": "wba_clm_01HREAL061",
+    "notes": "Akosombo commissioned 1965"
+  },
+  {
+    "id": "wba_evt_01HREAL052",
+    "project_id": "wba_prj_01HREAL054",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL092",
+    "source_claim": "wba_clm_01HREAL062",
+    "notes": "Cahora commissioned 1979"
+  },
+  {
+    "id": "wba_evt_01HREAL053",
+    "project_id": "wba_prj_01HREAL055",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL094",
+    "source_claim": "wba_clm_01HREAL063",
+    "notes": "Aswan inaugurated 1971"
+  },
+  {
+    "id": "wba_evt_01HREAL054",
+    "project_id": "wba_prj_01HREAL056",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL096",
+    "source_claim": "wba_clm_01HREAL064",
+    "notes": "GMR Phase I 1991"
+  },
+  {
+    "id": "wba_evt_01HREAL055",
+    "project_id": "wba_prj_01HREAL056",
+    "event_type": "delayed",
+    "date_id": "wba_date_01HREAL102",
+    "source_claim": "wba_clm_01HREAL064",
+    "notes": "GMR Phase III-IV delayed post-2011"
+  },
+  {
+    "id": "wba_evt_01HREAL056",
+    "project_id": "wba_prj_01HREAL057",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL099",
+    "source_claim": "wba_clm_01HREAL065",
+    "notes": "Merowe commissioned 2009"
+  },
+  {
+    "id": "wba_evt_01HREAL057",
+    "project_id": "wba_prj_01HREAL058",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL101",
+    "source_claim": "wba_clm_01HREAL066",
+    "notes": "Soubre commissioned Nov 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL058",
+    "project_id": "wba_prj_01HREAL059",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL103",
+    "source_claim": "wba_clm_01HREAL067",
+    "notes": "Kilamba commissioned 2011"
+  },
+  {
+    "id": "wba_evt_01HREAL059",
+    "project_id": "wba_prj_01HREAL060",
+    "event_type": "delayed",
+    "date_id": "wba_date_01HREAL102",
+    "source_claim": "wba_clm_01HREAL068",
+    "notes": "Kandadji delayed since 2008"
+  },
+  {
+    "id": "wba_evt_01HREAL060",
+    "project_id": "wba_prj_01HREAL061",
+    "event_type": "suspended",
+    "date_id": "wba_date_01HREAL106",
+    "source_claim": "wba_clm_01HREAL069",
+    "notes": "Bagamoyo suspended 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL061",
+    "project_id": "wba_prj_01HREAL062",
+    "event_type": "construction_started",
+    "date_id": "wba_date_01HREAL109",
+    "source_claim": "wba_clm_01HREAL070",
+    "notes": "EACOP FID 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL062",
+    "project_id": "wba_prj_01HREAL063",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL110",
+    "source_claim": "wba_clm_01HREAL071",
+    "notes": "Lobito concession 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL063",
+    "project_id": "wba_prj_01HREAL064",
+    "event_type": "delayed",
+    "date_id": "wba_date_01HREAL111",
+    "source_claim": "wba_clm_01HREAL072",
+    "notes": "Abidjan Metro delayed 2028"
+  },
+  {
+    "id": "wba_evt_01HREAL064",
+    "project_id": "wba_prj_01HREAL065",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL114",
+    "source_claim": "wba_clm_01HREAL073",
+    "notes": "Djamaa inaugurated 2024"
+  },
+  {
+    "id": "wba_evt_01HREAL065",
+    "project_id": "wba_prj_01HREAL066",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL116",
+    "source_claim": "wba_clm_01HREAL074",
+    "notes": "East-West Highway 2013"
+  },
+  {
+    "id": "wba_evt_01HREAL066",
+    "project_id": "wba_prj_01HREAL067",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL118",
+    "source_claim": "wba_clm_01HREAL075",
+    "notes": "Enfidha commissioned 2009"
+  },
+  {
+    "id": "wba_evt_01HREAL067",
+    "project_id": "wba_prj_01HREAL068",
+    "event_type": "cancelled",
+    "date_id": "wba_date_01HREAL120",
+    "source_claim": "wba_clm_01HREAL076",
+    "notes": "Doraleh cancelled 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL068",
+    "project_id": "wba_prj_01HREAL069",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL122",
+    "source_claim": "wba_clm_01HREAL077",
+    "notes": "Morupule B commissioned 2012-2014 defective"
+  },
+  {
+    "id": "wba_evt_01HREAL069",
+    "project_id": "wba_prj_01HREAL070",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL125",
+    "source_claim": "wba_clm_01HREAL078",
+    "notes": "Africa CDC handover Jan 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL070",
+    "project_id": "wba_prj_01HREAL071",
+    "event_type": "construction_started",
+    "date_id": "wba_date_01HREAL126",
+    "source_claim": "wba_clm_01HREAL079",
+    "notes": "Simandou construction 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL071",
+    "project_id": "wba_prj_01HREAL072",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL129",
+    "source_claim": "wba_clm_01HREAL080",
+    "notes": "Abuja opened July 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL072",
+    "project_id": "wba_prj_01HREAL073",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL133",
+    "source_claim": "wba_clm_01HREAL081",
+    "notes": "Niger-Benin completed 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL073",
+    "project_id": "wba_prj_01HREAL074",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL137",
+    "source_claim": "wba_clm_01HREAL082",
+    "notes": "2Africa completed 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL074",
+    "project_id": "wba_prj_01HREAL075",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL135",
+    "source_claim": "wba_clm_01HREAL083",
+    "notes": "Bumbuna completed 2009"
+  },
+  {
+    "id": "wba_evt_01HREAL075",
+    "project_id": "wba_prj_01HREAL076",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL139",
+    "source_claim": "wba_clm_01HREAL059",
+    "notes": "Jiji inaugurated Jun 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL076",
+    "project_id": "wba_prj_01HREAL077",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL141",
+    "source_claim": "wba_clm_01HREAL060",
+    "notes": "Cabo Verde airports modernised Jan 2026"
+  },
+  {
+    "id": "wba_evt_01HREAL077",
+    "project_id": "wba_prj_01HREAL078",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL143",
+    "source_claim": "wba_clm_01HREAL061",
+    "notes": "Boali II completed Aug 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL078",
+    "project_id": "wba_prj_01HREAL079",
+    "event_type": "construction_started",
+    "date_id": "wba_date_01HREAL144",
+    "source_claim": "wba_clm_01HREAL062",
+    "notes": "Djermaya EPC 23 May 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL079",
+    "project_id": "wba_prj_01HREAL080",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL146",
+    "source_claim": "wba_clm_01HREAL063",
+    "notes": "Bambao opened May 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL080",
+    "project_id": "wba_prj_01HREAL081",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL149",
+    "source_claim": "wba_clm_01HREAL064",
+    "notes": "Pointe-Noire Brazzaville 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL081",
+    "project_id": "wba_prj_01HREAL082",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL151",
+    "source_claim": "wba_clm_01HREAL065",
+    "notes": "Nguema-Sipopo 2012"
+  },
+  {
+    "id": "wba_evt_01HREAL082",
+    "project_id": "wba_prj_01HREAL083",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL155",
+    "source_claim": "wba_clm_01HREAL066",
+    "notes": "Hirgigo Nov 2017"
+  },
+  {
+    "id": "wba_evt_01HREAL083",
+    "project_id": "wba_prj_01HREAL084",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL157",
+    "source_claim": "wba_clm_01HREAL067",
+    "notes": "Maguga 2001"
+  },
+  {
+    "id": "wba_evt_01HREAL084",
+    "project_id": "wba_prj_01HREAL085",
+    "event_type": "construction_started",
+    "date_id": "wba_date_01HREAL158",
+    "source_claim": "wba_clm_01HREAL068",
+    "notes": "Trans-Gabon 2026"
+  },
+  {
+    "id": "wba_evt_01HREAL085",
+    "project_id": "wba_prj_01HREAL086",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL160",
+    "source_claim": "wba_clm_01HREAL069",
+    "notes": "Senegambia Jan 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL086",
+    "project_id": "wba_prj_01HREAL087",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL161",
+    "source_claim": "wba_clm_01HREAL070",
+    "notes": "Bissau-Safim Jun 2025"
+  },
+  {
+    "id": "wba_evt_01HREAL087",
+    "project_id": "wba_prj_01HREAL088",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL163",
+    "source_claim": "wba_clm_01HREAL071",
+    "notes": "Katse 1997"
+  },
+  {
+    "id": "wba_evt_01HREAL088",
+    "project_id": "wba_prj_01HREAL089",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL159",
+    "source_claim": "wba_clm_01HREAL072",
+    "notes": "Mount Coffee 2016"
+  },
+  {
+    "id": "wba_evt_01HREAL089",
+    "project_id": "wba_prj_01HREAL090",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL164",
+    "source_claim": "wba_clm_01HREAL073",
+    "notes": "Sahofika ESIA 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL090",
+    "project_id": "wba_prj_01HREAL091",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL057",
+    "source_claim": "wba_clm_01HREAL074",
+    "notes": "Gouina Dec 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL091",
+    "project_id": "wba_prj_01HREAL092",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL169",
+    "source_claim": "wba_clm_01HREAL075",
+    "notes": "Friendship Port 1986"
+  },
+  {
+    "id": "wba_evt_01HREAL092",
+    "project_id": "wba_prj_01HREAL093",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL173",
+    "source_claim": "wba_clm_01HREAL076",
+    "notes": "Metro Express Oct 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL093",
+    "project_id": "wba_prj_01HREAL094",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL174",
+    "source_claim": "wba_clm_01HREAL077",
+    "notes": "Sao Tome proposed 2024"
+  },
+  {
+    "id": "wba_evt_01HREAL094",
+    "project_id": "wba_prj_01HREAL095",
+    "event_type": "construction_started",
+    "date_id": "wba_date_01HREAL175",
+    "source_claim": "wba_clm_01HREAL078",
+    "notes": "Port Victoria dredging Feb 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL095",
+    "project_id": "wba_prj_01HREAL096",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL177",
+    "source_claim": "wba_clm_01HREAL079",
+    "notes": "Mogadishu Dec 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL096",
+    "project_id": "wba_prj_01HREAL097",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL179",
+    "source_claim": "wba_clm_01HREAL080",
+    "notes": "Juba-Nimule Nov 2012"
+  },
+  {
+    "id": "wba_evt_01HREAL097",
+    "project_id": "wba_prj_01HREAL098",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL159",
+    "source_claim": "wba_clm_01HREAL081",
+    "notes": "Lome Oct 2014"
+  },
+  {
+    "id": "wba_evt_01HREAL098",
+    "project_id": "wba_prj_01HREAL099",
+    "event_type": "commissioned",
+    "date_id": "wba_date_01HREAL175",
+    "source_claim": "wba_clm_01HREAL082",
+    "notes": "Porto Ingles Sep 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL099",
+    "project_id": "wba_prj_01HREAL100",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL181",
+    "source_claim": "wba_clm_01HREAL084",
+    "notes": "Construction started 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL100",
+    "project_id": "wba_prj_01HREAL201",
+    "event_type": "signed",
+    "date_id": "wba_date_01HREAL332",
+    "source_claim": "wba_clm_01HREAL321",
+    "notes": "Glo-Djigbe Airport signed"
+  },
+  {
+    "id": "wba_evt_01HREAL101",
+    "project_id": "wba_prj_01HREAL202",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL340",
+    "source_claim": "wba_clm_01HREAL323",
+    "notes": "Ouaga-Bobo proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL102",
+    "project_id": "wba_prj_01HREAL203",
+    "event_type": "awarded",
+    "date_id": "wba_date_01HREAL343",
+    "source_claim": "wba_clm_01HREAL325",
+    "notes": "RN1 Phase 2 awarded"
+  },
+  {
+    "id": "wba_evt_01HREAL103",
+    "project_id": "wba_prj_01HREAL203",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL344",
+    "source_claim": "wba_clm_01HREAL325",
+    "notes": "RN1 Phase 2 completed 3 Oct 2015"
+  },
+  {
+    "id": "wba_evt_01HREAL104",
+    "project_id": "wba_prj_01HREAL204",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL336",
+    "source_claim": "wba_clm_01HREAL326",
+    "notes": "Moheli highway construction start 8 July 2022"
+  },
+  {
+    "id": "wba_evt_01HREAL105",
+    "project_id": "wba_prj_01HREAL205",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL337",
+    "source_claim": "wba_clm_01HREAL327",
+    "notes": "Banjul port construction start 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL106",
+    "project_id": "wba_prj_01HREAL206",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL338",
+    "source_claim": "wba_clm_01HREAL328",
+    "notes": "Bissau port proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL107",
+    "project_id": "wba_prj_01HREAL207",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL339",
+    "source_claim": "wba_clm_01HREAL329",
+    "notes": "Mount Coffee proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL108",
+    "project_id": "wba_prj_01HREAL208",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL340",
+    "source_claim": "wba_clm_01HREAL330",
+    "notes": "Misrata port start 29 June 2023"
+  },
+  {
+    "id": "wba_evt_01HREAL109",
+    "project_id": "wba_prj_01HREAL209",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL341",
+    "source_claim": "wba_clm_01HREAL331",
+    "notes": "Bamako-Bure start 31 Dec 2024"
+  },
+  {
+    "id": "wba_evt_01HREAL110",
+    "project_id": "wba_prj_01HREAL211",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL346",
+    "source_claim": "wba_clm_01HREAL333",
+    "notes": "Antananarivo Toamasina proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL111",
+    "project_id": "wba_prj_01HREAL212",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL347",
+    "source_claim": "wba_clm_01HREAL334",
+    "notes": "Nouakchott start 1 July 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL112",
+    "project_id": "wba_prj_01HREAL213",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL348",
+    "source_claim": "wba_clm_01HREAL335",
+    "notes": "Port Louis completed 10 Aug 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL113",
+    "project_id": "wba_prj_01HREAL214",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL349",
+    "source_claim": "wba_clm_01HREAL336",
+    "notes": "Mangochi start 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL114",
+    "project_id": "wba_prj_01HREAL215",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL350",
+    "source_claim": "wba_clm_01HREAL337",
+    "notes": "Walvis Bay completed 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL115",
+    "project_id": "wba_prj_01HREAL216",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL351",
+    "source_claim": "wba_clm_01HREAL338",
+    "notes": "Khartoum proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL116",
+    "project_id": "wba_prj_01HREAL217",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL352",
+    "source_claim": "wba_clm_01HREAL339",
+    "notes": "Juba start 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL117",
+    "project_id": "wba_prj_01HREAL218",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL353",
+    "source_claim": "wba_clm_01HREAL340",
+    "notes": "Sao Tome proposed 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL118",
+    "project_id": "wba_prj_01HREAL219",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL354",
+    "source_claim": "wba_clm_01HREAL341",
+    "notes": "Mbabane start 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL119",
+    "project_id": "wba_prj_01HREAL220",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL355",
+    "source_claim": "wba_clm_01HREAL342",
+    "notes": "Victoria proposed 10 Aug 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL120",
+    "project_id": "wba_prj_01HREAL221",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL356",
+    "source_claim": "wba_clm_01HREAL343",
+    "notes": "Ndjamena start 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL121",
+    "project_id": "wba_prj_01HREAL222",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL357",
+    "source_claim": "wba_clm_01HREAL344",
+    "notes": "Lome proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL122",
+    "project_id": "wba_prj_01HREAL223",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL358",
+    "source_claim": "wba_clm_01HREAL345",
+    "notes": "Cotton Road completed 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL123",
+    "project_id": "wba_prj_01HREAL224",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL359",
+    "source_claim": "wba_clm_01HREAL346",
+    "notes": "Zagtouli start 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL124",
+    "project_id": "wba_prj_01HREAL225",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL360",
+    "source_claim": "wba_clm_01HREAL347",
+    "notes": "Occidental proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL125",
+    "project_id": "wba_prj_01HREAL226",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL361",
+    "source_claim": "wba_clm_01HREAL348",
+    "notes": "Moroni completed 10 Aug 2018"
+  },
+  {
+    "id": "wba_evt_01HREAL126",
+    "project_id": "wba_prj_01HREAL227",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL362",
+    "source_claim": "wba_clm_01HREAL349",
+    "notes": "Brikama completed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL127",
+    "project_id": "wba_prj_01HREAL228",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL363",
+    "source_claim": "wba_clm_01HREAL350",
+    "notes": "Cacheu proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL128",
+    "project_id": "wba_prj_01HREAL229",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL364",
+    "source_claim": "wba_clm_01HREAL351",
+    "notes": "Buchanan proposed 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL129",
+    "project_id": "wba_prj_01HREAL230",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL365",
+    "source_claim": "wba_clm_01HREAL352",
+    "notes": "Tripoli proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL130",
+    "project_id": "wba_prj_01HREAL231",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL366",
+    "source_claim": "wba_clm_01HREAL353",
+    "notes": "Nouadhibou proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL131",
+    "project_id": "wba_prj_01HREAL232",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL367",
+    "source_claim": "wba_clm_01HREAL354",
+    "notes": "Mauritius LRT2 proposed"
+  },
+  {
+    "id": "wba_evt_01HREAL132",
+    "project_id": "wba_prj_01HREAL233",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL368",
+    "source_claim": "wba_clm_01HREAL355",
+    "notes": "Lilongwe start 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL133",
+    "project_id": "wba_prj_01HREAL234",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL369",
+    "source_claim": "wba_clm_01HREAL356",
+    "notes": "Windhoek proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL134",
+    "project_id": "wba_prj_01HREAL235",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL370",
+    "source_claim": "wba_clm_01HREAL357",
+    "notes": "Roseires completed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL135",
+    "project_id": "wba_prj_01HREAL236",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL371",
+    "source_claim": "wba_clm_01HREAL358",
+    "notes": "Juba-Bor start 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL136",
+    "project_id": "wba_prj_01HREAL237",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL372",
+    "source_claim": "wba_clm_01HREAL359",
+    "notes": "Neves proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL137",
+    "project_id": "wba_prj_01HREAL238",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL373",
+    "source_claim": "wba_clm_01HREAL360",
+    "notes": "Manzini completed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL138",
+    "project_id": "wba_prj_01HREAL239",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL374",
+    "source_claim": "wba_clm_01HREAL361",
+    "notes": "Mahe start 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL139",
+    "project_id": "wba_prj_01HREAL240",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL375",
+    "source_claim": "wba_clm_01HREAL362",
+    "notes": "Ndjamena proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL140",
+    "project_id": "wba_prj_01HREAL241",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL376",
+    "source_claim": "wba_clm_01HREAL363",
+    "notes": "Lome 4th completed 18 Sep 2019"
+  },
+  {
+    "id": "wba_evt_01HREAL141",
+    "project_id": "wba_prj_01HREAL242",
+    "event_type": "construction_start",
+    "date_id": "wba_date_01HREAL377",
+    "source_claim": "wba_clm_01HREAL364",
+    "notes": "Cotonou start 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL142",
+    "project_id": "wba_prj_01HREAL243",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL378",
+    "source_claim": "wba_clm_01HREAL365",
+    "notes": "Bobo completed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL143",
+    "project_id": "wba_prj_01HREAL244",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL379",
+    "source_claim": "wba_clm_01HREAL366",
+    "notes": "Brazzaville completed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL144",
+    "project_id": "wba_prj_01HREAL245",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL380",
+    "source_claim": "wba_clm_01HREAL367",
+    "notes": "Comoros solar proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL145",
+    "project_id": "wba_prj_01HREAL246",
+    "event_type": "completed",
+    "date_id": "wba_date_01HREAL381",
+    "source_claim": "wba_clm_01HREAL368",
+    "notes": "Farafenni completed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL146",
+    "project_id": "wba_prj_01HREAL247",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL382",
+    "source_claim": "wba_clm_01HREAL369",
+    "notes": "Bafata proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL147",
+    "project_id": "wba_prj_01HREAL248",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL383",
+    "source_claim": "wba_clm_01HREAL370",
+    "notes": "Greenville proposed 1 July 2021"
+  },
+  {
+    "id": "wba_evt_01HREAL148",
+    "project_id": "wba_prj_01HREAL249",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL384",
+    "source_claim": "wba_clm_01HREAL371",
+    "notes": "Benghazi proposed 15 Mar 2020"
+  },
+  {
+    "id": "wba_evt_01HREAL149",
+    "project_id": "wba_prj_01HREAL250",
+    "event_type": "proposed",
+    "date_id": "wba_date_01HREAL385",
+    "source_claim": "wba_clm_01HREAL372",
+    "notes": "Kayes proposed 1 July 2021"
+  }
+]
