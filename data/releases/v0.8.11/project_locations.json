@@ -1,0 +1,1642 @@
+[
+  {
+    "project_id": "wba_prj_01HREAL001",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Hwange",
+    "locality": "Hwange Power Station",
+    "precision": "exact",
+    "lat": "-18.383",
+    "lon": "26.48"
+  },
+  {
+    "project_id": "wba_prj_01HREAL002",
+    "admin1": "Matabeleland North",
+    "admin2": "Kariba",
+    "city": "Kariba",
+    "locality": "Kariba South",
+    "precision": "exact",
+    "lat": "-16.521",
+    "lon": "28.761"
+  },
+  {
+    "project_id": "wba_prj_01HREAL003",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Harare",
+    "locality": "RGM International Airport",
+    "precision": "approximate",
+    "lat": "-17.931",
+    "lon": "31.092"
+  },
+  {
+    "project_id": "wba_prj_01HREAL004",
+    "admin1": "Nairobi",
+    "admin2": "Nairobi",
+    "city": "Nairobi",
+    "locality": "JKIA\u2013James Gichuru corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL005",
+    "admin1": "Mombasa",
+    "admin2": "Mombasa",
+    "city": "Mombasa",
+    "locality": "Mombasa\u2013Nairobi corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL006",
+    "admin1": "Marsabit",
+    "admin2": "Loiyangalani",
+    "city": "Loiyangalani",
+    "locality": "Lake Turkana",
+    "precision": "exact",
+    "lat": "2.85",
+    "lon": "36.82"
+  },
+  {
+    "project_id": "wba_prj_01HREAL007",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis Light Rail corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL008",
+    "admin1": "Addis Ababa",
+    "admin2": "Addis Ababa",
+    "city": "Addis Ababa",
+    "locality": "Addis\u2013Djibouti corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL009",
+    "admin1": "Benishangul-Gumuz",
+    "admin2": "",
+    "city": "",
+    "locality": "GERD site",
+    "precision": "exact",
+    "lat": "11.22",
+    "lon": "35.09"
+  },
+  {
+    "project_id": "wba_prj_01HREAL010",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Mount Hampden",
+    "locality": "New Parliament site",
+    "precision": "exact",
+    "lat": "-17.689",
+    "lon": "30.943"
+  },
+  {
+    "project_id": "wba_prj_01HREAL011",
+    "admin1": "Matabeleland North",
+    "admin2": "Hwange",
+    "city": "Victoria Falls",
+    "locality": "Victoria Falls Airport",
+    "precision": "exact",
+    "lat": "-18.096",
+    "lon": "25.839"
+  },
+  {
+    "project_id": "wba_prj_01HREAL012",
+    "admin1": "Machakos",
+    "admin2": "Athi River",
+    "city": "Konza",
+    "locality": "Konza Technopolis",
+    "precision": "approximate",
+    "lat": "-1.057",
+    "lon": "37.095"
+  },
+  {
+    "project_id": "wba_prj_01HREAL013",
+    "admin1": "Lamu",
+    "admin2": "Lamu",
+    "city": "Lamu",
+    "locality": "Lamu Port",
+    "precision": "exact",
+    "lat": "-2.416",
+    "lon": "40.910"
+  },
+  {
+    "project_id": "wba_prj_01HREAL014",
+    "admin1": "Sidama",
+    "admin2": "Hawassa",
+    "city": "Hawassa",
+    "locality": "Hawassa Park",
+    "precision": "exact",
+    "lat": "7.060",
+    "lon": "38.476"
+  },
+  {
+    "project_id": "wba_prj_01HREAL015",
+    "admin1": "Southern",
+    "admin2": "Chobe",
+    "city": "Kazungula",
+    "locality": "Kazungula Bridge site",
+    "precision": "exact",
+    "lat": "-17.775",
+    "lon": "25.262"
+  },
+  {
+    "project_id": "wba_prj_01HREAL016",
+    "admin1": "Matabeleland South",
+    "admin2": "Beitbridge",
+    "city": "Beitbridge",
+    "locality": "Beitbridge Border",
+    "precision": "exact",
+    "lat": "-22.217",
+    "lon": "29.987"
+  },
+  {
+    "project_id": "wba_prj_01HREAL017",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Harare",
+    "locality": "TelOne data centres",
+    "precision": "approximate",
+    "lat": "-17.829",
+    "lon": "31.053"
+  },
+  {
+    "project_id": "wba_prj_01HREAL018",
+    "admin1": "Kitui/Makueni",
+    "admin2": "Kitui",
+    "city": "Thwake",
+    "locality": "Thwake Dam site",
+    "precision": "exact",
+    "lat": "-1.789",
+    "lon": "37.738"
+  },
+  {
+    "project_id": "wba_prj_01HREAL019",
+    "admin1": "Coast",
+    "admin2": "Mombasa",
+    "city": "Mombasa",
+    "locality": "Mombasa Port Berths 20-21",
+    "precision": "exact",
+    "lat": "-4.054",
+    "lon": "39.636"
+  },
+  {
+    "project_id": "wba_prj_01HREAL020",
+    "admin1": "Oromia",
+    "admin2": "Adama",
+    "city": "Adama",
+    "locality": "Adama Wind site",
+    "precision": "exact",
+    "lat": "8.458",
+    "lon": "39.250"
+  },
+  {
+    "project_id": "wba_prj_01HREAL021",
+    "admin1": "Addis Ababa",
+    "admin2": "Bole",
+    "city": "Addis Ababa",
+    "locality": "Bole Airport",
+    "precision": "exact",
+    "lat": "8.978",
+    "lon": "38.797"
+  },
+  {
+    "project_id": "wba_prj_01HREAL022",
+    "admin1": "Southern",
+    "admin2": "Kafue",
+    "city": "Kafue Gorge",
+    "locality": "Kafue Lower site",
+    "precision": "exact",
+    "lat": "-15.803",
+    "lon": "28.424"
+  },
+  {
+    "project_id": "wba_prj_01HREAL023",
+    "admin1": "Morogoro",
+    "admin2": "Ulanga",
+    "city": "Nyerere",
+    "locality": "Rufiji River dam",
+    "precision": "exact",
+    "lat": "-7.809",
+    "lon": "37.861"
+  },
+  {
+    "project_id": "wba_prj_01HREAL024",
+    "admin1": "Maputo",
+    "admin2": "Maputo",
+    "city": "Maputo",
+    "locality": "Maputo Bay Bridge",
+    "precision": "exact",
+    "lat": "-25.973",
+    "lon": "32.572"
+  },
+  {
+    "project_id": "wba_prj_01HREAL025",
+    "admin1": "Eastern",
+    "admin2": "Bugesera",
+    "city": "Bugesera",
+    "locality": "Bugesera Airport site",
+    "precision": "exact",
+    "lat": "-2.130",
+    "lon": "30.181"
+  },
+  {
+    "project_id": "wba_prj_01HREAL026",
+    "admin1": "Dakar",
+    "admin2": "Dakar",
+    "city": "Dakar",
+    "locality": "Dakar TER corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL027",
+    "admin1": "Bono",
+    "admin2": "Bui",
+    "city": "Bui",
+    "locality": "Bui Dam site",
+    "precision": "exact",
+    "lat": "8.278",
+    "lon": "-2.121"
+  },
+  {
+    "project_id": "wba_prj_01HREAL028",
+    "admin1": "Cuanza Norte",
+    "admin2": "Cazengo",
+    "city": "Cacuso",
+    "locality": "Lauca site",
+    "precision": "exact",
+    "lat": "-9.743",
+    "lon": "15.121"
+  },
+  {
+    "project_id": "wba_prj_01HREAL029",
+    "admin1": "Central",
+    "admin2": "Wakiso",
+    "city": "Kajjansi",
+    "locality": "Kampala-Entebbe corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL030",
+    "admin1": "Central",
+    "admin2": "Lilongwe",
+    "city": "Lilongwe",
+    "locality": "Malawi fibre backbone",
+    "precision": "exact",
+    "lat": "-13.962",
+    "lon": "33.787"
+  },
+  {
+    "project_id": "wba_prj_01HREAL031",
+    "admin1": "Masvingo",
+    "admin2": "Chivi",
+    "city": "Tokwe-Mukosi",
+    "locality": "Tokwe-Mukosi Dam",
+    "precision": "exact",
+    "lat": "-20.728",
+    "lon": "30.507"
+  },
+  {
+    "project_id": "wba_prj_01HREAL032",
+    "admin1": "Harare",
+    "admin2": "Harare",
+    "city": "Harare",
+    "locality": "NetOne HQ",
+    "precision": "approximate",
+    "lat": "-17.825",
+    "lon": "31.033"
+  },
+  {
+    "project_id": "wba_prj_01HREAL033",
+    "admin1": "Nakuru",
+    "admin2": "Naivasha",
+    "city": "Olkaria",
+    "locality": "Olkaria Geothermal field",
+    "precision": "exact",
+    "lat": "-0.892",
+    "lon": "36.287"
+  },
+  {
+    "project_id": "wba_prj_01HREAL034",
+    "admin1": "Nairobi",
+    "admin2": "Nairobi",
+    "city": "Nairobi",
+    "locality": "Outer Ring corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL036",
+    "admin1": "Lusaka",
+    "admin2": "Lusaka",
+    "city": "Lusaka",
+    "locality": "KKIA",
+    "precision": "exact",
+    "lat": "-15.325",
+    "lon": "28.449"
+  },
+  {
+    "project_id": "wba_prj_01HREAL037",
+    "admin1": "Tabora",
+    "admin2": "Tabora",
+    "city": "Tabora",
+    "locality": "Tanzania SGR corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL038",
+    "admin1": "Nampula",
+    "admin2": "Nacala",
+    "city": "Nacala",
+    "locality": "Nacala Corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL039",
+    "admin1": "Greater Accra",
+    "admin2": "Tema",
+    "city": "Tema",
+    "locality": "Tema Port T3",
+    "precision": "exact",
+    "lat": "5.618",
+    "lon": "-0.018"
+  },
+  {
+    "project_id": "wba_prj_01HREAL040",
+    "admin1": "Cuanza Norte",
+    "admin2": "Cazengo",
+    "city": "Cacuso",
+    "locality": "Caculo Cabaca site",
+    "precision": "exact",
+    "lat": "-9.312",
+    "lon": "16.016"
+  },
+  {
+    "project_id": "wba_prj_01HREAL041",
+    "admin1": "Dr\u00e2a-Tafilalet",
+    "admin2": "Ouarzazate",
+    "city": "Ouarzazate",
+    "locality": "Noor Complex",
+    "precision": "exact",
+    "lat": "31.048",
+    "lon": "-6.869"
+  },
+  {
+    "project_id": "wba_prj_01HREAL042",
+    "admin1": "Erongo",
+    "admin2": "Walvis Bay",
+    "city": "Walvis Bay",
+    "locality": "Walvis Bay Terminal",
+    "precision": "exact",
+    "lat": "-22.959",
+    "lon": "14.481"
+  },
+  {
+    "project_id": "wba_prj_01HREAL043",
+    "admin1": "South",
+    "admin2": "Ocean",
+    "city": "Kribi",
+    "locality": "Kribi Port",
+    "precision": "exact",
+    "lat": "2.945",
+    "lon": "9.909"
+  },
+  {
+    "project_id": "wba_prj_01HREAL044",
+    "admin1": "Gauteng",
+    "admin2": "Johannesburg",
+    "city": "Johannesburg",
+    "locality": "Gautrain corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL045",
+    "admin1": "Lualaba",
+    "admin2": "Kolwezi",
+    "city": "Busanga",
+    "locality": "Busanga site",
+    "precision": "exact",
+    "lat": "-10.917",
+    "lon": "26.909"
+  },
+  {
+    "project_id": "wba_prj_01HREAL046",
+    "admin1": "Cairo",
+    "admin2": "New Capital",
+    "city": "New Capital",
+    "locality": "New Capital CBD",
+    "precision": "exact",
+    "lat": "30.020",
+    "lon": "31.667"
+  },
+  {
+    "project_id": "wba_prj_01HREAL047",
+    "admin1": "Thi\u00e8s",
+    "admin2": "Mbour",
+    "city": "Diass",
+    "locality": "AIBD Dakar",
+    "precision": "exact",
+    "lat": "14.670",
+    "lon": "-17.073"
+  },
+  {
+    "project_id": "wba_prj_01HREAL048",
+    "admin1": "Kigali",
+    "admin2": "Gasabo",
+    "city": "Kigali",
+    "locality": "BK Arena",
+    "precision": "exact",
+    "lat": "-1.953",
+    "lon": "30.091"
+  },
+  {
+    "project_id": "wba_prj_01HREAL049",
+    "admin1": "Kiryaandongo",
+    "admin2": "Bweyale",
+    "city": "Karuma",
+    "locality": "Karuma site",
+    "precision": "exact",
+    "lat": "2.235",
+    "lon": "32.233"
+  },
+  {
+    "project_id": "wba_prj_01HREAL050",
+    "admin1": "Centre",
+    "admin2": "Ouagadougou",
+    "city": "Zagtouli",
+    "locality": "Zagtouli Solar",
+    "precision": "exact",
+    "lat": "12.382",
+    "lon": "-1.477"
+  },
+  {
+    "project_id": "wba_prj_01HREAL053",
+    "admin1": "Eastern",
+    "admin2": "Yilo Krobo",
+    "city": "Akosombo",
+    "locality": "Akosombo Dam",
+    "precision": "exact",
+    "lat": "6.295",
+    "lon": "0.058"
+  },
+  {
+    "project_id": "wba_prj_01HREAL055",
+    "admin1": "Aswan",
+    "admin2": "Aswan",
+    "city": "Aswan",
+    "locality": "Aswan High Dam",
+    "precision": "exact",
+    "lat": "23.973",
+    "lon": "32.881"
+  },
+  {
+    "project_id": "wba_prj_01HREAL056",
+    "admin1": "Jufra",
+    "admin2": "Houn",
+    "city": "Houn",
+    "locality": "GMR Phases",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL061",
+    "admin1": "Pwani",
+    "admin2": "Bagamoyo",
+    "city": "Bagamoyo",
+    "locality": "Bagamoyo Port",
+    "precision": "approximate",
+    "lat": "-6.478",
+    "lon": "38.901"
+  },
+  {
+    "project_id": "wba_prj_01HREAL062",
+    "admin1": "Hoima",
+    "admin2": "Kikuube",
+    "city": "Hoima",
+    "locality": "EACOP Hoima",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL065",
+    "admin1": "Algiers",
+    "admin2": "Algiers",
+    "city": "Algiers",
+    "locality": "Djamaa El Djazair",
+    "precision": "exact",
+    "lat": "36.739",
+    "lon": "3.031"
+  },
+  {
+    "project_id": "wba_prj_01HREAL068",
+    "admin1": "Djibouti",
+    "admin2": "Djibouti",
+    "city": "Djibouti",
+    "locality": "Doraleh Port",
+    "precision": "exact",
+    "lat": "11.600",
+    "lon": "43.150"
+  },
+  {
+    "project_id": "wba_prj_01HREAL069",
+    "admin1": "Central",
+    "admin2": "Palapye",
+    "city": "Palapye",
+    "locality": "Morupule B",
+    "precision": "exact",
+    "lat": "-22.514",
+    "lon": "27.030"
+  },
+  {
+    "project_id": "wba_prj_01HREAL078",
+    "admin1": "Ombella-Mpoko",
+    "admin2": "Boali",
+    "city": "Boali",
+    "locality": "Boali Complex",
+    "precision": "exact",
+    "lat": "4.800",
+    "lon": "18.100"
+  },
+  {
+    "project_id": "wba_prj_01HREAL080",
+    "admin1": "Grande Comore",
+    "admin2": "Bambao",
+    "city": "Moroni",
+    "locality": "Bambao Hospital",
+    "precision": "exact",
+    "lat": "-11.750",
+    "lon": "43.400"
+  },
+  {
+    "project_id": "wba_prj_01HREAL081",
+    "admin1": "Kouilou",
+    "admin2": "Pointe-Noire",
+    "city": "Pointe-Noire",
+    "locality": "RN1 corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL086",
+    "admin1": "North Bank",
+    "admin2": "Kerewan",
+    "city": "Farafenni",
+    "locality": "Senegambia Bridge",
+    "precision": "exact",
+    "lat": "13.534",
+    "lon": "-15.928"
+  },
+  {
+    "project_id": "wba_prj_01HREAL087",
+    "admin1": "Biombo",
+    "admin2": "Safim",
+    "city": "Safim",
+    "locality": "Bissau-Safim Highway",
+    "precision": "exact",
+    "lat": "11.865",
+    "lon": "-15.583"
+  },
+  {
+    "project_id": "wba_prj_01HREAL090",
+    "admin1": "Analamanga",
+    "admin2": "Antananarivo",
+    "city": "Sahofika",
+    "locality": "Sahofika site",
+    "precision": "exact",
+    "lat": "-19.250",
+    "lon": "47.850"
+  },
+  {
+    "project_id": "wba_prj_01HREAL093",
+    "admin1": "Plaines Wilhems",
+    "admin2": "Curepipe",
+    "city": "Curepipe",
+    "locality": "Metro Express corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL094",
+    "admin1": "Agua Grande",
+    "admin2": "Sao Tome",
+    "city": "Sao Tome",
+    "locality": "Sao Tome Airport",
+    "precision": "exact",
+    "lat": "0.380",
+    "lon": "6.712"
+  },
+  {
+    "project_id": "wba_prj_01HREAL101",
+    "admin1": "EGY",
+    "admin2": "",
+    "city": "EGY",
+    "locality": "Location for wba_prj_01HREAL101",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL102",
+    "admin1": "EGY",
+    "admin2": "",
+    "city": "EGY",
+    "locality": "Location for wba_prj_01HREAL102",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL103",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL103",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL104",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL104",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL105",
+    "admin1": "CMR",
+    "admin2": "",
+    "city": "CMR",
+    "locality": "Location for wba_prj_01HREAL105",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL106",
+    "admin1": "ETH",
+    "admin2": "",
+    "city": "ETH",
+    "locality": "Location for wba_prj_01HREAL106",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL107",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL107",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL108",
+    "admin1": "AGO",
+    "admin2": "",
+    "city": "AGO",
+    "locality": "Location for wba_prj_01HREAL108",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL109",
+    "admin1": "CIV",
+    "admin2": "",
+    "city": "CIV",
+    "locality": "Location for wba_prj_01HREAL109",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL110",
+    "admin1": "UGA",
+    "admin2": "",
+    "city": "UGA",
+    "locality": "Location for wba_prj_01HREAL110",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL111",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL111",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL112",
+    "admin1": "DZA",
+    "admin2": "",
+    "city": "DZA",
+    "locality": "Location for wba_prj_01HREAL112",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL113",
+    "admin1": "CMR",
+    "admin2": "",
+    "city": "CMR",
+    "locality": "Location for wba_prj_01HREAL113",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL114",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL114",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL115",
+    "admin1": "EGY",
+    "admin2": "",
+    "city": "EGY",
+    "locality": "Location for wba_prj_01HREAL115",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL116",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL116",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL117",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL117",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL118",
+    "admin1": "GHA",
+    "admin2": "",
+    "city": "GHA",
+    "locality": "Location for wba_prj_01HREAL118",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL119",
+    "admin1": "ZAF",
+    "admin2": "",
+    "city": "ZAF",
+    "locality": "Location for wba_prj_01HREAL119",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL120",
+    "admin1": "ETH",
+    "admin2": "",
+    "city": "ETH",
+    "locality": "Location for wba_prj_01HREAL120",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL121",
+    "admin1": "GIN",
+    "admin2": "",
+    "city": "GIN",
+    "locality": "Location for wba_prj_01HREAL121",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL122",
+    "admin1": "GIN",
+    "admin2": "",
+    "city": "GIN",
+    "locality": "Location for wba_prj_01HREAL122",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL123",
+    "admin1": "RWA",
+    "admin2": "",
+    "city": "RWA",
+    "locality": "Location for wba_prj_01HREAL123",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL124",
+    "admin1": "TZA",
+    "admin2": "",
+    "city": "TZA",
+    "locality": "Location for wba_prj_01HREAL124",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL125",
+    "admin1": "GAB",
+    "admin2": "",
+    "city": "GAB",
+    "locality": "Location for wba_prj_01HREAL125",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL126",
+    "admin1": "TZA",
+    "admin2": "",
+    "city": "TZA",
+    "locality": "Location for wba_prj_01HREAL126",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL127",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL127",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL128",
+    "admin1": "KEN",
+    "admin2": "",
+    "city": "KEN",
+    "locality": "Location for wba_prj_01HREAL128",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL129",
+    "admin1": "SEN",
+    "admin2": "",
+    "city": "SEN",
+    "locality": "Location for wba_prj_01HREAL129",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL130",
+    "admin1": "SEN",
+    "admin2": "",
+    "city": "SEN",
+    "locality": "Location for wba_prj_01HREAL130",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL131",
+    "admin1": "ZMB",
+    "admin2": "",
+    "city": "ZMB",
+    "locality": "Location for wba_prj_01HREAL131",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL132",
+    "admin1": "ZAF",
+    "admin2": "",
+    "city": "ZAF",
+    "locality": "Location for wba_prj_01HREAL132",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL133",
+    "admin1": "EGY",
+    "admin2": "",
+    "city": "EGY",
+    "locality": "Location for wba_prj_01HREAL133",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL134",
+    "admin1": "EGY",
+    "admin2": "",
+    "city": "EGY",
+    "locality": "Location for wba_prj_01HREAL134",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL135",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL135",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL136",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL136",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL137",
+    "admin1": "BEN",
+    "admin2": "",
+    "city": "BEN",
+    "locality": "Location for wba_prj_01HREAL137",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL138",
+    "admin1": "TZA",
+    "admin2": "",
+    "city": "TZA",
+    "locality": "Location for wba_prj_01HREAL138",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL139",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL139",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL140",
+    "admin1": "CIV",
+    "admin2": "",
+    "city": "CIV",
+    "locality": "Location for wba_prj_01HREAL140",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL141",
+    "admin1": "NGA",
+    "admin2": "",
+    "city": "NGA",
+    "locality": "Location for wba_prj_01HREAL141",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL142",
+    "admin1": "SOM",
+    "admin2": "",
+    "city": "SOM",
+    "locality": "Location for wba_prj_01HREAL142",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL143",
+    "admin1": "ZMB",
+    "admin2": "",
+    "city": "ZMB",
+    "locality": "Location for wba_prj_01HREAL143",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL144",
+    "admin1": "ETH",
+    "admin2": "",
+    "city": "ETH",
+    "locality": "Location for wba_prj_01HREAL144",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL145",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL145",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL146",
+    "admin1": "GHA",
+    "admin2": "",
+    "city": "GHA",
+    "locality": "Location for wba_prj_01HREAL146",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL147",
+    "admin1": "UGA",
+    "admin2": "",
+    "city": "UGA",
+    "locality": "Location for wba_prj_01HREAL147",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL148",
+    "admin1": "MAR",
+    "admin2": "",
+    "city": "MAR",
+    "locality": "Location for wba_prj_01HREAL148",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL149",
+    "admin1": "KEN",
+    "admin2": "",
+    "city": "KEN",
+    "locality": "Location for wba_prj_01HREAL149",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL150",
+    "admin1": "SEN",
+    "admin2": "",
+    "city": "SEN",
+    "locality": "Location for wba_prj_01HREAL150",
+    "precision": "country",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL151",
+    "admin1": "Central",
+    "admin2": "Kampala",
+    "city": "Kampala",
+    "locality": "Kampala-Malaba corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL152",
+    "admin1": "Eastern",
+    "admin2": "Iganga",
+    "city": "Iganga",
+    "locality": "Iganga-Kamuli corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL153",
+    "admin1": "Central",
+    "admin2": "Mubende",
+    "city": "Mubende",
+    "locality": "Lusalira-Sembabule corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL154",
+    "admin1": "Louga",
+    "admin2": "Linguere",
+    "city": "Ndande",
+    "locality": "Ndande-Gueoul corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL155",
+    "admin1": "Thies",
+    "admin2": "Tivaouane",
+    "city": "Mekhe",
+    "locality": "Mekhe-Ndande corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL156",
+    "admin1": "Tana River",
+    "admin2": "Galana",
+    "city": "Galana",
+    "locality": "Galana Kulalu dam",
+    "precision": "exact",
+    "lat": "-2.50",
+    "lon": "39.50"
+  },
+  {
+    "project_id": "wba_prj_01HREAL157",
+    "admin1": "Kitui",
+    "admin2": "Kitui",
+    "city": "Kitui",
+    "locality": "Umaa dam",
+    "precision": "exact",
+    "lat": "-1.37",
+    "lon": "38.02"
+  },
+  {
+    "project_id": "wba_prj_01HREAL158",
+    "admin1": "Bujumbura",
+    "admin2": "Bujumbura",
+    "city": "Bujumbura",
+    "locality": "Bujumbura-Gitaza corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL159",
+    "admin1": "Kigoma",
+    "admin2": "Uvinza",
+    "city": "Uvinza",
+    "locality": "Uvinza-Musongati corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL160",
+    "admin1": "Santiago",
+    "admin2": "Praia",
+    "city": "Praia",
+    "locality": "Santiago desalination Calheta and Palmarejo",
+    "precision": "exact",
+    "lat": "15.09",
+    "lon": "-23.50"
+  },
+  {
+    "project_id": "wba_prj_01HREAL161",
+    "admin1": "Santiago",
+    "admin2": "Praia",
+    "city": "Praia",
+    "locality": "ENAPOR vessel Santiago",
+    "precision": "exact",
+    "lat": "14.91",
+    "lon": "-23.50"
+  },
+  {
+    "project_id": "wba_prj_01HREAL162",
+    "admin1": "Sal",
+    "admin2": "Sal",
+    "city": "Sal",
+    "locality": "Amilcar Cabral Airport",
+    "precision": "exact",
+    "lat": "16.72",
+    "lon": "-22.94"
+  },
+  {
+    "project_id": "wba_prj_01HREAL163",
+    "admin1": "Gash-Barka",
+    "admin2": "Akordet",
+    "city": "Habela",
+    "locality": "Habela-Cheatat corridor",
+    "precision": "exact",
+    "lat": "15.30",
+    "lon": "38.70"
+  },
+  {
+    "project_id": "wba_prj_01HREAL164",
+    "admin1": "Moyen-Chari",
+    "admin2": "Doba",
+    "city": "Doba",
+    "locality": "Doba-Kribi corridor",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL165",
+    "admin1": "Mokhotlong",
+    "admin2": "Mokhotlong",
+    "city": "Mokhotlong",
+    "locality": "Polihali Dam site",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL166",
+    "admin1": "Kayes",
+    "admin2": "Bafoulabe",
+    "city": "Diamou",
+    "locality": "Gouina Falls Senegal River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL167",
+    "admin1": "Montserrado",
+    "admin2": "Greater Monrovia",
+    "city": "Harrisburg",
+    "locality": "Mount Coffee Saint Paul River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL168",
+    "admin1": "Sousse",
+    "admin2": "Enfidha",
+    "city": "Enfidha",
+    "locality": "Enfidha-Hammamet Airport",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL169",
+    "admin1": "Maritime",
+    "admin2": "Golfe",
+    "city": "Lome",
+    "locality": "Port of Lome container terminal",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL170",
+    "admin1": "Tillaberi",
+    "admin2": "Tillaberi",
+    "city": "Kandadji",
+    "locality": "Kandadji Dam site Niger River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL171",
+    "admin1": "Northern",
+    "admin2": "Merowe",
+    "city": "Merowe",
+    "locality": "Merowe Dam Nile 4th cataract",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL172",
+    "admin1": "Offshore",
+    "admin2": "Offshore",
+    "city": "Tortue Ahmeyim",
+    "locality": "GTA field FPSO 40km offshore",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL173",
+    "admin1": "Hhohho",
+    "admin2": "Piggs Peak",
+    "city": "Piggs Peak",
+    "locality": "Maguga Dam Komati River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL174",
+    "admin1": "Mahe",
+    "admin2": "Victoria",
+    "city": "Victoria",
+    "locality": "Port Victoria Mahe Quay",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL175",
+    "admin1": "Central Equatoria",
+    "admin2": "Juba",
+    "city": "Juba",
+    "locality": "Freedom Bridge White Nile",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL176",
+    "admin1": "Banjul",
+    "admin2": "Banjul",
+    "city": "Banjul",
+    "locality": "Port of Banjul",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL177",
+    "admin1": "Wele-Nzas",
+    "admin2": "Djibloho",
+    "city": "Djibloho",
+    "locality": "Djibloho Dam Wele River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL178",
+    "admin1": "Karas",
+    "admin2": "Keetmanshoop",
+    "city": "Keetmanshoop",
+    "locality": "Neckartal Dam Fish River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL179",
+    "admin1": "Banadir",
+    "admin2": "Mogadishu",
+    "city": "Mogadishu",
+    "locality": "Port of Mogadishu Alport",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL180",
+    "admin1": "Plateaux",
+    "admin2": "Ngabe",
+    "city": "Ngabe",
+    "locality": "Imboulou Dam Lefini River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL181",
+    "admin1": "Djibouti",
+    "admin2": "Djibouti",
+    "city": "Doraleh",
+    "locality": "Doraleh Multipurpose Port",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL182",
+    "admin1": "Kongo-Central",
+    "admin2": "Mbanza-Ngungu",
+    "city": "Zongo",
+    "locality": "Zongo II Inkisi River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL183",
+    "admin1": "Southern",
+    "admin2": "Blantyre",
+    "city": "Tedzani",
+    "locality": "Tedzani IV Shire River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL184",
+    "admin1": "Hauts-Bassins",
+    "admin2": "Bobo-Dioulasso",
+    "city": "Samendeni",
+    "locality": "Samendeni Dam Mouhoun River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL185",
+    "admin1": "Estuaire",
+    "admin2": "Libreville",
+    "city": "Owendo",
+    "locality": "New Owendo International Port Igombe",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL186",
+    "admin1": "Semienawi Keyih Bahri",
+    "admin2": "Massawa",
+    "city": "Massawa",
+    "locality": "Hirgigo Power Plant",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL187",
+    "admin1": "Northern",
+    "admin2": "Tonkolili",
+    "city": "Bumbuna",
+    "locality": "Bumbuna Dam Seli River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL188",
+    "admin1": "Fezzan",
+    "admin2": "Ubari",
+    "city": "Ubari",
+    "locality": "Ubari Gas Turbine Plant desert",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL189",
+    "admin1": "Grande Comore",
+    "admin2": "Moroni",
+    "city": "Moroni",
+    "locality": "El-Maarouf Hospital Moroni",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL190",
+    "admin1": "Moka",
+    "admin2": "Moka",
+    "city": "Bagatelle",
+    "locality": "Bagatelle Dam 22km SE Port Louis",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL191",
+    "admin1": "Kayes",
+    "admin2": "Kayes",
+    "city": "Felou",
+    "locality": "Felou Falls Senegal River",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL192",
+    "admin1": "Nouakchott",
+    "admin2": "Nouakchott",
+    "city": "Nouakchott",
+    "locality": "Nouakchott Container Terminal Amitie",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL193",
+    "admin1": "Bissau",
+    "admin2": "Bissau",
+    "city": "Bissau",
+    "locality": "Port of Bissau",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL194",
+    "admin1": "Agua Grande",
+    "admin2": "Sao Tome",
+    "city": "Sao Tome",
+    "locality": "Sao Tome International Airport",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL195",
+    "admin1": "Atsinanana",
+    "admin2": "Toamasina",
+    "city": "Toamasina",
+    "locality": "Port of Toamasina Quay C4",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL196",
+    "admin1": "Littoral",
+    "admin2": "Cotonou",
+    "city": "Cotonou",
+    "locality": "Port of Cotonou Terminal 5",
+    "precision": "city",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL197",
+    "admin1": "Bioko Norte",
+    "admin2": "Malabo",
+    "city": "Punta Europa",
+    "locality": "Punta Europa LNG Bioko Island",
+    "precision": "district",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL198",
+    "admin1": "Grand Bassa",
+    "admin2": "Buchanan",
+    "city": "Buchanan",
+    "locality": "Buchanan rail siding Km 2.5-4",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  },
+  {
+    "project_id": "wba_prj_01HREAL199",
+    "admin1": "Sfax",
+    "admin2": "Sfax",
+    "city": "Sfax",
+    "locality": "Sfax-Gafsa-Gabes phosphate line",
+    "precision": "corridor",
+    "lat": "",
+    "lon": ""
+  }
+]

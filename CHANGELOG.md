@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.11] - 2026-09-20
+### Added
+- Data: 160 to 164 verified (+4). BEN Cotonou Terminal 5 bulk 20ha CHEC broke Jul 2021 70 percent Jun 2025, GNQ Punta Europa EG LNG Train 1 3.4mtpa Bechtel EPC 1.5bn FID Jun 2004 completed 2007 Marathon Alba Field, LBR ArcelorMittal Buchanan rail siding extension WBHO Phase II quadrupling to 20mtpa Jan to Dec 2025, TUN Sfax-Gafsa-Gabes phosphate railway renewal 190km SNCFT Saudi Fund 55m USD loan Feb 2024. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 164 REAL PROJECTS, fetches /data/releases/v0.8.11/data.json
+- Releases: v0.8.11 snapshot (164 features)
+
 ## [v0.8.10] - 2026-09-20
 ### Added
 - Data: 157 to 160 verified (+3 final today). GNB Bissau Port dredging wreck removal EBOMAF BOAD 22.59bn CFA launched Jan 2026, STP Sao Tome International Airport runway 600m sea extension IPPR China studies donation near 100m USD agreement Jun 2022, MDG Toamasina Port quay C4 470m 16m draught 14000 TEU JICA 639m USD 65 percent 333m delivered Mar 2026. All page-read verbatim quotes, validate OK 0 errors.
