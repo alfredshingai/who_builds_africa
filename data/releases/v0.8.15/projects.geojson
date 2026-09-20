@@ -1,0 +1,2457 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.48,
+          -18.383
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL001",
+        "name": "Hwange Thermal Power Station Expansion Units 7 & 8",
+        "country": "ZWE",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.761,
+          -16.521
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL002",
+        "name": "Kariba South Hydropower Station Expansion",
+        "country": "ZWE",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.092,
+          -17.931
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL003",
+        "name": "Robert Gabriel Mugabe International Airport Expansion",
+        "country": "ZWE",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL004",
+        "name": "Nairobi Expressway",
+        "country": "KEN",
+        "sectors": "roads|urban_development",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(36.92 -1.31, 36.78 -1.28)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL005",
+        "name": "Mombasa\u2013Nairobi Standard Gauge Railway Phase 1",
+        "country": "KEN",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(39.66 -4.05, 36.82 -1.29)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82,
+          2.85
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL006",
+        "name": "Lake Turkana Wind Power Project",
+        "country": "KEN",
+        "sectors": "wind_power",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL007",
+        "name": "Addis Ababa Light Rail Transit",
+        "country": "ETH",
+        "sectors": "public_transport|railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(38.78 8.98, 38.77 9.03)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL008",
+        "name": "Addis Ababa\u2013Djibouti Standard Gauge Railway",
+        "country": "ETH",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(38.74 9.03, 43.0 11.59)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.09,
+          11.22
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL009",
+        "name": "Grand Ethiopian Renaissance Dam",
+        "country": "ETH",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.943,
+          -17.689
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL010",
+        "name": "New Parliament Building, Mount Hampden",
+        "country": "ZWE",
+        "sectors": "government_buildings",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.839,
+          -18.096
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL011",
+        "name": "Victoria Falls International Airport Expansion",
+        "country": "ZWE",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.095,
+          -1.057
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL012",
+        "name": "Kenya Advanced Institute of Science and Technology at Konza",
+        "country": "KEN",
+        "sectors": "schools|universities|telecommunications",
+        "status": "proposed",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.91,
+          -2.416
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL013",
+        "name": "Lamu Port First Three Berths",
+        "country": "KEN",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.476,
+          7.06
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL014",
+        "name": "Hawassa Industrial Park",
+        "country": "ETH",
+        "sectors": "industrial_parks|manufacturing",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.262,
+          -17.775
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL015",
+        "name": "Kazungula Bridge",
+        "country": "BWA",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.987,
+          -22.217
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL016",
+        "name": "Beitbridge Border Post Modernisation",
+        "country": "ZWE",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.053,
+          -17.829
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL017",
+        "name": "TelOne National Broadband Telecommunication Project",
+        "country": "ZWE",
+        "sectors": "telecommunications|digital_infrastructure",
+        "status": "commissioned",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.738,
+          -1.789
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL018",
+        "name": "Thwake Multipurpose Water Development Program",
+        "country": "KEN",
+        "sectors": "dams|water_supply|hydropower",
+        "status": "construction_started",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.636,
+          -4.054
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL019",
+        "name": "Mombasa Port Second Container Terminal",
+        "country": "KEN",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.25,
+          8.458
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL020",
+        "name": "Adama Wind Power Project I & II",
+        "country": "ETH",
+        "sectors": "wind_power",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.797,
+          8.978
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL021",
+        "name": "Addis Ababa Bole International Airport Expansion",
+        "country": "ETH",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.424,
+          -15.803
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL022",
+        "name": "Kafue Gorge Lower Hydropower Station",
+        "country": "ZMB",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.861,
+          -7.809
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL023",
+        "name": "Julius Nyerere Hydropower Plant and Dam",
+        "country": "TZA",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.572,
+          -25.973
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL024",
+        "name": "Maputo-Katembe Bridge",
+        "country": "MOZ",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.181,
+          -2.13
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL025",
+        "name": "New Bugesera International Airport",
+        "country": "RWA",
+        "sectors": "airports",
+        "status": "construction_started",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL026",
+        "name": "Dakar Regional Express Train",
+        "country": "SEN",
+        "sectors": "railways|public_transport",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(-17.45 14.69, -17.07 14.78)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.121,
+          8.278
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL027",
+        "name": "Bui Hydropower Dam",
+        "country": "GHA",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.121,
+          -9.743
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL028",
+        "name": "Lauca Hydroelectric Power Station",
+        "country": "AGO",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL029",
+        "name": "Kampala-Entebbe Expressway",
+        "country": "UGA",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(32.56 0.32, 32.47 0.06)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.787,
+          -13.962
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL030",
+        "name": "National Fibre Backbone Project Phase I-II",
+        "country": "MWI",
+        "sectors": "telecommunications|digital_infrastructure",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.507,
+          -20.728
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL031",
+        "name": "Tokwe-Mukosi Dam",
+        "country": "ZWE",
+        "sectors": "dams|water_supply",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.033,
+          -17.825
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL032",
+        "name": "NetOne Broadband Expansion Project Phase 3",
+        "country": "ZWE",
+        "sectors": "telecommunications|digital_infrastructure",
+        "status": "commissioned",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.287,
+          -0.892
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL033",
+        "name": "Olkaria Geothermal Power Plants",
+        "country": "KEN",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL034",
+        "name": "Nairobi Outer Ring Road Improvement Project",
+        "country": "KEN",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(36.86 -1.28, 36.89 -1.31)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.449,
+          -15.325
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL036",
+        "name": "Kenneth Kaunda International Airport Expansion",
+        "country": "ZMB",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL037",
+        "name": "Tanzania Standard Gauge Railway Lots 3 & 4",
+        "country": "TZA",
+        "sectors": "railways",
+        "status": "construction_started",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(33.44 -6.16, 32.80 -5.02)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL038",
+        "name": "Nacala Railway and Port Corridor",
+        "country": "MOZ",
+        "sectors": "railways|ports",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(40.78 -14.54, 35.58 -14.38)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.018,
+          5.618
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL039",
+        "name": "Tema Port Expansion Terminal 3",
+        "country": "GHA",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.016,
+          -9.312
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL040",
+        "name": "Caculo Cabaca Hydropower Station",
+        "country": "AGO",
+        "sectors": "hydropower|dams",
+        "status": "construction_started",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.869,
+          31.048
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL041",
+        "name": "Noor Ouarzazate Solar Complex",
+        "country": "MAR",
+        "sectors": "solar_power",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.481,
+          -22.959
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL042",
+        "name": "Walvis Bay New Container Terminal",
+        "country": "NAM",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.909,
+          2.945
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL043",
+        "name": "Kribi Deep Sea Port Phase I & II",
+        "country": "CMR",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL044",
+        "name": "Gautrain Rapid Rail System",
+        "country": "ZAF",
+        "sectors": "railways|public_transport",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(28.05 -26.20, 28.11 -25.75)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.909,
+          -10.917
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL045",
+        "name": "Busanga Hydropower Plant",
+        "country": "COD",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.667,
+          30.02
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL046",
+        "name": "New Administrative Capital Central Business District",
+        "country": "EGY",
+        "sectors": "urban_development",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.073,
+          14.67
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL047",
+        "name": "Blaise Diagne International Airport",
+        "country": "SEN",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.091,
+          -1.953
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL048",
+        "name": "BK Arena",
+        "country": "RWA",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.233,
+          2.235
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL049",
+        "name": "Karuma Hydropower Plant",
+        "country": "UGA",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.477,
+          12.382
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL050",
+        "name": "Zagtouli Solar Power Station",
+        "country": "BFA",
+        "sectors": "solar_power",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.053,
+          -0.054
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL053",
+        "name": "Akosombo Dam",
+        "country": "GHA",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.881,
+          23.973
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL055",
+        "name": "Aswan High Dam",
+        "country": "EGY",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL056",
+        "name": "Great Man-Made River Phases I-III",
+        "country": "LBY",
+        "sectors": "water_supply|irrigation",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(16.0 32.0, 20.0 30.0)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.901,
+          -6.478
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL061",
+        "name": "Bagamoyo Port and Special Economic Zone",
+        "country": "TZA",
+        "sectors": "ports|special_economic_zones",
+        "status": "suspended",
+        "location_precision": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL062",
+        "name": "East African Crude Oil Pipeline",
+        "country": "UGA",
+        "sectors": "oil_gas",
+        "status": "construction_started",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(30.00 1.37, 39.20 -6.82)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.031,
+          36.739
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL065",
+        "name": "Djamaa El Djazair - Great Mosque of Algiers",
+        "country": "DZA",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.15,
+          11.6
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL068",
+        "name": "Doraleh Container Terminal",
+        "country": "DJI",
+        "sectors": "ports",
+        "status": "cancelled",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.03,
+          -22.514
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL069",
+        "name": "Morupule B Power Station",
+        "country": "BWA",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1,
+          4.8
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL078",
+        "name": "Boali Hydropower Complex Rehabilitation",
+        "country": "CAF",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.4,
+          -11.75
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL080",
+        "name": "Bambao-Mtsanga Hospital",
+        "country": "COM",
+        "sectors": "hospitals",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL081",
+        "name": "Pointe-Noire to Brazzaville National Highway No.1",
+        "country": "COG",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(15.03 -4.77, 15.27 -4.26)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.928,
+          13.534
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL086",
+        "name": "Senegambia Bridge",
+        "country": "GMB",
+        "sectors": "bridges|roads",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.583,
+          11.865
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL087",
+        "name": "Bissau-Safim Highway",
+        "country": "GNB",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.85,
+          -19.25
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL090",
+        "name": "Sahofika Hydropower Project",
+        "country": "MDG",
+        "sectors": "hydropower|dams",
+        "status": "proposed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL093",
+        "name": "Metro Express Light Rail",
+        "country": "MUS",
+        "sectors": "railways|public_transport",
+        "status": "commissioned",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(57.49 -20.24, 57.50 -20.16)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.712,
+          0.38
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL094",
+        "name": "Sao Tome International Airport Upgrade",
+        "country": "STP",
+        "sectors": "airports",
+        "status": "proposed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL101",
+        "name": "El Dabaa Nuclear Power Plant",
+        "country": "EGY",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL102",
+        "name": "Egypt High-Speed Rail 2000km",
+        "country": "EGY",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL103",
+        "name": "Lekki Deep Sea Port",
+        "country": "NGA",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL104",
+        "name": "Zungeru Hydropower 700MW",
+        "country": "NGA",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL105",
+        "name": "Nachtigal Hydropower 420MW",
+        "country": "CMR",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL106",
+        "name": "Koysha Hydropower 2200MW",
+        "country": "ETH",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL107",
+        "name": "Second River Niger Bridge",
+        "country": "NGA",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL108",
+        "name": "Antonio Agostinho Neto Airport Luanda",
+        "country": "AGO",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL109",
+        "name": "Henri Konan Bedie Bridge",
+        "country": "CIV",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL110",
+        "name": "Isimba Hydropower 183MW",
+        "country": "UGA",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL111",
+        "name": "Lagos Blue Line 27km",
+        "country": "NGA",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL112",
+        "name": "Algiers Metro Line 1",
+        "country": "DZA",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL113",
+        "name": "Memve'ele Hydropower 211MW",
+        "country": "CMR",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL114",
+        "name": "Lagos-Ibadan Railway 157km",
+        "country": "NGA",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL115",
+        "name": "Benban Solar Park 390MW",
+        "country": "EGY",
+        "sectors": "solar_power",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL116",
+        "name": "Tanger Med Port Complex",
+        "country": "MAR",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL117",
+        "name": "Casablanca Tramway",
+        "country": "MAR",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL118",
+        "name": "Kotoka Airport Terminal 3",
+        "country": "GHA",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL119",
+        "name": "Medupi Power Station 4800MW",
+        "country": "ZAF",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL120",
+        "name": "Gibe III Hydropower 1870MW",
+        "country": "ETH",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL121",
+        "name": "Souapiti Hydropower 450MW",
+        "country": "GIN",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL122",
+        "name": "Kaleta Hydropower 240MW",
+        "country": "GIN",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL123",
+        "name": "Rusumo Falls Hydropower 80MW",
+        "country": "RWA",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL124",
+        "name": "Julius Nyerere Airport Terminal 3",
+        "country": "TZA",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL125",
+        "name": "Kinguele Aval Hydropower 35MW",
+        "country": "GAB",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL126",
+        "name": "Dar es Salaam BRT Phase 1",
+        "country": "TZA",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL127",
+        "name": "Abuja-Kaduna Railway 186.5km",
+        "country": "NGA",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL128",
+        "name": "Nairobi-Nakuru-Mau Summit Highway",
+        "country": "KEN",
+        "sectors": "roads",
+        "status": "awarded",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL129",
+        "name": "Diamniadio Olympic Stadium 50000",
+        "country": "SEN",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL130",
+        "name": "Autoroute de l'Avenir 42.5km",
+        "country": "SEN",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL131",
+        "name": "Lusaka-Ndola Dual Carriageway 321km",
+        "country": "ZMB",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL132",
+        "name": "Kusile Power Station 4800MW",
+        "country": "ZAF",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL133",
+        "name": "Cairo Light Rail Transit 70km",
+        "country": "EGY",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL134",
+        "name": "Cairo Monorail 99km",
+        "country": "EGY",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL135",
+        "name": "Al Boraq Tangier-Kenitra HSR 323km",
+        "country": "MAR",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL136",
+        "name": "Kano-Maradi Railway 384km",
+        "country": "NGA",
+        "sectors": "railways",
+        "status": "construction_started",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL137",
+        "name": "Port of Cotonou Extension",
+        "country": "BEN",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL138",
+        "name": "Tanzania SGR Phase 1 Dar-Morogoro 205km",
+        "country": "TZA",
+        "sectors": "railways",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL139",
+        "name": "Nador West Med Port",
+        "country": "MAR",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL140",
+        "name": "Singrobo-Ahouaty 44MW",
+        "country": "CIV",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL141",
+        "name": "Azura-Edo IPP 459MW",
+        "country": "NGA",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL142",
+        "name": "Berbera Port Expansion 400m",
+        "country": "SOM",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL143",
+        "name": "Itezhi-Tezhi 120MW",
+        "country": "ZMB",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL144",
+        "name": "Ashegoda Wind Farm 120MW",
+        "country": "ETH",
+        "sectors": "wind_power",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL145",
+        "name": "Safi Independent Power Plant 1386MW",
+        "country": "MAR",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL146",
+        "name": "Kpone IPP 350MW",
+        "country": "GHA",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL147",
+        "name": "Bujagali Hydropower 250MW",
+        "country": "UGA",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL148",
+        "name": "Rabat-Sale Tramway 19.5km",
+        "country": "MAR",
+        "sectors": "public_transport",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL149",
+        "name": "Karimenu II Dam Water Supply",
+        "country": "KEN",
+        "sectors": "dams",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL150",
+        "name": "Taiba N'Diaye Wind Farm 158.7MW",
+        "country": "SEN",
+        "sectors": "wind_power",
+        "status": "commissioned",
+        "location_precision": "country"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL151",
+        "name": "Kampala-Malaba Standard Gauge Railway Eastern Route",
+        "country": "UGA",
+        "sectors": "railways",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(32.58 0.31, 34.00 0.64)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL152",
+        "name": "Iganga-Bulopa-Kamuli Road 56km",
+        "country": "UGA",
+        "sectors": "roads",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(33.48 0.61, 33.12 1.00)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL153",
+        "name": "Lusalira-Kasambya-Nkonge-Sembabule Road 97km",
+        "country": "UGA",
+        "sectors": "roads",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(31.50 0.20, 31.30 0.10)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL154",
+        "name": "Ndande-Gueoul Road 30km Dakar-Saint Louis",
+        "country": "SEN",
+        "sectors": "roads",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(-16.20 15.00, -16.00 15.20)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL155",
+        "name": "Mekhe-Ndande Road 19km Dakar-Saint Louis",
+        "country": "SEN",
+        "sectors": "roads",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(-16.50 14.80, -16.20 15.00)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5,
+          -2.5
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL156",
+        "name": "Galana Kulalu Dam Athi Dam Irrigation",
+        "country": "KEN",
+        "sectors": "dams",
+        "status": "signed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.02,
+          -1.37
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL157",
+        "name": "Umaa Dam Kitui County",
+        "country": "KEN",
+        "sectors": "dams",
+        "status": "construction_started",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL158",
+        "name": "Bujumbura-Gitaza Road RN3 25km Burundi",
+        "country": "BDI",
+        "sectors": "roads",
+        "status": "awarded",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(29.36 -3.38, 29.42 -3.50)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL159",
+        "name": "Uvinza-Musongati Standard Gauge Railway 282km",
+        "country": "BDI",
+        "sectors": "railways",
+        "status": "signed",
+        "location_precision": "corridor",
+        "geom_wkt": "LINESTRING(30.39 -5.10, 29.39 -3.36)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.5,
+          15.09
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL160",
+        "name": "Santiago Island Desalination Plants 15000m3",
+        "country": "CPV",
+        "sectors": "water_supply",
+        "status": "signed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.5,
+          14.91
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL161",
+        "name": "ENAPOR Inter-Island Vessel 17m Euro",
+        "country": "CPV",
+        "sectors": "ports",
+        "status": "signed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.94,
+          16.72
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL162",
+        "name": "Cape Verde Airports Improvement 70.7m Euro",
+        "country": "CPV",
+        "sectors": "airports",
+        "status": "signed",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.7,
+          15.3
+        ]
+      },
+      "properties": {
+        "id": "wba_prj_01HREAL163",
+        "name": "Habela-Cheatat Road 31km Eritrea",
+        "country": "ERI",
+        "sectors": "roads",
+        "status": "construction_started",
+        "location_precision": "exact"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL164",
+        "name": "Chad-Cameroon Oil Export System Doba-Kribi 1070km",
+        "country": "TCD",
+        "sectors": "oil_gas",
+        "status": "commissioned",
+        "location_precision": "corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL165",
+        "name": "Polihali Dam LHWP Phase II 165m",
+        "country": "LSO",
+        "sectors": "dams|hydropower|water_supply",
+        "status": "construction_started",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL166",
+        "name": "Gouina Hydroelectric Plant 140MW Senegal River",
+        "country": "MLI",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL167",
+        "name": "Mount Coffee Hydropower Rehabilitation 88MW",
+        "country": "LBR",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL168",
+        "name": "Enfidha-Hammamet International Airport 7m Pax",
+        "country": "TUN",
+        "sectors": "airports",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL169",
+        "name": "Lome Container Terminal 2.2m TEU Transshipment Hub",
+        "country": "TGO",
+        "sectors": "ports",
+        "status": "financing_secured",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL170",
+        "name": "Kandadji Dam 130MW Niger River",
+        "country": "NER",
+        "sectors": "dams|hydropower",
+        "status": "suspended",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL171",
+        "name": "Merowe Dam 1250MW Nile River",
+        "country": "SDN",
+        "sectors": "dams|hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL172",
+        "name": "Greater Tortue Ahmeyim GTA LNG Phase 1 2.3mtpa",
+        "country": "MRT",
+        "sectors": "oil_gas",
+        "status": "partially_completed",
+        "location_precision": "corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL173",
+        "name": "Maguga Dam Komati River Joint Project",
+        "country": "SWZ",
+        "sectors": "dams|hydropower|irrigation",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL174",
+        "name": "Port Victoria Rehabilitation and Extension Mahe Quay",
+        "country": "SYC",
+        "sectors": "ports",
+        "status": "construction_started",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL175",
+        "name": "Freedom Bridge Juba White Nile 560m",
+        "country": "SSD",
+        "sectors": "bridges",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL176",
+        "name": "Banjul Port Concession and Sanyang Deep Sea Port",
+        "country": "GMB",
+        "sectors": "ports",
+        "status": "signed",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL177",
+        "name": "Djibloho Hydroelectric Plant 120MW Wele River",
+        "country": "GNQ",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL178",
+        "name": "Neckartal Dam Fish River Keetmanshoop",
+        "country": "NAM",
+        "sectors": "dams|hydropower|irrigation",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL179",
+        "name": "Mogadishu Port Alport 20yr Operation Concession",
+        "country": "SOM",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL180",
+        "name": "Imboulou Hydropower Plant 120MW Lefini River",
+        "country": "COG",
+        "sectors": "hydropower|dams",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL181",
+        "name": "Doraleh Multipurpose Port 7m Tonnes Djibouti",
+        "country": "DJI",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL182",
+        "name": "Zongo II Hydropower Plant 150MW Kongo-Central",
+        "country": "COD",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL183",
+        "name": "Tedzani IV Hydropower Plant 19MW Shire River",
+        "country": "MWI",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL184",
+        "name": "Samendeni Dam Mouhoun River Bobo-Dioulasso",
+        "country": "BFA",
+        "sectors": "dams|hydropower|irrigation",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL185",
+        "name": "New Owendo International Port 150k TEU Libreville",
+        "country": "GAB",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL186",
+        "name": "Hirgigo Power Plant Expansion 46MW Massawa",
+        "country": "ERI",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL187",
+        "name": "Bumbuna Hydroelectric Plant 50MW Seli River",
+        "country": "SLE",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL188",
+        "name": "Ubari Gas Turbine Power Plant 640MW Fezzan",
+        "country": "LBY",
+        "sectors": "other",
+        "status": "suspended",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL189",
+        "name": "El-Maarouf National Hospital 300-bed Moroni",
+        "country": "COM",
+        "sectors": "hospitals",
+        "status": "construction_started",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL190",
+        "name": "Bagatelle Dam Port Louis Water Supply",
+        "country": "MUS",
+        "sectors": "dams|water_supply",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL191",
+        "name": "Felou Hydroelectric Plant 63MW Kayes Senegal River",
+        "country": "MLI",
+        "sectors": "hydropower",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL192",
+        "name": "Nouakchott Container Terminal 250k TEU Port Amitie",
+        "country": "MRT",
+        "sectors": "ports",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL193",
+        "name": "Port of Bissau Dredging and Rehabilitation 22.59bn CFA",
+        "country": "GNB",
+        "sectors": "ports",
+        "status": "construction_started",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL194",
+        "name": "Sao Tome International Airport Runway 600m Extension",
+        "country": "STP",
+        "sectors": "airports",
+        "status": "signed",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL195",
+        "name": "Toamasina Port Extension Quay C4 470m",
+        "country": "MDG",
+        "sectors": "ports",
+        "status": "partially_completed",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL196",
+        "name": "Cotonou Terminal 5 Bulk Terminal 20ha CHEC",
+        "country": "BEN",
+        "sectors": "ports",
+        "status": "construction_started",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL197",
+        "name": "Punta Europa EG LNG Train 1 3.4mtpa Bioko Island",
+        "country": "GNQ",
+        "sectors": "oil_gas",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL198",
+        "name": "ArcelorMittal Buchanan Rail Siding Extension Phase II",
+        "country": "LBR",
+        "sectors": "railways|ports",
+        "status": "construction_started",
+        "location_precision": "corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL199",
+        "name": "Sfax-Gafsa-Gabes Phosphate Railway Renewal 190km",
+        "country": "TUN",
+        "sectors": "railways",
+        "status": "signed",
+        "location_precision": "corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL200",
+        "name": "Blitta Sheikh Mohamed Bin Zayed Solar Plant 50MW",
+        "country": "TGO",
+        "sectors": "solar_power",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL201",
+        "name": "Metolong Dam and Water Supply Programme 83m",
+        "country": "LSO",
+        "sectors": "dams|water_supply",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL202",
+        "name": "Djermaya Refinery 20000bpd CNPC-SHT 60-40",
+        "country": "TCD",
+        "sectors": "oil_gas",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL203",
+        "name": "Agadez Solar-Diesel-Storage Hybrid 18.9MWp",
+        "country": "NER",
+        "sectors": "solar_power|other",
+        "status": "signed",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL204",
+        "name": "Mpakeni Dam MNWAP 31 percent 2025",
+        "country": "SWZ",
+        "sectors": "dams|water_supply|irrigation",
+        "status": "construction_started",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL205",
+        "name": "CLSG Interconnection Sierra Leone 530km 225kV",
+        "country": "SLE",
+        "sectors": "transmission",
+        "status": "construction_started",
+        "location_precision": "corridor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL206",
+        "name": "Bangui Municipal Road Restoration 10.3km CRCC",
+        "country": "CAF",
+        "sectors": "roads",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL207",
+        "name": "Roseires Dam Raising 10m Blue Nile 25.1km",
+        "country": "SDN",
+        "sectors": "dams|hydropower|irrigation",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL208",
+        "name": "Juba Thermal Power Station 33MW Ezra Group",
+        "country": "SSD",
+        "sectors": "other",
+        "status": "commissioned",
+        "location_precision": "city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "id": "wba_prj_01HREAL209",
+        "name": "La Gogue Dam Raising 6m Mahe",
+        "country": "SYC",
+        "sectors": "dams|water_supply",
+        "status": "commissioned",
+        "location_precision": "district"
+      }
+    }
+  ],
+  "_note": "SYNTHETIC if from samples; real data requires source-backed coords"
+}

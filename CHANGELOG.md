@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.15] - 2026-09-20
+### Added
+- Data: 173 to 174 verified (+1 last thin). SYC La Gogue Dam raising 6m Mahe by Synohydro China based Mauritius R184.6m awarded Aug 2017 93 percent Dec 2020 - closes last thin country, now all 54 states have at least 2 projects, zero thin. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 174 REAL PROJECTS, fetches /data/releases/v0.8.15/data.json
+- Releases: v0.8.15 snapshot (174 features)
+
 ## [v0.8.14] - 2026-09-20
 ### Added
 - Data: 170 to 173 verified (+3 last thin except SYC). CAF Bangui Municipal Road Restoration 10.3km CRCC officially opened Aug 2025, SDN Roseires Dam Raising 10m to 78m 25.1km by POWERCHINA B5 B7 completed Jan 2013 longest earth-rockfill dam world, SSD Juba Thermal Power Station 33MW Ezra Group Eritrea opened Nov 2019 serves 100k households first of 100MW. All page-read verbatim quotes, validate OK 0 errors.
