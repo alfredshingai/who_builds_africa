@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.18] - 2026-09-20
+### Added
+- Data: 180 to 185 verified (+5 batch integrity). GNB Osvaldo Vieira Airport technical block and control tower by China Railway 11th Bureau 4.7bn CFA ASECNA finance structure completed 2026 handover 2027, BEN Ouidah La Marina waterfront by Yunnan Construction Investment Group Bank of China ICBC heritage tourism complex Jun 2026, CAF Bossarangba-Mbaiki Road 68km by Stecol Sinohydro JV 66.2m USD AfDB Lot2, MUS Jin Fei Smart City Eden Garden 211ha by Shanxi Investments Group first smart city Mauritius partnership China, SYC Ile Aurore dredging Phase1 by Jan De Nul signed Jan 2026 reclamation. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 185 REAL PROJECTS, fetches /data/releases/v0.8.18/data.json
+- Releases: v0.8.18 snapshot (185 features)
+
 ## [v0.8.17] - 2026-09-20
 ### Added
 - Data: 177 to 180 verified (+3 exhaustive deepen COM/MUS/MDG to 3×). COM Maritime Corridor AfDB 135m USD Moroni and Boingoma ports PACMFCR Aug 2024, MUS Cote dOr National Sports Complex 15000 seats by CSCEC completed Jul 2019 largest Mauritius, MDG RN2 Toamasina-Tsarakofafa 9.86km by AFECC 408m RMB loan Sep 2018 started Apr 2019. All page-read verbatim quotes, validate OK 0 errors.
