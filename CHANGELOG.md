@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.8] - 2026-09-20
+### Added
+- Data: 142 to 151 verified (+9 second projects for thin countries). NAM Neckartal Dam 78.5m RCC Fish River Salini Impregilo Italy N5.5bn completed Oct 2018 handed over Mar 2020, SOM Mogadishu Port 20yr operate right Albayrak Turkey 2014, COG Imboulou 120MW Lefini CMEC Sinohydro 280m USD acceptance Nov 2010, DJI Doraleh Multipurpose CSCEC 421.7m USD 7.08m tonnes opened May 2017, COD Zongo II 150MW Sinohydro 360m USD inaugurated Jun 2018, MWI Tedzani IV 19MW EGENCO Japan USD52m commissioned May 2021 inaugurated Jun 2021, BFA Samendeni Mouhoun SGTM Morocco Fadoul 100bn CFA inaugurated Nov 2019, GAB New Owendo Port PPP State Olam AFC CFA181bn operational Jun 2017 inaugurated Oct 2017, ERI Hirgigo 46MW expansion SFECO 98.6m USD inaugurated Nov 2017. All page-read verbatim quotes, dedup CSCEC reuse, validate OK 0 errors.
+- App: banner 151 REAL PROJECTS, fetches /data/releases/v0.8.8/data.json
+- Releases: v0.8.8 snapshot (151 features)
+
 ## [v0.8.7] - 2026-09-20
 ### Added
 - Data: 133 to 142 verified (+9, eight first-coverage countries). TGO Lome Container Terminal 2.2m TEU 50-50 GTL and China Merchants EUR324m IFC EUR225m debt Jan 2013, NER Kandadji 130MW CGGC 500bn CFA suspended Aug 2023 coup sanctions, SDN Merowe 1250MW SinoHydro Lahmeyer opened Mar 2009, MRT GTA LNG Phase 1 bp 56 percent first gas Jan 2025 2.3mtpa, SWZ Maguga Dam WBHO R420m completed 2001, SYC Port Victoria EIB EUR12.5m EU EUR5m AFD EUR16.5m Jan De Nul dredging 2023, SSD Freedom Bridge Juba 560m Dai Nippon Japan grant opened May 2022, GMB Banjul 30yr concession Albayrak Turkey Jul 2024 plus Sanyang, GNQ Djibloho 120MW Sinohydro inaugurated Oct 2012. All page-read verbatim quotes, validate OK 0 errors.
