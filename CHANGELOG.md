@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.14] - 2026-09-20
+### Added
+- Data: 170 to 173 verified (+3 last thin except SYC). CAF Bangui Municipal Road Restoration 10.3km CRCC officially opened Aug 2025, SDN Roseires Dam Raising 10m to 78m 25.1km by POWERCHINA B5 B7 completed Jan 2013 longest earth-rockfill dam world, SSD Juba Thermal Power Station 33MW Ezra Group Eritrea opened Nov 2019 serves 100k households first of 100MW. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 173 REAL PROJECTS, fetches /data/releases/v0.8.14/data.json
+- Releases: v0.8.14 snapshot (173 features)
+
 ## [v0.8.13] - 2026-09-20
 ### Added
 - Data: 167 to 170 verified (+3 last thin). NER Agadez 18.9MWp solar diesel storage hybrid Sterling and Wilson Vergnet for NIGELEC signed Oct 2020, SWZ Mpakeni Dam MNWAP Sakhalive JV Sinohydro Yellow River 31 percent Aug 2025, SLE CLSG 530km 225kV line Sierra Leone TRANSCO CLSG 100km ROW handed to Kalpataru. All page-read verbatim quotes, validate OK 0 errors.
