@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.13] - 2026-09-20
+### Added
+- Data: 167 to 170 verified (+3 last thin). NER Agadez 18.9MWp solar diesel storage hybrid Sterling and Wilson Vergnet for NIGELEC signed Oct 2020, SWZ Mpakeni Dam MNWAP Sakhalive JV Sinohydro Yellow River 31 percent Aug 2025, SLE CLSG 530km 225kV line Sierra Leone TRANSCO CLSG 100km ROW handed to Kalpataru. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 170 REAL PROJECTS, fetches /data/releases/v0.8.13/data.json
+- Releases: v0.8.13 snapshot (170 features)
+
 ## [v0.8.12] - 2026-09-20
 ### Added
 - Data: 164 to 167 verified (+3). TGO Blitta 50MW Sheikh Mohamed Bin Zayed solar by AMEA Power inaugurated Jun 2021 267km from Lome 92ha, LSO Metolong Dam 83m Sinohydro M540m contract Aug 2011 supplies Maseru, TCD Djermaya Refinery 20k bpd CNPC 60 percent China construction inaugurated Jun 2011 near NDjamena. All page-read verbatim quotes, validate OK 0 errors.
