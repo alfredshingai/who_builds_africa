@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.17] - 2026-09-20
+### Added
+- Data: 177 to 180 verified (+3 exhaustive deepen COM/MUS/MDG to 3×). COM Maritime Corridor AfDB 135m USD Moroni and Boingoma ports PACMFCR Aug 2024, MUS Cote dOr National Sports Complex 15000 seats by CSCEC completed Jul 2019 largest Mauritius, MDG RN2 Toamasina-Tsarakofafa 9.86km by AFECC 408m RMB loan Sep 2018 started Apr 2019. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 180 REAL PROJECTS, fetches /data/releases/v0.8.17/data.json
+- Releases: v0.8.17 snapshot (180 features)
+
 ## [v0.8.16] - 2026-09-20
 ### Added
 - Data: 174 to 177 verified (+3 exhaustive 3rd for BEN/CAF/DJI). BEN Glo-Djigbe International Airport 360bn CFA 4250m by AVIC China boucles 100 percent Jul 2021, CAF Sapeke Bridge Bangui 36m by China Shanxi Group 6bn CFA inaugurated Mar 2018, DJI Djibouti International Free Trade Zone 48km2 3.5bn by Dalian Port China jointly with DPFZA and China Merchants commissioned Jul 2018. All page-read verbatim quotes, validate OK 0 errors.
