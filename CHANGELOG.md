@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.6] - 2026-09-20
+### Added
+- Data: 128 to 133 verified (+5 first-coverage countries). TCD Chad-Cameroon oil export system Doba-Kribi 1070km Fluor ExxonMobil-Petronas-Chevron EIB EUR144m, LSO Polihali Dam LHWP Phase II M7.68bn SUN JV Sinohydro 8 and 14 plus Unik plus Nthane awarded Nov 2022, MLI Gouina 140MW Sinohydro Bureau 15 and 16 PowerChina completed Dec 2022, LBR Mount Coffee 88MW rehab Voith first power Dec 2016 MCC 257m compact, TUN Enfidha-Hammamet Airport 7m pax TAV Turkey EUR550m BOT built Jul 2007 operating Dec 2009 concession to May 2047. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 133 REAL PROJECTS, fetches /data/releases/v0.8.6/data.json
+- Releases: v0.8.6 snapshot (133 features)
+
 ## [v0.8.5] - 2026-09-14
 ### Added
 - Data: 124 to 128 verified (+4). Cape Verde Santiago desalination Toyota Tsusho Japan 15.292bn yen JICA Oct 2025, ENAPOR vessel Shenzhen Churui China 17m euro Apr 2026, Cape Verde airports Teixeira Duarte Portugal 70.7m euro Jul 2023, Eritrea Habela-Cheatat 31km SFECO China Nov 2019. Cape Verde gap 0 to 3, Eritrea 0 to 1. Validate OK, 539KB+.
