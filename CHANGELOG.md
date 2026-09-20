@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.7] - 2026-09-20
+### Added
+- Data: 133 to 142 verified (+9, eight first-coverage countries). TGO Lome Container Terminal 2.2m TEU 50-50 GTL and China Merchants EUR324m IFC EUR225m debt Jan 2013, NER Kandadji 130MW CGGC 500bn CFA suspended Aug 2023 coup sanctions, SDN Merowe 1250MW SinoHydro Lahmeyer opened Mar 2009, MRT GTA LNG Phase 1 bp 56 percent first gas Jan 2025 2.3mtpa, SWZ Maguga Dam WBHO R420m completed 2001, SYC Port Victoria EIB EUR12.5m EU EUR5m AFD EUR16.5m Jan De Nul dredging 2023, SSD Freedom Bridge Juba 560m Dai Nippon Japan grant opened May 2022, GMB Banjul 30yr concession Albayrak Turkey Jul 2024 plus Sanyang, GNQ Djibloho 120MW Sinohydro inaugurated Oct 2012. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 142 REAL PROJECTS, fetches /data/releases/v0.8.7/data.json
+- Releases: v0.8.7 snapshot (142 features)
+
 ## [v0.8.6] - 2026-09-20
 ### Added
 - Data: 128 to 133 verified (+5 first-coverage countries). TCD Chad-Cameroon oil export system Doba-Kribi 1070km Fluor ExxonMobil-Petronas-Chevron EIB EUR144m, LSO Polihali Dam LHWP Phase II M7.68bn SUN JV Sinohydro 8 and 14 plus Unik plus Nthane awarded Nov 2022, MLI Gouina 140MW Sinohydro Bureau 15 and 16 PowerChina completed Dec 2022, LBR Mount Coffee 88MW rehab Voith first power Dec 2016 MCC 257m compact, TUN Enfidha-Hammamet Airport 7m pax TAV Turkey EUR550m BOT built Jul 2007 operating Dec 2009 concession to May 2047. All page-read verbatim quotes, validate OK 0 errors.
