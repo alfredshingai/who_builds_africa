@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.16] - 2026-09-20
+### Added
+- Data: 174 to 177 verified (+3 exhaustive 3rd for BEN/CAF/DJI). BEN Glo-Djigbe International Airport 360bn CFA 4250m by AVIC China boucles 100 percent Jul 2021, CAF Sapeke Bridge Bangui 36m by China Shanxi Group 6bn CFA inaugurated Mar 2018, DJI Djibouti International Free Trade Zone 48km2 3.5bn by Dalian Port China jointly with DPFZA and China Merchants commissioned Jul 2018. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 177 REAL PROJECTS, fetches /data/releases/v0.8.16/data.json
+- Releases: v0.8.16 snapshot (177 features)
+
 ## [v0.8.15] - 2026-09-20
 ### Added
 - Data: 173 to 174 verified (+1 last thin). SYC La Gogue Dam raising 6m Mahe by Synohydro China based Mauritius R184.6m awarded Aug 2017 93 percent Dec 2020 - closes last thin country, now all 54 states have at least 2 projects, zero thin. All page-read verbatim quotes, validate OK 0 errors.
