@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.10] - 2026-09-20
+### Added
+- Data: 157 to 160 verified (+3 final today). GNB Bissau Port dredging wreck removal EBOMAF BOAD 22.59bn CFA launched Jan 2026, STP Sao Tome International Airport runway 600m sea extension IPPR China studies donation near 100m USD agreement Jun 2022, MDG Toamasina Port quay C4 470m 16m draught 14000 TEU JICA 639m USD 65 percent 333m delivered Mar 2026. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 160 REAL PROJECTS, fetches /data/releases/v0.8.10/data.json
+- Releases: v0.8.10 snapshot (160 features)
+
 ## [v0.8.9] - 2026-09-20
 ### Added
 - Data: 151 to 157 verified (+6). SLE Bumbuna 50MW Salini Italy O and M 26.1m euro observed operating H1 2015 fills last zero-coverage country, LBY Ubari 640MW gas turbines ENKA Turkey Siemens suspended 98 percent Dec 2017 unrest, COM El-Maarouf 300-bed Moroni CSYIC RMB430m OPEC 17m USD loan Feb 2024, MUS Bagatelle Dam CWE China launched Jun 2018 first Chinese-financed water project, MLI Felou 63MW Sinohydro SOGEM OMVS operation 2013, MRT Nouakchott container terminal 250k TEU Meridiam Arise 278m euro 30yr concession inaugurated Dec 2021. All page-read verbatim quotes, validate OK 0 errors.
