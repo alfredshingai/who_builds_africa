@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.19] - 2026-09-20
+### Added
+- Data: 185 to 188 verified (+3 batch BDI/BFA/BWA). BDI Jiji and Mulembwe 32.5MW and 17MW by Orascom Construction completed Jun 2025 and Sep 2025 50 percent Burundi capacity increase, BFA Bobo-Dioulasso University Hospital 500 beds 42000m2 by Beijing Urban Construction Group topping out Oct 2023, BWA Letsibogo Dam 28m rockfill by BESIX Odebrecht JV signed Oct 1995 25M m3 for Gaborone. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 188 REAL PROJECTS, fetches /data/releases/v0.8.19/data.json
+- Releases: v0.8.19 snapshot (188 features)
+
 ## [v0.8.18] - 2026-09-20
 ### Added
 - Data: 180 to 185 verified (+5 batch integrity). GNB Osvaldo Vieira Airport technical block and control tower by China Railway 11th Bureau 4.7bn CFA ASECNA finance structure completed 2026 handover 2027, BEN Ouidah La Marina waterfront by Yunnan Construction Investment Group Bank of China ICBC heritage tourism complex Jun 2026, CAF Bossarangba-Mbaiki Road 68km by Stecol Sinohydro JV 66.2m USD AfDB Lot2, MUS Jin Fei Smart City Eden Garden 211ha by Shanxi Investments Group first smart city Mauritius partnership China, SYC Ile Aurore dredging Phase1 by Jan De Nul signed Jan 2026 reclamation. All page-read verbatim quotes, validate OK 0 errors.
