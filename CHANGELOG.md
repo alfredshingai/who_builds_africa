@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.0] - 2026-09-20
+### Added
+- Data: 199 to 200 verified (+1 MWI). MWI Salima Solar 60MW by JCM Power FMO InfraCo Africa first solar IPP Malawi commercial Oct 2021 inaugurated Nov 2021 President Chakwera 228k panels 20 percent grid. All page-read verbatim quotes, validate OK 0 errors. **Milestone: back to 200 verified after v0.8.1 clean (was 200 with Wikipedia, now 200 fully source-verified).**
+- App: banner 200 REAL PROJECTS, fetches /data/releases/v0.9.0/data.json
+- Releases: v0.9.0 snapshot (200 features)
+
 ## [v0.8.22] - 2026-09-20
 ### Added
 - Data: 196 to 199 verified (+3 GMB/MOZ/MLI). GMB Upper River Region Roads and Bridges 51km Basse-Koina by Longjian China 80m USD grant inaugurated Oct 2021 Basse 250m Fatoto 170m, MOZ Coral South FLNG 3.4mtpa by Eni Mozambique Rovuma Area4 432m vessel introduced hydrocarbons Jun 2022, MLI Bamako Third Bridge 1626m 24m by CGGC China 30bn CFA 4 lanes inaugurated Sep 2011. All page-read verbatim quotes, validate OK 0 errors.
