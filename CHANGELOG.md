@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.2] - 2026-09-20
+### Added
+- Data: 205 to 208 verified (+3 LBY/SDN/SLE). LBY Al Khalij Power Plant 4x350MW Sirte by GAMA Industry for GECOL Libya 2013, SDN Khartoum New International Airport 1.38bn EPC by CHEC two phases 700m plus 680m Exim funding 40 months 12m pax, SLE Kalpataru first tower for 225kV CLSG line near Bumbuna Hydro Oct 2018 World Bank EIB Lot4. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 208 REAL PROJECTS, fetches /data/releases/v0.9.2/data.json
+- Releases: v0.9.2 snapshot (208 features)
+
 ## [v0.9.1] - 2026-09-20
 ### Added
 - Data: 200 to 205 verified (+5 batch). LBR Bong Mine Railway 85km recovery by China Railway 10th Bureau 1.5mtpa 6 months recovery 60 months operation won Dec 2022, NAM Husab Mine by WBHO NAD300m Nov 2012 Aug 2014 terraces roads ponds, MRT Nouakchott Port Phase1 Berth4-5 by CRBC RMB2bn GCL groundbreaking Sep 2009 completed Jun 2014, NER Dosso-Bella RN7 83km MCC 32.337bn CFA inaugurated May 2023, TUN Sfax Hospital 246 beds by CSCEC inaugurated Dec 2020 by President Saied. All page-read verbatim quotes, validate OK 0 errors.
