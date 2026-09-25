@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.1] - 2026-09-20
+### Added
+- Data: 200 to 205 verified (+5 batch). LBR Bong Mine Railway 85km recovery by China Railway 10th Bureau 1.5mtpa 6 months recovery 60 months operation won Dec 2022, NAM Husab Mine by WBHO NAD300m Nov 2012 Aug 2014 terraces roads ponds, MRT Nouakchott Port Phase1 Berth4-5 by CRBC RMB2bn GCL groundbreaking Sep 2009 completed Jun 2014, NER Dosso-Bella RN7 83km MCC 32.337bn CFA inaugurated May 2023, TUN Sfax Hospital 246 beds by CSCEC inaugurated Dec 2020 by President Saied. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 205 REAL PROJECTS, fetches /data/releases/v0.9.1/data.json
+- Releases: v0.9.1 snapshot (205 features)
+
 ## [v0.9.0] - 2026-09-20
 ### Added
 - Data: 199 to 200 verified (+1 MWI). MWI Salima Solar 60MW by JCM Power FMO InfraCo Africa first solar IPP Malawi commercial Oct 2021 inaugurated Nov 2021 President Chakwera 228k panels 20 percent grid. All page-read verbatim quotes, validate OK 0 errors. **Milestone: back to 200 verified after v0.8.1 clean (was 200 with Wikipedia, now 200 fully source-verified).**
