@@ -1,0 +1,25 @@
+id,project_id,institution,instrument,amount,currency,share_percent,notes
+wba_fin_01HREAL001,wba_prj_01HREAL001,wba_org_01HREAL003,loan,997700000,USD,,"85% preferential buyer credit, 20yr"
+wba_fin_01HREAL002,wba_prj_01HREAL002,wba_org_01HREAL003,loan,319450000,USD,,20yr 5yr grace 2%
+wba_fin_01HREAL003,wba_prj_01HREAL003,wba_org_01HREAL003,loan,153000000,USD,,RMB1.045bn ~$153m concessional 20yr 7yr grace 2%
+wba_fin_01HREAL004,wba_prj_01HREAL004,wba_org_01HREAL003,loan,494000000,USD,,Exim + CDB facility
+wba_fin_01HREAL005,wba_prj_01HREAL005,wba_org_01HREAL003,loan,3230000000,USD,,90% two loans $1.63bn each
+wba_fin_01HREAL006,wba_prj_01HREAL007,wba_org_01HREAL003,loan,403750000,USD,,85% of $475m
+wba_fin_01HREAL007,wba_prj_01HREAL008,wba_org_01HREAL003,loan,4000000000,USD,,~$4bn segments
+wba_fin_01HREAL008,wba_prj_01HREAL010,wba_org_01HREAL024,grant,675860000,CNY,,RMB 675.8m grant
+wba_fin_01HREAL009,wba_prj_01HREAL011,wba_org_01HREAL003,loan,150000000,USD,,$150m Exim
+wba_fin_01HREAL010,wba_prj_01HREAL012,wba_org_01HREAL027,loan,94700000,USD,,$94.7m EDCF
+wba_fin_01HREAL011,wba_prj_01HREAL014,wba_org_01HREAL019,equity,,USD,,$246m CCECC via IPDC budget
+wba_fin_01HREAL012,wba_prj_01HREAL017,wba_org_01HREAL003,loan,98600000,USD,,$98.6m PBC
+wba_fin_01HREAL013,wba_prj_01HREAL019,wba_org_01HREAL040,loan,32000000,USD,,JICA Sh32bn ~ $300m
+wba_fin_01HREAL014,wba_prj_01HREAL027,wba_org_01HREAL003,loan,623500000,USD,,$293.5m + $330m
+wba_fin_01HREAL015,wba_prj_01HREAL029,wba_org_01HREAL003,loan,350000000,USD,,$350m PBC 2/3
+wba_fin_01HREAL016,wba_prj_01HREAL032,wba_org_01HREAL003,loan,71000000,USD,,$71m NetOne
+wba_fin_01HREAL017,wba_prj_01HREAL034,wba_org_01HREAL038,loan,,USD,,AfDB UA77.6m
+wba_fin_01HREAL018,wba_prj_01HREAL040,wba_org_01HREAL080,loan,3825000000,USD,,ICBC 85% $4.5bn *0.85
+wba_fin_01HREAL019,wba_prj_01HREAL042,wba_org_01HREAL038,loan,200000000,USD,,AfDB $200m Walvis
+wba_fin_01HREAL020,wba_prj_01HREAL050,wba_org_01HREAL097,loan,22500000,EUR,,AFD 22.5m
+wba_fin_01HREAL022,wba_prj_01HREAL053,wba_org_01HREAL103,other,,USD,,World Bank/USA/UK 25% loans
+wba_fin_01HREAL023,wba_prj_01HREAL061,wba_org_01HREAL118,other,10000000000,USD,,$10bn 99yr lease requested
+wba_fin_01HREAL024,wba_prj_01HREAL062,wba_org_01HREAL121,other,5600000000,USD,,$5.6bn EACOP
+wba_fin_01HREAL027,wba_prj_01HREAL080,wba_org_01HREAL107,other,56500000,CNY,,RMB56.5m grant

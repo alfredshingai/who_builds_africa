@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.22] - 2026-09-20
+### Added
+- Data: 196 to 199 verified (+3 GMB/MOZ/MLI). GMB Upper River Region Roads and Bridges 51km Basse-Koina by Longjian China 80m USD grant inaugurated Oct 2021 Basse 250m Fatoto 170m, MOZ Coral South FLNG 3.4mtpa by Eni Mozambique Rovuma Area4 432m vessel introduced hydrocarbons Jun 2022, MLI Bamako Third Bridge 1626m 24m by CGGC China 30bn CFA 4 lanes inaugurated Sep 2011. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 199 REAL PROJECTS, fetches /data/releases/v0.8.22/data.json
+- Releases: v0.8.22 snapshot (199 features)
+
 ## [v0.8.21] - 2026-09-20
 ### Added
 - Data: 193 to 196 verified (+3 GIN/GAB/GNQ). GIN Simandou Trans-Guinean Railway 650km by CTG Rio Tinto Winning Consortium 17bn USD broke ground May 2024, GAB Transgabonais Railway 648km rehabilitation by SETRAG IFC 30-year concession Feb 2020, GNQ Bata Port 570m 5 berths by CCCC First Harbor CRBC Exim 451m USD started Feb 2009 completed Dec 2014. All page-read verbatim quotes, validate OK 0 errors.
