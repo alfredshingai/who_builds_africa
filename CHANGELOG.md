@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.21] - 2026-09-20
+### Added
+- Data: 193 to 196 verified (+3 GIN/GAB/GNQ). GIN Simandou Trans-Guinean Railway 650km by CTG Rio Tinto Winning Consortium 17bn USD broke ground May 2024, GAB Transgabonais Railway 648km rehabilitation by SETRAG IFC 30-year concession Feb 2020, GNQ Bata Port 570m 5 berths by CCCC First Harbor CRBC Exim 451m USD started Feb 2009 completed Dec 2014. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 196 REAL PROJECTS, fetches /data/releases/v0.8.21/data.json
+- Releases: v0.8.21 snapshot (196 features)
+
 ## [v0.8.20] - 2026-09-20
 ### Added
 - Data: 188 to 193 verified (+5 CIV/COD/COG/DZA/ERI). CIV Abidjan Metro Line1 37km by STAR Bouygues Alstom Colas Keolis 1.77bn euro started Jan 2023, COD Kinshasa-Brazzaville Road-Rail Bridge 1.575km 10 spans concession site visit Jul 2026 Maluku, COG Pointe-Noire East Mole 750m -17m 27ha by CRBC 400m EUR early 2027, DZA Hassi Messaoud Refinery 5mtpa by Sinopec Tecnicas Reunidas 4bn USD cancelled Samsung Nov 2024, ERI Massawa-Assab Road 500km by SFECO started late 2019. All page-read verbatim quotes, validate OK 0 errors.

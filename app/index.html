@@ -46,8 +46,8 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
     <h1><span data-i18n="title">WHO BUILDS AFRICA?</span> <span data-i18n="subtitle">- Africa Contract Footprints</span></h1>
     <p>Neutral, source-tracked. <em>“Builds” = financing · designing · constructing · supplying · consulting · operating · maintaining · JV.</em> Map is interface - database is product. Initial: <b>Zimbabwe, Kenya, Ethiopia</b>. <span id="counts"></span></p>
   </div>
-  <a class="pill" href="/data/releases/v0.8.20/data.json" download>Download JSON</a>
-  <a class="pill" href="/data/releases/v0.8.20/projects.geojson" download>GeoJSON</a>
+  <a class="pill" href="/data/releases/v0.8.21/data.json" download>Download JSON</a>
+  <a class="pill" href="/data/releases/v0.8.21/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
   <select id="lang" class="pill" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
   <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button><button class="pill" onclick="showView('analytics')">Analytics</button></nav>
@@ -56,7 +56,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
 <div class="layout">
   <aside id="sidebar" aria-label="Filters">
     <div class="card" style="background:#fffbe6;border-color:#fde68a">
-      <b>193 REAL PROJECTS</b><br><small>Source-tracked records for <b>55 countries</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
+      <b>196 REAL PROJECTS</b><br><small>Source-tracked records for <b>55 countries</b> - every claim links to publisher + verbatim quote + evidence strength (<code>officially_reported</code> → <code>credibly_reported</code>). Synthetic demo still at <a href="/data/releases/v0.1.0-synthetic/data.json">v0.1.0-synthetic</a> and <a href="/samples/synthetic/README.md">samples/synthetic</a>. <a href="https://github.com/alfredshingai/who_builds_africa/blob/main/DATA_METHODOLOGY.md">Methodology</a></small>
     </div>
     <label for="q" data-i18n="search_placeholder">Search projects / orgs</label>
     <input id="q" placeholder="e.g. Harare, SinoHydro, rail" aria-label="Search">
@@ -86,11 +86,11 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
     </div>
     <div id="list" role="region" aria-live="polite"></div>
     <div class="card"><b data-i18n="downloads">Downloads</b><br>
-      <a href="/data/releases/v0.8.20/projects.csv">projects.csv</a> ·
-      <a href="/data/releases/v0.8.20/organizations.csv">organizations.csv</a> ·
-      <a href="/data/releases/v0.8.20/claims.csv">claims.csv</a> ·
-      <a href="/data/releases/v0.8.20/sources.csv">sources.csv</a> ·
-      <a href="/data/releases/v0.8.20/footprints.sqlite">SQLite</a><br>
+      <a href="/data/releases/v0.8.21/projects.csv">projects.csv</a> ·
+      <a href="/data/releases/v0.8.21/organizations.csv">organizations.csv</a> ·
+      <a href="/data/releases/v0.8.21/claims.csv">claims.csv</a> ·
+      <a href="/data/releases/v0.8.21/sources.csv">sources.csv</a> ·
+      <a href="/data/releases/v0.8.21/footprints.sqlite">SQLite</a><br>
       <small>Licenses: Code MIT, Data ODbL-1.0, Docs CC BY 4.0 - see <a href="/NOTICE.md">NOTICE</a>.</small>
     </div>
   </aside>
@@ -123,7 +123,7 @@ let DATA, filtered=[]
 const $ = id => document.getElementById(id);
 const els={q:document.getElementById('q'),country:document.getElementById('country'),sector:document.getElementById('sector'),role:document.getElementById('role'),status:document.getElementById('status'),origin:document.getElementById('origin'),precision:document.getElementById('precision'),list:document.getElementById('list'),counts:document.getElementById('counts'),detail:document.getElementById('projectDetail'),tbl:document.querySelector('#tbl tbody')}
 async function load(){
-  const r=await fetch('/data/releases/v0.8.20/data.json')
+  const r=await fetch('/data/releases/v0.8.21/data.json')
   DATA=await r.json()
   // also build lookup
   DATA._orgById=Object.fromEntries(DATA.organizations.map(o=>[o.id,o]))
@@ -352,7 +352,7 @@ function renderQuality(){
     <div class="card"><b>Evidence</b>: ${Object.entries(claimsByStrength).map(([k,v])=>k+` (${v})`).join(', ')} - <em>see evidence cards per project</em></div>
     <div class="card"><b>Sectors</b>: ${Object.entries(bySector).map(([k,v])=>k+` (${v})`).join(', ')}</div>
     <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only - no causal claims from map.</div>
-    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.8.20/data.json">data.json</a> · <a href="/data/releases/v0.8.20/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.8.20/projects.csv">CSV</a> · <a href="/data/releases/v0.8.20/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
+    <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.8.21/data.json">data.json</a> · <a href="/data/releases/v0.8.21/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.8.21/projects.csv">CSV</a> · <a href="/data/releases/v0.8.21/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
 }
 async function loadLocale(lang){ try{ const r=await fetch(`/app/locales/${lang}.json`); if(!r.ok) return; const tr=await r.json(); document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.getAttribute('data-i18n'); if(tr[k]) el.textContent=tr[k]; }); const q=$('q'); if(q && tr.search_placeholder) q.placeholder=tr.search_placeholder; }catch(e){} }
 $('lang').addEventListener('change', e=>{ loadLocale(e.target.value); localStorage.setItem('wba_lang', e.target.value); document.documentElement.lang=e.target.value; if(e.target.value==='ar') document.documentElement.dir='rtl'; else document.documentElement.dir='ltr'; }); (function(){ const saved=localStorage.getItem('wba_lang'); if(saved){ $('lang').value=saved; loadLocale(saved); document.documentElement.lang=saved; } })();
