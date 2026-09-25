@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.8.20] - 2026-09-20
+### Added
+- Data: 188 to 193 verified (+5 CIV/COD/COG/DZA/ERI). CIV Abidjan Metro Line1 37km by STAR Bouygues Alstom Colas Keolis 1.77bn euro started Jan 2023, COD Kinshasa-Brazzaville Road-Rail Bridge 1.575km 10 spans concession site visit Jul 2026 Maluku, COG Pointe-Noire East Mole 750m -17m 27ha by CRBC 400m EUR early 2027, DZA Hassi Messaoud Refinery 5mtpa by Sinopec Tecnicas Reunidas 4bn USD cancelled Samsung Nov 2024, ERI Massawa-Assab Road 500km by SFECO started late 2019. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 193 REAL PROJECTS, fetches /data/releases/v0.8.20/data.json
+- Releases: v0.8.20 snapshot (193 features)
+
 ## [v0.8.19] - 2026-09-20
 ### Added
 - Data: 185 to 188 verified (+3 batch BDI/BFA/BWA). BDI Jiji and Mulembwe 32.5MW and 17MW by Orascom Construction completed Jun 2025 and Sep 2025 50 percent Burundi capacity increase, BFA Bobo-Dioulasso University Hospital 500 beds 42000m2 by Beijing Urban Construction Group topping out Oct 2023, BWA Letsibogo Dam 28m rockfill by BESIX Odebrecht JV signed Oct 1995 25M m3 for Gaborone. All page-read verbatim quotes, validate OK 0 errors.
