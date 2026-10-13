@@ -4,6 +4,13 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.3] - 2026-10-13
+### Added
+- Data: 208 to 215 verified (+7 LSO/SWZ/SSD/TGO/STP/SOM/TCD, closing the last thin-country gap; every country now has >=3 projects). LSO Katse Dam 185m LHWP Phase I by Impregilo-led JV Hochtief Bouygues Stirling Kier Concor Group5 US$350M export credit loans IT FR DE UK commissioned Mar 1998, SWZ MNWAP Phase 1B main conveyance pipeline by GVPR Engineers India E1.78bn AfDB procurement signed Feb 2026, SSD Juba-Rumbek 392km National No1 by Shandong Hi-Speed China $736.5m EPC single-sourced China Eximbank oil-for-roads recommenced Oct 2019, TGO Kekeli Efficient Power 65MW combined cycle tri-fuel Lome Port by Eranove France commissioned Nov 2022 MIGA guarantee, STP Santo Amaro 1.2MWp grid-connected solar EPC by JIVO Energy India AfDB ETISP commissioned May 2025, SOM Garacad Seaport Puntland detailed design and site supervision by Ingerop France for Wadaagsan developer inaugurated Oct 2022, TCD Yagoua-Bongor Logone River bridge by Razel France and Sotcogog CFA74bn AfDB EU. All page-read verbatim quotes, validate OK 0 errors.
+- Fix: corrected foreign-key corruption introduced in the v0.9.2 id-rename (Bong LBR 236, Husab NAM 237, Nouakchott MRT 238 rows had been repointed to 241/242/243) across contracts, participation_records, events, claims and project_locations; rebuilt the v0.9.2 release snapshot from the corrected data.
+- App: banner 215 REAL PROJECTS, fetches /data/releases/v0.9.3/data.json
+- Releases: v0.9.3 snapshot (215 features)
+
 ## [v0.9.2] - 2026-09-20
 ### Added
 - Data: 205 to 208 verified (+3 LBY/SDN/SLE). LBY Al Khalij Power Plant 4x350MW Sirte by GAMA Industry for GECOL Libya 2013, SDN Khartoum New International Airport 1.38bn EPC by CHEC two phases 700m plus 680m Exim funding 40 months 12m pax, SLE Kalpataru first tower for 225kV CLSG line near Bumbuna Hydro Oct 2018 World Bank EIB Lot4. All page-read verbatim quotes, validate OK 0 errors.

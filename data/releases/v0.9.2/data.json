@@ -10578,7 +10578,7 @@
     },
     {
       "id": "wba_ctr_01HREAL216",
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "title": "Bong Mine Railway Recovery and Operation",
       "contract_id_external": "",
       "contracting_authority": "wba_org_01HREAL388",
@@ -10599,7 +10599,7 @@
     },
     {
       "id": "wba_ctr_01HREAL217",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "title": "Husab Mine Construction Terraces Roads",
       "contract_id_external": "",
       "contracting_authority": "wba_org_01HREAL389",
@@ -10620,7 +10620,7 @@
     },
     {
       "id": "wba_ctr_01HREAL218",
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "title": "Nouakchott Phase1 Berth4-5 Expansion",
       "contract_id_external": "",
       "contracting_authority": "wba_org_01HREAL007",
@@ -13542,7 +13542,7 @@
     },
     {
       "id": "wba_par_01HREAL262",
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "contract_id": "wba_ctr_01HREAL216",
       "org_id": "wba_org_01HREAL388",
       "role": "contractor",
@@ -13553,7 +13553,7 @@
     },
     {
       "id": "wba_par_01HREAL263",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "contract_id": "wba_ctr_01HREAL217",
       "org_id": "wba_org_01HREAL389",
       "role": "developer",
@@ -13564,7 +13564,7 @@
     },
     {
       "id": "wba_par_01HREAL264",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "contract_id": "wba_ctr_01HREAL217",
       "org_id": "wba_org_01HREAL306",
       "role": "contractor",
@@ -13575,7 +13575,7 @@
     },
     {
       "id": "wba_par_01HREAL265",
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "contract_id": "wba_ctr_01HREAL218",
       "org_id": "wba_org_01HREAL007",
       "role": "contractor",
@@ -22521,7 +22521,7 @@
     {
       "id": "wba_clm_01HREAL346",
       "source_id": "wba_src_01HREAL289",
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "organization_id": "wba_org_01HREAL388",
       "contract_id": "wba_ctr_01HREAL216",
       "verbatim_quote": "The recovery and operation project of Bangkuang Railway has a total length of 85km, and the operation period is 60 months",
@@ -22533,7 +22533,7 @@
     {
       "id": "wba_clm_01HREAL347",
       "source_id": "wba_src_01HREAL289",
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "organization_id": "",
       "contract_id": "",
       "verbatim_quote": "The Liberian State Mine is located in the southwest of the Central State of Liberia, which is a large-scale open-pit iron mine.",
@@ -22545,7 +22545,7 @@
     {
       "id": "wba_clm_01HREAL348",
       "source_id": "wba_src_01HREAL290",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "organization_id": "wba_org_01HREAL389",
       "contract_id": "wba_ctr_01HREAL217",
       "verbatim_quote": "Husab Mine is situated in the Namib Naukluft National Park, 80km outside of Swakopmund, a coastal town of Namibia.",
@@ -22557,7 +22557,7 @@
     {
       "id": "wba_clm_01HREAL349",
       "source_id": "wba_src_01HREAL290",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "organization_id": "",
       "contract_id": "",
       "verbatim_quote": "Contract Duration: Nov 2012 Aug 2014 Contract Value: NAD 300 million",
@@ -22569,7 +22569,7 @@
     {
       "id": "wba_clm_01HREAL350",
       "source_id": "wba_src_01HREAL291",
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "organization_id": "wba_org_01HREAL007",
       "contract_id": "wba_ctr_01HREAL218",
       "verbatim_quote": "In 2009, China Eximbank and the Government of Mauritania signed an RMB 2 billion government concessional loan (GCL) for Phase 1 of the Autonomous Port of Nouakchott Expansion Project.",
@@ -22581,7 +22581,7 @@
     {
       "id": "wba_clm_01HREAL351",
       "source_id": "wba_src_01HREAL291",
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "organization_id": "",
       "contract_id": "",
       "verbatim_quote": "The project was completed in June 2014 and a completion ceremony was held on August 3, 2014.",
@@ -23906,7 +23906,7 @@
     },
     {
       "id": "wba_evt_01HREAL181",
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "event_type": "construction_start",
       "date_id": "wba_date_01HREAL451",
       "source_claim": "wba_clm_01HREAL346",
@@ -23914,7 +23914,7 @@
     },
     {
       "id": "wba_evt_01HREAL182",
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "event_type": "commissioned",
       "date_id": "wba_date_01HREAL452",
       "source_claim": "wba_clm_01HREAL348",
@@ -23922,7 +23922,7 @@
     },
     {
       "id": "wba_evt_01HREAL183",
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "event_type": "commissioned",
       "date_id": "wba_date_01HREAL453",
       "source_claim": "wba_clm_01HREAL351",
@@ -29237,7 +29237,7 @@
       "lon": ""
     },
     {
-      "project_id": "wba_prj_01HREAL241",
+      "project_id": "wba_prj_01HREAL236",
       "admin1": "Bong",
       "admin2": "Bong",
       "city": "Bong",
@@ -29247,7 +29247,7 @@
       "lon": ""
     },
     {
-      "project_id": "wba_prj_01HREAL242",
+      "project_id": "wba_prj_01HREAL237",
       "admin1": "Erongo",
       "admin2": "Swakopmund",
       "city": "Husab",
@@ -29257,7 +29257,7 @@
       "lon": ""
     },
     {
-      "project_id": "wba_prj_01HREAL243",
+      "project_id": "wba_prj_01HREAL238",
       "admin1": "Nouakchott",
       "admin2": "Nouakchott",
       "city": "Nouakchott",

@@ -1217,7 +1217,7 @@
   },
   {
     "id": "wba_evt_01HREAL181",
-    "project_id": "wba_prj_01HREAL241",
+    "project_id": "wba_prj_01HREAL236",
     "event_type": "construction_start",
     "date_id": "wba_date_01HREAL451",
     "source_claim": "wba_clm_01HREAL346",
@@ -1225,7 +1225,7 @@
   },
   {
     "id": "wba_evt_01HREAL182",
-    "project_id": "wba_prj_01HREAL242",
+    "project_id": "wba_prj_01HREAL237",
     "event_type": "commissioned",
     "date_id": "wba_date_01HREAL452",
     "source_claim": "wba_clm_01HREAL348",
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "wba_evt_01HREAL183",
-    "project_id": "wba_prj_01HREAL243",
+    "project_id": "wba_prj_01HREAL238",
     "event_type": "commissioned",
     "date_id": "wba_date_01HREAL453",
     "source_claim": "wba_clm_01HREAL351",
