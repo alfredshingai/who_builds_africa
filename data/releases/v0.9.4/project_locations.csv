@@ -1,0 +1,224 @@
+project_id,admin1,admin2,city,locality,precision,lat,lon
+wba_prj_01HREAL001,Matabeleland North,Hwange,Hwange,Hwange Power Station,exact,-18.383,26.48
+wba_prj_01HREAL002,Matabeleland North,Kariba,Kariba,Kariba South,exact,-16.521,28.761
+wba_prj_01HREAL003,Harare,Harare,Harare,RGM International Airport,approximate,-17.931,31.092
+wba_prj_01HREAL004,Nairobi,Nairobi,Nairobi,JKIA–James Gichuru corridor,corridor,,
+wba_prj_01HREAL005,Mombasa,Mombasa,Mombasa,Mombasa–Nairobi corridor,corridor,,
+wba_prj_01HREAL006,Marsabit,Loiyangalani,Loiyangalani,Lake Turkana,exact,2.85,36.82
+wba_prj_01HREAL007,Addis Ababa,Addis Ababa,Addis Ababa,Addis Light Rail corridor,corridor,,
+wba_prj_01HREAL008,Addis Ababa,Addis Ababa,Addis Ababa,Addis–Djibouti corridor,corridor,,
+wba_prj_01HREAL009,Benishangul-Gumuz,,,GERD site,exact,11.22,35.09
+wba_prj_01HREAL010,Harare,Harare,Mount Hampden,New Parliament site,exact,-17.689,30.943
+wba_prj_01HREAL011,Matabeleland North,Hwange,Victoria Falls,Victoria Falls Airport,exact,-18.096,25.839
+wba_prj_01HREAL012,Machakos,Athi River,Konza,Konza Technopolis,approximate,-1.057,37.095
+wba_prj_01HREAL013,Lamu,Lamu,Lamu,Lamu Port,exact,-2.416,40.910
+wba_prj_01HREAL014,Sidama,Hawassa,Hawassa,Hawassa Park,exact,7.060,38.476
+wba_prj_01HREAL015,Southern,Chobe,Kazungula,Kazungula Bridge site,exact,-17.775,25.262
+wba_prj_01HREAL016,Matabeleland South,Beitbridge,Beitbridge,Beitbridge Border,exact,-22.217,29.987
+wba_prj_01HREAL017,Harare,Harare,Harare,TelOne data centres,approximate,-17.829,31.053
+wba_prj_01HREAL018,Kitui/Makueni,Kitui,Thwake,Thwake Dam site,exact,-1.789,37.738
+wba_prj_01HREAL019,Coast,Mombasa,Mombasa,Mombasa Port Berths 20-21,exact,-4.054,39.636
+wba_prj_01HREAL020,Oromia,Adama,Adama,Adama Wind site,exact,8.458,39.250
+wba_prj_01HREAL021,Addis Ababa,Bole,Addis Ababa,Bole Airport,exact,8.978,38.797
+wba_prj_01HREAL022,Southern,Kafue,Kafue Gorge,Kafue Lower site,exact,-15.803,28.424
+wba_prj_01HREAL023,Morogoro,Ulanga,Nyerere,Rufiji River dam,exact,-7.809,37.861
+wba_prj_01HREAL024,Maputo,Maputo,Maputo,Maputo Bay Bridge,exact,-25.973,32.572
+wba_prj_01HREAL025,Eastern,Bugesera,Bugesera,Bugesera Airport site,exact,-2.130,30.181
+wba_prj_01HREAL026,Dakar,Dakar,Dakar,Dakar TER corridor,corridor,,
+wba_prj_01HREAL027,Bono,Bui,Bui,Bui Dam site,exact,8.278,-2.121
+wba_prj_01HREAL028,Cuanza Norte,Cazengo,Cacuso,Lauca site,exact,-9.743,15.121
+wba_prj_01HREAL029,Central,Wakiso,Kajjansi,Kampala-Entebbe corridor,corridor,,
+wba_prj_01HREAL030,Central,Lilongwe,Lilongwe,Malawi fibre backbone,exact,-13.962,33.787
+wba_prj_01HREAL031,Masvingo,Chivi,Tokwe-Mukosi,Tokwe-Mukosi Dam,exact,-20.728,30.507
+wba_prj_01HREAL032,Harare,Harare,Harare,NetOne HQ,approximate,-17.825,31.033
+wba_prj_01HREAL033,Nakuru,Naivasha,Olkaria,Olkaria Geothermal field,exact,-0.892,36.287
+wba_prj_01HREAL034,Nairobi,Nairobi,Nairobi,Outer Ring corridor,corridor,,
+wba_prj_01HREAL036,Lusaka,Lusaka,Lusaka,KKIA,exact,-15.325,28.449
+wba_prj_01HREAL037,Tabora,Tabora,Tabora,Tanzania SGR corridor,corridor,,
+wba_prj_01HREAL038,Nampula,Nacala,Nacala,Nacala Corridor,corridor,,
+wba_prj_01HREAL039,Greater Accra,Tema,Tema,Tema Port T3,exact,5.618,-0.018
+wba_prj_01HREAL040,Cuanza Norte,Cazengo,Cacuso,Caculo Cabaca site,exact,-9.312,16.016
+wba_prj_01HREAL041,Drâa-Tafilalet,Ouarzazate,Ouarzazate,Noor Complex,exact,31.048,-6.869
+wba_prj_01HREAL042,Erongo,Walvis Bay,Walvis Bay,Walvis Bay Terminal,exact,-22.959,14.481
+wba_prj_01HREAL043,South,Ocean,Kribi,Kribi Port,exact,2.945,9.909
+wba_prj_01HREAL044,Gauteng,Johannesburg,Johannesburg,Gautrain corridor,corridor,,
+wba_prj_01HREAL045,Lualaba,Kolwezi,Busanga,Busanga site,exact,-10.917,26.909
+wba_prj_01HREAL046,Cairo,New Capital,New Capital,New Capital CBD,exact,30.020,31.667
+wba_prj_01HREAL047,Thiès,Mbour,Diass,AIBD Dakar,exact,14.670,-17.073
+wba_prj_01HREAL048,Kigali,Gasabo,Kigali,BK Arena,exact,-1.953,30.091
+wba_prj_01HREAL049,Kiryaandongo,Bweyale,Karuma,Karuma site,exact,2.235,32.233
+wba_prj_01HREAL050,Centre,Ouagadougou,Zagtouli,Zagtouli Solar,exact,12.382,-1.477
+wba_prj_01HREAL053,Eastern,Yilo Krobo,Akosombo,Akosombo Dam,exact,6.295,0.058
+wba_prj_01HREAL055,Aswan,Aswan,Aswan,Aswan High Dam,exact,23.973,32.881
+wba_prj_01HREAL056,Jufra,Houn,Houn,GMR Phases,corridor,,
+wba_prj_01HREAL061,Pwani,Bagamoyo,Bagamoyo,Bagamoyo Port,approximate,-6.478,38.901
+wba_prj_01HREAL062,Hoima,Kikuube,Hoima,EACOP Hoima,corridor,,
+wba_prj_01HREAL065,Algiers,Algiers,Algiers,Djamaa El Djazair,exact,36.739,3.031
+wba_prj_01HREAL068,Djibouti,Djibouti,Djibouti,Doraleh Port,exact,11.600,43.150
+wba_prj_01HREAL069,Central,Palapye,Palapye,Morupule B,exact,-22.514,27.030
+wba_prj_01HREAL078,Ombella-Mpoko,Boali,Boali,Boali Complex,exact,4.800,18.100
+wba_prj_01HREAL080,Grande Comore,Bambao,Moroni,Bambao Hospital,exact,-11.750,43.400
+wba_prj_01HREAL081,Kouilou,Pointe-Noire,Pointe-Noire,RN1 corridor,corridor,,
+wba_prj_01HREAL086,North Bank,Kerewan,Farafenni,Senegambia Bridge,exact,13.534,-15.928
+wba_prj_01HREAL087,Biombo,Safim,Safim,Bissau-Safim Highway,exact,11.865,-15.583
+wba_prj_01HREAL090,Analamanga,Antananarivo,Sahofika,Sahofika site,exact,-19.250,47.850
+wba_prj_01HREAL093,Plaines Wilhems,Curepipe,Curepipe,Metro Express corridor,corridor,,
+wba_prj_01HREAL094,Agua Grande,Sao Tome,Sao Tome,Sao Tome Airport,exact,0.380,6.712
+wba_prj_01HREAL101,EGY,,EGY,Location for wba_prj_01HREAL101,country,,
+wba_prj_01HREAL102,EGY,,EGY,Location for wba_prj_01HREAL102,country,,
+wba_prj_01HREAL103,NGA,,NGA,Location for wba_prj_01HREAL103,country,,
+wba_prj_01HREAL104,NGA,,NGA,Location for wba_prj_01HREAL104,country,,
+wba_prj_01HREAL105,CMR,,CMR,Location for wba_prj_01HREAL105,country,,
+wba_prj_01HREAL106,ETH,,ETH,Location for wba_prj_01HREAL106,country,,
+wba_prj_01HREAL107,NGA,,NGA,Location for wba_prj_01HREAL107,country,,
+wba_prj_01HREAL108,AGO,,AGO,Location for wba_prj_01HREAL108,country,,
+wba_prj_01HREAL109,CIV,,CIV,Location for wba_prj_01HREAL109,country,,
+wba_prj_01HREAL110,UGA,,UGA,Location for wba_prj_01HREAL110,country,,
+wba_prj_01HREAL111,NGA,,NGA,Location for wba_prj_01HREAL111,country,,
+wba_prj_01HREAL112,DZA,,DZA,Location for wba_prj_01HREAL112,country,,
+wba_prj_01HREAL113,CMR,,CMR,Location for wba_prj_01HREAL113,country,,
+wba_prj_01HREAL114,NGA,,NGA,Location for wba_prj_01HREAL114,country,,
+wba_prj_01HREAL115,EGY,,EGY,Location for wba_prj_01HREAL115,country,,
+wba_prj_01HREAL116,MAR,,MAR,Location for wba_prj_01HREAL116,country,,
+wba_prj_01HREAL117,MAR,,MAR,Location for wba_prj_01HREAL117,country,,
+wba_prj_01HREAL118,GHA,,GHA,Location for wba_prj_01HREAL118,country,,
+wba_prj_01HREAL119,ZAF,,ZAF,Location for wba_prj_01HREAL119,country,,
+wba_prj_01HREAL120,ETH,,ETH,Location for wba_prj_01HREAL120,country,,
+wba_prj_01HREAL121,GIN,,GIN,Location for wba_prj_01HREAL121,country,,
+wba_prj_01HREAL122,GIN,,GIN,Location for wba_prj_01HREAL122,country,,
+wba_prj_01HREAL123,RWA,,RWA,Location for wba_prj_01HREAL123,country,,
+wba_prj_01HREAL124,TZA,,TZA,Location for wba_prj_01HREAL124,country,,
+wba_prj_01HREAL125,GAB,,GAB,Location for wba_prj_01HREAL125,country,,
+wba_prj_01HREAL126,TZA,,TZA,Location for wba_prj_01HREAL126,country,,
+wba_prj_01HREAL127,NGA,,NGA,Location for wba_prj_01HREAL127,country,,
+wba_prj_01HREAL128,KEN,,KEN,Location for wba_prj_01HREAL128,country,,
+wba_prj_01HREAL129,SEN,,SEN,Location for wba_prj_01HREAL129,country,,
+wba_prj_01HREAL130,SEN,,SEN,Location for wba_prj_01HREAL130,country,,
+wba_prj_01HREAL131,ZMB,,ZMB,Location for wba_prj_01HREAL131,country,,
+wba_prj_01HREAL132,ZAF,,ZAF,Location for wba_prj_01HREAL132,country,,
+wba_prj_01HREAL133,EGY,,EGY,Location for wba_prj_01HREAL133,country,,
+wba_prj_01HREAL134,EGY,,EGY,Location for wba_prj_01HREAL134,country,,
+wba_prj_01HREAL135,MAR,,MAR,Location for wba_prj_01HREAL135,country,,
+wba_prj_01HREAL136,NGA,,NGA,Location for wba_prj_01HREAL136,country,,
+wba_prj_01HREAL137,BEN,,BEN,Location for wba_prj_01HREAL137,country,,
+wba_prj_01HREAL138,TZA,,TZA,Location for wba_prj_01HREAL138,country,,
+wba_prj_01HREAL139,MAR,,MAR,Location for wba_prj_01HREAL139,country,,
+wba_prj_01HREAL140,CIV,,CIV,Location for wba_prj_01HREAL140,country,,
+wba_prj_01HREAL141,NGA,,NGA,Location for wba_prj_01HREAL141,country,,
+wba_prj_01HREAL142,SOM,,SOM,Location for wba_prj_01HREAL142,country,,
+wba_prj_01HREAL143,ZMB,,ZMB,Location for wba_prj_01HREAL143,country,,
+wba_prj_01HREAL144,ETH,,ETH,Location for wba_prj_01HREAL144,country,,
+wba_prj_01HREAL145,MAR,,MAR,Location for wba_prj_01HREAL145,country,,
+wba_prj_01HREAL146,GHA,,GHA,Location for wba_prj_01HREAL146,country,,
+wba_prj_01HREAL147,UGA,,UGA,Location for wba_prj_01HREAL147,country,,
+wba_prj_01HREAL148,MAR,,MAR,Location for wba_prj_01HREAL148,country,,
+wba_prj_01HREAL149,KEN,,KEN,Location for wba_prj_01HREAL149,country,,
+wba_prj_01HREAL150,SEN,,SEN,Location for wba_prj_01HREAL150,country,,
+wba_prj_01HREAL151,Central,Kampala,Kampala,Kampala-Malaba corridor,corridor,,
+wba_prj_01HREAL152,Eastern,Iganga,Iganga,Iganga-Kamuli corridor,corridor,,
+wba_prj_01HREAL153,Central,Mubende,Mubende,Lusalira-Sembabule corridor,corridor,,
+wba_prj_01HREAL154,Louga,Linguere,Ndande,Ndande-Gueoul corridor,corridor,,
+wba_prj_01HREAL155,Thies,Tivaouane,Mekhe,Mekhe-Ndande corridor,corridor,,
+wba_prj_01HREAL156,Tana River,Galana,Galana,Galana Kulalu dam,exact,-2.50,39.50
+wba_prj_01HREAL157,Kitui,Kitui,Kitui,Umaa dam,exact,-1.37,38.02
+wba_prj_01HREAL158,Bujumbura,Bujumbura,Bujumbura,Bujumbura-Gitaza corridor,corridor,,
+wba_prj_01HREAL159,Kigoma,Uvinza,Uvinza,Uvinza-Musongati corridor,corridor,,
+wba_prj_01HREAL160,Santiago,Praia,Praia,Santiago desalination Calheta and Palmarejo,exact,15.09,-23.50
+wba_prj_01HREAL161,Santiago,Praia,Praia,ENAPOR vessel Santiago,exact,14.91,-23.50
+wba_prj_01HREAL162,Sal,Sal,Sal,Amilcar Cabral Airport,exact,16.72,-22.94
+wba_prj_01HREAL163,Gash-Barka,Akordet,Habela,Habela-Cheatat corridor,exact,15.30,38.70
+wba_prj_01HREAL164,Moyen-Chari,Doba,Doba,Doba-Kribi corridor,corridor,,
+wba_prj_01HREAL165,Mokhotlong,Mokhotlong,Mokhotlong,Polihali Dam site,district,,
+wba_prj_01HREAL166,Kayes,Bafoulabe,Diamou,Gouina Falls Senegal River,district,,
+wba_prj_01HREAL167,Montserrado,Greater Monrovia,Harrisburg,Mount Coffee Saint Paul River,district,,
+wba_prj_01HREAL168,Sousse,Enfidha,Enfidha,Enfidha-Hammamet Airport,city,,
+wba_prj_01HREAL169,Maritime,Golfe,Lome,Port of Lome container terminal,city,,
+wba_prj_01HREAL170,Tillaberi,Tillaberi,Kandadji,Kandadji Dam site Niger River,district,,
+wba_prj_01HREAL171,Northern,Merowe,Merowe,Merowe Dam Nile 4th cataract,district,,
+wba_prj_01HREAL172,Offshore,Offshore,Tortue Ahmeyim,GTA field FPSO 40km offshore,corridor,,
+wba_prj_01HREAL173,Hhohho,Piggs Peak,Piggs Peak,Maguga Dam Komati River,district,,
+wba_prj_01HREAL174,Mahe,Victoria,Victoria,Port Victoria Mahe Quay,city,,
+wba_prj_01HREAL175,Central Equatoria,Juba,Juba,Freedom Bridge White Nile,city,,
+wba_prj_01HREAL176,Banjul,Banjul,Banjul,Port of Banjul,city,,
+wba_prj_01HREAL177,Wele-Nzas,Djibloho,Djibloho,Djibloho Dam Wele River,district,,
+wba_prj_01HREAL178,Karas,Keetmanshoop,Keetmanshoop,Neckartal Dam Fish River,district,,
+wba_prj_01HREAL179,Banadir,Mogadishu,Mogadishu,Port of Mogadishu Alport,city,,
+wba_prj_01HREAL180,Plateaux,Ngabe,Ngabe,Imboulou Dam Lefini River,district,,
+wba_prj_01HREAL181,Djibouti,Djibouti,Doraleh,Doraleh Multipurpose Port,city,,
+wba_prj_01HREAL182,Kongo-Central,Mbanza-Ngungu,Zongo,Zongo II Inkisi River,district,,
+wba_prj_01HREAL183,Southern,Blantyre,Tedzani,Tedzani IV Shire River,district,,
+wba_prj_01HREAL184,Hauts-Bassins,Bobo-Dioulasso,Samendeni,Samendeni Dam Mouhoun River,district,,
+wba_prj_01HREAL185,Estuaire,Libreville,Owendo,New Owendo International Port Igombe,city,,
+wba_prj_01HREAL186,Semienawi Keyih Bahri,Massawa,Massawa,Hirgigo Power Plant,city,,
+wba_prj_01HREAL187,Northern,Tonkolili,Bumbuna,Bumbuna Dam Seli River,district,,
+wba_prj_01HREAL188,Fezzan,Ubari,Ubari,Ubari Gas Turbine Plant desert,city,,
+wba_prj_01HREAL189,Grande Comore,Moroni,Moroni,El-Maarouf Hospital Moroni,city,,
+wba_prj_01HREAL190,Moka,Moka,Bagatelle,Bagatelle Dam 22km SE Port Louis,district,,
+wba_prj_01HREAL191,Kayes,Kayes,Felou,Felou Falls Senegal River,district,,
+wba_prj_01HREAL192,Nouakchott,Nouakchott,Nouakchott,Nouakchott Container Terminal Amitie,city,,
+wba_prj_01HREAL193,Bissau,Bissau,Bissau,Port of Bissau,city,,
+wba_prj_01HREAL194,Agua Grande,Sao Tome,Sao Tome,Sao Tome International Airport,city,,
+wba_prj_01HREAL195,Atsinanana,Toamasina,Toamasina,Port of Toamasina Quay C4,city,,
+wba_prj_01HREAL196,Littoral,Cotonou,Cotonou,Port of Cotonou Terminal 5,city,,
+wba_prj_01HREAL197,Bioko Norte,Malabo,Punta Europa,Punta Europa LNG Bioko Island,district,,
+wba_prj_01HREAL198,Grand Bassa,Buchanan,Buchanan,Buchanan rail siding Km 2.5-4,corridor,,
+wba_prj_01HREAL199,Sfax,Sfax,Sfax,Sfax-Gafsa-Gabes phosphate line,corridor,,
+wba_prj_01HREAL200,Centrale,Blitta,Blitta,Blitta Solar 267km from Lome,city,,
+wba_prj_01HREAL201,Maseru,Maseru,Metolong,Metolong Dam Phuthiatsana River,district,,
+wba_prj_01HREAL202,Hadjer-Lamis,Djermaya,Djermaya,Djermaya Refinery near NDjamena,city,,
+wba_prj_01HREAL203,Agadez,Agadez,Agadez,Agadez hybrid solar plant,city,,
+wba_prj_01HREAL204,Shiselweni,Mpakeni,Mpakeni,Mpakeni Dam MNWAP,district,,
+wba_prj_01HREAL205,Northern,Bombali,Bombali,CLSG line Sierra Leone 530km,corridor,,
+wba_prj_01HREAL206,Bangui,Bangui,Bangui,Bangui Municipal Roads,city,,
+wba_prj_01HREAL207,Blue Nile,Damazin,Roseires,Roseires Dam Blue Nile,district,,
+wba_prj_01HREAL208,Central Equatoria,Juba,Juba,Juba Thermal Power Station,city,,
+wba_prj_01HREAL209,Mahe,Anse Etoile,La Gogue,La Gogue Dam Mahe,district,,
+wba_prj_01HREAL210,Atlantique,Abomey-Calavi,Glo-Djigbe,Glo-Djigbe Airport site,district,,
+wba_prj_01HREAL211,Bangui,Bangui,Bangui,Sapeke Bridge Bangui,city,,
+wba_prj_01HREAL212,Djibouti,Djibouti,Djibouti,Djibouti Free Trade Zone 48km2,city,,
+wba_prj_01HREAL213,Grande Comore,Moroni,Moroni,Moroni and Boingoma ports maritime corridor,city,,
+wba_prj_01HREAL214,Plaines Wilhems,Saint Pierre,Saint Pierre,Cote dOr National Sports Complex,city,,
+wba_prj_01HREAL215,Atsinanana,Toamasina,Toamasina,RN2 Toamasina Tsarakofafa corridor,corridor,,
+wba_prj_01HREAL216,Bissau,Bissau,Bissau,Osvaldo Vieira International Airport,city,,
+wba_prj_01HREAL217,Atlantique,Ouidah,Ouidah,La Marina Waterfront Ouidah,city,,
+wba_prj_01HREAL218,Lobaye,Mbaiki,Mbaiki,Bossarangba-Mbaiki Road PK30-PK98,corridor,,
+wba_prj_01HREAL219,Moka,Riche Terre,Riche Terre,Jin Fei Smart City 211ha,city,,
+wba_prj_01HREAL220,Victoria,Ile Aurore,Ile Aurore,Ile Aurore reclamation dredging,city,,
+wba_prj_01HREAL221,Bururi,Bururi,Jiji,Jiji and Mulembwe rivers Burundi,district,,
+wba_prj_01HREAL222,Hauts-Bassins,Bobo-Dioulasso,Bobo-Dioulasso,Bobo-Dioulasso Hospital 17 buildings,city,,
+wba_prj_01HREAL223,Central,Mahalapye,Letsibogo,Letsibogo Dam Motloutse River,district,,
+wba_prj_01HREAL224,Abidjan,Abidjan,Abidjan,Abidjan Metro Line1 37km corridor Anyama to Airport,corridor,,
+wba_prj_01HREAL225,Kinshasa,Kinshasa,Maluku,Maluku Kinshasa-Brazzaville bridge Congo River,district,,
+wba_prj_01HREAL226,Kouilou,Pointe-Noire,Pointe-Noire,Pointe-Noire East Mole quay,city,,
+wba_prj_01HREAL227,Ouargla,Hassi Messaoud,Hassi Messaoud,Hassi Messaoud Refinery Haoud el Hamra,city,,
+wba_prj_01HREAL228,Semienawi Keyih Bahri,Massawa,Massawa,Massawa-Assab road 500km corridor,corridor,,
+wba_prj_01HREAL229,Kindia,Kindia,Simandou,Simandou to Matakong railway corridor,corridor,,
+wba_prj_01HREAL230,Estuaire,Owendo,Owendo,Transgabonais Owendo to Franceville,corridor,,
+wba_prj_01HREAL231,Litoral,Bata,Bata,Bata Port 570m 5 berths,city,,
+wba_prj_01HREAL232,Basse,Basse,Basse,URR Basse-Koina road and bridges,corridor,,
+wba_prj_01HREAL233,Cabo Delgado,Palma,Palma,Coral South FLNG offshore Palma Rovuma,city,,
+wba_prj_01HREAL234,Bamako,Bamako,Bamako,Bamako Third Bridge over Niger,city,,
+wba_prj_01HREAL235,Central,Salima,Salima,Salima Solar 168ha Kanzimbe,city,,
+wba_prj_01HREAL236,Bong,Bong,Bong,Bong Mine Railway 85km,corridor,,
+wba_prj_01HREAL237,Erongo,Swakopmund,Husab,Husab Mine Namib Naukluft,city,,
+wba_prj_01HREAL238,Nouakchott,Nouakchott,Nouakchott,Nouakchott Port Phase1 Berth4-5,city,,
+wba_prj_01HREAL239,Dosso,Dosso,Dosso,Dosso-Bella RN7 83km,corridor,,
+wba_prj_01HREAL240,Sfax,Sfax,Thyna,Sfax Hospital Thyna 26000m2,city,,
+wba_prj_01HREAL241,Surt,Sirte,Sirte,Al Khalij Power Plant Sirte,city,,
+wba_prj_01HREAL242,Khartoum,Khartoum,Khartoum,Khartoum New International Airport 45km south,city,,
+wba_prj_01HREAL243,Northern,Bombali,Bumbuna,Bumbuna Hydro vicinity Kalpataru tower,city,,
+wba_prj_01HREAL244,Thaba-Tseka,Thaba-Tseka,Katse,Katse Dam Lesotho Highlands Water Project Phase I,city,,
+wba_prj_01HREAL245,Lubombo,Siphofaneni,Siphofaneni,MNWAP Phase 1B conveyance pipeline Mpakeni Dam,district,,
+wba_prj_01HREAL246,Central Equatoria,Juba,Juba,Juba-Rumbek Highway National Road No 1,corridor,,
+wba_prj_01HREAL247,Maritime,Lome,Lome,Kekeli power plant Lome Port zone,city,,
+wba_prj_01HREAL248,Lobata,Santo Amaro,Santo Amaro,Santo Amaro solar plant grid connected,city,,
+wba_prj_01HREAL249,Mudug,Galkacyo,Garacad,Garacad Seaport Indian Ocean coast,city,,
+wba_prj_01HREAL250,Mayo-Kebbi Est,Bongor,Bongor,Yagoua-Bongor Logone River bridge,city,,
+wba_prj_01HREAL251,Alaotra-Mangoro,Moramanga,Moramanga,Ambatovy nickel-cobalt mine and processing plant,district,,
+wba_prj_01HREAL252,Western,Rusizi,Ruzizi,Ruzizi III HPP on River Ruzizi DRC-Rwanda border,district,,
+wba_prj_01HREAL253,Singida,Singida,Singida,400kV Kenya-Tanzania interconnector Namanga to Singida,corridor,,
+wba_prj_01HREAL254,Inchiri,Akjoujt,Tasiast,Tasiast gold mine 24k expansion,district,,
+wba_prj_01HREAL255,Cabo Delgado,Palma,Afungi,Mozambique LNG onshore Afungi peninsula,district,,
+wba_prj_01HREAL256,Northern Cape,Kenhardt,Kenhardt,Kenhardt hybrid solar and battery plants,district,,
+wba_prj_01HREAL257,Santiago,Praia,Praia,Cabeolica wind farms Santiago Sao Vicente Sal Boa Vista,country,,
+wba_prj_01HREAL258,Lualaba,Kolwezi,Kolwezi,Sicomines copper-cobalt mine Dikuluwe Mashamba West,district,,
