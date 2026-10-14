@@ -33,3 +33,14 @@ wba_fin_01HREAL034,wba_prj_01HREAL265,Ganfeng Lithium,loan,150000000,USD,,Ganfen
 wba_fin_01HREAL035,wba_prj_01HREAL263,Globeleq|IPS (AKFED),equity,,,,Shareholder equity financing for Azito Phase 3 expansion
 wba_fin_01HREAL036,wba_prj_01HREAL270,World Bank (IDA),grant,350000000,USD,,IDA grant for Mpatamanga Hydropower Storage Project Malawi
 wba_fin_01HREAL037,wba_prj_01HREAL270,International Finance Corporation,loan,150000000,USD,,IFC loan up to USD150m for Mpatamanga Malawi
+wba_fin_01HREAL038,wba_prj_01HREAL278,Rio Tinto,equity,11600000000,USD,,"Simfer co-development capital, approx"
+wba_fin_01HREAL039,wba_prj_01HREAL279,Government of Libya,other,880000000,EUR,,"GECOL turnkey contract value, approx"
+wba_fin_01HREAL040,wba_prj_01HREAL280,Chevron,equity,690000000,USD,,"Aseng initial project investment, approx"
+wba_fin_01HREAL041,wba_prj_01HREAL282,African Development Bank,loan,18100000,EUR,,AfDB senior debt for Salimde solar
+wba_fin_01HREAL042,wba_prj_01HREAL282,Proparco,loan,15600000,EUR,,Proparco senior debt for Salimde solar
+wba_fin_01HREAL043,wba_prj_01HREAL282,Sustainable Energy Fund for Africa,grant,8000000,EUR,,SEFA concessional loan for Salimde solar
+wba_fin_01HREAL044,wba_prj_01HREAL283,African Development Bank,loan,13500000,EUR,,AfDB financing for Gassi and Lamadji
+wba_fin_01HREAL045,wba_prj_01HREAL283,Green Climate Fund,guarantee,8000000,EUR,,partial risk guarantee via ADF and GCF
+wba_fin_01HREAL046,wba_prj_01HREAL285,European Investment Bank,loan,65000000,EUR,,EIB financing for GERMP Jambur
+wba_fin_01HREAL047,wba_prj_01HREAL285,European Union,grant,40000000,EUR,,EU grant for GERMP Jambur
+wba_fin_01HREAL048,wba_prj_01HREAL285,World Bank,other,36000000,EUR,,World Bank financing for GERMP Jambur

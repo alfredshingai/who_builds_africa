@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.8] - 2026-10-14
+### Added
+- Data: 242 to 250 verified (+8). GIN Simandou iron ore mine, Simfer blocks 3 and 4 co-developed by Rio Tinto Simfer (53%), Winning Consortium Simandou (51%) and the Government of Guinea, ~US$11.6bn, conditions satisfied Jul 2024, operations began Nov 2025; LBY North Benghazi 1,320 MW simple cycle power plant turnkey by ENKA Turkey for GECOL, €880m contract signed 27 May 2024; GNQ Aseng gas Block I by Chevron ~US$690m, incentives agreement Sep 2025, feeding Punta Europa and EGLNG; LSO Polihali Transfer Tunnel, LHWP Phase II design and construction supervision by the MSKC JV (SMEC, Knight Piesold, Zutari, Hatch, FM Associates) appointed Dec 2017; TGO Salimde 42 MWac (61.85 MWp) solar by Meridiam and EDF under a 25-year BOOT with CEET, backed by AfDB, SEFA and Proparco; TCD Gassi and Lamadji 30 MWp hybrid solar with 8 MWh BESS developed by Qair, financial close and first disbursement Sep 2026, 20-year PPA with Tchadelec; SWZ Eswatini Rail Link 146 km Lothair to Sidvokodvo by Transnet Freight Rail and Eswatini Railways; GMB Jambur 23 MWp solar with 8 MWh BESS under GERMP funded by EIB, EU and World Bank, inaugurated Mar 2024. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 250 REAL PROJECTS, fetches /data/releases/v0.9.8/data.json
+- Releases: v0.9.8 snapshot (250 features)
+
 ## [v0.9.7] - 2026-10-13
 ### Added
 - Data: 236 to 242 verified (+6). BWA Jwaneng underground project, Debswana 50:50 joint venture of De Beers Group and the Government of Botswana, USD1bn exploration access development phase with Redpath Canada shaft sinking from May 2024; CMR Kribi-Lolabe 38.5km highway by CHEC China Eximbank USD385.8m preferential buyer credit opened Jul 2022; DJI Grand Bara solar power plant initial 25MW with 10MW battery storage by AMEA Power UAE; TUN Kairouan 120MWp solar PV Metbassta by AMEA Power USD86m IFC AfDB financed; BDI Dama and Siku run-of-river hydropower 9.8MW and 12.4MW by Tembo Power with ElectriFI IFC; ERI Colluli potash project Danakali 50pc stake sold to Sichuan Road and Bridge Group China. All page-read verbatim quotes, validate OK 0 errors.
