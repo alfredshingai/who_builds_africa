@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.6] - 2026-10-13
+### Added
+- Data: 230 to 236 verified (+6). DZA Gara Djebilet iron ore mine Tindouf developed by Chinese consortium CMH with Algerian state firm Feraal, work began Jul 2022; SOM Port of Bosaso expansion Puntland by DP World under a 30-year concession, 150m quay, agreement signed Dec 2022; COG Congo-Ocean Railway (CFCO) 510km Brazzaville-Pointe-Noire modernisation by Hunan Construction Investment Group China, four-year programme, broke ground Feb 2026; SLE Bumbuna II / Seli Hydropower 143MW IPP on the Seli River by Joule Africa UK and ESCO under a BOOT concession with a 25-year PPA; MWI Mpatamanga 350MW dual-dam hydropower on the Shire River PPP by EDF, Scatec and SN Power with IFC and the Government of Malawi, binding agreement Sep 2022, World Bank USD350m IDA grant; SSD Jur River (Clement Mboro) bridge 240m deck, 1,480m span at Wau by Tianyuan Company China, built since 2021, handed over May 2024. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 236 REAL PROJECTS, fetches /data/releases/v0.9.6/data.json
+- Releases: v0.9.6 snapshot (236 features)
+
 ## [v0.9.5] - 2026-10-13
 ### Added
 - Data: 223 to 230 verified (+7). AGO Lobito Corridor rail concession 1,290 km Benguela railway Lobito to Luau by Trafigura 49.5%, Mota-Engil Africa 49.5%, Vecturis 1%, 30-year, USD450m, signed Nov 2022; NER Niger-Benin crude oil pipeline 1,950 km Koulele to Seme by CNPC China, 110,000 b/d, first oil May 2024; NAM Rossing uranium mine, Rio Tinto sold its entire 68.62% stake to China National Uranium Corporation (CNUC) for up to USD106.5m, completed Jul 2019; BFA Essakane gold mine by IAMGOLD Canada 90% govt 10%, commercial production Jul 2010, largest private foreign investment in Burkina Faso; CIV Azito gas-to-power 430MW CCGT near Abidjan by Globeleq UK and IPS/AKFED with Hyundai Engineering & Construction Korea, USD615m, Phase 3 Jun 2015; GAB Grand Poubara 160MW hydropower on the Ogooue by Sinohydro PowerChina, China-funded, commissioned Aug 2013; MLI Goulamina lithium spodumene mine by Ganfeng Lithium China with Leo Lithium Australia, Mali govt 35%, first production Dec 2024. All page-read verbatim quotes, validate OK 0 errors.

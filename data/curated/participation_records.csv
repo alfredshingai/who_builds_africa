@@ -311,3 +311,20 @@ wba_par_01HREAL316,wba_prj_01HREAL264,wba_ctr_01HREAL243,wba_org_01HREAL329,spon
 wba_par_01HREAL317,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL414,developer,,,,Ganfeng Lithium developer operator Goulamina
 wba_par_01HREAL318,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL415,sponsor,,wba_date_01HREAL494,,Leo Lithium former JV partner Goulamina
 wba_par_01HREAL319,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL416,sponsor,,,35,Government of Mali 35pct shareholder Goulamina
+wba_par_01HREAL320,wba_prj_01HREAL266,wba_ctr_01HREAL245,wba_org_01HREAL418,sponsor,,,,Feraal Algeria state partner Gara Djebilet iron mine
+wba_par_01HREAL321,wba_prj_01HREAL266,wba_ctr_01HREAL245,wba_org_01HREAL419,developer,,,,Chinese consortium CMH developer Gara Djebilet iron mine
+wba_par_01HREAL322,wba_prj_01HREAL266,wba_ctr_01HREAL245,wba_org_01HREAL111,consortium_member,,,,China International Water and Electric Corp consortium member Gara Djebilet
+wba_par_01HREAL323,wba_prj_01HREAL267,wba_ctr_01HREAL246,wba_org_01HREAL134,operator,,,,DP World operator Port of Bosaso concession
+wba_par_01HREAL324,wba_prj_01HREAL267,wba_ctr_01HREAL246,wba_org_01HREAL420,sponsor,,,,Government of Puntland sponsor Bosaso port concession
+wba_par_01HREAL325,wba_prj_01HREAL268,wba_ctr_01HREAL247,wba_org_01HREAL421,contractor,,,,Hunan Construction Investment Group contractor Congo-Ocean Railway
+wba_par_01HREAL326,wba_prj_01HREAL268,wba_ctr_01HREAL247,wba_org_01HREAL319,sponsor,,,,Government of the Republic of Congo sponsor Congo-Ocean Railway
+wba_par_01HREAL327,wba_prj_01HREAL269,wba_ctr_01HREAL248,wba_org_01HREAL423,developer,,,,Joule Africa developer Bumbuna II Seli hydropower
+wba_par_01HREAL328,wba_prj_01HREAL269,wba_ctr_01HREAL248,wba_org_01HREAL424,sponsor,,,,ESCO Sierra Leone JV partner Bumbuna II
+wba_par_01HREAL329,wba_prj_01HREAL269,wba_ctr_01HREAL248,wba_org_01HREAL425,operator,,,,Seli Hydropower Limited SPV owner operator Bumbuna II
+wba_par_01HREAL330,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL154,sponsor,,,27.5,EDF sponsor Mpatamanga 27.5pct
+wba_par_01HREAL331,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL164,sponsor,,,14,Scatec sponsor Mpatamanga 14pct
+wba_par_01HREAL332,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL405,sponsor,,,27.5,SN Power Norway sponsor Mpatamanga
+wba_par_01HREAL333,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL324,sponsor,,,30,Government of Malawi 30pct shareholder Mpatamanga
+wba_par_01HREAL334,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL426,financier,,,15,IFC financier co-developer 15pct Mpatamanga
+wba_par_01HREAL335,wba_prj_01HREAL271,wba_ctr_01HREAL250,wba_org_01HREAL427,contractor,,,,Tianyuan Company contractor Jur River bridge
+wba_par_01HREAL336,wba_prj_01HREAL271,wba_ctr_01HREAL250,wba_org_01HREAL428,sponsor,,,,Government of South Sudan sponsor Jur River bridge
