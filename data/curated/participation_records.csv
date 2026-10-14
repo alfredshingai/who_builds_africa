@@ -328,3 +328,21 @@ wba_par_01HREAL333,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL324,spon
 wba_par_01HREAL334,wba_prj_01HREAL270,wba_ctr_01HREAL249,wba_org_01HREAL426,financier,,,15,IFC financier co-developer 15pct Mpatamanga
 wba_par_01HREAL335,wba_prj_01HREAL271,wba_ctr_01HREAL250,wba_org_01HREAL427,contractor,,,,Tianyuan Company contractor Jur River bridge
 wba_par_01HREAL336,wba_prj_01HREAL271,wba_ctr_01HREAL250,wba_org_01HREAL428,sponsor,,,,Government of South Sudan sponsor Jur River bridge
+wba_par_01HREAL337,wba_prj_01HREAL272,wba_ctr_01HREAL251,wba_org_01HREAL429,sponsor,,,,Debswana owner Jwaneng underground project
+wba_par_01HREAL338,wba_prj_01HREAL272,wba_ctr_01HREAL251,wba_org_01HREAL430,sponsor,,,50,De Beers Group 50pc shareholder Debswana Jwaneng
+wba_par_01HREAL339,wba_prj_01HREAL272,wba_ctr_01HREAL251,wba_org_01HREAL431,sponsor,,,50,Government of Botswana 50pc shareholder Debswana Jwaneng
+wba_par_01HREAL340,wba_prj_01HREAL272,wba_ctr_01HREAL251,wba_org_01HREAL432,contractor,,,,Redpath Mining contractor Jwaneng underground shaft sinking
+wba_par_01HREAL341,wba_prj_01HREAL273,wba_ctr_01HREAL252,wba_org_01HREAL433,sponsor,,,,Government of Cameroon authority Kribi-Lolabe highway
+wba_par_01HREAL342,wba_prj_01HREAL273,wba_ctr_01HREAL252,wba_org_01HREAL152,contractor,,,,CHEC contractor Kribi-Lolabe highway
+wba_par_01HREAL343,wba_prj_01HREAL273,wba_ctr_01HREAL252,wba_org_01HREAL003,financier,,,,China Eximbank financier Kribi-Lolabe highway
+wba_par_01HREAL344,wba_prj_01HREAL274,wba_ctr_01HREAL253,wba_org_01HREAL349,developer,,,,AMEA Power developer Grand Bara solar Djibouti
+wba_par_01HREAL345,wba_prj_01HREAL274,wba_ctr_01HREAL253,wba_org_01HREAL320,sponsor,,,,Government of Djibouti sponsor Grand Bara solar
+wba_par_01HREAL346,wba_prj_01HREAL275,wba_ctr_01HREAL254,wba_org_01HREAL349,developer,,,,AMEA Power developer Kairouan solar Tunisia
+wba_par_01HREAL347,wba_prj_01HREAL275,wba_ctr_01HREAL254,wba_org_01HREAL441,operator,,,,STEG offtaker Kairouan solar PPA
+wba_par_01HREAL348,wba_prj_01HREAL275,wba_ctr_01HREAL254,wba_org_01HREAL426,financier,,,,IFC financier Kairouan solar
+wba_par_01HREAL349,wba_prj_01HREAL275,wba_ctr_01HREAL254,wba_org_01HREAL038,financier,,,,African Development Bank financier Kairouan solar
+wba_par_01HREAL350,wba_prj_01HREAL276,wba_ctr_01HREAL255,wba_org_01HREAL435,developer,,,,Tembo Power developer Dama and Siku hydropower Burundi
+wba_par_01HREAL351,wba_prj_01HREAL276,wba_ctr_01HREAL255,wba_org_01HREAL436,financier,,,,ElectriFI financier Dama and Siku hydropower
+wba_par_01HREAL352,wba_prj_01HREAL276,wba_ctr_01HREAL255,wba_org_01HREAL426,financier,,,,IFC senior debt Dama and Siku hydropower
+wba_par_01HREAL353,wba_prj_01HREAL277,,wba_org_01HREAL437,sponsor,,,50,Sichuan Road and Bridge Group owner 50pc Colluli potash
+wba_par_01HREAL354,wba_prj_01HREAL277,,wba_org_01HREAL438,sponsor,,,50,ENAMCO Eritrea partner Colluli potash

@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.7] - 2026-10-13
+### Added
+- Data: 236 to 242 verified (+6). BWA Jwaneng underground project, Debswana 50:50 joint venture of De Beers Group and the Government of Botswana, USD1bn exploration access development phase with Redpath Canada shaft sinking from May 2024; CMR Kribi-Lolabe 38.5km highway by CHEC China Eximbank USD385.8m preferential buyer credit opened Jul 2022; DJI Grand Bara solar power plant initial 25MW with 10MW battery storage by AMEA Power UAE; TUN Kairouan 120MWp solar PV Metbassta by AMEA Power USD86m IFC AfDB financed; BDI Dama and Siku run-of-river hydropower 9.8MW and 12.4MW by Tembo Power with ElectriFI IFC; ERI Colluli potash project Danakali 50pc stake sold to Sichuan Road and Bridge Group China. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 242 REAL PROJECTS, fetches /data/releases/v0.9.7/data.json
+- Releases: v0.9.7 snapshot (242 features)
+
 ## [v0.9.6] - 2026-10-13
 ### Added
 - Data: 230 to 236 verified (+6). DZA Gara Djebilet iron ore mine Tindouf developed by Chinese consortium CMH with Algerian state firm Feraal, work began Jul 2022; SOM Port of Bosaso expansion Puntland by DP World under a 30-year concession, 150m quay, agreement signed Dec 2022; COG Congo-Ocean Railway (CFCO) 510km Brazzaville-Pointe-Noire modernisation by Hunan Construction Investment Group China, four-year programme, broke ground Feb 2026; SLE Bumbuna II / Seli Hydropower 143MW IPP on the Seli River by Joule Africa UK and ESCO under a BOOT concession with a 25-year PPA; MWI Mpatamanga 350MW dual-dam hydropower on the Shire River PPP by EDF, Scatec and SN Power with IFC and the Government of Malawi, binding agreement Sep 2022, World Bank USD350m IDA grant; SSD Jur River (Clement Mboro) bridge 240m deck, 1,480m span at Wau by Tianyuan Company China, built since 2021, handed over May 2024. All page-read verbatim quotes, validate OK 0 errors.
