@@ -374,3 +374,23 @@ wba_par_01HREAL379,wba_prj_01HREAL290,wba_ctr_01HREAL268,wba_org_01HREAL467,cont
 wba_par_01HREAL380,wba_prj_01HREAL290,wba_ctr_01HREAL268,wba_org_01HREAL024,financier,,,,MOFCOM grant financier
 wba_par_01HREAL381,wba_prj_01HREAL291,wba_ctr_01HREAL269,wba_org_01HREAL468,developer,,,,Safebond consortium
 wba_par_01HREAL382,wba_prj_01HREAL291,wba_ctr_01HREAL269,wba_org_01HREAL469,sponsor,,,,Government of Sao Tome and Principe
+wba_par_01HREAL383,wba_prj_01HREAL292,wba_ctr_01HREAL270,wba_org_01HREAL470,developer,,,,"Ivanhoe Mines, indirect 39.6%"
+wba_par_01HREAL384,wba_prj_01HREAL292,wba_ctr_01HREAL270,wba_org_01HREAL471,developer,,,,"Zijin Mining, indirect 39.6%"
+wba_par_01HREAL385,wba_prj_01HREAL292,wba_ctr_01HREAL270,wba_org_01HREAL322,sponsor,,,,"DRC government, 20%"
+wba_par_01HREAL386,wba_prj_01HREAL293,wba_ctr_01HREAL271,wba_org_01HREAL234,developer,,,,"Globeleq, project operator"
+wba_par_01HREAL387,wba_prj_01HREAL293,wba_ctr_01HREAL271,wba_org_01HREAL472,sponsor,,,,"EDM, offtaker and 24% shareholder via MPI"
+wba_par_01HREAL388,wba_prj_01HREAL293,wba_ctr_01HREAL271,wba_org_01HREAL473,sponsor,,,,"Sasol, 15% shareholder"
+wba_par_01HREAL389,wba_prj_01HREAL293,wba_ctr_01HREAL271,wba_org_01HREAL474,developer,,,,"EleQtra, 15.2% shareholder via MPI"
+wba_par_01HREAL390,wba_prj_01HREAL293,wba_ctr_01HREAL271,wba_org_01HREAL426,financier,,,,IFC project finance
+wba_par_01HREAL391,wba_prj_01HREAL294,wba_ctr_01HREAL272,wba_org_01HREAL471,operator,,,,"Zijin Mining, 55%"
+wba_par_01HREAL392,wba_prj_01HREAL294,wba_ctr_01HREAL272,wba_org_01HREAL438,sponsor,,,,"ENAMCO, 45%"
+wba_par_01HREAL393,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL476,developer,,,,Hyphen Hydrogen Energy
+wba_par_01HREAL394,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL475,sponsor,,,,"ENERTRAG, controlling shareholder"
+wba_par_01HREAL395,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL038,financier,,,,African Development Bank / SEFA pre-investment loan
+wba_par_01HREAL396,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL479,contractor,,,,Groupement RMT GmbH - EES Clemessy
+wba_par_01HREAL397,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL477,financier,,,,Agence Francaise de Developpement
+wba_par_01HREAL398,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL478,financier,,,,European Union
+wba_par_01HREAL399,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL480,sponsor,,,,SBPE offtaker
+wba_par_01HREAL400,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL481,contractor,,,,Chongqing Overseas Construction Corporation
+wba_par_01HREAL401,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL482,financier,,,,Somaliland Development Fund
+wba_par_01HREAL402,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL483,manager,,,,MoTRD contracting authority

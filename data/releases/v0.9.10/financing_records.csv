@@ -1,0 +1,56 @@
+id,project_id,institution,instrument,amount,currency,share_percent,notes
+wba_fin_01HREAL001,wba_prj_01HREAL001,wba_org_01HREAL003,loan,997700000,USD,,"85% preferential buyer credit, 20yr"
+wba_fin_01HREAL002,wba_prj_01HREAL002,wba_org_01HREAL003,loan,319450000,USD,,20yr 5yr grace 2%
+wba_fin_01HREAL003,wba_prj_01HREAL003,wba_org_01HREAL003,loan,153000000,USD,,RMB1.045bn ~$153m concessional 20yr 7yr grace 2%
+wba_fin_01HREAL004,wba_prj_01HREAL004,wba_org_01HREAL003,loan,494000000,USD,,Exim + CDB facility
+wba_fin_01HREAL005,wba_prj_01HREAL005,wba_org_01HREAL003,loan,3230000000,USD,,90% two loans $1.63bn each
+wba_fin_01HREAL006,wba_prj_01HREAL007,wba_org_01HREAL003,loan,403750000,USD,,85% of $475m
+wba_fin_01HREAL007,wba_prj_01HREAL008,wba_org_01HREAL003,loan,4000000000,USD,,~$4bn segments
+wba_fin_01HREAL008,wba_prj_01HREAL010,wba_org_01HREAL024,grant,675860000,CNY,,RMB 675.8m grant
+wba_fin_01HREAL009,wba_prj_01HREAL011,wba_org_01HREAL003,loan,150000000,USD,,$150m Exim
+wba_fin_01HREAL010,wba_prj_01HREAL012,wba_org_01HREAL027,loan,94700000,USD,,$94.7m EDCF
+wba_fin_01HREAL011,wba_prj_01HREAL014,wba_org_01HREAL019,equity,,USD,,$246m CCECC via IPDC budget
+wba_fin_01HREAL012,wba_prj_01HREAL017,wba_org_01HREAL003,loan,98600000,USD,,$98.6m PBC
+wba_fin_01HREAL013,wba_prj_01HREAL019,wba_org_01HREAL040,loan,32000000,USD,,JICA Sh32bn ~ $300m
+wba_fin_01HREAL014,wba_prj_01HREAL027,wba_org_01HREAL003,loan,623500000,USD,,$293.5m + $330m
+wba_fin_01HREAL015,wba_prj_01HREAL029,wba_org_01HREAL003,loan,350000000,USD,,$350m PBC 2/3
+wba_fin_01HREAL016,wba_prj_01HREAL032,wba_org_01HREAL003,loan,71000000,USD,,$71m NetOne
+wba_fin_01HREAL017,wba_prj_01HREAL034,wba_org_01HREAL038,loan,,USD,,AfDB UA77.6m
+wba_fin_01HREAL018,wba_prj_01HREAL040,wba_org_01HREAL080,loan,3825000000,USD,,ICBC 85% $4.5bn *0.85
+wba_fin_01HREAL019,wba_prj_01HREAL042,wba_org_01HREAL038,loan,200000000,USD,,AfDB $200m Walvis
+wba_fin_01HREAL020,wba_prj_01HREAL050,wba_org_01HREAL097,loan,22500000,EUR,,AFD 22.5m
+wba_fin_01HREAL022,wba_prj_01HREAL053,wba_org_01HREAL103,other,,USD,,World Bank/USA/UK 25% loans
+wba_fin_01HREAL023,wba_prj_01HREAL061,wba_org_01HREAL118,other,10000000000,USD,,$10bn 99yr lease requested
+wba_fin_01HREAL024,wba_prj_01HREAL062,wba_org_01HREAL121,other,5600000000,USD,,$5.6bn EACOP
+wba_fin_01HREAL027,wba_prj_01HREAL080,wba_org_01HREAL107,other,56500000,CNY,,RMB56.5m grant
+wba_fin_01HREAL028,wba_prj_01HREAL246,wba_org_01HREAL003,loan,736533725,USD,,China Eximbank oil-for-roads loan Juba-Rumbek highway
+wba_fin_01HREAL029,wba_prj_01HREAL250,wba_org_01HREAL038,loan,74000000000,XAF,,AfDB and EU co-financing Logone Yagoua-Bongor bridge
+wba_fin_01HREAL030,wba_prj_01HREAL253,wba_org_01HREAL038,loan,309260000,USD,,AfDB and GoK financing Kenya-Tanzania 400kV interconnector
+wba_fin_01HREAL031,wba_prj_01HREAL258,wba_org_01HREAL003,loan,2130000000,USD,,China Eximbank buyers credit loan Sicomines copper-cobalt mine
+wba_fin_01HREAL032,wba_prj_01HREAL257,wba_org_01HREAL038,loan,15000000,EUR,,AfDB senior loan Cabeolica Phase I wind farms
+wba_fin_01HREAL033,wba_prj_01HREAL260,China National Petroleum Corporation,other,400000000,USD,,CNPC pre-financing to Niger state for share of exported oil Apr 2024
+wba_fin_01HREAL034,wba_prj_01HREAL265,Ganfeng Lithium,loan,150000000,USD,,Ganfeng prepayment up to USD150m to Lithium du Mali SA to finalise Goulamina
+wba_fin_01HREAL035,wba_prj_01HREAL263,Globeleq|IPS (AKFED),equity,,,,Shareholder equity financing for Azito Phase 3 expansion
+wba_fin_01HREAL036,wba_prj_01HREAL270,World Bank (IDA),grant,350000000,USD,,IDA grant for Mpatamanga Hydropower Storage Project Malawi
+wba_fin_01HREAL037,wba_prj_01HREAL270,International Finance Corporation,loan,150000000,USD,,IFC loan up to USD150m for Mpatamanga Malawi
+wba_fin_01HREAL038,wba_prj_01HREAL278,Rio Tinto,equity,11600000000,USD,,"Simfer co-development capital, approx"
+wba_fin_01HREAL039,wba_prj_01HREAL279,Government of Libya,other,880000000,EUR,,"GECOL turnkey contract value, approx"
+wba_fin_01HREAL040,wba_prj_01HREAL280,Chevron,equity,690000000,USD,,"Aseng initial project investment, approx"
+wba_fin_01HREAL041,wba_prj_01HREAL282,African Development Bank,loan,18100000,EUR,,AfDB senior debt for Salimde solar
+wba_fin_01HREAL042,wba_prj_01HREAL282,Proparco,loan,15600000,EUR,,Proparco senior debt for Salimde solar
+wba_fin_01HREAL043,wba_prj_01HREAL282,Sustainable Energy Fund for Africa,grant,8000000,EUR,,SEFA concessional loan for Salimde solar
+wba_fin_01HREAL044,wba_prj_01HREAL283,African Development Bank,loan,13500000,EUR,,AfDB financing for Gassi and Lamadji
+wba_fin_01HREAL045,wba_prj_01HREAL283,Green Climate Fund,guarantee,8000000,EUR,,partial risk guarantee via ADF and GCF
+wba_fin_01HREAL046,wba_prj_01HREAL285,European Investment Bank,loan,65000000,EUR,,EIB financing for GERMP Jambur
+wba_fin_01HREAL047,wba_prj_01HREAL285,European Union,grant,40000000,EUR,,EU grant for GERMP Jambur
+wba_fin_01HREAL048,wba_prj_01HREAL285,World Bank,other,36000000,EUR,,World Bank financing for GERMP Jambur
+wba_fin_01HREAL049,wba_prj_01HREAL286,wba_org_01HREAL458,grant,28000000,USD,,ADFD grant for Port Victoria Wind Farm
+wba_fin_01HREAL050,wba_prj_01HREAL287,wba_org_01HREAL462,other,57000000,USD,,Foreign-currency component of Al-Khair (2) oil berth
+wba_fin_01HREAL051,wba_prj_01HREAL288,wba_org_01HREAL038,loan,48995608,USD,,AfDB financing for MRU Phase III Liberia road
+wba_fin_01HREAL052,wba_prj_01HREAL289,wba_org_01HREAL024,grant,26000000,USD,,RMB159m Chinese grant for Alto Bandim Phase 2
+wba_fin_01HREAL053,wba_prj_01HREAL291,wba_org_01HREAL468,equity,500000000,USD,,Planned Safebond consortium investment in Fernao Dias deepwater port
+wba_fin_01HREAL054,wba_prj_01HREAL292,wba_org_01HREAL470,equity,,,,Ivanhoe Mines 39.6% interest in the Kamoa-Kakula joint venture
+wba_fin_01HREAL055,wba_prj_01HREAL293,wba_org_01HREAL426,loan,,,,IFC project finance for the Temane CTT power plant
+wba_fin_01HREAL056,wba_prj_01HREAL295,wba_org_01HREAL038,loan,10000000,USD,,AfDB / SEFA pre-investment loan for the Hyphen green hydrogen project
+wba_fin_01HREAL057,wba_prj_01HREAL296,wba_org_01HREAL477,loan,25800000,USD,,AFD and EU financing for the Forsun solar plant
+wba_fin_01HREAL058,wba_prj_01HREAL297,wba_org_01HREAL482,grant,8000000,USD,,SDF grant for the Burao-Berbera road rehabilitation
