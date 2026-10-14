@@ -292,3 +292,22 @@ wba_par_01HREAL297,wba_prj_01HREAL257,wba_ctr_01HREAL237,wba_org_01HREAL408,fina
 wba_par_01HREAL298,wba_prj_01HREAL258,wba_ctr_01HREAL238,wba_org_01HREAL001,contractor,,,,Sinohydro contractor Sicomines JV
 wba_par_01HREAL299,wba_prj_01HREAL258,wba_ctr_01HREAL238,wba_org_01HREAL014,contractor,,,,China Railway Group CREC contractor Sicomines JV
 wba_par_01HREAL300,wba_prj_01HREAL258,wba_ctr_01HREAL238,wba_org_01HREAL003,financier,,,,China Eximbank financier Sicomines
+wba_par_01HREAL301,wba_prj_01HREAL259,wba_ctr_01HREAL239,wba_org_01HREAL124,operator,,,,Lobito Atlantic Railway consortium operates Lobito Corridor rail concession
+wba_par_01HREAL302,wba_prj_01HREAL259,wba_ctr_01HREAL239,wba_org_01HREAL409,consortium_member,,,49.5,Trafigura 49.5pct consortium member Lobito Corridor
+wba_par_01HREAL303,wba_prj_01HREAL259,wba_ctr_01HREAL239,wba_org_01HREAL050,consortium_member,,,49.5,Mota-Engil Africa 49.5pct consortium member Lobito Corridor
+wba_par_01HREAL304,wba_prj_01HREAL259,wba_ctr_01HREAL239,wba_org_01HREAL410,consortium_member,,,1,Vecturis 1pct consortium member Lobito Corridor
+wba_par_01HREAL305,wba_prj_01HREAL260,wba_ctr_01HREAL240,wba_org_01HREAL143,developer,,,,CNPC developer operator Niger-Benin crude oil pipeline
+wba_par_01HREAL306,wba_prj_01HREAL260,wba_ctr_01HREAL240,wba_org_01HREAL390,sponsor,,,,Government of Niger sponsor Niger-Benin pipeline
+wba_par_01HREAL307,wba_prj_01HREAL261,,wba_org_01HREAL411,operator,wba_date_01HREAL486,,,China National Uranium Corporation owner operator Rossing mine after 2019
+wba_par_01HREAL308,wba_prj_01HREAL261,,wba_org_01HREAL379,sponsor,,wba_date_01HREAL486,,Rio Tinto former 68.62pct owner of Rossing sold to CNUC 2019
+wba_par_01HREAL309,wba_prj_01HREAL262,wba_ctr_01HREAL241,wba_org_01HREAL412,developer,,,,IAMGOLD developer operator Essakane gold mine
+wba_par_01HREAL310,wba_prj_01HREAL262,wba_ctr_01HREAL241,wba_org_01HREAL327,sponsor,,,10,Government of Burkina Faso 10pct shareholder Essakane
+wba_par_01HREAL311,wba_prj_01HREAL263,wba_ctr_01HREAL242,wba_org_01HREAL234,sponsor,,,,Globeleq majority owner Azito power plant
+wba_par_01HREAL312,wba_prj_01HREAL263,wba_ctr_01HREAL242,wba_org_01HREAL234,operator,,,,Globeleq operator Azito power plant
+wba_par_01HREAL313,wba_prj_01HREAL263,wba_ctr_01HREAL242,wba_org_01HREAL417,sponsor,,,,Government of Cote d Ivoire concession authority Azito
+wba_par_01HREAL314,wba_prj_01HREAL263,wba_ctr_01HREAL242,wba_org_01HREAL413,contractor,,,,Hyundai Engineering and Construction EPC Azito expansion
+wba_par_01HREAL315,wba_prj_01HREAL264,wba_ctr_01HREAL243,wba_org_01HREAL001,contractor,,,,Sinohydro Corporation EPC Grand Poubara hydropower
+wba_par_01HREAL316,wba_prj_01HREAL264,wba_ctr_01HREAL243,wba_org_01HREAL329,sponsor,,,,Government of Gabon owner Grand Poubara
+wba_par_01HREAL317,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL414,developer,,,,Ganfeng Lithium developer operator Goulamina
+wba_par_01HREAL318,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL415,sponsor,,wba_date_01HREAL494,,Leo Lithium former JV partner Goulamina
+wba_par_01HREAL319,wba_prj_01HREAL265,wba_ctr_01HREAL244,wba_org_01HREAL416,sponsor,,,35,Government of Mali 35pct shareholder Goulamina
