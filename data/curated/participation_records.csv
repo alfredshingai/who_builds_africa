@@ -394,3 +394,27 @@ wba_par_01HREAL399,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL480,spon
 wba_par_01HREAL400,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL481,contractor,,,,Chongqing Overseas Construction Corporation
 wba_par_01HREAL401,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL482,financier,,,,Somaliland Development Fund
 wba_par_01HREAL402,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL483,manager,,,,MoTRD contracting authority
+wba_par_01HREAL403,wba_prj_01HREAL298,wba_ctr_01HREAL276,wba_org_01HREAL484,developer,,,,"ARISE IIP designs, finances, builds and manages PIA"
+wba_par_01HREAL404,wba_prj_01HREAL298,wba_ctr_01HREAL276,wba_org_01HREAL485,financier,,,,"Africa Finance Corporation, ARISE IIP JV partner"
+wba_par_01HREAL405,wba_prj_01HREAL298,wba_ctr_01HREAL276,wba_org_01HREAL328,sponsor,,,,"Olam International, ARISE IIP JV partner"
+wba_par_01HREAL406,wba_prj_01HREAL298,wba_ctr_01HREAL276,wba_org_01HREAL310,sponsor,,,,Government of Togo
+wba_par_01HREAL407,wba_prj_01HREAL299,wba_ctr_01HREAL277,wba_org_01HREAL001,contractor,,,,Sinohydro Corporation (PowerChina)
+wba_par_01HREAL408,wba_prj_01HREAL299,wba_ctr_01HREAL277,wba_org_01HREAL003,financier,,,,"Export-Import Bank of China, 85%"
+wba_par_01HREAL409,wba_prj_01HREAL299,wba_ctr_01HREAL277,wba_org_01HREAL417,sponsor,,,,"Government of Cote d'Ivoire, 15%"
+wba_par_01HREAL410,wba_prj_01HREAL300,wba_ctr_01HREAL278,wba_org_01HREAL486,operator,,,,"B2Gold, 80% via Fekola SA"
+wba_par_01HREAL411,wba_prj_01HREAL300,wba_ctr_01HREAL278,wba_org_01HREAL416,sponsor,,,,"State of Mali, 20% via Fekola SA"
+wba_par_01HREAL412,wba_prj_01HREAL300,wba_ctr_01HREAL278,wba_org_01HREAL487,consultant,,,,Lycopodium engineering firm
+wba_par_01HREAL413,wba_prj_01HREAL301,wba_ctr_01HREAL279,wba_org_01HREAL488,developer,,,,"First Quantum Minerals, 100% owner"
+wba_par_01HREAL414,wba_prj_01HREAL301,wba_ctr_01HREAL279,wba_org_01HREAL489,operator,,,,"Kalumbila Minerals, wholly-owned FQM subsidiary"
+wba_par_01HREAL415,wba_prj_01HREAL301,wba_ctr_01HREAL279,wba_org_01HREAL045,supplier,,,,ZESCO supplies mine power via 330kV lines
+wba_par_01HREAL416,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL111,contractor,,,,"CWE, Lom Pangar regulating dam"
+wba_par_01HREAL417,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL490,contractor,,,,"CAMCE, 30MW powerhouse"
+wba_par_01HREAL418,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL493,consultant,,,,Coyne and Bellier/ISL supervision engineer
+wba_par_01HREAL419,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL452,financier,,,,World Bank dam financier
+wba_par_01HREAL420,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL097,financier,,,,AFD dam financier
+wba_par_01HREAL421,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL038,financier,,,,AfDB dam and powerhouse financier
+wba_par_01HREAL422,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL408,financier,,,,EIB dam financier
+wba_par_01HREAL423,wba_prj_01HREAL302,wba_ctr_01HREAL280,wba_org_01HREAL433,sponsor,,,,"Government of Cameroon, owner"
+wba_par_01HREAL424,wba_prj_01HREAL303,wba_ctr_01HREAL281,wba_org_01HREAL222,developer,,,,"ContourGlobal, owner via KivuWatt Ltd"
+wba_par_01HREAL425,wba_prj_01HREAL303,wba_ctr_01HREAL281,wba_org_01HREAL492,contractor,,,,Wartsila full EPC delivery
+wba_par_01HREAL426,wba_prj_01HREAL303,wba_ctr_01HREAL281,wba_org_01HREAL491,sponsor,,,,"Government of Rwanda, concession authority"

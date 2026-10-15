@@ -429,3 +429,13 @@ wba_org_01HREAL480,Societe Beninoise de Production d'Electricite (SBPE),state_ag
 wba_org_01HREAL481,Chongqing Overseas Construction Corporation (COCC),soe,"China, contractor Burao-Berbera road rehabilitation"
 wba_org_01HREAL482,Somaliland Development Fund (SDF),other,"donor fund (UK, Denmark, Netherlands, Norway), financier Burao-Berbera road"
 wba_org_01HREAL483,Ministry of Transport and Roads Development (Somaliland),government_agency,"Somaliland, contracting authority Burao-Berbera road"
+wba_org_01HREAL484,ARISE IIP,private,"developer of the Adetikope Industrial Platform (PIA), Togo; JV of AFC and Olam"
+wba_org_01HREAL485,Africa Finance Corporation,dev_bank,multilateral financier; JV partner in ARISE IIP
+wba_org_01HREAL486,B2Gold Corp,private,"Canada, developer and operator of the Fekola gold mine (80%)"
+wba_org_01HREAL487,Lycopodium,private,"Australia, engineering firm for the Fekola gold mine"
+wba_org_01HREAL488,First Quantum Minerals,private,"Canada, owner and developer of the Sentinel copper mine"
+wba_org_01HREAL489,Kalumbila Minerals,private,"Zambia, operator of the Sentinel copper mine, wholly-owned FQM subsidiary"
+wba_org_01HREAL490,China CAMC Engineering (CAMCE),soe,"China, contractor of the Lom Pangar 30MW powerhouse"
+wba_org_01HREAL491,Government of Rwanda,state_agency,"Rwanda, concession authority for the KivuWatt project"
+wba_org_01HREAL492,Wartsila,private,"Finland, EPC contractor for the KivuWatt methane power plant"
+wba_org_01HREAL493,Coyne and Bellier,private,"France, supervision engineer for the Lom Pangar dam"
