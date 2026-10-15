@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.13] - 2026-10-15
+### Added
+- Data: 274 to 280 verified (+6). ZAF Ingula Pumped Storage Scheme, 1,332 MW (4x333 MW) by CMI-JV civil works (R15bn) with Voith EUR 140m electro-mechanical equipment for owner-operator Eskom, all units commercial 2016-2017; GAB Libreville airport bypass road, 6 km 2x2/2x3 lanes built by AFCONS of India, commissioned 29 Aug 2024; GMB Bertil Harding Highway phases 1-2, 22 km dual carriageway by Arezki Group, US$96m from IsDB/Kuwait Fund/BADEA, commissioned 22 Feb 2025 with US$40m IsDB Phase 3 loan; CAF Danzi Solar Park, 25 MWp with storage by Shanxi Construction under World Bank IDA grant, 37bn CFA, inaugurated 17 Nov 2023; DJI Red Sea Power Ghoubet wind farm, 60 MW with 17 Siemens 3.4 MW turbines, AFC 51% with FMO/CIO 19.5% each, CFM US$25m of US$122m, inaugurated Sep 2023; SYC Ile de Romainville Solar Park, 5 MWp with 3.3 MWh storage by Masdar with PUC, ADFD AED 31.2m allocation, inaugurated 12 Dec 2022. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 280 REAL PROJECTS, fetches /data/releases/v0.9.13/data.json
+- Releases: v0.9.13 snapshot (280 features)
+
 ## [v0.9.12] - 2026-10-15
 ### Added
 - Data: 268 to 274 verified (+6). NER SORAZ Zinder oil refinery, 20,000 b/d, CNPC 60% and Niger 40%, US$1bn build under the 2008 Agadem agreement, commissioned Dec 2011; BFA Perkoa zinc mine, Trevali (Canada) 90% via Nantou Mining after buying out Glencore (US$400m deal with Rosh Pinah), submerged 16 Apr 2022 and now in care-and-maintenance with judicial liquidation; AGO Cabinda oil refinery, Phase 1 30,000 b/d by Gemcorp (UK) 90% with Sonangol 10% carried, more than US$470m, supplying fuel from 2026 with 60,000 b/d Phase 2 at ~US$700m; MDG Antananarivo-Toamasina expressway (AR1), 250 km toll highway, Phase 1 80 km by Samcrete (Egypt) with 50 km earthworks done Jun 2025 and first 8 km inaugurated; MWI Golomoti solar 20 MWac plus 5 MW/10 MWh battery storage at Dedza by JCM Power with InfraCo Africa 25% equity and GBP 2.1m UK batteries grant, inaugurated Jun 2022; DZA Western Mining Railway, 950 km Bechar-Tindouf-Gara Djebilet heavy-haul line, 575 km built by CRCC with Cosider in 24 months, inaugurated 1 Feb 2026. All page-read verbatim quotes, validate OK 0 errors.

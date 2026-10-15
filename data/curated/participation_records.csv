@@ -434,3 +434,24 @@ wba_par_01HREAL439,wba_prj_01HREAL308,wba_ctr_01HREAL286,wba_org_01HREAL324,spon
 wba_par_01HREAL440,wba_prj_01HREAL309,wba_ctr_01HREAL287,wba_org_01HREAL356,contractor,,,,CRCC 575 km section
 wba_par_01HREAL441,wba_prj_01HREAL309,wba_ctr_01HREAL287,wba_org_01HREAL498,contractor,,,,Cosider Travaux Publics
 wba_par_01HREAL442,wba_prj_01HREAL309,wba_ctr_01HREAL287,wba_org_01HREAL499,sponsor,,,,Government of Algeria
+wba_par_01HREAL443,wba_prj_01HREAL310,wba_ctr_01HREAL288,wba_org_01HREAL501,operator,,,,Eskom owner-operator
+wba_par_01HREAL444,wba_prj_01HREAL310,wba_ctr_01HREAL288,wba_org_01HREAL502,contractor,,,,CMI-JV main civil contractor
+wba_par_01HREAL445,wba_prj_01HREAL310,wba_ctr_01HREAL288,wba_org_01HREAL269,supplier,,,,Voith electro-mechanical equipment
+wba_par_01HREAL446,wba_prj_01HREAL311,wba_ctr_01HREAL289,wba_org_01HREAL503,contractor,,,,AFCONS India
+wba_par_01HREAL447,wba_prj_01HREAL311,wba_ctr_01HREAL289,wba_org_01HREAL329,sponsor,,,,Government of Gabon
+wba_par_01HREAL448,wba_prj_01HREAL312,wba_ctr_01HREAL290,wba_org_01HREAL504,contractor,,,,Arezki Group phases 1-3
+wba_par_01HREAL449,wba_prj_01HREAL312,wba_ctr_01HREAL290,wba_org_01HREAL505,financier,,,,Islamic Development Bank
+wba_par_01HREAL450,wba_prj_01HREAL312,wba_ctr_01HREAL290,wba_org_01HREAL506,financier,,,,Kuwait Fund for Economic Development
+wba_par_01HREAL451,wba_prj_01HREAL312,wba_ctr_01HREAL290,wba_org_01HREAL507,financier,,,,BADEA
+wba_par_01HREAL452,wba_prj_01HREAL312,wba_ctr_01HREAL290,wba_org_01HREAL508,sponsor,,,,Government of Gambia
+wba_par_01HREAL453,wba_prj_01HREAL313,wba_ctr_01HREAL291,wba_org_01HREAL360,contractor,,,,Shanxi Construction
+wba_par_01HREAL454,wba_prj_01HREAL313,wba_ctr_01HREAL291,wba_org_01HREAL452,financier,,,,World Bank IDA grant
+wba_par_01HREAL455,wba_prj_01HREAL313,wba_ctr_01HREAL291,wba_org_01HREAL357,sponsor,,,,Government of Central African Republic
+wba_par_01HREAL456,wba_prj_01HREAL314,wba_ctr_01HREAL292,wba_org_01HREAL510,developer,,,,Climate Fund Managers via CIO
+wba_par_01HREAL457,wba_prj_01HREAL314,wba_ctr_01HREAL292,wba_org_01HREAL485,sponsor,,,,Africa Finance Corporation 51%
+wba_par_01HREAL458,wba_prj_01HREAL314,wba_ctr_01HREAL292,wba_org_01HREAL511,financier,,,,FMO 19.5% equity
+wba_par_01HREAL459,wba_prj_01HREAL314,wba_ctr_01HREAL292,wba_org_01HREAL228,supplier,,,,Siemens Gamesa 17 turbines
+wba_par_01HREAL460,wba_prj_01HREAL315,wba_ctr_01HREAL293,wba_org_01HREAL236,developer,,,,Masdar with PUC
+wba_par_01HREAL461,wba_prj_01HREAL315,wba_ctr_01HREAL293,wba_org_01HREAL458,financier,,,,ADFD concessional loan
+wba_par_01HREAL462,wba_prj_01HREAL315,wba_ctr_01HREAL293,wba_org_01HREAL460,sponsor,,,,PUC Seychelles equity and offtake
+wba_par_01HREAL463,wba_prj_01HREAL315,wba_ctr_01HREAL293,wba_org_01HREAL512,contractor,,,,CES contractor
