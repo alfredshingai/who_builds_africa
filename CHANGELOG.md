@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.14] - 2026-10-15
+### Added
+- Data: 280 to 286 verified (+6). LSO Ha Mpiti-Sehlabathebe road, 91 km gravel-to-asphalt upgrade by Qinjian Group (CNQC) with China Exim concessional loan (RMB 700m) and Government of Lesotho, construction Jan 2019 to March 2024; BWA Mmamashia water treatment plant expansion by Khato Civils (South Africa) in JV with South Zambezi, combined output 284 ML/d, P1.3bn, commissioned 22 Oct 2024; COG Maya-Maya airport terminal modules 1-2 by Weitec (China), 44,500 m2, over 86bn FCFA with China Exim loan, second module inaugurated 5 Feb 2014; TCD Noor Chad 50 MW solar with 5 MWh BESS at Djermaya by Global South Utilities (Abu Dhabi), 20-year operating contract, inaugurated 27 Sep 2025; SWZ King Mswati III International Airport built by Stefanutti Stocks (South Africa) with Inyatsi JV, 3.6 km runway, about US$150m, opened 7 Mar 2014; MUS Arsenal 14 MWp solar by GreenYellow (France) after CEB 2021 tender, 22.5 GWh/yr, MUR 350m MCB debt, inaugurated 8 Feb 2024. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 286 REAL PROJECTS, fetches /data/releases/v0.9.14/data.json
+- Releases: v0.9.14 snapshot (286 features)
+
 ## [v0.9.13] - 2026-10-15
 ### Added
 - Data: 274 to 280 verified (+6). ZAF Ingula Pumped Storage Scheme, 1,332 MW (4x333 MW) by CMI-JV civil works (R15bn) with Voith EUR 140m electro-mechanical equipment for owner-operator Eskom, all units commercial 2016-2017; GAB Libreville airport bypass road, 6 km 2x2/2x3 lanes built by AFCONS of India, commissioned 29 Aug 2024; GMB Bertil Harding Highway phases 1-2, 22 km dual carriageway by Arezki Group, US$96m from IsDB/Kuwait Fund/BADEA, commissioned 22 Feb 2025 with US$40m IsDB Phase 3 loan; CAF Danzi Solar Park, 25 MWp with storage by Shanxi Construction under World Bank IDA grant, 37bn CFA, inaugurated 17 Nov 2023; DJI Red Sea Power Ghoubet wind farm, 60 MW with 17 Siemens 3.4 MW turbines, AFC 51% with FMO/CIO 19.5% each, CFM US$25m of US$122m, inaugurated Sep 2023; SYC Ile de Romainville Solar Park, 5 MWp with 3.3 MWh storage by Masdar with PUC, ADFD AED 31.2m allocation, inaugurated 12 Dec 2022. All page-read verbatim quotes, validate OK 0 errors.

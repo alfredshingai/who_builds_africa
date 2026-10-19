@@ -61,3 +61,6 @@ wba_fin_01HREAL062,wba_prj_01HREAL306,wba_org_01HREAL243,equity,470000000,USD,,G
 wba_fin_01HREAL063,wba_prj_01HREAL312,wba_org_01HREAL505,loan,40000000,USD,,IsDB US$40m loan for Bertil Harding Phase 3
 wba_fin_01HREAL064,wba_prj_01HREAL315,wba_org_01HREAL458,loan,31200000,AED,,ADFD AED31.2m allocation for Romainville solar
 wba_fin_01HREAL065,wba_prj_01HREAL314,wba_org_01HREAL510,equity,25000000,USD,,CFM US$25m via Climate Investor One in Red Sea Power
+wba_fin_01HREAL066,wba_prj_01HREAL316,wba_org_01HREAL003,loan,700000000,CNY,,"RMB 700m government concessional loan, 20-year maturity, 2% interest"
+wba_fin_01HREAL067,wba_prj_01HREAL318,wba_org_01HREAL003,loan,180000000,USD,,"China Exim low-interest loan, about US$180m"
+wba_fin_01HREAL068,wba_prj_01HREAL321,Mauritius Commercial Bank (MCB),loan,350000000,MUR,,"Project debt facility, about EUR 7.2m"
