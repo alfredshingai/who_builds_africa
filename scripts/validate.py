@@ -3,8 +3,9 @@
 Validate curated (+ optionally synthetic) CSVs against vocabularies and rules.
 Checks: required fields, ISO codes, date order, coords in Africa, missing source link,
 enum validity, value without currency, location without precision, duplicate detection.
+Also runs scripts/check_duplicates.py for duplicate and referential-integrity checks.
 """
-import argparse, csv, pathlib, sys, re
+import argparse, csv, pathlib, sys, re, subprocess
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -39,6 +40,13 @@ def main():
     errors = []
     warns = []
 
+    if args.all:
+        check = subprocess.run(
+            [sys.executable, str(ROOT / "scripts" / "check_duplicates.py"), "--in", str(CURATED)]
+        )
+        if check.returncode:
+            errors.append("curated duplicate/integrity check failed")
+
     # choose dirs
     dirs = []
     if args.all or not args.samples:
@@ -52,6 +60,10 @@ def main():
     valid_location = set(vocab["location_precision"])
     valid_strength = set(vocab["evidence_strength"])
     valid_precision = set(vocab["date_precision"])
+    valid_project_status = set(vocab["project_status"])
+    valid_contract_status = set(vocab["contract_status"])
+    valid_org_type = set(vocab["organization_types"])
+    valid_event_type = set(vocab["event_types"])
 
     for label, base in dirs:
         # projects
@@ -82,6 +94,8 @@ def main():
                 except: errors.append(f"{label}/projects.csv:{i} invalid lat/lon")
             if not r.get("location_precision"):
                 errors.append(f"{label}/projects.csv:{i} missing location_precision")
+            if r.get("status") and r["status"] not in valid_project_status:
+                errors.append(f"{label}/projects.csv:{i} invalid status {r['status']}")
         # participation
         _, pars = load_csv(base / "participation_records.csv")
         for i, r in enumerate(pars, 2):
@@ -98,6 +112,8 @@ def main():
             if r.get("currency") and not re.match(r"^[A-Z]{3}$", r["currency"]):
                 # allow empty
                 if r["currency"].strip(): errors.append(f"{label}/contracts.csv:{i} invalid currency {r['currency']}")
+            if r.get("status") and r["status"] not in valid_contract_status:
+                errors.append(f"{label}/contracts.csv:{i} invalid status {r['status']}")
         # claims
         _, claims = load_csv(base / "claims.csv")
         for i, r in enumerate(claims, 2):
@@ -111,6 +127,18 @@ def main():
         for i, r in enumerate(dates, 2):
             if r.get("precision") and r["precision"] not in valid_precision:
                 errors.append(f"{label}/dates.csv:{i} invalid precision {r['precision']}")
+
+        # organizations
+        _, orgs = load_csv(base / "organizations.csv")
+        for i, r in enumerate(orgs, 2):
+            if r.get("org_type") and r["org_type"] not in valid_org_type:
+                errors.append(f"{label}/organizations.csv:{i} invalid org_type {r['org_type']}")
+
+        # events
+        _, events = load_csv(base / "events.csv")
+        for i, r in enumerate(events, 2):
+            if r.get("event_type") and r["event_type"] not in valid_event_type:
+                errors.append(f"{label}/events.csv:{i} invalid event_type {r['event_type']}")
 
     # duplicate checks (within synthetic + curated individually)
     for label, base in dirs:

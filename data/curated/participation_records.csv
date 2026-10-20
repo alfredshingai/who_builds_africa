@@ -92,7 +92,7 @@ wba_par_01HREAL094,wba_prj_01HREAL053,wba_ctr_01HREAL050,wba_org_01HREAL103,cont
 wba_par_01HREAL096,wba_prj_01HREAL055,wba_ctr_01HREAL051,wba_org_01HREAL107,designer,wba_date_01HREAL093,wba_date_01HREAL094,,Hydroproject USSR Aswan
 wba_par_01HREAL097,wba_prj_01HREAL056,wba_ctr_01HREAL068,wba_org_01HREAL088,contractor,wba_date_01HREAL095,wba_date_01HREAL096,,Dong Ah GMR
 wba_par_01HREAL103,wba_prj_01HREAL061,wba_ctr_01HREAL070,wba_org_01HREAL118,developer,wba_date_01HREAL107,wba_date_01HREAL108,,China Merchants Bagamoyo
-wba_par_01HREAL150,wba_prj_01HREAL104,wba_ctr_01HREAL078,wba_org_01HREAL153,contractor,wba_date_01HREAL185,,,Sinohydro
+wba_par_01HREAL150,wba_prj_01HREAL104,wba_ctr_01HREAL078,wba_org_01HREAL001,contractor,wba_date_01HREAL185,,,Sinohydro
 wba_par_01HREAL104,wba_prj_01HREAL061,,wba_org_01HREAL119,sponsor,wba_date_01HREAL107,,,Oman GRF
 wba_par_01HREAL151,wba_prj_01HREAL105,wba_ctr_01HREAL079,wba_org_01HREAL154,contractor,wba_date_01HREAL186,,,EDF
 wba_par_01HREAL105,wba_prj_01HREAL062,wba_ctr_01HREAL071,wba_org_01HREAL121,developer,wba_date_01HREAL109,,,TotalEnergies EACOP 62%
@@ -108,7 +108,7 @@ wba_par_01HREAL156,wba_prj_01HREAL115,wba_ctr_01HREAL089,wba_org_01HREAL164,cont
 wba_par_01HREAL126,wba_prj_01HREAL078,wba_ctr_01HREAL076,wba_org_01HREAL103,contractor,wba_date_01HREAL142,,,CGGC Boali
 wba_par_01HREAL157,wba_prj_01HREAL127,wba_ctr_01HREAL101,wba_org_01HREAL160,contractor,wba_date_01HREAL208,,,CCECC
 wba_par_01HREAL128,wba_prj_01HREAL080,wba_ctr_01HREAL078,wba_org_01HREAL107,contractor,wba_date_01HREAL145,,,China Jiangsu Bambao
-wba_par_01HREAL158,wba_prj_01HREAL129,wba_ctr_01HREAL103,wba_org_01HREAL178,contractor,wba_date_01HREAL210,,,Summa Insaat
+wba_par_01HREAL158,wba_prj_01HREAL129,wba_ctr_01HREAL103,wba_org_01HREAL201,contractor,wba_date_01HREAL210,,,Summa Insaat
 wba_par_01HREAL129,wba_prj_01HREAL081,wba_ctr_01HREAL079,wba_org_01HREAL088,contractor,wba_date_01HREAL148,,,CSCEC Pointe-Noire 535km
 wba_par_01HREAL159,wba_prj_01HREAL130,wba_ctr_01HREAL104,wba_org_01HREAL121,contractor,wba_date_01HREAL211,,,Eiffage
 wba_par_01HREAL134,wba_prj_01HREAL086,wba_ctr_01HREAL084,wba_org_01HREAL114,contractor,wba_date_01HREAL158,,,Isolux Corsan Senegambia
@@ -118,9 +118,9 @@ wba_par_01HREAL161,wba_prj_01HREAL136,wba_ctr_01HREAL110,wba_org_01HREAL206,cont
 wba_par_01HREAL139,wba_prj_01HREAL090,wba_ctr_01HREAL088,wba_org_01HREAL121,contractor,wba_date_01HREAL164,,,Eiffage Sahofika
 wba_par_01HREAL162,wba_prj_01HREAL140,wba_ctr_01HREAL114,wba_org_01HREAL052,contractor,wba_date_01HREAL221,,,Eiffage Genie Civil
 wba_par_01HREAL142,wba_prj_01HREAL093,wba_ctr_01HREAL091,wba_org_01HREAL124,contractor,wba_date_01HREAL172,,,L&T Metro Express
-wba_par_01HREAL163,wba_prj_01HREAL143,wba_ctr_01HREAL117,wba_org_01HREAL153,contractor,wba_date_01HREAL224,,,Sinohydro
+wba_par_01HREAL163,wba_prj_01HREAL143,wba_ctr_01HREAL117,wba_org_01HREAL001,contractor,wba_date_01HREAL224,,,Sinohydro
 wba_par_01HREAL143,wba_prj_01HREAL094,wba_ctr_01HREAL092,wba_org_01HREAL125,developer,wba_date_01HREAL174,,,FB Group Sao Tome 300m BOT
-wba_par_01HREAL164,wba_prj_01HREAL144,wba_ctr_01HREAL118,wba_org_01HREAL193,contractor,wba_date_01HREAL225,,,Vergnet
+wba_par_01HREAL164,wba_prj_01HREAL144,wba_ctr_01HREAL118,wba_org_01HREAL210,contractor,wba_date_01HREAL225,,,Vergnet
 wba_par_01HREAL100,wba_prj_01HREAL101,wba_ctr_01HREAL075,wba_org_01HREAL150,contractor,wba_date_01HREAL182,,,Rosatom
 wba_par_01HREAL101,wba_prj_01HREAL102,wba_ctr_01HREAL076,wba_org_01HREAL151,contractor,wba_date_01HREAL183,,,Siemens Mobility
 wba_par_01HREAL102,wba_prj_01HREAL103,wba_ctr_01HREAL077,wba_org_01HREAL152,contractor,wba_date_01HREAL184,,,China Harbour Engineering Company
@@ -128,7 +128,7 @@ wba_par_01HREAL107,wba_prj_01HREAL108,wba_ctr_01HREAL082,wba_org_01HREAL157,cont
 wba_par_01HREAL108,wba_prj_01HREAL109,wba_ctr_01HREAL083,wba_org_01HREAL086,contractor,wba_date_01HREAL190,,,Bouygues Travaux Publics
 wba_par_01HREAL110,wba_prj_01HREAL111,wba_ctr_01HREAL085,wba_org_01HREAL160,contractor,wba_date_01HREAL192,,,CCECC
 wba_par_01HREAL111,wba_prj_01HREAL112,wba_ctr_01HREAL086,wba_org_01HREAL161,contractor,wba_date_01HREAL193,,,VINCI
-wba_par_01HREAL112,wba_prj_01HREAL113,wba_ctr_01HREAL087,wba_org_01HREAL153,contractor,wba_date_01HREAL194,,,Sinohydro
+wba_par_01HREAL112,wba_prj_01HREAL113,wba_ctr_01HREAL087,wba_org_01HREAL001,contractor,wba_date_01HREAL194,,,Sinohydro
 wba_par_01HREAL115,wba_prj_01HREAL116,wba_ctr_01HREAL090,wba_org_01HREAL165,contractor,wba_date_01HREAL197,,,Bouygues Construction
 wba_par_01HREAL116,wba_prj_01HREAL117,wba_ctr_01HREAL091,wba_org_01HREAL125,contractor,wba_date_01HREAL198,,,Alstom
 wba_par_01HREAL117,wba_prj_01HREAL118,wba_ctr_01HREAL092,wba_org_01HREAL167,contractor,wba_date_01HREAL199,,,Mapa Construction
@@ -139,23 +139,23 @@ wba_par_01HREAL121,wba_prj_01HREAL122,wba_ctr_01HREAL096,wba_org_01HREAL159,cont
 wba_par_01HREAL122,wba_prj_01HREAL123,wba_ctr_01HREAL097,wba_org_01HREAL042,contractor,wba_date_01HREAL204,,,CGCOC Group
 wba_par_01HREAL123,wba_prj_01HREAL124,wba_ctr_01HREAL098,wba_org_01HREAL173,contractor,wba_date_01HREAL205,,,BAM International
 wba_par_01HREAL124,wba_prj_01HREAL125,wba_ctr_01HREAL099,wba_org_01HREAL174,contractor,wba_date_01HREAL206,,,Sinohydro Bureau 16
-wba_par_01HREAL125,wba_prj_01HREAL126,wba_ctr_01HREAL100,wba_org_01HREAL175,contractor,wba_date_01HREAL207,,,Strabag International
+wba_par_01HREAL125,wba_prj_01HREAL126,wba_ctr_01HREAL100,wba_org_01HREAL200,contractor,wba_date_01HREAL207,,,Strabag International
 wba_par_01HREAL127,wba_prj_01HREAL128,wba_ctr_01HREAL102,wba_org_01HREAL161,contractor,wba_date_01HREAL209,,,VINCI
-wba_par_01HREAL130,wba_prj_01HREAL131,wba_ctr_01HREAL105,wba_org_01HREAL180,contractor,wba_date_01HREAL212,,,China Jiangxi
-wba_par_01HREAL131,wba_prj_01HREAL132,wba_ctr_01HREAL106,wba_org_01HREAL181,contractor,wba_date_01HREAL213,,,Mitsubishi Hitachi
-wba_par_01HREAL132,wba_prj_01HREAL133,wba_ctr_01HREAL107,wba_org_01HREAL182,contractor,wba_date_01HREAL214,,,CREC
-wba_par_01HREAL133,wba_prj_01HREAL134,wba_ctr_01HREAL108,wba_org_01HREAL183,contractor,wba_date_01HREAL215,,,Bombardier/Orascom
-wba_par_01HREAL136,wba_prj_01HREAL137,wba_ctr_01HREAL111,wba_org_01HREAL186,contractor,wba_date_01HREAL218,,,Eiffage Genie Civil Marine
+wba_par_01HREAL130,wba_prj_01HREAL131,wba_ctr_01HREAL105,wba_org_01HREAL071,contractor,wba_date_01HREAL212,,,China Jiangxi
+wba_par_01HREAL131,wba_prj_01HREAL132,wba_ctr_01HREAL106,wba_org_01HREAL203,contractor,wba_date_01HREAL213,,,Mitsubishi Hitachi
+wba_par_01HREAL132,wba_prj_01HREAL133,wba_ctr_01HREAL107,wba_org_01HREAL014,contractor,wba_date_01HREAL214,,,CREC
+wba_par_01HREAL133,wba_prj_01HREAL134,wba_ctr_01HREAL108,wba_org_01HREAL205,contractor,wba_date_01HREAL215,,,Bombardier/Orascom
+wba_par_01HREAL136,wba_prj_01HREAL137,wba_ctr_01HREAL111,wba_org_01HREAL207,contractor,wba_date_01HREAL218,,,Eiffage Genie Civil Marine
 wba_par_01HREAL137,wba_prj_01HREAL138,wba_ctr_01HREAL112,wba_org_01HREAL054,contractor,wba_date_01HREAL219,,,Yapi Merkezi
-wba_par_01HREAL138,wba_prj_01HREAL139,wba_ctr_01HREAL113,wba_org_01HREAL188,contractor,wba_date_01HREAL220,,,STFA/SGTM/Jan De Nul
-wba_par_01HREAL140,wba_prj_01HREAL141,wba_ctr_01HREAL115,wba_org_01HREAL190,contractor,wba_date_01HREAL222,,,Siemens/Julius Berger
+wba_par_01HREAL138,wba_prj_01HREAL139,wba_ctr_01HREAL113,wba_org_01HREAL208,contractor,wba_date_01HREAL220,,,STFA/SGTM/Jan De Nul
+wba_par_01HREAL140,wba_prj_01HREAL141,wba_ctr_01HREAL115,wba_org_01HREAL209,contractor,wba_date_01HREAL222,,,Siemens/Julius Berger
 wba_par_01HREAL141,wba_prj_01HREAL142,wba_ctr_01HREAL116,wba_org_01HREAL134,contractor,wba_date_01HREAL223,,,DP World
-wba_par_01HREAL144,wba_prj_01HREAL145,wba_ctr_01HREAL119,wba_org_01HREAL194,contractor,wba_date_01HREAL226,,,Daewoo
-wba_par_01HREAL145,wba_prj_01HREAL146,wba_ctr_01HREAL120,wba_org_01HREAL195,contractor,wba_date_01HREAL227,,,Group Five
+wba_par_01HREAL144,wba_prj_01HREAL145,wba_ctr_01HREAL119,wba_org_01HREAL025,contractor,wba_date_01HREAL226,,,Daewoo
+wba_par_01HREAL145,wba_prj_01HREAL146,wba_ctr_01HREAL120,wba_org_01HREAL212,contractor,wba_date_01HREAL227,,,Group Five
 wba_par_01HREAL146,wba_prj_01HREAL147,wba_ctr_01HREAL121,wba_org_01HREAL155,contractor,wba_date_01HREAL228,,,WeBuild
 wba_par_01HREAL147,wba_prj_01HREAL148,wba_ctr_01HREAL122,wba_org_01HREAL125,contractor,wba_date_01HREAL229,,,Alstom
 wba_par_01HREAL148,wba_prj_01HREAL149,wba_ctr_01HREAL123,wba_org_01HREAL157,contractor,wba_date_01HREAL230,,,AVIC International
-wba_par_01HREAL149,wba_prj_01HREAL150,wba_ctr_01HREAL124,wba_org_01HREAL199,contractor,wba_date_01HREAL231,,,Vestas
+wba_par_01HREAL149,wba_prj_01HREAL150,wba_ctr_01HREAL124,wba_org_01HREAL213,contractor,wba_date_01HREAL231,,,Vestas
 wba_par_01HREAL165,wba_prj_01HREAL151,wba_ctr_01HREAL133,wba_org_01HREAL054,contractor,,,,
 wba_par_01HREAL166,wba_prj_01HREAL152,wba_ctr_01HREAL134,wba_org_01HREAL047,contractor,,,,
 wba_par_01HREAL167,wba_prj_01HREAL153,wba_ctr_01HREAL135,wba_org_01HREAL280,contractor,,,,
@@ -163,7 +163,6 @@ wba_par_01HREAL168,wba_prj_01HREAL154,wba_ctr_01HREAL136,wba_org_01HREAL007,cont
 wba_par_01HREAL169,wba_prj_01HREAL155,wba_ctr_01HREAL137,wba_org_01HREAL159,contractor,,,,
 wba_par_01HREAL170,wba_prj_01HREAL156,wba_ctr_01HREAL138,wba_org_01HREAL008,contractor,,,,
 wba_par_01HREAL171,wba_prj_01HREAL157,wba_ctr_01HREAL139,wba_org_01HREAL071,contractor,,,,
-wba_par_01HREAL172,wba_prj_01HREAL136,wba_ctr_01HREAL110,wba_org_01HREAL206,contractor,,,,
 wba_par_01HREAL173,wba_prj_01HREAL128,wba_ctr_01HREAL140,wba_org_01HREAL007,contractor,,,,
 wba_par_01HREAL174,wba_prj_01HREAL158,wba_ctr_01HREAL141,wba_org_01HREAL288,contractor,,,,
 wba_par_01HREAL175,wba_prj_01HREAL159,wba_ctr_01HREAL142,wba_org_01HREAL290,contractor,,,,
@@ -205,7 +204,7 @@ wba_par_01HREAL210,wba_prj_01HREAL191,wba_ctr_01HREAL174,wba_org_01HREAL001,cont
 wba_par_01HREAL211,wba_prj_01HREAL192,wba_ctr_01HREAL175,wba_org_01HREAL336,developer,,,,Meridiam codeveloper Nouakchott 278m
 wba_par_01HREAL212,wba_prj_01HREAL193,wba_ctr_01HREAL176,wba_org_01HREAL339,contractor,,,,EBOMAF contractor Bissau dredging
 wba_par_01HREAL213,wba_prj_01HREAL193,wba_ctr_01HREAL176,wba_org_01HREAL338,financier,,,,BOAD 15bn CFA financier Bissau
-wba_par_01HREAL214,wba_prj_01HREAL194,wba_ctr_01HREAL177,wba_org_01HREAL341,consultant,,,,IPPR China feasibility environmental studies Sao Tome
+wba_par_01HREAL214,wba_prj_01HREAL094,wba_ctr_01HREAL177,wba_org_01HREAL341,consultant,,,,IPPR China feasibility environmental studies Sao Tome
 wba_par_01HREAL215,wba_prj_01HREAL195,wba_ctr_01HREAL178,wba_org_01HREAL040,financier,,,,JICA 65 percent financier Toamasina 411m
 wba_par_01HREAL216,wba_prj_01HREAL196,wba_ctr_01HREAL179,wba_org_01HREAL152,contractor,,,,CHEC contractor Cotonou Terminal 5
 wba_par_01HREAL217,wba_prj_01HREAL197,wba_ctr_01HREAL180,wba_org_01HREAL344,contractor,,,,Bechtel EPC contractor EG LNG
@@ -250,7 +249,7 @@ wba_par_01HREAL255,wba_prj_01HREAL230,wba_ctr_01HREAL213,wba_org_01HREAL381,oper
 wba_par_01HREAL256,wba_prj_01HREAL231,wba_ctr_01HREAL214,wba_org_01HREAL382,contractor,,,,CCCC First Harbor contractor Bata Port
 wba_par_01HREAL257,wba_prj_01HREAL232,wba_ctr_01HREAL212,wba_org_01HREAL383,contractor,,,,Longjian contractor Gambia URR
 wba_par_01HREAL258,wba_prj_01HREAL233,wba_ctr_01HREAL213,wba_org_01HREAL384,operator,,,,Eni operator Coral South
-wba_par_01HREAL259,wba_prj_01HREAL234,wba_ctr_01HREAL214,wba_org_01HREAL385,contractor,,,,CGGC contractor Bamako Third Bridge
+wba_par_01HREAL259,wba_prj_01HREAL234,wba_ctr_01HREAL214,wba_org_01HREAL037,contractor,,,,CGGC contractor Bamako Third Bridge
 wba_par_01HREAL260,wba_prj_01HREAL235,wba_ctr_01HREAL215,wba_org_01HREAL386,developer,,,,JCM Power developer Salima 60MW
 wba_par_01HREAL261,wba_prj_01HREAL235,wba_ctr_01HREAL215,wba_org_01HREAL387,financier,,,,InfraCo Africa financier Salima
 wba_par_01HREAL262,wba_prj_01HREAL236,wba_ctr_01HREAL216,wba_org_01HREAL388,contractor,,,,China Railway 10th Bureau contractor Bong Railway
@@ -388,7 +387,7 @@ wba_par_01HREAL393,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL476,deve
 wba_par_01HREAL394,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL475,sponsor,,,,"ENERTRAG, controlling shareholder"
 wba_par_01HREAL395,wba_prj_01HREAL295,wba_ctr_01HREAL273,wba_org_01HREAL038,financier,,,,African Development Bank / SEFA pre-investment loan
 wba_par_01HREAL396,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL479,contractor,,,,Groupement RMT GmbH - EES Clemessy
-wba_par_01HREAL397,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL477,financier,,,,Agence Francaise de Developpement
+wba_par_01HREAL397,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL097,financier,,,,Agence Francaise de Developpement
 wba_par_01HREAL398,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL478,financier,,,,European Union
 wba_par_01HREAL399,wba_prj_01HREAL296,wba_ctr_01HREAL274,wba_org_01HREAL480,sponsor,,,,SBPE offtaker
 wba_par_01HREAL400,wba_prj_01HREAL297,wba_ctr_01HREAL275,wba_org_01HREAL481,contractor,,,,Chongqing Overseas Construction Corporation
@@ -485,7 +484,7 @@ wba_par_01HREAL490,wba_prj_01HREAL325,wba_ctr_01HREAL303,wba_org_01HREAL111,fina
 wba_par_01HREAL491,wba_prj_01HREAL325,wba_ctr_01HREAL303,wba_org_01HREAL311,sponsor,,,,Government of Sudan
 wba_par_01HREAL492,wba_prj_01HREAL326,wba_ctr_01HREAL304,wba_org_01HREAL091,contractor,,,,Summa Group BOT
 wba_par_01HREAL493,wba_prj_01HREAL326,wba_ctr_01HREAL304,wba_org_01HREAL526,sponsor,,,,Government of Sierra Leone
-wba_par_01HREAL494,wba_prj_01HREAL327,wba_ctr_01HREAL305,wba_org_01HREAL242,contractor,,,,Mitsubishi Power-led EPC
+wba_par_01HREAL494,wba_prj_01HREAL327,wba_ctr_01HREAL305,wba_org_01HREAL203,contractor,,,,Mitsubishi Power-led EPC
 wba_par_01HREAL495,wba_prj_01HREAL327,wba_ctr_01HREAL305,wba_org_01HREAL402,consortium_member,,,,Sumitomo Corporation
 wba_par_01HREAL496,wba_prj_01HREAL327,wba_ctr_01HREAL305,wba_org_01HREAL441,sponsor,,,,STEG owner
 wba_par_01HREAL497,wba_prj_01HREAL327,wba_ctr_01HREAL305,wba_org_01HREAL040,financier,,,,JICA ODA loan
@@ -500,13 +499,15 @@ wba_par_01HREAL511,wba_prj_01HREAL332,wba_ctr_01HREAL310,wba_org_01HREAL312,spon
 wba_par_01HREAL517,wba_prj_01HREAL334,wba_ctr_01HREAL312,wba_org_01HREAL539,contractor,,,,SOLAR23 turnkey EPC
 wba_par_01HREAL518,wba_prj_01HREAL334,wba_ctr_01HREAL312,wba_org_01HREAL540,developer,,,,FRES mini-grid developer
 wba_par_01HREAL519,wba_prj_01HREAL335,wba_ctr_01HREAL313,wba_org_01HREAL541,contractor,,,,Anhui Sijian
-wba_par_01HREAL520,wba_prj_01HREAL335,wba_ctr_01HREAL313,wba_org_01HREAL542,sponsor,,,,Government of São Tomé and Príncipe
+wba_par_01HREAL520,wba_prj_01HREAL335,wba_ctr_01HREAL313,wba_org_01HREAL469,sponsor,,,,Government of São Tomé and Príncipe
 wba_par_01HREAL521,wba_prj_01HREAL336,wba_ctr_01HREAL314,wba_org_01HREAL543,contractor,,,,China Railway 14th Bureau Group
 wba_par_01HREAL522,wba_prj_01HREAL336,wba_ctr_01HREAL314,wba_org_01HREAL544,contractor,,,,China Railway 18th Bureau Group
 wba_par_01HREAL523,wba_prj_01HREAL336,wba_ctr_01HREAL314,wba_org_01HREAL545,sponsor,,,,SMB-Winning consortium
-wba_par_01HREAL524,wba_prj_01HREAL336,wba_ctr_01HREAL314,wba_org_01HREAL546,sponsor,,,,Government of Guinea 10% shareholder
-wba_par_01HREAL525,wba_prj_01HREAL337,wba_ctr_01HREAL315,wba_org_01HREAL547,contractor,,,,CSCEC
+wba_par_01HREAL524,wba_prj_01HREAL336,wba_ctr_01HREAL314,wba_org_01HREAL442,sponsor,,,,Government of Guinea 10% shareholder
+wba_par_01HREAL525,wba_prj_01HREAL337,wba_ctr_01HREAL315,wba_org_01HREAL088,contractor,,,,CSCEC
 wba_par_01HREAL526,wba_prj_01HREAL337,wba_ctr_01HREAL315,wba_org_01HREAL316,sponsor,,,,Government of Equatorial Guinea
 wba_par_01HREAL527,wba_prj_01HREAL338,wba_ctr_01HREAL316,wba_org_01HREAL007,contractor,,,,CHEC
 wba_par_01HREAL528,wba_prj_01HREAL338,wba_ctr_01HREAL316,wba_org_01HREAL428,sponsor,,,,Government of South Sudan
 wba_par_01HREAL529,wba_prj_01HREAL338,wba_ctr_01HREAL316,wba_org_01HREAL003,financier,,,,China Eximbank preferential buyer's credit
+wba_par_01HREAL530,wba_prj_01HREAL339,wba_ctr_01HREAL320,wba_org_01HREAL548,contractor,,,,CEEC Guangxi general contractor Contador rehabilitation
+wba_par_01HREAL531,wba_prj_01HREAL339,,wba_org_01HREAL452,financier,,,,World Bank Power Sector Recovery Project

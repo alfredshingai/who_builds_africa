@@ -1,0 +1,184 @@
+[
+  {
+    "id": "wba_als_01HREAL001",
+    "org_id": "wba_org_01HREAL001",
+    "alias": "Sinohydro",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL002",
+    "org_id": "wba_org_01HREAL007",
+    "alias": "CRBC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL003",
+    "org_id": "wba_org_01HREAL014",
+    "alias": "CREC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL004",
+    "org_id": "wba_org_01HREAL020",
+    "alias": "Salini Impregilo",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL005",
+    "org_id": "wba_org_01HREAL022",
+    "alias": "SCG",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL006",
+    "org_id": "wba_org_01HREAL025",
+    "alias": "Daewoo E&C",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL007",
+    "org_id": "wba_org_01HREAL037",
+    "alias": "CGGC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL008",
+    "org_id": "wba_org_01HREAL039",
+    "alias": "Toyo",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL009",
+    "org_id": "wba_org_01HREAL047",
+    "alias": "Arab Contractors",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL010",
+    "org_id": "wba_org_01HREAL057",
+    "alias": "Odebrecht",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL012",
+    "org_id": "wba_org_01HREAL054",
+    "alias": "Yapi Merkezi Insaat",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL013",
+    "org_id": "wba_org_01HREAL099",
+    "alias": "TPE",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL014",
+    "org_id": "wba_org_01HREAL103",
+    "alias": "Impregilo",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL015",
+    "org_id": "wba_org_01HREAL099",
+    "alias": "CMC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL019",
+    "org_id": "wba_org_01HREAL037",
+    "alias": "China Gezhouba Group Company Limited",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL020",
+    "org_id": "wba_org_01HREAL088",
+    "alias": "CSCEC",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL021",
+    "org_id": "wba_org_01HREAL097",
+    "alias": "AFD",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL022",
+    "org_id": "wba_org_01HREAL326",
+    "alias": "SGTM",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL023",
+    "org_id": "wba_org_01HREAL071",
+    "alias": "China Jiangxi International",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL024",
+    "org_id": "wba_org_01HREAL005",
+    "alias": "China Jiangsu International",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL025",
+    "org_id": "wba_org_01HREAL469",
+    "alias": "Government of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL026",
+    "org_id": "wba_org_01HREAL442",
+    "alias": "Government of Guinea",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL029",
+    "org_id": "wba_org_01HREAL025",
+    "alias": "Daewoo",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL030",
+    "org_id": "wba_org_01HREAL203",
+    "alias": "Mitsubishi Hitachi",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL031",
+    "org_id": "wba_org_01HREAL548",
+    "alias": "CEEC Guangxi",
+    "lang": "en",
+    "is_transliteration": "false"
+  },
+  {
+    "id": "wba_als_01HREAL032",
+    "org_id": "wba_org_01HREAL549",
+    "alias": "AFAP",
+    "lang": "en",
+    "is_transliteration": "false"
+  }
+]

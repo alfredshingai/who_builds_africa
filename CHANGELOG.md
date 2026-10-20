@@ -4,6 +4,17 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.19] - 2026-10-20
+### Fixed
+- Data integrity: merged the duplicate STP airport record `wba_prj_01HREAL194` into `wba_prj_01HREAL094`, retaining both concession and runway-extension contracts, claims, event, location and participation; removed one duplicate claim and three duplicate source URLs (Orascom, Shabait, CLBrief).
+- Data integrity: merged 16 duplicate organisation rows into canonical IDs, including Sinohydro, China Gezhouba, Arab Contractors, CSCEC, AFD, SGTM, China Jiangsu/Jiangxi, Governments of Guinea and São Tomé, CREC, Daewoo and Mitsubishi Hitachi; repaired 15 dangling organisation references left by earlier deletions.
+- Data integrity: renumbered duplicate primary keys for one claim, three contracts, one date and two history rows, and updated every dependent reference; fixed the multi-contractor Dapilon-Santou contract and allowed legacy free-text financing institutions in the integrity check.
+- Tooling: added `scripts/check_duplicates.py` for duplicate names/aliases, near-duplicate projects, duplicate organisations/URLs/claims/roles, primary keys and foreign keys, with reviewed pairs in `data/curated/duplicate_allowlist.csv`; `validate.py --all` now runs the check. Validate/build OK: 0 errors, 0 warnings.
+### Added
+- Data: STP Contador Hydropower Plant Rehabilitation and Expansion, 4 MW run-of-river plant at Ponta Figo, World Bank Power Sector Recovery Project, China Energy Engineering Guangxi general contractor awarded 2024; added to keep São Tomé and Príncipe at five projects after the duplicate merge.
+- App: banner 300 REAL PROJECTS, fetches `/data/releases/v0.9.19/data.json`, corrected country count to 54
+- Releases: v0.9.19 snapshot (300 projects, 470 organisations, 440 sources, 643 claims)
+
 ## [v0.9.18] - 2026-10-15
 ### Added
 - Data: 295 to 300 verified (+5), bringing every one of the 54 countries to at least five projects. GNB Contuboel 106 kWp solar mini-grid by SOLAR23 for FRES, commissioned Mar 2017 with OFID/EU grants and 440 planned connections; STP 60-home public housing in Lobata and Cantagalo by Anhui Sijian, US$4m, completed 2021; GIN 125 km Santou-Dapilon bauxite railway by CR14 and CR18 for SMB-Winning, about US$1.2bn, inaugurated 18 Jun 2021; GNQ Sipopo International Conference Center by CSCEC, 30,000 m2, ready for the 2011 AU Summit; SSD Juba International Airport Phase 1 by CHEC, about US$160m with Chinese loan, runway extended to 3,100 m and handed over Mar 2017. All page-read verbatim quotes, validate OK 0 errors.

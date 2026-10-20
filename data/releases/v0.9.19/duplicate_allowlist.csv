@@ -1,0 +1,13 @@
+entity_type,id_a,id_b,reason
+project,wba_prj_01HREAL003,wba_prj_01HREAL011,"Robert Mugabe and Victoria Falls are separate Zimbabwe airports"
+project,wba_prj_01HREAL028,wba_prj_01HREAL040,"Lauca and Caculo Cabaca are separate Angolan hydropower sites"
+project,wba_prj_01HREAL114,wba_prj_01HREAL127,"Lagos-Ibadan and Abuja-Kaduna are separate railway lines"
+project,wba_prj_01HREAL119,wba_prj_01HREAL132,"Medupi and Kusile are separate coal power stations"
+project,wba_prj_01HREAL121,wba_prj_01HREAL122,"Souapiti and Kaleta are separate hydropower sites"
+project,wba_prj_01HREAL154,wba_prj_01HREAL155,"Adjacent Dakar-Saint Louis road lots procured as separate contracts"
+project,wba_prj_01HREAL166,wba_prj_01HREAL191,"Gouina and Felou are separate plants on the Senegal River"
+project,wba_prj_01HREAL174,wba_prj_01HREAL286,"Port Victoria quay and wind farm are separate projects"
+project,wba_prj_01HREAL205,wba_prj_01HREAL243,"CLSG line and its Kalpataru tower are distinct scope records"
+project,wba_prj_01HREAL244,wba_prj_01HREAL281,"Katse Dam and Polihali Tunnel are separate LHWP components"
+project,wba_prj_01HREAL279,wba_prj_01HREAL330,"Benghazi and Misrata are separate power plants"
+organization,wba_org_01HREAL005,wba_org_01HREAL071,"Jiangsu and Jiangxi are different provincial contractors"

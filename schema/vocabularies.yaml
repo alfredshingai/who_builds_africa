@@ -71,6 +71,7 @@ project_status:
   - unknown
 
 contract_status:
+  - proposed
   - tender
   - awarded
   - signed
@@ -100,7 +101,7 @@ source_types: [gov_contract, procurement, ministry, public_agency, company_repor
 
 date_precision: [day, month, year, approximate, range, before, after, unknown]
 
-organization_types: [private, soe, state_agency, dev_bank, commercial_lender, export_credit, government_agency, ppp, consortium, jv, other]
+organization_types: [private, soe, state_agency, dev_bank, commercial_lender, export_credit, government_agency, ppp, consortium, jv, ngo, other]
 
 organization_country_relations: [incorporation, headquarters, parent, ultimate_owner, financing, soe_origin]
 
