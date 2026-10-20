@@ -67,3 +67,5 @@ wba_fin_01HREAL068,wba_prj_01HREAL321,Mauritius Commercial Bank (MCB),loan,35000
 wba_fin_01HREAL069,wba_prj_01HREAL323,wba_org_01HREAL003,loan,126650000,USD,,85% of US$149m project cost
 wba_fin_01HREAL070,wba_prj_01HREAL325,wba_org_01HREAL111,loan,1900000000,USD,,CTG and CWE project funding
 wba_fin_01HREAL071,wba_prj_01HREAL327,wba_org_01HREAL040,loan,38000000000,JPY,,JICA ODA loan
+wba_fin_01HREAL072,wba_prj_01HREAL328,wba_org_01HREAL024,grant,50000000,USD,,Chinese government grants and interest-free loans
+wba_fin_01HREAL073,wba_prj_01HREAL332,wba_org_01HREAL024,grant,220000000,CNY,,Government of China grant aid

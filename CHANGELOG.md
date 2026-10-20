@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.16] - 2026-10-15
+### Added
+- Data: 292 to 298 verified (+6). CPV National Stadium in Praia by TIEC, about US$50m Chinese grants and interest-free loans, completed 2013 and handed over 22 Nov 2013; GIN Souapiti 450 MW hydropower on the Konkouré by PowerChina with China Exim, built from 2016 and fully completed Apr 2022; LBY Misrata 650 MW simple-cycle plant with Siemens SGT5-2000E turbines for GECOL, commissioned 2022 under 2017 contracts; GNQ Djibloho 120 MW hydropower and regulating reservoir by PowerChina with China Exim, supplying about 90% of mainland demand, reservoir completed 1 Dec 2018; MRT Nouakchott Sino-Mauritanian Friendship Overpass, 274.08 m by CRBC, CNY 220m Chinese grant, inaugurated 15 May 2025; SSD Freedom Bridge over the Nile at Juba, 560 m arched steel bridge by Dai Nippon with CTI Engineering and JICA grant aid, opened 19 May 2022. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 298 REAL PROJECTS, fetches /data/releases/v0.9.16/data.json
+- Releases: v0.9.16 snapshot (298 features)
+
 ## [v0.9.15] - 2026-10-15
 ### Added
 - Data: 286 to 292 verified (+6). BDI Bujumbura Port improvement, container terminal and ship repair facilities under JICA grant aid, begun 2019 and completed 9 Oct 2024; COM Boingoma Port on Moheli by CCCC, about US$149m with 85% China Exim loan, handed over two years after the March 2015 contract; LBR Roberts International Airport terminal by CHEC with China Exim financing, dedicated 25 Jul 2019 and given final acceptance in 2021; SDN Upper Atbara and Setit dam complex, 320 MW by Sinohydro Bureau 5 with CTG/CWE funding of about US$1.9bn, completion announced Jul 2019; SLE Freetown International Airport terminal by Summa (Turkey), US$270m 25-year BOT, opened 3 Mar 2023; TUN Rades C 450 MW combined cycle by a Mitsubishi Power-led consortium with Sumitomo for STEG, about JPY 38bn JICA ODA, operating 6 Sep 2022. All page-read verbatim quotes, validate OK 0 errors.
