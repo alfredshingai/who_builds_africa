@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.17] - 2026-10-15
+### Fixed
+- Data: 298 to 295 after removing three duplicate records introduced in v0.9.16. GIN Souapiti duplicated existing `wba_prj_01HREAL121`; GNQ Djibloho duplicated `wba_prj_01HREAL177`; SSD Freedom Bridge duplicated `wba_prj_01HREAL175`. Retained CPV National Stadium, LBY Misrata 650 MW and MRT Sino-Mauritanian Friendship Overpass. Removed associated claims, sources, contracts, participation, events, locations and history rows; validate OK 0 errors.
+- App: banner 295 REAL PROJECTS, fetches /data/releases/v0.9.17/data.json
+- Releases: v0.9.17 corrected snapshot (295 features)
+
 ## [v0.9.16] - 2026-10-15
 ### Added
 - Data: 292 to 298 verified (+6). CPV National Stadium in Praia by TIEC, about US$50m Chinese grants and interest-free loans, completed 2013 and handed over 22 Nov 2013; GIN Souapiti 450 MW hydropower on the Konkouré by PowerChina with China Exim, built from 2016 and fully completed Apr 2022; LBY Misrata 650 MW simple-cycle plant with Siemens SGT5-2000E turbines for GECOL, commissioned 2022 under 2017 contracts; GNQ Djibloho 120 MW hydropower and regulating reservoir by PowerChina with China Exim, supplying about 90% of mainland demand, reservoir completed 1 Dec 2018; MRT Nouakchott Sino-Mauritanian Friendship Overpass, 274.08 m by CRBC, CNY 220m Chinese grant, inaugurated 15 May 2025; SSD Freedom Bridge over the Nile at Juba, 560 m arched steel bridge by Dai Nippon with CTI Engineering and JICA grant aid, opened 19 May 2022. All page-read verbatim quotes, validate OK 0 errors.
