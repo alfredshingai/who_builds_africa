@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.18] - 2026-10-15
+### Added
+- Data: 295 to 300 verified (+5), bringing every one of the 54 countries to at least five projects. GNB Contuboel 106 kWp solar mini-grid by SOLAR23 for FRES, commissioned Mar 2017 with OFID/EU grants and 440 planned connections; STP 60-home public housing in Lobata and Cantagalo by Anhui Sijian, US$4m, completed 2021; GIN 125 km Santou-Dapilon bauxite railway by CR14 and CR18 for SMB-Winning, about US$1.2bn, inaugurated 18 Jun 2021; GNQ Sipopo International Conference Center by CSCEC, 30,000 m2, ready for the 2011 AU Summit; SSD Juba International Airport Phase 1 by CHEC, about US$160m with Chinese loan, runway extended to 3,100 m and handed over Mar 2017. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 300 REAL PROJECTS, fetches /data/releases/v0.9.18/data.json
+- Releases: v0.9.18 snapshot (300 features)
+
 ## [v0.9.17] - 2026-10-15
 ### Fixed
 - Data: 298 to 295 after removing three duplicate records introduced in v0.9.16. GIN Souapiti duplicated existing `wba_prj_01HREAL121`; GNQ Djibloho duplicated `wba_prj_01HREAL177`; SSD Freedom Bridge duplicated `wba_prj_01HREAL175`. Retained CPV National Stadium, LBY Misrata 650 MW and MRT Sino-Mauritanian Friendship Overpass. Removed associated claims, sources, contracts, participation, events, locations and history rows; validate OK 0 errors.
