@@ -5,6 +5,7 @@ __pycache__/
 .pytest_cache/
 *.db
 *.sqlite
+!data/releases/**/footprints.sqlite
 *.duckdb
 
 # Node

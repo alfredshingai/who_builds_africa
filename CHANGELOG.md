@@ -13,7 +13,7 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 ### Added
 - Data: STP Contador Hydropower Plant Rehabilitation and Expansion, 4 MW run-of-river plant at Ponta Figo, World Bank Power Sector Recovery Project, China Energy Engineering Guangxi general contractor awarded 2024; added to keep São Tomé and Príncipe at five projects after the duplicate merge.
 - App: banner 300 REAL PROJECTS, fetches `/data/releases/v0.9.19/data.json`, corrected country count to 54
-- Releases: v0.9.19 snapshot (300 projects, 470 organisations, 440 sources, 643 claims)
+- Releases: v0.9.19 snapshot (300 projects, 470 organisations, 440 sources, 643 claims); ship `footprints.sqlite` again (release binaries were caught by the global `*.sqlite` ignore).
 
 ## [v0.9.18] - 2026-10-15
 ### Added
