@@ -64,3 +64,6 @@ wba_fin_01HREAL065,wba_prj_01HREAL314,wba_org_01HREAL510,equity,25000000,USD,,CF
 wba_fin_01HREAL066,wba_prj_01HREAL316,wba_org_01HREAL003,loan,700000000,CNY,,"RMB 700m government concessional loan, 20-year maturity, 2% interest"
 wba_fin_01HREAL067,wba_prj_01HREAL318,wba_org_01HREAL003,loan,180000000,USD,,"China Exim low-interest loan, about US$180m"
 wba_fin_01HREAL068,wba_prj_01HREAL321,Mauritius Commercial Bank (MCB),loan,350000000,MUR,,"Project debt facility, about EUR 7.2m"
+wba_fin_01HREAL069,wba_prj_01HREAL323,wba_org_01HREAL003,loan,126650000,USD,,85% of US$149m project cost
+wba_fin_01HREAL070,wba_prj_01HREAL325,wba_org_01HREAL111,loan,1900000000,USD,,CTG and CWE project funding
+wba_fin_01HREAL071,wba_prj_01HREAL327,wba_org_01HREAL040,loan,38000000000,JPY,,JICA ODA loan

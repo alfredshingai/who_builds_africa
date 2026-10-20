@@ -4,6 +4,12 @@ All notable changes - follow Keep a Changelog + SemVer for schema, CalVer for da
 
 ## [Unreleased]
 
+## [v0.9.15] - 2026-10-15
+### Added
+- Data: 286 to 292 verified (+6). BDI Bujumbura Port improvement, container terminal and ship repair facilities under JICA grant aid, begun 2019 and completed 9 Oct 2024; COM Boingoma Port on Moheli by CCCC, about US$149m with 85% China Exim loan, handed over two years after the March 2015 contract; LBR Roberts International Airport terminal by CHEC with China Exim financing, dedicated 25 Jul 2019 and given final acceptance in 2021; SDN Upper Atbara and Setit dam complex, 320 MW by Sinohydro Bureau 5 with CTG/CWE funding of about US$1.9bn, completion announced Jul 2019; SLE Freetown International Airport terminal by Summa (Turkey), US$270m 25-year BOT, opened 3 Mar 2023; TUN Rades C 450 MW combined cycle by a Mitsubishi Power-led consortium with Sumitomo for STEG, about JPY 38bn JICA ODA, operating 6 Sep 2022. All page-read verbatim quotes, validate OK 0 errors.
+- App: banner 292 REAL PROJECTS, fetches /data/releases/v0.9.15/data.json
+- Releases: v0.9.15 snapshot (292 features)
+
 ## [v0.9.14] - 2026-10-15
 ### Added
 - Data: 280 to 286 verified (+6). LSO Ha Mpiti-Sehlabathebe road, 91 km gravel-to-asphalt upgrade by Qinjian Group (CNQC) with China Exim concessional loan (RMB 700m) and Government of Lesotho, construction Jan 2019 to March 2024; BWA Mmamashia water treatment plant expansion by Khato Civils (South Africa) in JV with South Zambezi, combined output 284 ML/d, P1.3bn, commissioned 22 Oct 2024; COG Maya-Maya airport terminal modules 1-2 by Weitec (China), 44,500 m2, over 86bn FCFA with China Exim loan, second module inaugurated 5 Feb 2014; TCD Noor Chad 50 MW solar with 5 MWh BESS at Djermaya by Global South Utilities (Abu Dhabi), 20-year operating contract, inaugurated 27 Sep 2025; SWZ King Mswati III International Airport built by Stefanutti Stocks (South Africa) with Inyatsi JV, 3.6 km runway, about US$150m, opened 7 Mar 2014; MUS Arsenal 14 MWp solar by GreenYellow (France) after CEB 2021 tender, 22.5 GWh/yr, MUR 350m MCB debt, inaugurated 8 Feb 2024. All page-read verbatim quotes, validate OK 0 errors.
