@@ -38,6 +38,7 @@ small{color:var(--muted)}table{width:100%;border-collapse:collapse;font-size:13p
 .evidence{font-size:12px;padding:6px;border-left:3px solid var(--accent);background:#f0fdf4;margin:6px 0}
 footer{flex:0 0 auto;padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
 kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-radius:4px;background:var(--card);font-size:11px}
+nav button[data-view].active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .maplibregl-popup-content{padding:6px 10px;border-radius:10px;background:rgba(17,17,17,.92);color:#fff;font-size:12px;line-height:1.35;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 .maplibregl-popup-anchor-bottom .maplibregl-popup-tip{border-top-color:rgba(17,17,17,.92)}
 .maplibregl-popup-anchor-top .maplibregl-popup-tip{border-bottom-color:rgba(17,17,17,.92)}
@@ -55,7 +56,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
   <a class="pill" href="/data/releases/v0.9.19/projects.geojson" download>GeoJSON</a>
   <a class="pill" href="https://github.com/alfredshingai/who_builds_africa">GitHub</a>
   <select id="lang" class="pill" aria-label="Language"><option value="en">EN</option><option value="fr">FR</option><option value="pt">PT</option><option value="ar">AR</option></select>
-  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" onclick="showView('quality')" data-i18n="quality">Quality</button><button class="pill" onclick="showView('analytics')">Analytics</button></nav>
+  <nav style="display:flex;gap:6px;flex-wrap:wrap;margin-top:6px"><button class="pill" data-view="map" onclick="showView('map')" data-i18n="map">Map</button><button class="pill" data-view="countries" onclick="showView('countries')" data-i18n="countries">Countries</button><button class="pill" data-view="orgs" onclick="showView('orgs')" data-i18n="organizations">Organizations</button><button class="pill" data-view="quality" onclick="showView('quality')" data-i18n="quality">Quality</button><button class="pill" data-view="analytics" onclick="showView('analytics')">Analytics</button></nav>
 </header>
 
 <div class="layout">
@@ -143,7 +144,7 @@ async function load(){
   for(const c of DATA.claims){(DATA._claimsByProject[c.project_id]??=[]).push(c)}
   DATA._eventsByProject={}
   for(const e of DATA.events){(DATA._eventsByProject[e.project_id]??=[]).push(e)}
-  initControls(); applyHash(true); render(); initMap()
+  initControls(); applyHash(true); setNavActive(currentView); render(); initMap()
 }
 function initControls(){
   const countries=[...new Set(DATA.projects.map(p=>p.country_iso3))].sort()
@@ -401,8 +402,12 @@ function registerPointEvents(){
   })
 }
 
+function setNavActive(v){
+  document.querySelectorAll('nav button[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===v))
+}
 function showView(v){
   currentView=v
+  setNavActive(v)
   document.querySelector('.layout').style.display = v==='map' ? 'grid' : 'none';
   document.getElementById('tableView').style.display = 'none';
   document.getElementById('countriesView').style.display = v==='countries' ? 'block' : 'none';
