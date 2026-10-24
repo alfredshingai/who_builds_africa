@@ -94,7 +94,7 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
       <div style="display:flex;justify-content:space-between"><small>0</small><small>15+</small></div>
       <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
     </div>
-    <div id="list" role="region" aria-live="polite"></div>
+    <div id="list" role="region" aria-live="polite"><div class="card"><b>Loading projects…</b><br><small>Fetching the source-tracked database.</small></div></div>
     <div class="card"><b data-i18n="downloads">Downloads</b><br>
       <a href="/data/releases/v0.9.19/projects.csv">projects.csv</a> ·
       <a href="/data/releases/v0.9.19/organizations.csv">organizations.csv</a> ·
@@ -204,7 +204,7 @@ function render(){
       <small>${p.summary}</small>
       <div style="margin-top:6px"><a href="#" onclick="event.preventDefault();openProject('${p.id}')">Details →</a></div>
     </div>`
-  }).join('') || '<div class="card"><small>No matches - adjust filters. Try clearing search.</small></div>'
+  }).join('') || `<div class="card"><b>No matching projects</b><br><small>Try a shorter search, or clear a filter.</small><br><button class="pill" style="margin-top:8px" onclick="document.getElementById('reset').click()">Reset all filters</button></div>`
   // table
   els.tbl.innerHTML=filtered.map(p=>{
     const pars=DATA._parByProject[p.id]||[]
