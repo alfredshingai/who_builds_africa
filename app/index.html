@@ -143,7 +143,7 @@ async function load(){
   for(const c of DATA.claims){(DATA._claimsByProject[c.project_id]??=[]).push(c)}
   DATA._eventsByProject={}
   for(const e of DATA.events){(DATA._eventsByProject[e.project_id]??=[]).push(e)}
-  initControls(); render(); initMap()
+  initControls(); applyHash(true); render(); initMap()
 }
 function initControls(){
   const countries=[...new Set(DATA.projects.map(p=>p.country_iso3))].sort()
@@ -158,8 +158,8 @@ function initControls(){
   for(const o of origins){$('origin').appendChild(Object.assign(document.createElement('option'),{value:o,textContent:o}))}
   const precs=[...new Set(DATA.projects.map(p=>p.location_precision))].sort()
   for(const p of precs){$('precision').appendChild(Object.assign(document.createElement('option'),{value:p,textContent:p}))}
-  for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', render)
-  reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render()}
+  for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', ()=>{render(); writeHash(false)})
+  reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render(); writeHash(false)}
   tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
   document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()}})
 }
@@ -208,9 +208,35 @@ function render(){
   if(window._mapReady) updateMap()
   updateCountriesCounts()
 }
-function openProject(id){
+// --- URL state: shareable views, filters and projects (e.g. #view=map&country=KEN&project=wba_prj_x)
+let currentView='map', openProjectId=null, hashLock=false
+function writeHash(push){
+  if(!DATA) return
+  const sp=new URLSearchParams()
+  if(currentView!=='map') sp.set('view',currentView)
+  for(const fid of ['q','country','sector','role','status','origin','precision']){const v=$(fid).value; if(v) sp.set(fid,v)}
+  if(openProjectId) sp.set('project',openProjectId)
+  const s=sp.toString(), h=s?'#'+s:'#'
+  if(location.hash===h||(location.hash===''&&h==='#')) return
+  hashLock=true; setTimeout(()=>hashLock=false,0)
+  if(push){location.hash=h}else{history.replaceState(null,'',location.pathname+location.search+h)}
+}
+function closeProject(){openProjectId=null;document.getElementById('projectDetail').style.display='none';writeHash(true)}
+function applyHash(initial){
+  if(!DATA) return
+  const sp=new URLSearchParams(location.hash.slice(1))
+  const v=sp.get('view')
+  if(v&&['map','countries','orgs','quality','analytics'].includes(v)) showView(v)
+  else if(!v&&currentView!=='map') showView('map')
+  for(const fid of ['q','country','sector','role','status','origin','precision']){const el=$(fid); const val=sp.get(fid); if(el&&val!==null) el.value=val}
+  const pid=sp.get('project')
+  if(pid&&DATA.projects.some(p=>p.id===pid)){openProject(pid,!initial)}else{openProjectId=null;document.getElementById('projectDetail').style.display='none'}
+}
+window.addEventListener('hashchange',()=>{if(hashLock) return; applyHash(false); render()})
+function openProject(id,push=true){
   const p=DATA.projects.find(x=>x.id===id)
   if(!p) return
+  openProjectId=id; writeHash(push)
   const pars=DATA._parByProject[id]||[]
   const claims=DATA._claimsByProject[id]||[]
   const events=(DATA._eventsByProject[id]||[]).slice().sort((a,b)=>a.date_id.localeCompare(b.date_id))
@@ -245,7 +271,7 @@ function openProject(id){
           <small>- ${src?src.publisher+', '+src.title: c.source_id} ${src?.url?`<a href="${src.url}" target="_blank" rel="noopener">source</a>`:''} ${src?.archive_url?`· <a href="${src.archive_url}" target="_blank">archive</a>`:''}</small></div>`
         }).join('')||'<div class="evidence"><small>no claims</small></div>'}
         <p><small>Location: ${p.lat&&p.lon?`${p.lat}, ${p.lon} (${p.location_precision})`: p.geom_wkt||p.location_precision+' - no precise coords'} · ID: ${p.id}</small></p>
-        <button class="pill" onclick="document.getElementById('projectDetail').style.display='none'">Close</button>
+        <button class="pill" onclick="closeProject()">Close</button>
       </div>
     </div>`
   detail.scrollIntoView({behavior:'smooth',block:'start'})
@@ -355,6 +381,7 @@ function registerPointEvents(){
 }
 
 function showView(v){
+  currentView=v
   document.querySelector('.layout').style.display = v==='map' ? 'grid' : 'none';
   document.getElementById('tableView').style.display = 'none';
   document.getElementById('countriesView').style.display = v==='countries' ? 'block' : 'none';
@@ -367,6 +394,7 @@ function showView(v){
   if(v==='quality') renderQuality();
   if(v==='analytics') renderAnalytics();
   if(v==='map' && window._map) setTimeout(()=>window._map.resize(),150);
+  writeHash(true);
 }
 function renderCountries(){
   const byCountry={};
