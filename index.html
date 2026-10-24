@@ -83,6 +83,7 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
     <div class="row" style="margin-top:8px">
       <button id="reset" class="pill" style="width:100%" data-i18n="reset">Reset filters</button>
       <button id="tableToggle" class="pill" style="width:100%" data-i18n="table_view">Table view</button>
+      <button id="zoomResults" class="pill" style="width:100%">Zoom to results</button>
     </div>
     <div class="card">
       <b data-i18n="legend">Legend - location precision</b><br>
@@ -169,6 +170,21 @@ function initControls(){
   for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', ()=>{render(); writeHash(false)})
   reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render(); writeHash(false)}
   tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
+  $('zoomResults').onclick=()=>{
+    if(!window._map) return
+    let minX=180,minY=90,maxX=-180,maxY=-90,has=false
+    for(const p of filtered){
+      const lat=parseFloat(p.lat), lon=parseFloat(p.lon)
+      if(!isNaN(lat)&&!isNaN(lon)){minX=Math.min(minX,lon);maxX=Math.max(maxX,lon);minY=Math.min(minY,lat);maxY=Math.max(maxY,lat);has=true}
+      if(p.geom_wkt&&p.geom_wkt.startsWith('LINESTRING')){
+        for(const c of p.geom_wkt.replace('LINESTRING(','').replace(')','').split(',')){
+          const xy=c.trim().split(' ').map(Number)
+          if(!isNaN(xy[0])&&!isNaN(xy[1])){minX=Math.min(minX,xy[0]);maxX=Math.max(maxX,xy[0]);minY=Math.min(minY,xy[1]);maxY=Math.max(maxY,xy[1]);has=true}
+        }
+      }
+    }
+    if(has) window._map.fitBounds([[minX,minY],[maxX,maxY]],{padding:60,maxZoom:9,duration:800})
+  }
   document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()} if(e.key==='Escape'){closeProject()}})
 }
 function matches(p){
