@@ -88,6 +88,9 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <span class="badge corridor">corridor / cross-border</span> line
       <span class="badge country">country only</span> centroid hollow<br>
       <small><b>Hover a country to see its name and project count.</b></small><br>
+      <small><b>Country shading = number of projects (follows your filters)</b></small>
+      <div style="height:10px;border-radius:5px;background:linear-gradient(90deg,#eef2ef,#cfe3d0,#a9cfae,#7fb98a,#4f9e63,#0b6b3a);border:1px solid var(--line);margin:4px 0 2px"></div>
+      <div style="display:flex;justify-content:space-between"><small>0</small><small>15+</small></div>
       <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
     </div>
     <div id="list" role="region" aria-live="polite"></div>
@@ -203,6 +206,7 @@ function render(){
     return `<tr><td><a href="#" onclick="event.preventDefault();openProject('${p.id}')">${p.canonical_name}</a></td><td>${p.country_iso3}</td><td>${p.sectors}</td><td>${p.status}</td><td>${p.location_precision}</td><td>${roles}</td></tr>`
   }).join('')
   if(window._mapReady) updateMap()
+  updateCountriesCounts()
 }
 function openProject(id){
   const p=DATA.projects.find(x=>x.id===id)
@@ -255,7 +259,10 @@ function initMap(){
   const style={
     version:8,
     sources:{osm:{type:'raster',tiles:['https://a.tile.openstreetmap.org/{z}/{x}/{y}.png','https://b.tile.openstreetmap.org/{z}/{x}/{y}.png'],tileSize:256,attribution:'© OpenStreetMap contributors, ODbL'}},
-    layers:[{id:'osm',type:'raster',source:'osm'}]
+    layers:[
+      {id:'bg',type:'background',paint:{'background-color':'#dce6ec'}},
+      {id:'osm',type:'raster',source:'osm',paint:{'raster-opacity':['interpolate',['linear'],['zoom'],4.5,0,6.5,0.5]}}
+    ]
   }
   map=new maplibregl.Map({container:'map',style:style,center:[30,2],zoom:3.2,attributionControl:true})
   window._map=map
@@ -272,9 +279,12 @@ async function addCountriesLayer(){
     if(map.getSource('countries')) return
     map.addSource('countries',{type:'geojson',data:geo,promoteId:'iso3'})
     map.addLayer({id:'countries-fill',type:'fill',source:'countries',paint:{
-      'fill-color':'#f59e0b',
-      'fill-opacity':['case',['boolean',['feature-state','hover'],false],0.25,0]
+      'fill-color':['case',['boolean',['feature-state','hover'],false],'#f59e0b',
+        ['interpolate',['linear'],['feature-state','count'],0,'#eef2ef',1,'#cfe3d0',3,'#a9cfae',6,'#7fb98a',10,'#4f9e63',15,'#0b6b3a']],
+      'fill-opacity':['interpolate',['linear'],['zoom'],0,0.95,6,0.6,8,0.5]
     }}, map.getLayer('pts')?'pts':undefined)
+    map.addLayer({id:'countries-outline',type:'line',source:'countries',paint:{'line-color':'#ffffff','line-width':1}}, map.getLayer('pts')?'pts':undefined)
+    updateCountriesCounts()
     map.on('mousemove','countries-fill',e=>{
       const f=e.features&&e.features[0]
       if(!f) return
@@ -296,6 +306,14 @@ async function addCountriesLayer(){
     })
   }catch(err){ console.warn('countries hover layer failed:', err) }
 }
+function updateCountriesCounts(){
+  if(!window._map || !window._map.getSource('countries')) return
+  const counts={}
+  for(const p of filtered){counts[p.country_iso3]=(counts[p.country_iso3]||0)+1}
+  for(const iso of new Set(DATA.projects.map(p=>p.country_iso3))){
+    window._map.setFeatureState({source:'countries',id:iso},{count:counts[iso]||0})
+  }
+}
 function updateMap(){
   if(!map || !map.getStyle()) return
   const srcId='projects'
@@ -310,12 +328,12 @@ function updateMap(){
   map.addSource(srcId,{type:'geojson',data:geojson,cluster:false})
   map.addLayer({id:'pts',type:'circle',source:srcId,filter:['==',['geometry-type'],'Point'],paint:{
     'circle-radius':['match',['get','precision'],'exact',7,'approximate',6,'city',6,'corridor',5,'country',5,5],
-    'circle-color':['match',['get','country'],'ZWE','#0b6b3a','KEN','#1d4ed8','ETH','#b45309','#6b7280'],
+    'circle-color':'#1f2937',
     'circle-stroke-width':['match',['get','precision'],'country',2,1],
     'circle-stroke-color':'#fff',
     'circle-opacity':['match',['get','precision'],'country',0.35,0.85]
   }})
-  map.addLayer({id:'corridor',type:'line',source:srcId,filter:['==',['geometry-type'],'LineString'],paint:{'line-width':3,'line-color':'#0b6b3a','line-dasharray':[2,2]}})
+  map.addLayer({id:'corridor',type:'line',source:srcId,filter:['==',['geometry-type'],'LineString'],paint:{'line-width':3,'line-color':'#b45309','line-dasharray':[2,2]}})
   // click
   map.on('click','pts',(e)=>{const f=e.features[0]; if(f) openProject(f.properties.id)})
   map.on('mouseenter','pts',()=>map.getCanvas().style.cursor='pointer')
