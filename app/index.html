@@ -38,6 +38,11 @@ small{color:var(--muted)}table{width:100%;border-collapse:collapse;font-size:13p
 .evidence{font-size:12px;padding:6px;border-left:3px solid var(--accent);background:#f0fdf4;margin:6px 0}
 footer{flex:0 0 auto;padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
 kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-radius:4px;background:var(--card);font-size:11px}
+.maplibregl-popup-content{padding:6px 10px;border-radius:10px;background:rgba(17,17,17,.92);color:#fff;font-size:12px;line-height:1.35;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip{border-top-color:rgba(17,17,17,.92)}
+.maplibregl-popup-anchor-top .maplibregl-popup-tip{border-bottom-color:rgba(17,17,17,.92)}
+.maplibregl-popup-anchor-left .maplibregl-popup-tip{border-right-color:rgba(17,17,17,.92)}
+.maplibregl-popup-anchor-right .maplibregl-popup-tip{border-left-color:rgba(17,17,17,.92)}
 </style>
 </head>
 <body>
@@ -82,6 +87,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <span class="badge approx">approx / city</span> area
       <span class="badge corridor">corridor / cross-border</span> line
       <span class="badge country">country only</span> centroid hollow<br>
+      <small><b>Hover a country to see its name and project count.</b></small><br>
       <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
     </div>
     <div id="list" role="region" aria-live="polite"></div>
@@ -254,7 +260,41 @@ function initMap(){
   map=new maplibregl.Map({container:'map',style:style,center:[30,2],zoom:3.2,attributionControl:true})
   window._map=map
   map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right')
-  map.on('load',()=>{window._mapReady=true; updateMap()})
+  map.on('load',()=>{window._mapReady=true; updateMap(); addCountriesLayer()})
+}
+// --- country hover: name + project count (boundaries: Natural Earth 50m, public domain)
+let hoveredCountry=null, countryPopup=null
+async function addCountriesLayer(){
+  try{
+    const r=await fetch('/data/geo/africa_countries.geojson')
+    if(!r.ok) return
+    const geo=await r.json()
+    if(map.getSource('countries')) return
+    map.addSource('countries',{type:'geojson',data:geo,promoteId:'iso3'})
+    map.addLayer({id:'countries-fill',type:'fill',source:'countries',paint:{
+      'fill-color':'#f59e0b',
+      'fill-opacity':['case',['boolean',['feature-state','hover'],false],0.25,0]
+    }}, map.getLayer('pts')?'pts':undefined)
+    map.on('mousemove','countries-fill',e=>{
+      const f=e.features&&e.features[0]
+      if(!f) return
+      if(hoveredCountry!==f.id){
+        if(hoveredCountry!==null) map.setFeatureState({source:'countries',id:hoveredCountry},{hover:false})
+        hoveredCountry=f.id
+        map.setFeatureState({source:'countries',id:f.id},{hover:true})
+      }
+      const iso=f.properties.iso3, name=f.properties.name||iso
+      const n=filtered.filter(p=>p.country_iso3===iso).length
+      map.getCanvas().style.cursor='pointer'
+      if(!countryPopup) countryPopup=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:8})
+      countryPopup.setLngLat(e.lngLat).setHTML(`<b>${name}</b><br>${n} project${n===1?'':'s'}`).addTo(map)
+    })
+    map.on('mouseleave','countries-fill',()=>{
+      if(hoveredCountry!==null){map.setFeatureState({source:'countries',id:hoveredCountry},{hover:false});hoveredCountry=null}
+      map.getCanvas().style.cursor=''
+      if(countryPopup) countryPopup.remove()
+    })
+  }catch(err){ console.warn('countries hover layer failed:', err) }
 }
 function updateMap(){
   if(!map || !map.getStyle()) return
