@@ -23,7 +23,12 @@
 a{color:var(--accent)}header{flex:0 0 auto;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 14px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
 header h1{margin:0;font-size:18px;letter-spacing:.02em}header h1 span{color:var(--accent)}header p{margin:2px 0 0;color:var(--muted);font-size:12px}
 .pill{border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:12px;background:var(--card)}
-.layout{flex:1 1 auto;display:grid;grid-template-columns:320px 1fr;min-height:0;overflow:hidden}@media(max-width:900px){.layout{grid-template-columns:1fr;overflow:auto} #map{height:55dvh;min-height:360px}}
+.layout{flex:1 1 auto;display:grid;grid-template-columns:320px 1fr;min-height:0;overflow:hidden}#filterToggle{display:none}
+#sidebar{transition:transform .2s ease}
+@media(max-width:900px){.layout{grid-template-columns:1fr;overflow:auto} #map{height:55dvh;min-height:360px}
+  #sidebar{display:none;position:fixed;top:0;left:0;bottom:0;width:min(86vw,340px);background:var(--bg);z-index:70;overflow:auto;border-right:1px solid var(--line);box-shadow:8px 0 24px rgba(0,0,0,.15);padding-bottom:80px}
+  #sidebar.open{display:block}
+  #filterToggle{display:flex;position:fixed;left:12px;bottom:14px;z-index:65;background:var(--accent);color:#fff;border-color:var(--accent)}}
 #sidebar{border-right:1px solid var(--line);padding:12px;overflow:auto;min-height:0}
 #map{height:100%;min-height:420px;min-height:clamp(360px, 60dvh, 100%);}
 label{font-size:12px;color:var(--muted);display:block;margin:8px 0 4px}
@@ -108,6 +113,7 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
     </div>
   </aside>
   <div id="map" role="application" aria-label="Map of Africa - projects"></div>
+  <button id="filterToggle" class="pill" aria-label="Toggle filters">☰ Filters</button>
 </div>
 
 <div id="projectDetail" aria-live="polite"></div>
@@ -167,7 +173,10 @@ function initControls(){
   for(const o of origins){$('origin').appendChild(Object.assign(document.createElement('option'),{value:o,textContent:o}))}
   const precs=[...new Set(DATA.projects.map(p=>p.location_precision))].sort()
   for(const p of precs){$('precision').appendChild(Object.assign(document.createElement('option'),{value:p,textContent:p}))}
-  for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', ()=>{render(); writeHash(false)})
+  for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', ()=>{
+    render(); writeHash(false)
+    if(window.innerWidth<=900){const sb=document.getElementById('sidebar'); if(sb.classList.contains('open')){sb.classList.remove('open');$('filterToggle').textContent='☰ Filters'}}
+  })
   reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render(); writeHash(false)}
   tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
   $('zoomResults').onclick=()=>{
@@ -185,7 +194,12 @@ function initControls(){
     }
     if(has) window._map.fitBounds([[minX,minY],[maxX,maxY]],{padding:60,maxZoom:9,duration:800})
   }
-  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()} if(e.key==='Escape'){closeProject()}})
+  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()} if(e.key==='Escape'){closeProject(); const sb=document.getElementById('sidebar'); if(sb.classList.contains('open')){sb.classList.remove('open');$('filterToggle').textContent='☰ Filters'}}})
+  $('filterToggle').onclick=()=>{
+    const sb=document.getElementById('sidebar')
+    sb.classList.toggle('open')
+    $('filterToggle').textContent=sb.classList.contains('open')?'✕ Close filters':'☰ Filters'
+  }
 }
 function matches(p){
   const qq=$('q').value.trim().toLowerCase()
