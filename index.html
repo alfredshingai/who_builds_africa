@@ -267,7 +267,7 @@ function initMap(){
   map=new maplibregl.Map({container:'map',style:style,center:[30,2],zoom:3.2,attributionControl:true})
   window._map=map
   map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right')
-  map.on('load',()=>{window._mapReady=true; updateMap(); addCountriesLayer()})
+  map.on('load',()=>{window._mapReady=true; updateMap(); addCountriesLayer(); registerPointEvents()})
 }
 // --- country hover: name + project count (boundaries: Natural Earth 50m, public domain)
 let hoveredCountry=null, countryPopup=null
@@ -288,6 +288,7 @@ async function addCountriesLayer(){
     map.on('mousemove','countries-fill',e=>{
       const f=e.features&&e.features[0]
       if(!f) return
+      if(map.getLayer('pts') && map.queryRenderedFeatures(e.point,{layers:['pts']}).length) return
       if(hoveredCountry!==f.id){
         if(hoveredCountry!==null) map.setFeatureState({source:'countries',id:hoveredCountry},{hover:false})
         hoveredCountry=f.id
@@ -323,7 +324,7 @@ function updateMap(){
     const lat=parseFloat(p.lat), lon=parseFloat(p.lon)
     const hasPoint=!isNaN(lat)&&!isNaN(lon)
     const geom=hasPoint?{type:'Point',coordinates:[lon,lat]}: p.geom_wkt&&p.geom_wkt.startsWith('LINESTRING')?{type:'LineString',coordinates:p.geom_wkt.replace('LINESTRING(','').replace(')','').split(',').map(s=>s.trim().split(' ').map(Number).reverse())}: null
-    return {type:'Feature',geometry:geom,properties:{id:p.id,name:p.canonical_name,precision:p.location_precision,status:p.status,country:p.country_iso3}}
+    return {type:'Feature',geometry:geom,properties:{id:p.id,name:p.canonical_name,precision:p.location_precision,status:p.status,country:p.country_iso3,sectors:(p.sectors||'').split('|').filter(Boolean).join(' · ')}}
   }).filter(f=>f.geometry)}
   map.addSource(srcId,{type:'geojson',data:geojson,cluster:false})
   map.addLayer({id:'pts',type:'circle',source:srcId,filter:['==',['geometry-type'],'Point'],paint:{
@@ -334,10 +335,23 @@ function updateMap(){
     'circle-opacity':['match',['get','precision'],'country',0.35,0.85]
   }})
   map.addLayer({id:'corridor',type:'line',source:srcId,filter:['==',['geometry-type'],'LineString'],paint:{'line-width':3,'line-color':'#b45309','line-dasharray':[2,2]}})
-  // click
+}
+// marker events registered once (delegated to layer id, survives filter re-renders)
+function registerPointEvents(){
   map.on('click','pts',(e)=>{const f=e.features[0]; if(f) openProject(f.properties.id)})
-  map.on('mouseenter','pts',()=>map.getCanvas().style.cursor='pointer')
-  map.on('mouseleave','pts',()=>map.getCanvas().style.cursor='')
+  map.on('mousemove','pts',(e)=>{
+    const f=e.features&&e.features[0]
+    if(!f) return
+    map.getCanvas().style.cursor='pointer'
+    const p=f.properties
+    const html=`<b>${p.name}</b><br><small>${p.country} · ${p.status}</small>${p.sectors?`<br><small>${p.sectors}</small>`:''}`
+    if(!countryPopup) countryPopup=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:8})
+    countryPopup.setLngLat(e.lngLat).setHTML(html).addTo(map)
+  })
+  map.on('mouseleave','pts',()=>{
+    map.getCanvas().style.cursor=''
+    if(countryPopup) countryPopup.remove()
+  })
 }
 
 function showView(v){
