@@ -131,10 +131,15 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
 // --- state
 let DATA, filtered=[]
 const $ = id => document.getElementById(id);
+const cname = iso => (DATA && DATA._cName && DATA._cName[iso]) || iso;
 const els={q:document.getElementById('q'),country:document.getElementById('country'),sector:document.getElementById('sector'),role:document.getElementById('role'),status:document.getElementById('status'),origin:document.getElementById('origin'),precision:document.getElementById('precision'),list:document.getElementById('list'),counts:document.getElementById('counts'),detail:document.getElementById('projectDetail'),tbl:document.querySelector('#tbl tbody')}
 async function load(){
   const r=await fetch('/data/releases/v0.9.19/data.json')
   DATA=await r.json()
+  try{
+    const rc=await fetch('/data/releases/v0.9.19/countries.csv')
+    if(rc.ok){ DATA._cName={}; for(const line of rc.text ? (await rc.text()).trim().split('\n').slice(1) : []){ const c=line.split(','); if(c[0]&&c[1]) DATA._cName[c[0]]=c[1] } }
+  }catch(e){}
   // also build lookup
   DATA._orgById=Object.fromEntries(DATA.organizations.map(o=>[o.id,o]))
   DATA._countryByOrg=DATA.organization_countries
@@ -147,8 +152,8 @@ async function load(){
   initControls(); applyHash(true); setNavActive(currentView); render(); initMap()
 }
 function initControls(){
-  const countries=[...new Set(DATA.projects.map(p=>p.country_iso3))].sort()
-  for(const c of countries){$('country').appendChild(Object.assign(document.createElement('option'),{value:c,textContent:c}))}
+  const countries=[...new Set(DATA.projects.map(p=>p.country_iso3))].sort((a,b)=>cname(a).localeCompare(cname(b)))
+  for(const c of countries){$('country').appendChild(Object.assign(document.createElement('option'),{value:c,textContent:cname(c)}))}
   const sectors=[...new Set(DATA.projects.flatMap(p=>p.sectors.split('|').filter(Boolean)))].sort()
   for(const s of sectors){$('sector').appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
   const roles=[...new Set(DATA.participation_records.map(p=>p.role))].sort()
@@ -204,7 +209,7 @@ function render(){
   els.tbl.innerHTML=filtered.map(p=>{
     const pars=DATA._parByProject[p.id]||[]
     const roles=pars.map(x=>x.role).join(', ')
-    return `<tr><td><a href="#" onclick="event.preventDefault();openProject('${p.id}')">${p.canonical_name}</a></td><td>${p.country_iso3}</td><td>${p.sectors}</td><td>${p.status}</td><td>${p.location_precision}</td><td>${roles}</td></tr>`
+    return `<tr><td><a href="#" onclick="event.preventDefault();openProject('${p.id}')">${p.canonical_name}</a></td><td>${cname(p.country_iso3)}</td><td>${p.sectors}</td><td>${p.status}</td><td>${p.location_precision}</td><td>${roles}</td></tr>`
   }).join('')
   if(window._mapReady) updateMap()
   updateCountriesCounts()
@@ -247,7 +252,7 @@ function openProject(id,push=true){
   detail.innerHTML=`
     <div style="display:flex;gap:12px;align-items:start;flex-wrap:wrap">
       <div style="flex:1;min-width:280px">
-        <h3 style="margin:0">${p.canonical_name} <small>(${p.country_iso3} · <span class="badge ${p.location_precision}">${p.location_precision}</span>)</small></h3>
+        <h3 style="margin:0">${p.canonical_name} <small>(${cname(p.country_iso3)} · <span class="badge ${p.location_precision}">${p.location_precision}</span>)</small></h3>
         <p><small>${p.summary} - sectors: ${p.sectors||'-'} · status: ${p.status}</small></p>
         <p><b>Organizations & roles</b></p>
         <ul>${pars.map(x=>{
@@ -434,12 +439,12 @@ function renderCountries(){
     });
     const status={}; list.forEach(p=> status[p.status]=(status[p.status]||0)+1);
     return `<div class="card">
-      <h3 style="margin:4px 0">${iso} - ${list.length} projects</h3>
+      <h3 style="margin:4px 0">${cname(iso)} - ${list.length} projects</h3>
       <small>Sectors: ${Object.entries(sectors).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
       <small>Status: ${Object.entries(status).map(([k,v])=>k+` (${v})`).join(', ')}</small><br>
       <small>Foreign origins (participation count): ${Object.entries(origins).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
       <div style="margin-top:6px">${list.map(p=>`<a href="#" onclick="event.preventDefault();showView('map');setTimeout(()=>openProject('${p.id}'),150)">${p.canonical_name}</a>`).join(' · ')}</div>
-      <div style="margin-top:6px"><button class="pill" onclick="$('country').value='${iso}';showView('map');render()">Filter map to ${iso}</button></div>
+      <div style="margin-top:6px"><button class="pill" onclick="$('country').value='${iso}';showView('map');render()">Filter map to ${cname(iso)}</button></div>
     </div>`;
   }).join('');
   document.getElementById('countriesView').innerHTML = `<h2>Country profiles</h2>${html}<div class="card"><small>Counts are descriptive - see <a href="/DATA_METHODOLOGY.md">Limitations</a>: reporting bias, language bias, survivors. Do not infer causality from map counts.</small></div>`;
@@ -500,7 +505,7 @@ function renderAnalytics(){
   const html=`<h2>Analytics - what the data can and cannot tell you</h2>
     <div class="card"><b>How to read:</b> All charts are <em>descriptive counts of documented records</em>, not measures of influence, debt, or economic impact. Use filters on the Map to interrogate - click a country or sector to cross-check.</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px">
-      <div class="card" style="background:#ecfdf5;border-color:#6ee7b7"><b>Takeaway 1 - Geography</b><br>Most documented projects are in <b>${topCountry[0]} (${topCountry[1]}/${DATA.projects.length})</b>. This reflects research focus (ZWE/KEN/ETH first, 13/54 countries now) and disclosure bias - not that other countries have less building. <a href="#" onclick="event.preventDefault();showView('countries')">See Country profiles</a> for per-country breakdown.</div>
+      <div class="card" style="background:#ecfdf5;border-color:#6ee7b7"><b>Takeaway 1 - Geography</b><br>Most documented projects are in <b>${cname(topCountry[0])} (${topCountry[1]}/${DATA.projects.length})</b>. This reflects research focus (ZWE/KEN/ETH first, 13/54 countries now) and disclosure bias - not that other countries have less building. <a href="#" onclick="event.preventDefault();showView('countries')">See Country profiles</a> for per-country breakdown.</div>
       <div class="card" style="background:#eff6ff;border-color:#93c5fd"><b>Takeaway 2 - Sectors</b><br>Top sector is <b>${topSector[0].replace('_',' ')} (${topSector[1]})</b> - hydropower/dams + railways/ports dominate the documented set. <small>Energy and transport are most disclosed; housing/water/telecom may be under-reported.</small></div>
       <div class="card" style="background:#fef3c7;border-color:#fcd34d"><b>Takeaway 3 - Who participates</b><br>Top foreign origin by participations is <b>${topOrigin[0]} (${topOrigin[1]})</b> - largely China via Exim Bank + SOEs (Sinohydro, CRBC, CCECC) - but with real diversity: Korea, Japan, France, Turkey, Italy, Portugal, South Africa, Denmark. <a href="#" onclick="event.preventDefault();showView('orgs')">See Organizations</a> (who is in >1 country).</div>
       <div class="card" style="background:#fce7f3;border-color:#f9a8d4"><b>Takeaway 4 - Money is partial</b><br>Only <b>${vals.length}/${DATA.contracts.length} (${disclosedPct}%)</b> contracts have a disclosed USD value. Average disclosed is <b>~$${avgUSD}m</b>, but <b>do not sum</b> - currencies differ, some are loans not contract values, many undisclosed. See <code>value_precision</code>.</div>
@@ -520,7 +525,7 @@ function renderAnalytics(){
     <div class="card"><small>Projects: ${DATA.projects.length} | Contracts: ${DATA.contracts.length} | Participations: ${DATA.participation_records.length} | Sources: ${DATA.sources.length} | Values disclosed USD: ${vals.length}/${DATA.contracts.length} | Financing records: ${DATA.financing_records.length} | Avg disclosed: $${avgUSD}m | Top: ${topCountry[0]}/${topSector[0]}/${topOrigin[0]}</small></div>`;
   document.getElementById('analyticsView').innerHTML=html;
   const mk=(id, type, labels, data, label)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c','#0ea5e9','#84cc16']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}}}}); };
-  mk('chartCountry','bar',Object.keys(byCountry),Object.values(byCountry),'Projects by country');
+  mk('chartCountry','bar',Object.keys(byCountry).map(cname),Object.values(byCountry),'Projects by country');
   mk('chartSector','bar',Object.keys(bySector),Object.values(bySector),'Projects by sector');
   mk('chartStatus','doughnut',Object.keys(byStatus),Object.values(byStatus),'Status');
   mk('chartOrigin','bar',Object.keys(byOrigin).slice(0,10),Object.values(byOrigin).slice(0,10),'Participations by foreign origin (top 10)');
