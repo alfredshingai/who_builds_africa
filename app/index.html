@@ -544,9 +544,9 @@ function renderAnalytics(){
     </div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px">
       <div class="card"><h4 style="margin:4px 0">Projects by country</h4><canvas id="chartCountry"></canvas><small>Click to filter - reflects curation coverage, not market share.</small></div>
-      <div class="card"><h4 style="margin:4px 0">Projects by sector</h4><canvas id="chartSector"></canvas><small>Controlled vocab - propose new via Issue.</small></div>
-      <div class="card"><h4 style="margin:4px 0">Status</h4><canvas id="chartStatus"></canvas><small>Historical events preserved - not just current status. Many commissioned vs construction_started.</small></div>
-      <div class="card"><h4 style="margin:4px 0">Foreign origin (participations)</h4><canvas id="chartOrigin"></canvas><small>Counts participations, not projects - one project can have multiple origins. Distinguishes headquarters/financing.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Projects by sector</h4><canvas id="chartSector"></canvas><small>Click a bar to filter. Controlled vocab - propose new via Issue.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Status</h4><canvas id="chartStatus"></canvas><small>Click to filter. Historical events preserved - not just current status. Many commissioned vs construction_started.</small></div>
+      <div class="card"><h4 style="margin:4px 0">Foreign origin (participations)</h4><canvas id="chartOrigin"></canvas><small>Click a bar to filter. Counts participations, not projects - one project can have multiple origins. Distinguishes headquarters/financing.</small></div>
       <div class="card"><h4 style="margin:4px 0">Events by year</h4><canvas id="chartYear"></canvas><small>Contract awards vs commissioning - shows when evidence is dated, 2012-2024 peak in this set.</small></div>
       <div class="card"><h4 style="margin:4px 0">Roles</h4><canvas id="chartRole"></canvas><small>Contractor vs financier vs supplier - "builds" is never just one role.</small></div>
     </div>
@@ -556,13 +556,13 @@ function renderAnalytics(){
     </div>
     <div class="card"><small>Projects: ${DATA.projects.length} | Contracts: ${DATA.contracts.length} | Participations: ${DATA.participation_records.length} | Sources: ${DATA.sources.length} | Values disclosed USD: ${vals.length}/${DATA.contracts.length} | Financing records: ${DATA.financing_records.length} | Avg disclosed: $${avgUSD}m | Top: ${topCountry[0]}/${topSector[0]}/${topOrigin[0]}</small></div>`;
   document.getElementById('analyticsView').innerHTML=html;
-  const mk=(id, type, labels, data, label)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c','#0ea5e9','#84cc16']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}}}}); };
-  mk('chartCountry','bar',Object.keys(byCountry).map(cname),Object.values(byCountry),'Projects by country');
-  mk('chartSector','bar',Object.keys(bySector),Object.values(bySector),'Projects by sector');
-  mk('chartStatus','doughnut',Object.keys(byStatus),Object.values(byStatus),'Status');
-  mk('chartOrigin','bar',Object.keys(byOrigin).slice(0,10),Object.values(byOrigin).slice(0,10),'Participations by foreign origin (top 10)');
+  const mk=(id, type, labels, data, label, onPick, displayLabels)=>{ const ctx=document.getElementById(id); if(!ctx) return; new Chart(ctx,{type, data:{labels: displayLabels||labels, datasets:[{label, data, backgroundColor:['#0b6b3a','#1d4ed8','#b45309','#6b7280','#dc2626','#7c3aed','#059669','#ea580c','#0ea5e9','#84cc16']}]}, options:{responsive:true, plugins:{legend:{display:type==='doughnut'}}, onClick:(e,els)=>{ if(onPick&&els.length){ onPick(labels[els[0].index]) } }}}); };
+  mk('chartCountry','bar',Object.keys(byCountry),Object.values(byCountry),'Projects by country', iso=>{$('country').value=iso;showView('map');render()},Object.keys(byCountry).map(cname));
+  mk('chartSector','bar',Object.keys(bySector),Object.values(bySector),'Projects by sector', s=>{$('sector').value=s;showView('map');render()});
+  mk('chartStatus','doughnut',Object.keys(byStatus),Object.values(byStatus),'Status', s=>{$('status').value=s;showView('map');render()});
+  mk('chartOrigin','bar',Object.keys(byOrigin).slice(0,10),Object.values(byOrigin).slice(0,10),'Participations by foreign origin (top 10)', o=>{$('origin').value=o;showView('map');render()});
   const ys=Object.keys(byYear).sort(); mk('chartYear','bar',ys,ys.map(y=>byYear[y]),'Events by year');
-  mk('chartRole','bar',Object.keys(byRole),Object.values(byRole),'Roles');
+  mk('chartRole','bar',Object.keys(byRole),Object.values(byRole),'Roles', r=>{$('role').value=r;showView('map');render()});
   if(vals.length){ const bins=[0,50e6,200e6,500e6,1e9,5e9]; const counts=bins.slice(0,-1).map((b,i)=> vals.filter(v=> v>=b && v<bins[i+1]).length); const labels=bins.slice(0,-1).map((b,i)=> `${(b/1e6).toFixed(0)}-${(bins[i+1]/1e6).toFixed(0)}m`); mk('chartValue','bar',labels,counts,'Contract values (USD disclosed)'); }
 }
 load().catch(e=>{$('list').innerHTML=`<div class="card" style="border-color:#fecaca;background:#fef2f2">Failed to load data.json: ${e.message} - ensure <code>python scripts/build.py --out data/releases/v0.8.0</code> was run.</div>`})
