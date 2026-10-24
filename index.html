@@ -35,6 +35,8 @@ header select#lang{width:auto !important;min-width:78px;max-width:110px;padding:
 .badge.corridor{border-style:dashed}.badge.country{background:#fff7ed}.badge.exact{background:#ecfdf5}.badge.approx{background:#eff6ff}
 small{color:var(--muted)}table{width:100%;border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid var(--line);text-align:left;padding:6px 4px}
 #projectDetail{flex:0 0 auto;background:var(--bg);border-top:1px solid var(--line);padding:12px;max-height:42dvh;overflow:auto;display:none}
+#projectDetail button.pill{position:sticky;bottom:0;background:var(--bg)}
+@media(max-width:900px){#projectDetail{position:fixed;left:0;right:0;bottom:0;top:auto;max-height:70dvh;z-index:60;box-shadow:0 -8px 24px rgba(0,0,0,.18)}}
 .evidence{font-size:12px;padding:6px;border-left:3px solid var(--accent);background:#f0fdf4;margin:6px 0}
 footer{flex:0 0 auto;padding:10px 14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;gap:12px;flex-wrap:wrap}
 kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-radius:4px;background:var(--card);font-size:11px}
@@ -167,7 +169,7 @@ function initControls(){
   for(const el of [$('q'),$('country'),$('sector'),$('role'),$('status'),$('origin'),$('precision')]) el.addEventListener('input', ()=>{render(); writeHash(false)})
   reset.onclick=()=>{$('q').value='';$('country').value='';$('sector').value='';$('role').value='';$('status').value='';$('origin').value='';$('precision').value='';render(); writeHash(false)}
   tableToggle.onclick=()=>{const v=document.getElementById('tableView');v.style.display=v.style.display==='none'?'block':'none'; tableToggle.textContent=v.style.display==='none'?'Table view':'Map view'}
-  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()}})
+  document.addEventListener('keydown',e=>{if(e.key==='/'){e.preventDefault();$('q').focus()} if(e.key==='Escape'){closeProject()}})
 }
 function matches(p){
   const qq=$('q').value.trim().toLowerCase()
