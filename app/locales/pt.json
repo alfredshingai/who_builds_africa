@@ -17,5 +17,14 @@
   "quality": "Qualidade",
   "legend": "Legenda - precisao",
   "downloads": "Downloads",
-  "all": "Todos"
+  "all": "Todos",
+  "zoom_results": "Zoom aos resultados",
+  "hover_hint": "Passe o cursor sobre um pais para ver o nome e o numero de projectos. Clique para filtrar.",
+  "shading_hint": "Sombreamento do pais = numero de projectos (segue os filtros)",
+  "loading": "A carregar projectos…",
+  "no_matches": "Nenhum projecto correspondente",
+  "no_matches_hint": "Tente uma pesquisa mais curta ou limpe um filtro.",
+  "reset_all": "Reiniciar todos os filtros",
+  "projects_suffix": "projectos",
+  "_note": "Chaves adicionadas com assistencia de maquina em 2026-10 - revisao humana bem-vinda."
 }

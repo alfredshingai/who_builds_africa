@@ -88,7 +88,7 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
     <div class="row" style="margin-top:8px">
       <button id="reset" class="pill" style="width:100%" data-i18n="reset">Reset filters</button>
       <button id="tableToggle" class="pill" style="width:100%" data-i18n="table_view">Table view</button>
-      <button id="zoomResults" class="pill" style="width:100%">Zoom to results</button>
+      <button id="zoomResults" class="pill" style="width:100%" data-i18n="zoom_results">Zoom to results</button>
     </div>
     <div class="card">
       <b data-i18n="legend">Legend - location precision</b><br>
@@ -96,13 +96,13 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
       <span class="badge approx">approx / city</span> area
       <span class="badge corridor">corridor / cross-border</span> line
       <span class="badge country">country only</span> centroid hollow<br>
-      <small><b>Hover a country to see its name and project count. Click it to filter.</b></small><br>
-      <small><b>Country shading = number of projects (follows your filters)</b></small>
+      <small><b data-i18n="hover_hint">Hover a country to see its name and project count. Click it to filter.</b></small><br>
+      <small><b data-i18n="shading_hint">Country shading = number of projects (follows your filters)</b></small>
       <div style="height:10px;border-radius:5px;background:linear-gradient(90deg,#eef2ef,#cfe3d0,#a9cfae,#7fb98a,#4f9e63,#0b6b3a);border:1px solid var(--line);margin:4px 0 2px"></div>
       <div style="display:flex;justify-content:space-between"><small>0</small><small>15+</small></div>
       <small>Never fake coords. Map symbology reflects uncertainty. © OpenStreetMap contributors, ODbL.</small>
     </div>
-    <div id="list" role="region" aria-live="polite"><div class="card"><b>Loading projects…</b><br><small>Fetching the source-tracked database.</small></div></div>
+    <div id="list" role="region" aria-live="polite"><div class="card"><b data-i18n="loading">Loading projects…</b><br><small>Fetching the source-tracked database.</small></div></div>
     <div class="card"><b data-i18n="downloads">Downloads</b><br>
       <a href="/data/releases/v0.9.19/projects.csv">projects.csv</a> ·
       <a href="/data/releases/v0.9.19/organizations.csv">organizations.csv</a> ·
@@ -140,14 +140,21 @@ nav button[data-view].active{background:var(--accent);color:#fff;border-color:va
 // --- state
 let DATA, filtered=[]
 const $ = id => document.getElementById(id);
-const cname = iso => (DATA && DATA._cName && DATA._cName[iso]) || iso;
+let LANG='en'
+const t = k => (window.__tr && window.__tr[k]) || null
+const cname = iso => {
+  if(!DATA || !DATA._cName || !DATA._cName[iso]) return iso
+  const rec=DATA._cName[iso]
+  const col = LANG==='fr' ? 'name_fr' : LANG==='pt' ? 'name_pt' : 'name_en'
+  return rec[col] || rec.name_en || iso
+}
 const els={q:document.getElementById('q'),country:document.getElementById('country'),sector:document.getElementById('sector'),role:document.getElementById('role'),status:document.getElementById('status'),origin:document.getElementById('origin'),precision:document.getElementById('precision'),list:document.getElementById('list'),counts:document.getElementById('counts'),detail:document.getElementById('projectDetail'),tbl:document.querySelector('#tbl tbody')}
 async function load(){
   const r=await fetch('/data/releases/v0.9.19/data.json')
   DATA=await r.json()
   try{
     const rc=await fetch('/data/releases/v0.9.19/countries.csv')
-    if(rc.ok){ DATA._cName={}; for(const line of rc.text ? (await rc.text()).trim().split('\n').slice(1) : []){ const c=line.split(','); if(c[0]&&c[1]) DATA._cName[c[0]]=c[1] } }
+    if(rc.ok){ DATA._cName={}; for(const line of rc.text ? (await rc.text()).trim().split('\n').slice(1) : []){ const c=line.split(','); if(c[0]&&c[1]) DATA._cName[c[0]]={name_en:c[1],name_fr:c[2],name_pt:c[3]} } }
   }catch(e){}
   // also build lookup
   DATA._orgById=Object.fromEntries(DATA.organizations.map(o=>[o.id,o]))
@@ -160,9 +167,15 @@ async function load(){
   for(const e of DATA.events){(DATA._eventsByProject[e.project_id]??=[]).push(e)}
   initControls(); applyHash(true); setNavActive(currentView); render(); initMap()
 }
-function initControls(){
+function buildCountryOptions(){
+  const sel=$('country'); const cur=sel.value
+  while(sel.options.length>1) sel.remove(1)
   const countries=[...new Set(DATA.projects.map(p=>p.country_iso3))].sort((a,b)=>cname(a).localeCompare(cname(b)))
-  for(const c of countries){$('country').appendChild(Object.assign(document.createElement('option'),{value:c,textContent:cname(c)}))}
+  for(const c of countries){sel.appendChild(Object.assign(document.createElement('option'),{value:c,textContent:cname(c)}))}
+  sel.value=cur
+}
+function initControls(){
+  buildCountryOptions()
   const sectors=[...new Set(DATA.projects.flatMap(p=>p.sectors.split('|').filter(Boolean)))].sort()
   for(const s of sectors){$('sector').appendChild(Object.assign(document.createElement('option'),{value:s,textContent:s}))}
   const roles=[...new Set(DATA.participation_records.map(p=>p.role))].sort()
@@ -236,7 +249,7 @@ function render(){
       <small>${p.summary}</small>
       <div style="margin-top:6px"><a href="#" onclick="event.preventDefault();openProject('${p.id}')">Details →</a></div>
     </div>`
-  }).join('') || `<div class="card"><b>No matching projects</b><br><small>Try a shorter search, or clear a filter.</small><br><button class="pill" style="margin-top:8px" onclick="document.getElementById('reset').click()">Reset all filters</button></div>`
+  }).join('') || `<div class="card"><b>${t('no_matches')||'No matching projects'}</b><br><small>${t('no_matches_hint')||'Try a shorter search, or clear a filter.'}</small><br><button class="pill" style="margin-top:8px" onclick="document.getElementById('reset').click()">${t('reset_all')||'Reset all filters'}</button></div>`
   // table
   els.tbl.innerHTML=filtered.map(p=>{
     const pars=DATA._parByProject[p.id]||[]
@@ -362,7 +375,7 @@ async function addCountriesLayer(){
       const n=filtered.filter(p=>p.country_iso3===iso).length
       map.getCanvas().style.cursor='pointer'
       if(!countryPopup) countryPopup=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:8})
-      countryPopup.setLngLat(e.lngLat).setHTML(`<b>${name}</b><br>${n} project${n===1?'':'s'}`).addTo(map)
+      countryPopup.setLngLat(e.lngLat).setHTML(`<b>${name}</b><br>${n} ${t('projects_suffix')||('project'+(n===1?'':'s'))}`).addTo(map)
     })
     map.on('mouseleave','countries-fill',()=>{
       if(hoveredCountry!==null){map.setFeatureState({source:'countries',id:hoveredCountry},{hover:false});hoveredCountry=null}
@@ -471,7 +484,7 @@ function renderCountries(){
     });
     const status={}; list.forEach(p=> status[p.status]=(status[p.status]||0)+1);
     return `<div class="card">
-      <h3 style="margin:4px 0">${cname(iso)} - ${list.length} projects</h3>
+      <h3 style="margin:4px 0">${cname(iso)} - ${list.length} ${t('projects_suffix')||'projects'}</h3>
       <small>Sectors: ${Object.entries(sectors).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
       <small>Status: ${Object.entries(status).map(([k,v])=>k+` (${v})`).join(', ')}</small><br>
       <small>Foreign origins (participation count): ${Object.entries(origins).map(([k,v])=>k+` (${v})`).join(', ')||'-'}</small><br>
@@ -517,8 +530,9 @@ function renderQuality(){
     <div class="card" style="background:#fffbe6;border-color:#fde68a"><b>Analytical warnings</b> (DATA_METHODOLOGY.md): reporting bias (English/Chinese sources over-represented), survivorship (cancelled/abandoned under-reported), disclosure bias (values missing ≠ zero), changing definitions over time. Counts are descriptive only - no causal claims from map.</div>
     <div class="card"><b>API & downloads</b>: <a href="/data/releases/v0.9.19/data.json">data.json</a> · <a href="/data/releases/v0.9.19/projects.geojson">GeoJSON</a> · <a href="/data/releases/v0.9.19/projects.csv">CSV</a> · <a href="/data/releases/v0.9.19/footprints.sqlite">SQLite</a> - stable IDs <code>wba_prj_*</code> etc., versioned releases, CITATION.cff</div>`;
 }
-async function loadLocale(lang){ try{ const r=await fetch(`/app/locales/${lang}.json`); if(!r.ok) return; const tr=await r.json(); document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.getAttribute('data-i18n'); if(tr[k]) el.textContent=tr[k]; }); const q=$('q'); if(q && tr.search_placeholder) q.placeholder=tr.search_placeholder; }catch(e){} }
-$('lang').addEventListener('change', e=>{ loadLocale(e.target.value); localStorage.setItem('wba_lang', e.target.value); document.documentElement.lang=e.target.value; if(e.target.value==='ar') document.documentElement.dir='rtl'; else document.documentElement.dir='ltr'; }); (function(){ const saved=localStorage.getItem('wba_lang'); if(saved){ $('lang').value=saved; loadLocale(saved); document.documentElement.lang=saved; } })();
+async function loadLocale(lang){ try{ const r=await fetch(`/app/locales/${lang}.json`); if(!r.ok) return; const tr=await r.json(); window.__tr=tr; document.querySelectorAll('[data-i18n]').forEach(el=>{ const k=el.getAttribute('data-i18n'); if(tr[k]) el.textContent=tr[k]; }); const q=$('q'); if(q && tr.search_placeholder) q.placeholder=tr.search_placeholder; }catch(e){} }
+$('lang').addEventListener('change', e=>{ LANG=e.target.value; loadLocale(e.target.value); localStorage.setItem('wba_lang', e.target.value); document.documentElement.lang=e.target.value; if(e.target.value==='ar') document.documentElement.dir='rtl'; else document.documentElement.dir='ltr'; if(typeof DATA!=='undefined'&&DATA){ buildCountryOptions(); render(); if(currentView!=='map') showView(currentView) } });
+(function(){ const saved=localStorage.getItem('wba_lang'); if(saved){ LANG=saved; $('lang').value=saved; loadLocale(saved); document.documentElement.lang=saved; if(saved==='ar') document.documentElement.dir='rtl'; } })();
 function renderAnalytics(){
   const byCountry={}; DATA.projects.forEach(p=> byCountry[p.country_iso3]=(byCountry[p.country_iso3]||0)+1);
   const bySector={}; DATA.projects.forEach(p=> p.sectors.split('|').forEach(s=>{ if(s) bySector[s]=(bySector[s]||0)+1 }));

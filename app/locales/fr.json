@@ -17,5 +17,14 @@
   "quality": "Qualite",
   "legend": "Legende - precision",
   "downloads": "Telechargements",
-  "all": "Tous"
+  "all": "Tous",
+  "zoom_results": "Zoom sur les resultats",
+  "hover_hint": "Survolez un pays pour voir son nom et son nombre de projets. Cliquez pour filtrer.",
+  "shading_hint": "Nuance du pays = nombre de projets (selon vos filtres)",
+  "loading": "Chargement des projets…",
+  "no_matches": "Aucun projet correspondant",
+  "no_matches_hint": "Essayez une recherche plus courte ou effacez un filtre.",
+  "reset_all": "Reinitialiser tous les filtres",
+  "projects_suffix": "projets",
+  "_note": "Cles ajoutees avec assistance machine en 2026-10 - revision humaine bienvenue."
 }

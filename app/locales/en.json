@@ -17,5 +17,13 @@
   "quality": "Quality",
   "legend": "Legend - location precision",
   "downloads": "Downloads",
-  "all": "All"
+  "all": "All",
+  "zoom_results": "Zoom to results",
+  "hover_hint": "Hover a country to see its name and project count. Click it to filter.",
+  "shading_hint": "Country shading = number of projects (follows your filters)",
+  "loading": "Loading projects…",
+  "no_matches": "No matching projects",
+  "no_matches_hint": "Try a shorter search, or clear a filter.",
+  "reset_all": "Reset all filters",
+  "projects_suffix": "projects"
 }
