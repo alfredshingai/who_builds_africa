@@ -87,7 +87,7 @@ kbd{border:1px solid var(--line);border-bottom-width:2px;padding:1px 4px;border-
       <span class="badge approx">approx / city</span> area
       <span class="badge corridor">corridor / cross-border</span> line
       <span class="badge country">country only</span> centroid hollow<br>
-      <small><b>Hover a country to see its name and project count.</b></small><br>
+      <small><b>Hover a country to see its name and project count. Click it to filter.</b></small><br>
       <small><b>Country shading = number of projects (follows your filters)</b></small>
       <div style="height:10px;border-radius:5px;background:linear-gradient(90deg,#eef2ef,#cfe3d0,#a9cfae,#7fb98a,#4f9e63,#0b6b3a);border:1px solid var(--line);margin:4px 0 2px"></div>
       <div style="display:flex;justify-content:space-between"><small>0</small><small>15+</small></div>
@@ -331,6 +331,21 @@ async function addCountriesLayer(){
       map.getCanvas().style.cursor=''
       if(countryPopup) countryPopup.remove()
     })
+    map.on('click','countries-fill',e=>{
+      const f=e.features&&e.features[0]
+      if(!f) return
+      if(map.getLayer('pts') && map.queryRenderedFeatures(e.point,{layers:['pts']}).length) return
+      const iso=f.properties.iso3
+      const sel=$('country')
+      if(sel.value===iso){
+        sel.value=''
+        map.jumpTo({center:[30,2],zoom:3.2,duration:600})
+      }else{
+        sel.value=iso
+        map.fitBounds(bboxOfGeometry(f.geometry),{padding:40,maxZoom:7,duration:800})
+      }
+      render(); writeHash(true)
+    })
   }catch(err){ console.warn('countries hover layer failed:', err) }
 }
 function updateCountriesCounts(){
@@ -340,6 +355,12 @@ function updateCountriesCounts(){
   for(const iso of new Set(DATA.projects.map(p=>p.country_iso3))){
     window._map.setFeatureState({source:'countries',id:iso},{count:counts[iso]||0})
   }
+}
+function bboxOfGeometry(g){
+  let minX=180,minY=90,maxX=-180,maxY=-90
+  const walk=c=>{ if(typeof c[0]==='number'){ if(c[0]<minX)minX=c[0]; if(c[0]>maxX)maxX=c[0]; if(c[1]<minY)minY=c[1]; if(c[1]>maxY)maxY=c[1] } else c.forEach(walk) }
+  walk(g.coordinates)
+  return [[minX,minY],[maxX,maxY]]
 }
 function updateMap(){
   if(!map || !map.getStyle()) return
